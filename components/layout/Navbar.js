@@ -18,7 +18,7 @@ const Navbar = () => {
             alt="logo tendeclissi"
             height={80}
             width={80}
-            className="h-14 w-14 lg:h-[70px] lg:w-[70px] fxl:h-[80px] fxl:w-[80px]  "
+            className="h-12 w-12 lg:h-[70px] lg:w-[70px] fxl:h-[80px] fxl:w-[80px]  "
           />
           <p className="uppercase text-black font-medium hidden lg:block">
             tendeclissi
@@ -45,7 +45,7 @@ const Navbar = () => {
           <li>
             <Link href="/">Contatti</Link>
           </li>
-          <li className="bg-primary py-[15px] px-[33px] text-white">
+          <li className="bg-primary py-[10px] px-[28px] fxl:py-[15px] fxl:px-[33px] text-white">
             <Link href="/">Richiedi preventivo</Link>
           </li>
         </ul>
