@@ -24,7 +24,7 @@ const HeroHome = () => {
 
       <CtaSecondary link="/">scopri i prodotti</CtaSecondary>
 
-      <div className="w-[60%] mx-auto grid grid-cols-3 gap-6 z-10 lg:block hidden">
+      <div className="w-[60%] mx-auto lg:grid grid-cols-3 gap-6 z-10 l hidden">
         <div className=" px-[39px] py-10 flex-col justify-start items-center gap-[17px] inline-flex">
           <div className="w-[41px] h-[34px] relative">
             <img
