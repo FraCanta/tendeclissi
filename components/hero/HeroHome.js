@@ -2,6 +2,9 @@ import React from "react";
 import { Rubik } from "next/font/google";
 import CtaSecondary from "../layout/CtaSecondary";
 import { CardHero } from "../layout/CardHero";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
 
 const rubik = Rubik({ subsets: ["latin"] });
 
@@ -25,10 +28,47 @@ const HeroHome = () => {
 
       <CtaSecondary link="/">scopri i prodotti</CtaSecondary>
 
-      <div className="lg:w-[70%] mx-auto flex gap-12 z-10 overflow-x-hidden">
-        <CardHero />
-        <CardHero />
-        <CardHero />
+      <div className="lg:w-[70%] mx-auto flex lg:gap-12 z-10 w-full">
+        <Swiper
+          slidesPerView={3}
+          spaceBetween={20}
+          pagination={{
+            clickable: true,
+          }}
+          className="mySwiper"
+          breakpoints={{
+            300: {
+              slidesPerView: 1,
+              spaceBetween: 20,
+            },
+            768: {
+              slidesPerView: 1,
+              spaceBetween: 40,
+            },
+            1024: {
+              slidesPerView: 3,
+              spaceBetween: 20,
+            },
+            1920: {
+              slidesPerView: 3,
+              spaceBetween: 20,
+            },
+            2500: {
+              slidesPerView: 3,
+              spaceBetween: 50,
+            },
+          }}
+        >
+          <SwiperSlide>
+            <CardHero />
+          </SwiperSlide>
+          <SwiperSlide>
+            <CardHero />
+          </SwiperSlide>
+          <SwiperSlide>
+            <CardHero />
+          </SwiperSlide>
+        </Swiper>
       </div>
     </div>
   );
