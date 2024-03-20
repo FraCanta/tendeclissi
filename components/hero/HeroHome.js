@@ -1,14 +1,14 @@
 import React from "react";
 import { Rubik } from "next/font/google";
-import Link from "next/link";
 import CtaSecondary from "../layout/CtaSecondary";
+import { CardHero } from "../layout/CardHero";
 
 const rubik = Rubik({ subsets: ["latin"] });
 
 const HeroHome = () => {
   return (
     <div
-      className={`min-h-screen mx-auto relative flex flex-col items-center justify-center gap-12 lg:mt-0 bg-hero ${rubik.className}`}
+      className={`min-h-screen mx-auto relative flex flex-col items-center justify-center gap-12 lg:mt-0 bg-hero ${rubik.className} overflow-x-hidden`}
     >
       {/* Overlay nero opaco */}
       <div className="absolute inset-0 bg-black opacity-30"></div>
@@ -25,49 +25,10 @@ const HeroHome = () => {
 
       <CtaSecondary link="/">scopri i prodotti</CtaSecondary>
 
-      <div className="lg:w-[90%] mx-auto flex gap-6 z-10 overflow-x-auto w-full">
-        <div className="px-[39px] py-10 flex-col justify-start items-center gap-[17px] inline-flex w-full">
-          <div className="w-full h-auto relative">
-            <img
-              className="w-[41px] h-[34px] left-0 top-0 absolute"
-              src="https://via.placeholder.com/41x34"
-            />
-          </div>
-          <div className="text-center text-white text-[25px] font-bold font-['Rubik'] leading-[37.50px]">
-            Type something
-          </div>
-          <div className="self-stretch grow shrink basis-0 text-center text-white text-xl font-normal font-['Rubik'] leading-[30px]">
-            Lorem ipsum dolor sit amet, consectetur
-          </div>
-        </div>
-        <div className="px-[39px] py-10 flex-col justify-start items-center gap-[17px] inline-flex w-full">
-          <div className="w-full h-auto relative">
-            <img
-              className="w-[41px] h-[34px] left-0 top-0 absolute"
-              src="https://via.placeholder.com/41x34"
-            />
-          </div>
-          <div className="text-center text-white text-[25px] font-bold font-['Rubik'] leading-[37.50px]">
-            Type something
-          </div>
-          <div className="self-stretch grow shrink basis-0 text-center text-white text-xl font-normal font-['Rubik'] leading-[30px]">
-            Lorem ipsum dolor sit amet, consectetur
-          </div>
-        </div>
-        <div className="px-[39px] py-10 flex-col justify-start items-center gap-[17px] inline-flex w-full">
-          <div className="w-full h-auto relative">
-            <img
-              className="w-[41px] h-[34px] left-0 top-0 absolute"
-              src="https://via.placeholder.com/41x34"
-            />
-          </div>
-          <div className="text-center text-white text-[25px] font-bold font-['Rubik'] leading-[37.50px]">
-            Type something
-          </div>
-          <div className="self-stretch grow shrink basis-0 text-center text-white text-xl font-normal font-['Rubik'] leading-[30px]">
-            Lorem ipsum dolor sit amet, consectetur
-          </div>
-        </div>
+      <div className="lg:w-[70%] mx-auto flex gap-12 z-10 overflow-x-hidden max-w-max">
+        <CardHero />
+        <CardHero />
+        <CardHero />
       </div>
     </div>
   );
