@@ -8,7 +8,7 @@ import {
 
 export function CardHero() {
   return (
-    <Card className="mt-6 lg:w-96 !bg-transparent mx-auto">
+    <Card className="mt-6 lg:w-full !bg-transparent mx-auto">
       <CardBody className="!flex flex-col !justify-center !items-center !text-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"
