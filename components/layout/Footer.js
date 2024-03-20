@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import Logo from "@/public/assets/logo.svg";
 import Link from "next/link";
+import CtaSecondary from "./CtaSecondary";
 const Footer = () => {
   return (
     <>
@@ -56,12 +57,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex flex-col lg:items-end">
-            <Link
-              href="/"
-              className="bg-white py-[15px] px-[33px] text-primary max-w-max uppercase font-medium"
-            >
-              Richiedi preventivo
-            </Link>
+            <CtaSecondary link="/">richiedi preventivo</CtaSecondary>
             <div></div>
           </div>
         </div>
