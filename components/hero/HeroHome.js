@@ -10,9 +10,7 @@ const rubik = Rubik({ subsets: ["latin"] });
 
 const HeroHome = () => {
   return (
-    <div
-      className={`min-h-screen mx-auto relative flex flex-col lg:items-center justify-center gap-12 lg:mt-0 bg-hero ${rubik.className} overflow-x-hidden`}
-    >
+    <div className="min-h-screen mx-auto relative flex flex-col lg:items-center justify-center gap-12 lg:mt-0 bg-hero overflow-x-hidden">
       {/* Overlay nero opaco */}
       <div className="absolute inset-0 bg-black opacity-45"></div>
 

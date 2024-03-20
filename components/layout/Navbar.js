@@ -2,16 +2,12 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import Logo from "@/public/assets/logo.svg";
-import { Rubik } from "next/font/google";
 import { Icon } from "@iconify/react";
 import CtaPrimary from "./CtaPrimary";
-const rubik = Rubik({ subsets: ["latin"] });
 
 const Navbar = () => {
   return (
-    <div
-      className={`w-full h-[80px] lg:h-[120px] py-4 lg:py-5 bg-lightGray shadow-lg justify-between items-center flex text-black font-normal ${rubik.className}`}
-    >
+    <div className="w-full h-[80px] lg:h-[120px] py-4 lg:py-5 bg-lightGray shadow-lg justify-between items-center flex text-black font-normal">
       <nav className="w-[90%] mx-auto flex justify-between items-center">
         <div className="flex flex-col items-center justify-center gap-1">
           <Image

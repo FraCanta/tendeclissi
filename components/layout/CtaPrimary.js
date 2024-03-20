@@ -4,7 +4,7 @@ import React from "react";
 const CtaPrimary = ({ children, link }) => {
   return (
     <Link
-      className="bg-primary py-[15px] px-[33px] text-white uppercase lg:text-[20px] fxl:text-[25px]"
+      className="bg-primary py-[15px] px-[33px] text-white uppercase lg:text-[20px] fxl:text-[25px] max-w-max"
       href={link}
     >
       {children}
