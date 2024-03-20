@@ -25,8 +25,8 @@ const HeroHome = () => {
 
       <CtaSecondary link="/">scopri i prodotti</CtaSecondary>
 
-      <div className="lg:w-[90%] mx-auto grid grid-cols-3 gap-6 z-10 overflow-x-auto w-full">
-        <div className="px-[39px] py-10 flex-col justify-start items-center gap-[17px] inline-flex">
+      <div className="lg:w-[90%] mx-auto flex gap-6 z-10 overflow-x-auto w-full">
+        <div className="px-[39px] py-10 flex-col justify-start items-center gap-[17px] inline-flex w-full">
           <div className="w-full h-auto relative">
             <img
               className="w-[41px] h-[34px] left-0 top-0 absolute"
@@ -40,7 +40,7 @@ const HeroHome = () => {
             Lorem ipsum dolor sit amet, consectetur
           </div>
         </div>
-        <div className="px-[39px] py-10 flex-col justify-start items-center gap-[17px] inline-flex">
+        <div className="px-[39px] py-10 flex-col justify-start items-center gap-[17px] inline-flex w-full">
           <div className="w-full h-auto relative">
             <img
               className="w-[41px] h-[34px] left-0 top-0 absolute"
@@ -54,7 +54,7 @@ const HeroHome = () => {
             Lorem ipsum dolor sit amet, consectetur
           </div>
         </div>
-        <div className="px-[39px] py-10 flex-col justify-start items-center gap-[17px] inline-flex">
+        <div className="px-[39px] py-10 flex-col justify-start items-center gap-[17px] inline-flex w-full">
           <div className="w-full h-auto relative">
             <img
               className="w-[41px] h-[34px] left-0 top-0 absolute"
