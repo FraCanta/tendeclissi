@@ -30,7 +30,7 @@ const Navbar = () => {
           className="lg:hidden flex w-10 h-10 text-primary"
         />
 
-        <ul className="lg:flex gap-6 2xl:gap-[40px]  text-[20px] fxl:text-[23px] uppercase items-center leading-[37.50px] hidden ">
+        <ul className="lg:flex gap-6 2xl:gap-[40px]  text-[20px] fxl:text-[25px] uppercase items-center leading-[37.50px] hidden ">
           <li>
             <Link href="/">Chi siamo</Link>
           </li>
