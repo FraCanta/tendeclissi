@@ -15,12 +15,12 @@ const MediaCards = ({ reverseLayout, img }) => {
         reverseLayout ? "flex-row-reverse" : "flex-row"
       }`}
     >
-      <div className="relative min-h-[80vh] 2xla:min-h-[80vh] w-full lg:w-[80%]">
+      <div className="relative h-screen 2xla:h-[80vh] w-full lg:w-[80%]">
         <div>
           <Image src={img} fill alt="img di prova" className="object-cover" />
           <div className="absolute inset-0 bg-black opacity-40"></div>
 
-          <div className="absolute inset-0 flex flex-col items-center lg:justify-center gap-4 lg:text-center text-white mt-10 lg:mt-0">
+          <div className="absolute inset-0 flex flex-col items-center lg:justify-center gap-4 lg:text-center text-white mt-32 lg:mt-0">
             <h2 className="text-white text-[30px] lg:text-[45px] z-10 w-[90%] mx-auto font-bold">
               I nostri prodotti/servizi per i privati
             </h2>
@@ -30,7 +30,7 @@ const MediaCards = ({ reverseLayout, img }) => {
               consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
               labore et dolore magna aliqua.- tipo fino qua
             </p>
-            <div className="lg:hidden absolute bottom-10 w-[90%] left-5 right-0  text-darkGray">
+            <div className="lg:hidden absolute bottom-32 w-[90%] left-5 right-0  text-darkGray">
               <Swiper
                 slidesPerView={1}
                 spaceBetween={20}
@@ -60,7 +60,7 @@ const MediaCards = ({ reverseLayout, img }) => {
           <div
             className={`hidden absolute top-0 ${
               reverseLayout ? "-left-[320px]" : "-right-[320px]"
-            } w-[48%] h-full lg:flex flex-col justify-center items-center gap-8 text-center`}
+            } w-[48%] h-full lg:flex flex-col justify-center items-center gap-6 2xla:gap-8 text-center`}
           >
             <SimpleCard />
             <SimpleCard />
