@@ -30,7 +30,7 @@ const MediaCards = ({ reverseLayout, img }) => {
               consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
               labore et dolore magna aliqua.- tipo fino qua
             </p>
-            <div className="lg:hidden absolute bottom-32 w-[90%] left-5 right-0  text-darkGray">
+            <div className="lg:hidden absolute bottom-32 w-[90%] left-5 right-0  text-darkGray ">
               <Swiper
                 slidesPerView={1}
                 spaceBetween={20}
@@ -42,7 +42,7 @@ const MediaCards = ({ reverseLayout, img }) => {
                   disableOnInteraction: false,
                 }}
                 modules={[Autoplay]}
-                className="mySwiper"
+                className="mySwiper !mt-10"
               >
                 <SwiperSlide>
                   <SimpleCard />

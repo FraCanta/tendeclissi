@@ -16,7 +16,7 @@ const SimpleCard = () => {
         </Typography>
         <Typography>Descrizione brevissima max due righe non di più</Typography>
       </CardBody>
-      <CardFooter className="pt-0">
+      <CardFooter className="pt-4">
         <CtaPrimary link="/"> scorpi le cappottine </CtaPrimary>
       </CardFooter>
     </Card>
