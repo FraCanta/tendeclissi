@@ -4,7 +4,7 @@ import About from "@/public/assets/chisiamo.jpeg";
 import CtaPrimary from "./CtaPrimary";
 const MediaText = ({ img, title, description }) => {
   return (
-    <div className="w-full min-h-screen flex items-center justify-center">
+    <div className="w-full min-h-[70vh] flex items-center justify-center">
       <div className="w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4 py-12">
         <div className="relative aspect-square lg:aspect-video">
           <Image

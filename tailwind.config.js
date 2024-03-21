@@ -22,7 +22,7 @@ module.exports = {
 
         "2xl": "1500px",
         // => @media (min-width: 1536px) { ... }
-        "2xla": "1650px",
+        "2xla": "1800px",
         // => @media (min-width: 1680px) { ... }
         fxl: "1920px",
         // => @media (min-width: 1920px) { ... }
@@ -40,6 +40,7 @@ module.exports = {
         white: "#FFFFFF",
         lightGray: "#ECECEC",
         textGray: "#4F5C68",
+        darkGray: "#505D68",
       },
     },
   },
