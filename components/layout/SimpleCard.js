@@ -9,7 +9,7 @@ import {
 import CtaPrimary from "./CtaPrimary";
 const SimpleCard = () => {
   return (
-    <Card className="lg:w-[65%] flex flex-col gap-2 shadow-lg p-3 lg:p-3">
+    <Card className="lg:w-[65%] flex flex-col gap-2 shadow-lg p-5 lg:p-6">
       <CardBody>
         <Typography variant="h5" color="blue-gray" className="mb-2">
           Cappottine
