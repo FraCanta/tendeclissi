@@ -15,7 +15,7 @@ const MediaText = ({ img, title, description }) => {
           />
         </div>
         <div className="flex flex-col gap-6 justify-center">
-          <h2 className="text-[32px] md:text-[45px] lg:text-[54px] font-bold text-textGray">
+          <h2 className="text-[32px] md:text-[45px] lg:text-[54px] 2xl:text-[50px] font-bold text-textGray">
             {title}
           </h2>
           <p className="sm:text-xl md:text-[22px] lg:text-xl font-normal text-textGray">
