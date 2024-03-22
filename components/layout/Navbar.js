@@ -7,7 +7,7 @@ import CtaPrimary from "./CtaPrimary";
 
 const Navbar = () => {
   return (
-    <div className="w-full h-[80px] lg:h-[120px] py-4 lg:py-5 bg-lightGray shadow-lg justify-between items-center flex text-black font-normal">
+    <div className="w-full h-[5rem] lg:h-[7.5rem] py-4 lg:py-5 bg-lightGray shadow-lg justify-between items-center flex text-black font-normal">
       <nav className="w-[90%] mx-auto flex justify-between items-center">
         <div className="flex flex-col items-center justify-center gap-1">
           <Image
@@ -26,7 +26,7 @@ const Navbar = () => {
           className="lg:hidden flex w-10 h-10 text-primary"
         />
 
-        <ul className="lg:flex gap-6 2xl:gap-[40px]  text-[20px] fxl:text-[25px] uppercase items-center leading-[37.50px] hidden ">
+        <ul className="lg:flex gap-6 2xl:gap-[2.5rem]  text-xl fxl:text-[1.563rem] uppercase items-center leading-[2.344rem] hidden ">
           <li>
             <Link href="/">Chi siamo</Link>
           </li>
