@@ -33,10 +33,7 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
           rel="stylesheet"
         ></link>
-        <meta
-          name="viewport"
-          content="initial-scale=1.0, width=device-width"
-        ></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <body>
         <Main />
