@@ -7,17 +7,21 @@ import {
   Button,
 } from "@material-tailwind/react";
 import CtaPrimary from "./CtaPrimary";
-const SimpleCard = () => {
+const SimpleCard = ({ title, description, cta }) => {
   return (
-    <Card className="lg:w-[65%] flex flex-col gap-2 shadow-lg p-5 sm:p-6 ">
+    <Card className="md:w-[100%] lg:w-[65%] 2xl:w-[70%] flex flex-col mx-auto shadow-lg p-4 sm:p-4 md:p-10 2xl:p-2 gap-2">
       <CardBody>
-        <Typography variant="h5" color="blue-gray" className="mb-2">
-          Cappottine
+        <Typography
+          variant="h4"
+          color="blue-gray"
+          className="mb-1 font-bold md:text-[35px] lg:text-[22px] 2xla:text-[25px]"
+        >
+          {title}
         </Typography>
-        <Typography>Descrizione brevissima max due righe non di più</Typography>
+        <Typography className="md:text-xl">{description}</Typography>
       </CardBody>
-      <CardFooter className="py-4">
-        <CtaPrimary link="/"> scorpi le cappottine </CtaPrimary>
+      <CardFooter className="py-6 ">
+        <CtaPrimary link="/">{cta} </CtaPrimary>
       </CardFooter>
     </Card>
   );

@@ -1,0 +1,65 @@
+{
+  "section1": [
+    {
+      "title": "Cappottine",
+      "description": "Descrizione brevissima max due righe non di più e con descrizione abbastanza chiara",
+      "cta": "Vedi le cappottine"
+    },
+    {
+      "title": "Tende classiche",
+      "description": "Descrizione brevissima max due righe non di più e con descrizione abbastanza chiara",
+      "cta": "Vedi le tende classiche"
+    },
+    {
+      "title": "Tende a guscio",
+      "description": "Descrizione brevissima max due righe non di più e con descrizione abbastanza chiara",
+      "cta": "Vedi le tende a guscio"
+    }
+  ],
+  "section2": [
+    {
+      "title": "Cappottine",
+      "description": "Descrizione brevissima max due righe non di più e con descrizione abbastanza chiara",
+      "cta": "Vedi le cappottine"
+    },
+    {
+      "title": "Tende classiche",
+      "description": "Descrizione brevissima max due righe non di più e con descrizione abbastanza chiara",
+      "cta": "Vedi le tende classiche"
+    },
+    {
+      "title": "Tende a guscio",
+      "description": "Descrizione brevissima max due righe non di più e con descrizione abbastanza chiara",
+      "cta": "Vedi le tende a guscio"
+    }
+  ],
+  "section3": [
+    {
+      "title": "Cappottine",
+      "description": "Descrizione brevissima max due righe non di più e con descrizione abbastanza chiara",
+      "cta": "Vedi le cappottine"
+    },
+    {
+      "title": "Tende classiche",
+      "description": "Descrizione brevissima max due righe non di più e con descrizione abbastanza chiara",
+      "cta": "Vedi le tende classiche"
+    },
+    {
+      "title": "Tende a guscio",
+      "description": "Descrizione brevissima max due righe non di più e con descrizione abbastanza chiara",
+      "cta": "Vedi le tende a guscio"
+    }
+  ],
+  "section4": [
+    {
+      "title": "Riparazione",
+      "description": "Descrizione brevissima max due righe non di più e con descrizione abbastanza chiara",
+      "cta": "Chiedi un preventivo"
+    },
+    {
+      "title": "Motorizzazione",
+      "description": "Descrizione brevissima max due righe non di più e con descrizione abbastanza chiara",
+      "cta": "Chiedi un preventivo"
+    }
+  ]
+}
