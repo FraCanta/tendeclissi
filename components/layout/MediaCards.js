@@ -23,7 +23,7 @@ const MediaCards = ({
         reverseLayout ? "flex-row-reverse" : "flex-row"
       }`}
     >
-      <div className="relative h-screen md:h-[70vh] 2xla:h-[90vh] fxl:h-[90vh] w-full lg:w-[80%]">
+      <div className="relative h-screen md:h-[70vh] 2xl:min-h-[95vh] fxl:h-[90vh] w-full lg:w-[80%]">
         <div>
           <Image src={img} fill alt="img di prova" className="object-cover" />
           <div className="absolute inset-0 bg-black opacity-50"></div>
@@ -32,7 +32,7 @@ const MediaCards = ({
             <h2 className="text-white text-[30px] md:text-[47px] lg:text-[45px] z-10 w-[90%] 2xl:w-[55%] 2xla:w-[60%] mx-auto font-bold">
               {mainTitle}
             </h2>
-            <p className="z-10 w-[90%] lg:w-[60%] mx-auto sm:text-xl md:text-[22px]">
+            <p className="z-10 w-[90%] lg:w-[60%] mx-auto sm:text-xl md:text-[22px] lg:text-xl">
               {mainDescription}
             </p>
             <div className="lg:hidden absolute bottom-48  md:bottom-36 md:left-10 w-[90%] left-5 right-0  text-darkGray ">
@@ -65,7 +65,7 @@ const MediaCards = ({
           <div
             className={`hidden absolute top-0 ${
               reverseLayout ? "-left-[350px]" : "-right-[350px]"
-            } w-[48%] h-full lg:flex flex-col justify-center items-center gap-6 2xla:gap-8 text-center`}
+            } w-[48%] fxl:w-[45%] h-full lg:flex flex-col justify-center items-center gap-6 2xla:gap-8 text-center`}
           >
             {cardsData.map((card, index) => (
               <SimpleCard

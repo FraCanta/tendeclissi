@@ -5,7 +5,7 @@ import CtaPrimary from "./CtaPrimary";
 const MediaText = ({ img, title, description }) => {
   return (
     <div className="w-full min-h-[70vh] flex items-center justify-center">
-      <div className="w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4 py-12">
+      <div className="w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6 py-12 fxl:gap-8">
         <div className="relative aspect-square md:aspect-video">
           <Image
             src={About}
@@ -18,7 +18,7 @@ const MediaText = ({ img, title, description }) => {
           <h2 className="text-[32px] md:text-[45px] lg:text-[54px] font-bold text-textGray">
             {title}
           </h2>
-          <p className="sm:text-xl md:text-[22px] font-normal text-textGray">
+          <p className="sm:text-xl md:text-[22px] lg:text-xl font-normal text-textGray">
             {description}
           </p>
           <CtaPrimary link="/">Contatti</CtaPrimary>

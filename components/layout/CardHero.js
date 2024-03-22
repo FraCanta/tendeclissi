@@ -30,7 +30,10 @@ export function CardHero() {
         >
           UI/UX Review Check
         </Typography>
-        <Typography color="white" className="font-regular md:text-2xl">
+        <Typography
+          color="white"
+          className="font-regular md:text-2xl lg:text-xl"
+        >
           Because it&apos;s about motivating the doers. Because I&apos;m here to
           follow my dreams and inspire others.
         </Typography>
