@@ -32,7 +32,7 @@ export function CardHero() {
         </Typography>
         <Typography
           color="white"
-          className="font-regular md:text-2xl lg:text-xl"
+          className="font-regular md:text-2xl lg:text-lg"
         >
           Because it&apos;s about motivating the doers. Because I&apos;m here to
           follow my dreams and inspire others.

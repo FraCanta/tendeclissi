@@ -14,11 +14,11 @@ const SimpleCard = ({ title, description, cta }) => {
         <Typography
           variant="h4"
           color="blue-gray"
-          className="mb-1 font-bold text-[25px] md:text-[35px] lg:text-[22px] 2xla:text-[25px] fxl:text-[32px] fxl:mb-2"
+          className="mb-1 font-bold text-[1.563rem] md:text-[2.188rem] lg:text-[1.563rem] fxl:text-[2rem] fxl:mb-2"
         >
           {title}
         </Typography>
-        <Typography className="md:text-xl 2xl:text-[18px]">
+        <Typography className="md:text-xl 2xl:text-[1.125rem]">
           {description}
         </Typography>
       </CardBody>
