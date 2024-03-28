@@ -1,12 +1,10 @@
 import React from "react";
-import { Rubik } from "next/font/google";
-import CtaSecondary from "../layout/CtaSecondary";
 import { CardHero } from "../layout/CardHero";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
-
-const rubik = Rubik({ subsets: ["latin"] });
+import CtaPrimary from "../layout/CtaPrimary";
+import { Pagination } from "swiper/modules";
 
 const HeroHome = () => {
   return (
@@ -25,7 +23,7 @@ const HeroHome = () => {
           </p>
         </div>
 
-        <CtaSecondary link="/">scopri i prodotti</CtaSecondary>
+        <CtaPrimary link="/">scopri i prodotti</CtaPrimary>
       </div>
 
       <div className="lg:w-[70%] mx-auto flex lg:gap-12 z-10 w-[90%]">
@@ -35,6 +33,7 @@ const HeroHome = () => {
           pagination={{
             clickable: true,
           }}
+          modules={[Pagination]}
           className="mySwiper"
           breakpoints={{
             300: {

@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
-import { Autoplay } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 import SimpleCard from "./SimpleCard";
 const MediaCards = ({
   reverseLayout,
@@ -46,7 +46,7 @@ const MediaCards = ({
                   delay: 2500,
                   disableOnInteraction: false,
                 }}
-                modules={[Autoplay]}
+                modules={[Autoplay, Pagination]}
                 className="mySwiper !mt-10"
               >
                 {cardsData.map((card, index) => (

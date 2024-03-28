@@ -4,6 +4,7 @@ import Banner from "@/components/layout/Banner";
 import MediaText from "@/components/layout/MediaText";
 import MediaCards from "@/components/layout/MediaCards";
 import jsonData from "@/utils/cards.json";
+import FormEco from "@/components/forms/FormEco";
 export default function Home() {
   return (
     <>
@@ -49,16 +50,16 @@ export default function Home() {
           <MediaCards
             reverseLayout={false}
             img="/assets/img4.jpg"
-            mainTitle="I nostri prodotti per proprietari di camping e scuole"
+            mainTitle="I nostri servizi per assicurazioni e amministratori"
             mainDescription="Qui andiamo a lavorare sui vari target raggruppandoli e spieghiamo che risolviamo tutte le esigenze - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.- tipo fino qua"
             cardsData={jsonData.section4}
           />
         </div>
       </div>
 
-      {/* <div className="h-screen w-full">
-        <Banner />
-      </div> */}
+      <div className="min-h-screen w-full bg-gradient-to-50 flex flex-col justify-center items-center py-10 lg:py-0">
+        <FormEco />
+      </div>
     </>
   );
 }
