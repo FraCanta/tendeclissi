@@ -29,7 +29,7 @@ const MediaCards = ({
           <div className="absolute inset-0 bg-black opacity-50"></div>
 
           <div className="absolute inset-0 flex flex-col items-center lg:justify-center gap-4 lg:text-center text-white mt-24 sm:my-32 md:mt-[70px] lg:mt-0 h-full">
-            <h2 className="text-white text-[30px] md:text-[47px] lg:text-[45px] z-10 w-[90%] 2xl:w-[55%] 2xla:w-[60%] mx-auto font-bold">
+            <h2 className="text-white text-[30px] md:text-[47px] lg:text-[45px] z-10 w-[90%] 2xl:w-[65%] 2xla:w-[60%] mx-auto font-bold">
               {mainTitle}
             </h2>
             <p className="z-10 w-[90%] lg:w-[60%] mx-auto sm:text-xl md:text-[22px] lg:text-xl">
