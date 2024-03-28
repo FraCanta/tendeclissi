@@ -23,7 +23,7 @@ const MediaCards = ({
         reverseLayout ? "flex-row-reverse" : "flex-row"
       }`}
     >
-      <div className="relative h-screen md:h-[70vh] lg:h-screen xl:h-[95vh] 2xla:h-[80vh] fxl:h-[90vh] w-full lg:w-[80%] xl:w-[70%] 2xl:w-[80%]">
+      <div className="relative h-screen md:h-[70vh] lg:h-screen xl:h-[95vh] 2xla:h-[80vh] fxl:h-[90vh] w-full lg:w-[80%] xl:w-[70%] 2xl:w-[78%] fxl:w-[80%]">
         <div>
           <Image src={img} fill alt="img di prova" className="object-cover" />
           <div className="absolute inset-0 bg-black opacity-50"></div>
