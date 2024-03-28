@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import CtaPrimary from "../layout/CtaPrimary";
-import { Pagination } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 
 const HeroHome = () => {
   return (
@@ -33,7 +33,11 @@ const HeroHome = () => {
           pagination={{
             clickable: true,
           }}
-          modules={[Pagination]}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          modules={[Autoplay, Pagination]}
           className="mySwiper"
           breakpoints={{
             300: {

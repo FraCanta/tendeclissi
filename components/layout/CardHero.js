@@ -2,8 +2,8 @@ import { Card, CardBody, Typography } from "@material-tailwind/react";
 
 export function CardHero() {
   return (
-    <Card className="mt-6 lg:w-full !bg-transparent mx-auto">
-      <CardBody className="!flex flex-col lg:!justify-center lg:!items-center lg:!text-center">
+    <Card className="mt-6 lg:w-full !bg-transparent mx-auto ">
+      <CardBody className="!flex flex-col lg:!justify-center lg:!items-center lg:!text-center !p-0">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
