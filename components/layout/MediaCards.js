@@ -35,7 +35,7 @@ const MediaCards = ({
             <p className="z-10 w-[90%] lg:w-[60%] mx-auto sm:text-xl md:text-[22px] lg:text-xl">
               {mainDescription}
             </p>
-            <div className="lg:hidden absolute bottom-48  md:bottom-36 md:left-10 w-[90%] left-5 right-0  text-darkGray ">
+            <div className="lg:hidden absolute bottom-32 sm:bottom-40  md:bottom-36 md:left-10 w-[90%] left-5 right-0  text-darkGray ">
               <Swiper
                 slidesPerView={1}
                 spaceBetween={20}
