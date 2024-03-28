@@ -5,6 +5,8 @@ import MediaText from "@/components/layout/MediaText";
 import MediaCards from "@/components/layout/MediaCards";
 import jsonData from "@/utils/cards.json";
 import FormEco from "@/components/forms/FormEco";
+import About from "@/public/assets/chisiamo.jpeg";
+
 export default function Home() {
   return (
     <>
@@ -13,6 +15,8 @@ export default function Home() {
       </Head>
       <HeroHome />
       <MediaText
+        cta="Contatti"
+        img={About}
         title="Chi siamo e dove trovarci"
         description="Spiegazione che riuassuma la pagina contatti dando le info fondamentali - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco labori - tipo fino qua"
       />

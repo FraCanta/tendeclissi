@@ -1375,6 +1375,13 @@ framer-motion@6.5.1:
   optionalDependencies:
     "@emotion/is-prop-valid" "^0.8.2"
 
+framer-motion@^11.0.23:
+  version "11.0.23"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-11.0.23.tgz#3003fae36c6aa06d4226ed6db09e4c5ad34d3c49"
+  integrity sha512-V2xdf9hYJKPml7412Ghmh3LZYjiCAEDIIxR9JOb/ni4GHLQFLE+51wG89/3NhheX1vfYBI1SnicXSyHtzfTPqg==
+  dependencies:
+    tslib "^2.4.0"
+
 framesync@6.0.1:
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/framesync/-/framesync-6.0.1.tgz#5e32fc01f1c42b39c654c35b16440e07a25d6f20"
