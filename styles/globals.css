@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 html {
-  font-size: 15.5px;
+  font-size: 12px;
 }
 body {
   padding: 0;
@@ -13,7 +13,7 @@ body {
 
 @layer utilities {
   .bg-hero {
-    background-image: url("../public/assets/heroImg.jpeg");
+    background-image: url("../public/assets/heroImg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
