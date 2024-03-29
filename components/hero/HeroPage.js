@@ -4,7 +4,7 @@ const HeroPage = ({ children, backgroundImage }) => {
   console.log(backgroundImage);
   return (
     <div
-      className="min-h-[80vh] md:min-h-[50vh] flex flex-col justify-center relative"
+      className="min-h-[90vh] md:min-h-[60vh] flex flex-col justify-center relative"
       style={{
         backgroundImage: `url(${backgroundImage})`,
         backgroundSize: "cover",

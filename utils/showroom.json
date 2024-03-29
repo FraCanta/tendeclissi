@@ -1,0 +1,48 @@
+{
+  "section1": [
+    {
+      "title": "Cappottine mobili",
+      "description": "Descrizione brevissima max due righe non di più e con descrizione abbastanza chiara",
+      "cta": "Vedi le cappottine mobili"
+    },
+    {
+      "title": "Cappottine fisse",
+      "description": "Descrizione brevissima max due righe non di più e con descrizione abbastanza chiara",
+      "cta": "Vedi le cappottine fisse"
+    }
+  ],
+  "section2": [
+    {
+      "title": "Tende da sole",
+      "description": "Descrizione brevissima max due righe non di più e con descrizione abbastanza chiara",
+      "cta": "Vedi le tende da sole"
+    },
+    {
+      "title": "Tende classiche",
+      "description": "Descrizione brevissima max due righe non di più e con descrizione abbastanza chiara",
+      "cta": "Vedi le tende classiche"
+    },
+    {
+      "title": "Tende a guscio",
+      "description": "Descrizione brevissima max due righe non di più e con descrizione abbastanza chiara",
+      "cta": "Vedi le tende a guscio"
+    }
+  ],
+  "section3": [
+    {
+      "title": "Pergole",
+      "description": "Descrizione brevissima max due righe non di più e con descrizione abbastanza chiara",
+      "cta": "Vedi le pergole"
+    },
+    {
+      "title": "Vele ombreggianti",
+      "description": "Descrizione brevissima max due righe non di più e con descrizione abbastanza chiara",
+      "cta": "Vele ombreggianti"
+    },
+    {
+      "title": "Coperture box auto",
+      "description": "Descrizione brevissima max due righe non di più e con descrizione abbastanza chiara",
+      "cta": "Coperture box auto"
+    }
+  ]
+}

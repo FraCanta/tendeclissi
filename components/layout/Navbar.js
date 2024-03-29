@@ -109,7 +109,7 @@ const Navbar = () => {
             <Link href="/chisiamo">Chi siamo</Link>
           </li>
           <li>
-            <Link href="/">Showroom digitale</Link>
+            <Link href="/showroom">Showroom digitale</Link>
           </li>
           <li>
             <Link href="/">Servizi</Link>
