@@ -10,7 +10,7 @@ import CtaOutline from "./CtaOutline";
 import CtaSecondary from "./CtaSecondary";
 const PurpleCard = ({ title, description, cta, link }) => {
   return (
-    <Card className="md:w-[100%]  xl:w-[95%] 2xl:w-[70%]  fxl:w-[85%] text-white flex flex-col justify-center items-center text-center mx-auto bg-purple p-4 md:p-10 xl:p-2 2xl:p-[1rem] fxl:p-8 gap-2 fxl:gap-4">
+    <Card className="md:w-[100%]  xl:w-[95%] 2xl:w-[70%]  fxl:w-[85%] text-white flex flex-col justify-center items-center text-center mx-auto bg-purple p-2 sm:p-4 md:p-10 xl:p-2 2xl:p-[1rem] fxl:p-8 gap-2 fxl:gap-4">
       <CardBody>
         <Typography
           variant="h4"
@@ -23,7 +23,7 @@ const PurpleCard = ({ title, description, cta, link }) => {
           {description}
         </Typography>
       </CardBody>
-      <CardFooter className="py-4">
+      <CardFooter className="!p-2 !pb-6">
         {cta === "vai allo showroom" ? (
           <CtaOutline link={link}>{cta}</CtaOutline>
         ) : (
