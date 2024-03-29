@@ -112,7 +112,7 @@ const Navbar = () => {
             <Link href="/showroom">Showroom digitale</Link>
           </li>
           <li>
-            <Link href="/">Servizi</Link>
+            <Link href="/servizi">Servizi</Link>
           </li>
           <li>
             <Link href="/">Progetti</Link>

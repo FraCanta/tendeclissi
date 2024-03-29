@@ -45,6 +45,7 @@ module.exports = {
         lightGray: "#ECECEC",
         textGray: "#4F5C68",
         darkGray: "#505D68",
+        lightPurple: "#A1AEB7",
       },
     },
   },
