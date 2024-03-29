@@ -1,8 +1,13 @@
 import Partner from "@/components/Almot/Partner";
 import HeroPage from "@/components/hero/HeroPage";
 import Banner from "@/components/layout/Banner";
-import Image from "next/image";
+import Card from "@/components/layout/Card";
 import React from "react";
+import serviceData from "@/utils/servizi.json";
+import Image from "next/image";
+import CtaOutline from "@/components/layout/CtaOutline";
+import PurpleCard from "@/components/layout/PurpleCard";
+
 const Servizi = () => {
   return (
     <div>
@@ -20,7 +25,7 @@ const Servizi = () => {
       </HeroPage>
       <Partner />
       <Banner />
-      <div className="w-[90%] mx-auto min-h-screen py-10 xl:py-32">
+      <div className="w-[90%] mx-auto h-full py-10 xl:py-20 flex flex-col gap-10 min-h-screen">
         <div className="flex flex-col gap-6">
           <h2 className="text-[35px] md:text-[45px] lg:text-[50px] xl:text-[45px] font-bold text-black">
             Dalla vendita alla riparazione
@@ -30,6 +35,54 @@ const Servizi = () => {
             amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
             ut labore et dolore magna aliqua.- tipo fino qua.
           </p>
+        </div>
+        <div className="flex flex-col xl:flex-row gap-4  h-full">
+          <div className="xl:w-[33%] flex flex-col justify-between ">
+            {serviceData?.servizi.map((item, index) => {
+              return (
+                <Card
+                  key={index}
+                  number={item.number}
+                  title={item.title}
+                  description={item.descrizione}
+                />
+              );
+            })}
+          </div>
+          <div className="xl:w-[67%] flex flex-col  h-full justify-between gap-4">
+            <div className="grid grid-cols-1 xl:grid-cols-2 justify-between w-full gap-4">
+              <div className="aspect-square relative">
+                <Image src="https://placehold.jp/500x500.png" alt="" fill />
+              </div>
+              <div className="aspect-square relative">
+                <Image src="https://placehold.jp/500x500.png" alt="" fill />
+              </div>
+            </div>
+            <div className="grid grid-cols-1 xl:grid-cols-2 gap-4">
+              <div className="aspect-square relative">
+                <Image src="https://placehold.jp/500x500.png" alt="" fill />
+              </div>
+              <div className="aspect-square relative">
+                <Image src="https://placehold.jp/500x500.png" alt="" fill />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="w-[90%] mx-auto h-full pb-10  ">
+        <div className="xl:w-[60%] mx-auto flex flex-col xl:flex-row justify-evenly gap-10">
+          <PurpleCard
+            title="Sai già cosa ti serve?"
+            description="Vedi tutti i nostri prodotti per selezionare ciò che cercavi"
+            cta="vai allo showroom" // Utilizza "CtaOutline" per il primo card
+            link="/showroom"
+          />
+          <PurpleCard
+            title="Hai bisogno di aiuto?"
+            description="Siamo disponibili a venire nella tua casa o nella tua azienda per consigliarti al meglio"
+            cta="Richiedi un sopralluogo" // Utilizza "CtaSecondary" per il secondo card
+            link="/"
+          />
         </div>
       </div>
     </div>

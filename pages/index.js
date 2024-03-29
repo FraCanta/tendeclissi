@@ -1,6 +1,5 @@
 import Head from "next/head";
 import HeroHome from "@/components/hero/HeroHome";
-import Banner from "@/components/layout/Banner";
 import MediaText from "@/components/layout/MediaText";
 import MediaCards from "@/components/layout/MediaCards";
 import jsonData from "@/utils/cards.json";
