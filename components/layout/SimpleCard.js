@@ -22,7 +22,7 @@ const SimpleCard = ({ title, description, cta }) => {
           {description}
         </Typography>
       </CardBody>
-      <CardFooter className="pt-4">
+      <CardFooter className="py-4">
         <CtaPrimary link="/">{cta} </CtaPrimary>
       </CardFooter>
     </Card>
