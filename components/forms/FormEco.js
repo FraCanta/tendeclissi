@@ -62,7 +62,7 @@ const FormEco = () => {
         </div>
       </div>
       <div className="w-[90%] mx-auto flex justify-center items-center py-6">
-        <div className="w-full lg:max-w-3xl mx-auto justify-evenly lg:justify-center flex items-center lg:gap-6">
+        <div className="w-full lg:max-w-3xl mx-auto justify-evenly lg:justify-center flex items-center lg:gap-6 text-white">
           <Icon icon="uil:facebook" className="w-6 h-6" />
           <Icon icon="raphael:instagram" className="w-6 h-6" />
           <Icon icon="mingcute:whatsapp-fill" className="w-6 h-6" />
