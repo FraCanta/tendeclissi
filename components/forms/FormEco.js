@@ -6,7 +6,7 @@ const FormEco = () => {
   return (
     <>
       <div className="w-[90%] mx-auto lg:text-center flex flex-col gap-4">
-        <h2 className="text-white text-[2.5rem] lg:text-6xl xl:text-5xl 2xl:text-6xl">
+        <h2 className="text-white text-[2.4rem] lg:text-6xl xl:text-5xl 2xl:text-6xl">
           Ottieni l&apos;ecobonus con noi!
         </h2>
         <p className="text-white text-xl max-w-3xl mx-auto">
