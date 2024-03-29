@@ -10,7 +10,7 @@ import CtaPrimary from "./CtaPrimary";
 const SimpleCard = ({ title, description, cta }) => {
   return (
     <Card className="md:w-[100%]  xl:w-[95%] 2xl:w-[70%]  fxl:w-[85%] flex flex-col mx-auto shadow-lg sm:p-4 md:p-10 xl:p-2 2xl:p-[1rem] fxl:p-8 gap-2 fxl:gap-4">
-      <CardBody className="!px-4 ">
+      <CardBody className="!px-4 !p-2">
         <Typography
           variant="h4"
           color="blue-gray"
