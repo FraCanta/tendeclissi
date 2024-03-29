@@ -9,7 +9,7 @@ import {
 import CtaPrimary from "./CtaPrimary";
 const SimpleCard = ({ title, description, cta }) => {
   return (
-    <Card className="md:w-[100%]  xl:w-[95%] 2xl:w-[70%]  fxl:w-[85%] flex flex-col mx-auto shadow-lg p-0 sm:p-2 md:p-10 xl:p-2 2xl:p-6 fxl:p-8 gap-2 fxl:gap-4">
+    <Card className="md:w-[100%]  xl:w-[95%] 2xl:w-[70%]  fxl:w-[85%] flex flex-col mx-auto shadow-lg p-0 sm:p-2 md:p-10 xl:p-2 2xl:p-[2.5rem] fxl:p-8 gap-2 fxl:gap-4">
       <CardBody>
         <Typography
           variant="h4"
@@ -22,7 +22,7 @@ const SimpleCard = ({ title, description, cta }) => {
           {description}
         </Typography>
       </CardBody>
-      <CardFooter className="pt-2">
+      <CardFooter className="pt-4">
         <CtaPrimary link="/">{cta} </CtaPrimary>
       </CardFooter>
     </Card>
