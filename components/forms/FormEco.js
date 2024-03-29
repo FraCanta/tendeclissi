@@ -34,7 +34,7 @@ const FormEco = () => {
               />
             </div>
           </div>
-          <div className="flex flex-wrap -mx-3 gap-4 lg:gap-0">
+          <div className="flex flex-wrap -mx-3 gap-4 md:gap-0">
             <div className="w-full md:w-1/2 px-3 ">
               <input
                 className="appearance-none block w-full bg-gray-200 text-gray-700 px-[33px] py-[15px] leading-tight focus:outline-none focus:bg-white"
@@ -45,7 +45,7 @@ const FormEco = () => {
             </div>
             <div className="w-full md:w-1/2 px-3">
               <button
-                className="flex w-full items-center justify-center uppercase 3xl:text-[35px] 4xl:text-[55px]  px-[33px] py-[10px]  md:text-[25px] lg:text-[20px] fxl:text-[25px]   bg-primary text-white font-regular"
+                className="flex w-full items-center justify-center uppercase 3xl:text-[35px] 4xl:text-[55px]  px-[33px] py-[10px]  md:text-[25px] lg:text-xl fxl:text-[25px]   bg-primary text-white font-regular"
                 type="submit"
               >
                 chiedi il preventivo

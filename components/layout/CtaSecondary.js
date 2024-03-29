@@ -5,7 +5,7 @@ const CtaSecondary = ({ children, link }) => {
   return (
     <Link
       href={link}
-      className="bg-white py-[15px] px-[33px] text-primary max-w-max uppercase font-medium z-10 md:text-[25px] lg:text-[20px] fxl:text-[25px]"
+      className="bg-white py-[15px] px-[33px] text-primary max-w-max uppercase font-medium z-10 md:text-[25px] lg:text-xl fxl:text-[25px]"
     >
       {children}
     </Link>

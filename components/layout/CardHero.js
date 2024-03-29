@@ -3,7 +3,7 @@ import { Card, CardBody, Typography } from "@material-tailwind/react";
 export function CardHero() {
   return (
     <Card className="mt-6 lg:w-full !bg-transparent mx-auto ">
-      <CardBody className="!flex flex-col lg:!justify-center lg:!items-center lg:!text-center !p-0">
+      <CardBody className="!flex flex-col xl:!justify-center xl:!items-center xl:!text-center !p-0">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
@@ -20,13 +20,13 @@ export function CardHero() {
         <Typography
           variant="h2"
           color="white"
-          className="mb-2 font-bold md:text-3xl lg:text-2xl"
+          className="mb-2 font-bold lg:mb-6 md:text-3xl lg:text-4xl xl:text-xl 2xl:text-2xl"
         >
           UI/UX Review Check
         </Typography>
         <Typography
           color="white"
-          className="font-regular md:text-2xl lg:text-lg"
+          className="font-regular md:text-2xl lg:text-3xl xl:text-lg"
         >
           Because it&apos;s about motivating the doers. Because I&apos;m here to
           follow my dreams and inspire others.

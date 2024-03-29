@@ -12,12 +12,12 @@ const HeroHome = () => {
       {/* Overlay nero opaco */}
       <div className="absolute inset-0 bg-black opacity-45"></div>
 
-      <div className="flex flex-col lg:justify-center lg:items-center z-10 w-[90%] mx-auto gap-10">
-        <div className="flex flex-col justify-center lg:items-center">
-          <h1 className="text-[45px] md:text-[70px] fxl:text-[80px] text-white font-bold">
+      <div className="flex flex-col lg:justify-center xl:items-center z-10 w-[90%] mx-auto gap-10">
+        <div className="flex flex-col justify-center xl:items-center">
+          <h1 className="text-[45px] md:text-[70px] lg:text-[100px] xl:text-[70px] fxl:text-[80px] text-white font-bold">
             Tende da sole
           </h1>
-          <p className="text-white text-md md:text-xl fxl:text-3xl w-full lg:w-[60%] mx-auto lg:text-center font-regular leading-normal">
+          <p className="text-white text-md md:text-xl lg:text-3xl xl:text-xl fxl:text-3xl w-full xl:w-[60%] mx-auto xl:text-center font-regular leading-normal">
             Vivamus pretium ultricies lacus, vitae tincidunt arcu malesuada nec.
             Aliquam erat volutpat. Aenean finibus eros et metus eleifend
           </p>
@@ -26,7 +26,7 @@ const HeroHome = () => {
         <CtaPrimary link="/">scopri i prodotti</CtaPrimary>
       </div>
 
-      <div className="lg:w-[70%] mx-auto flex lg:gap-12 z-10 w-[90%]">
+      <div className="xl:w-[70%] mx-auto flex lg:gap-12 z-10 w-[90%]">
         <Swiper
           slidesPerView={3}
           spaceBetween={20}
@@ -40,7 +40,7 @@ const HeroHome = () => {
           modules={[Autoplay, Pagination]}
           className="mySwiper"
           breakpoints={{
-            300: {
+            280: {
               slidesPerView: 1,
               spaceBetween: 20,
             },
@@ -49,6 +49,14 @@ const HeroHome = () => {
               spaceBetween: 40,
             },
             1024: {
+              slidesPerView: 1,
+              spaceBetween: 20,
+            },
+            1280: {
+              slidesPerView: 3,
+              spaceBetween: 20,
+            },
+            1500: {
               slidesPerView: 3,
               spaceBetween: 20,
             },

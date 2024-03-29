@@ -7,7 +7,7 @@ const Team = () => {
   return (
     <div className="min-h-screen w-full bg-gradient-to-50 flex flex-col justify-center py-20">
       <div className="w-[90%] mx-auto flex flex-col gap-y-20 2xl:gap-y-[150px]">
-        <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-8">
+        <div className="grid grid-cols-1 xl:grid-cols-2 items-center gap-8">
           <div className="flex flex-col gap-6">
             <h2 className="text-[32px] md:text-[45px] lg:text-[50px] xl:text-[45px] font-bold text-white">
               Il team di Tendeclissi

@@ -104,7 +104,7 @@ const Navbar = () => {
           </div>
         </motion.div>
         {/* Menu desktop */}
-        <ul className="lg:flex gap-6 2xl:gap-[2.5rem]  text-xl fxl:text-[1.563rem] uppercase items-center leading-[2.344rem] hidden z-10">
+        <ul className="xl:flex gap-6 2xl:gap-[2.5rem]  text-xl xl:text-lg 2xl:text-xl fxl:text-[1.563rem] uppercase items-center leading-[2.344rem] hidden z-10">
           <li>
             <Link href="/chisiamo">Chi siamo</Link>
           </li>

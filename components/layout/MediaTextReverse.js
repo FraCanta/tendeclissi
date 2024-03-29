@@ -4,7 +4,7 @@ import React from "react";
 const MediaTextReverse = ({ img, title, description }) => {
   return (
     <div className="w-full flex items-center justify-center">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6  fxl:gap-8">
+      <div className="grid grid-cols-1 xl:grid-cols-2 gap-6  fxl:gap-8">
         <div className="flex flex-col gap-6 justify-center">
           <h2 className="text-[32px] md:text-[45px] lg:text-[50px] xl:text-[45px] font-bold text-white">
             {title}

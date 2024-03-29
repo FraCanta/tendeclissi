@@ -61,7 +61,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="min-h-screen lg:min-h-[78vh]  fxl:min-h-[60vh] w-full bg-gradient-to-50 flex flex-col justify-center items-center py-10 lg:py-0">
+      <div className="min-h-screen md:min-h-[50vh] xl:min-h-[78vh]  fxl:min-h-[60vh] w-full bg-gradient-to-50 flex flex-col justify-center items-center py-10 lg:py-0">
         <FormEco />
       </div>
     </>
