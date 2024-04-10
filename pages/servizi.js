@@ -36,7 +36,7 @@ const Servizi = () => {
             ut labore et dolore magna aliqua.- tipo fino qua.
           </p>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 xl:flex-row gap-4  h-full">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:flex-row gap-4  h-full">
           {serviceData?.servizi.map((item, index) => {
             return (
               <Card

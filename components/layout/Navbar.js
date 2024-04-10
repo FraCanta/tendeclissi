@@ -5,12 +5,13 @@ import Logo from "@/public/assets/logo.svg";
 import Image from "next/image";
 import { MenuButton } from "./MenuButton";
 import CtaPrimary from "./CtaPrimary";
+import { useRouter } from "next/router";
 
 const Navbar = () => {
   const [isVisible, setIsVisible] = useState(true);
   const [lastScrollTop, setLastScrollTop] = useState(0);
   const [isOpen, setOpen] = useState(false);
-
+  const { locale, pathname } = useRouter();
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollTop = window.scrollY;
@@ -96,13 +97,40 @@ const Navbar = () => {
         {/* Menu desktop */}
         <ul className="xl:flex gap-6 2xl:gap-[2.5rem]  text-xl xl:text-lg 2xl:text-xl fxl:text-[1.563rem] uppercase items-center leading-[2.344rem] hidden z-[9999]">
           <li>
-            <Link href="/chisiamo">Chi siamo</Link>
+            <Link
+              href="/chisiamo"
+              className={` ${
+                pathname === "/chisiamo"
+                  ? "font-semibold underline underline-offset-4 transition-all ease-linear"
+                  : ""
+              }`}
+            >
+              Chi siamo
+            </Link>
           </li>
           <li>
-            <Link href="/showroom">Showroom digitale</Link>
+            <Link
+              href="/showroom"
+              className={` ${
+                pathname === "/showroom"
+                  ? "font-semibold underline underline-offset-4 transition-all ease-linear"
+                  : ""
+              }`}
+            >
+              Showroom digitale
+            </Link>
           </li>
           <li>
-            <Link href="/servizi">Servizi</Link>
+            <Link
+              href="/servizi"
+              className={` ${
+                pathname === "/servizi"
+                  ? "font-semibold underline underline-offset-4 transition-all ease-linear"
+                  : ""
+              }`}
+            >
+              Servizi
+            </Link>
           </li>
           <li>
             <Link href="/">Progetti</Link>
