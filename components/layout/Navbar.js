@@ -67,10 +67,10 @@ const Navbar = () => {
           initial={{ opacity: 0, y: "70px" }}
           animate={{ opacity: isOpen ? 1 : 0, y: isOpen ? "0%" : "-100%" }}
           transition={{ ease: "easeOut", duration: 0.4 }}
-          className="absolute top-[70px] left-0 right-0 bottom-0 flex items-center w-full h-[80vh] bg-purple  text-white z-20"
+          className="absolute top-[70px] left-0 right-0 bottom-0 flex items-center w-full h-[60vh] bg-purple  text-white z-20"
         >
           <div className="w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-2 h-full">
-            <ul className=" h-full flex flex-col justify-evenly uppercase text-center text-[25px]">
+            <ul className=" h-full flex flex-col justify-evenly uppercase text-center text-[22px]">
               <li onClick={() => setOpen(false)}>
                 <Link href="/chisiamo">chi siamo</Link>
               </li>
