@@ -42,16 +42,15 @@ const VideoPlayer = () => {
           <h3 className="text-5xl lg:text-[48px] font-bold">
             Il futuro di Tendeclissi
           </h3>
-          <p className="w-full lg:w-10/12 text-md lg:text-xl">
-            Spiegazione che dica di contattarli online per poter avere un
-            preventivo e fissare il sopralluogo con spiegazione carina del fatto
-            che non hanno, per scelta, uno showroom fisico. Far capire che
-            lavorano in Veneto e Marche - Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-            - tipo fino qua
+          <p className="w-full lg:w-10/12 text-md lg:text-xl text-white font-normal">
+            Che tu stia cercando di creare il riparo perfetto dal sole per una
+            casa, un condominio, un giardino o un’attività commerciale, oppure
+            un modo per riparare o motorizzare le tue tende, siamo pronti a
+            mettere a disposizione tutte le nostre conoscenze e la nostra
+            passione per rispondere alla tua esigenza. Contattaci online per
+            richiedere un preventivo su misura o prenditi un momento per
+            visitare il nostro showroom digitale e scoprire i prodotti che
+            offriamo.
           </p>
           <CtaSecondary link="/">Scopri i prodotti</CtaSecondary>
         </div>

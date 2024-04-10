@@ -36,37 +36,17 @@ const Servizi = () => {
             ut labore et dolore magna aliqua.- tipo fino qua.
           </p>
         </div>
-        <div className="flex flex-col xl:flex-row gap-4  h-full">
-          <div className="xl:w-[33%] flex flex-col justify-between ">
-            {serviceData?.servizi.map((item, index) => {
-              return (
-                <Card
-                  key={index}
-                  number={item.number}
-                  title={item.title}
-                  description={item.descrizione}
-                />
-              );
-            })}
-          </div>
-          <div className="xl:w-[67%] flex flex-col  h-full justify-between gap-4">
-            <div className="grid grid-cols-1 xl:grid-cols-2 justify-between w-full gap-4">
-              <div className="aspect-square relative">
-                <Image src="https://placehold.jp/500x500.png" alt="" fill />
-              </div>
-              <div className="aspect-square relative">
-                <Image src="https://placehold.jp/500x500.png" alt="" fill />
-              </div>
-            </div>
-            <div className="grid grid-cols-1 xl:grid-cols-2 gap-4">
-              <div className="aspect-square relative">
-                <Image src="https://placehold.jp/500x500.png" alt="" fill />
-              </div>
-              <div className="aspect-square relative">
-                <Image src="https://placehold.jp/500x500.png" alt="" fill />
-              </div>
-            </div>
-          </div>
+        <div className="grid grid-cols-1 lg:grid-cols-2 xl:flex-row gap-4  h-full">
+          {serviceData?.servizi.map((item, index) => {
+            return (
+              <Card
+                key={index}
+                number={item.number}
+                title={item.title}
+                description={item.descrizione}
+              />
+            );
+          })}
         </div>
       </div>
       <div className="w-[90%] mx-auto h-full pb-10  ">
@@ -74,13 +54,13 @@ const Servizi = () => {
           <PurpleCard
             title="Sai già cosa ti serve?"
             description="Vedi tutti i nostri prodotti per selezionare ciò che cercavi"
-            cta="vai allo showroom" // Utilizza "CtaOutline" per il primo card
+            cta="vai allo showroom"
             link="/showroom"
           />
           <PurpleCard
             title="Hai bisogno di aiuto?"
             description="Siamo disponibili a venire nella tua casa o nella tua azienda per consigliarti al meglio"
-            cta="Richiedi un sopralluogo" // Utilizza "CtaSecondary" per il secondo card
+            cta="Richiedi un sopralluogo"
             link="/"
           />
         </div>

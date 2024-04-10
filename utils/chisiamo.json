@@ -1,0 +1,23 @@
+{
+  "dove": {
+    "descrizione": "Offriamo i nostri servizi <strong>in Veneto e nelle Marche</strong>, e grazie al nostro <strong>showroom completamente digitale</strong> è possibile esplorare i prodotti che offriamo da qualsiasi posto e a qualsiasi ora: una scelta che abbiamo preso per poter raggiungere con la passione per il nostro lavoro sempre più persone. Contattaci per richiedere un campione dei nostri prodotti, richiedere un preventivo senza impegno e fissare un sopralluogo!"
+  },
+  "team": {
+    "descrizione": "La <strong>relazione con il cliente</strong> è sempre stata al centro della crescita professionale di Michele, titolare di Tendeclissi: un rapporto che deve essere basato sulla <strong>fiducia</strong>, la <strong>trasparenza</strong> e il <strong>dialogo</strong>. Il segreto? Tenersi sempre aggiornati e vedere le cose con gli occhi del cliente e sapersi immedesimare, creando quell’intesa che permette di <strong>individuare la tenda giusta</strong> per le sue specifiche esigenze. La Tendeclissi, formata da Michele e dal socio NOME, mette a tua disposizione <strong>oltre 40 anni di esperienza</strong> nell’ambito delle tende da sole.",
+    "list": [
+      {
+        "name": "1. Effettuiamo un <strong>sopralluogo</strong> in cui verifichiamo la tua esigenza"
+      },
+      {
+        "name": "2. Studiamo insieme la <strong>soluzione</strong> più adatta, privilegiando <strong>materie prime italiane</strong>"
+      },
+      {
+        "name": "3. Ci occupiamo per te del <strong>montaggio</strong> del prodotto o i prodotti scelti"
+      },
+      {
+        "name": "4. Offriamo servizi di <strong>manutenzione e riparazione</strong> delle tende"
+      }
+    ],
+    "paragrafo": "Dalla scelta della tenda alla manutenzione, Tendeclissi è sempre al tuo fianco per garantire la <strong>massima resa e durata delle tue tende</strong> nel corso del tempo."
+  }
+}

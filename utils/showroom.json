@@ -1,30 +1,42 @@
 {
+  "hero": {
+    "paragrafo": "Visita il nostro showroom digitale ed esplora da qualsiasi posto e a qualsiasi ora i prodotti che offriamo in Veneto e nelle Marche: un’ampia gamma di <strong>cappottine</strong>, <strong>tende</strong> e soluzioni per il <strong>giardino</strong>, selezionate privilegiando <strong>materie prime italiane</strong>."
+  },
+  "cappottine": {
+    "descrizione": "Un grande classico senza tempo per riparare e incorniciare <strong>piccole finestre</strong>, <strong>portoncini</strong> e <strong>ingressi</strong>, o creare una tettoia fissa di protezione sia dal sole che dagli agenti atmosferici."
+  },
+  "tendeDaSole": {
+    "descrizione": "Dalle classiche tende con <strong>rullo avvolgibile e tessuto a vista</strong>, alle <strong>tende a caduta</strong> per dare respiro ai tuoi spazi coperti, fino al design elegante delle <strong>tende tonde e a guscio</strong>: trova il prodotto giusto per la tua abitazione privata o la tua attività commerciale."
+  },
+  "giardino": {
+    "descrizione": "Cerchi di più di una semplice tenda per il tuo giardino? Le nostre <strong>pergole richiudibili</strong> o con sistema a <strong>lame orientabili</strong> e le <strong>vele ombreggianti</strong> possono creare l’angolo d’ombra perfetto nel verde."
+  },
   "section1": [
     {
-      "title": "Cappottine mobili",
+      "title": "Cappottine standard",
       "description": "Descrizione brevissima max due righe non di più e con descrizione abbastanza chiara",
-      "cta": "Vedi le cappottine mobili"
+      "cta": "Vedi le cappottine standard"
     },
     {
       "title": "Cappottine fisse",
-      "description": "Descrizione brevissima max due righe non di più e con descrizione abbastanza chiara",
+      "description": "La soluzione per riparare gli ingressi dagli elementi atmosferici.",
       "cta": "Vedi le cappottine fisse"
     }
   ],
   "section2": [
     {
-      "title": "Tende da sole",
-      "description": "Descrizione brevissima max due righe non di più e con descrizione abbastanza chiara",
-      "cta": "Vedi le tende da sole"
+      "title": "Tende a caduta",
+      "description": "Estendi la superficie protetta dalla luce solare.",
+      "cta": "Vedi le tende a caduta"
     },
     {
       "title": "Tende classiche",
-      "description": "Descrizione brevissima max due righe non di più e con descrizione abbastanza chiara",
+      "description": "Le soluzioni più versatili, da 2,40 a 13 metri di larghezza.",
       "cta": "Vedi le tende classiche"
     },
     {
       "title": "Tende a guscio",
-      "description": "Descrizione brevissima max due righe non di più e con descrizione abbastanza chiara",
+      "description": "Un design pulito per la massima resa estetica.",
       "cta": "Vedi le tende a guscio"
     }
   ],

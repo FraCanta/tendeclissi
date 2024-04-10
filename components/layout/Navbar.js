@@ -34,19 +34,9 @@ const Navbar = () => {
   }, [lastScrollTop]);
 
   return (
-    <motion.div
-      style={{
-        y: isVisible ? "0%" : "-100%",
-        transition: {
-          duration: 0.8,
-          ease: "linear",
-          delay: isVisible ? 0 : 0.8,
-        }, // Aggiunto il delay
-      }}
-      className="w-full h-[5rem] lg:h-[7.5rem] py-4 lg:py-5 bg-lightGray shadow-lg justify-between items-center flex text-black font-normal"
-    >
+    <motion.div className="w-full h-[5rem] lg:h-[7.5rem] py-4 lg:py-5 bg-lightGray shadow-lg justify-between items-center flex text-black font-normal relative">
       <div className="w-[90%] m-auto flex justify-between items-center ">
-        <Link href="/" className="z-[20]" onClick={() => setOpen(false)}>
+        <Link href="/" onClick={() => setOpen(false)}>
           <Image
             src={Logo}
             alt="logo tendeclissi"
@@ -55,10 +45,10 @@ const Navbar = () => {
             className="h-12 w-12 lg:h-[70px] lg:w-[70px] fxl:h-[80px] fxl:w-[80px]  "
           />
         </Link>
-        <div className="flex gap-8 items-center xl:hidden relative">
+        <div className="flex gap-8 items-center xl:hidden ">
           <div
             onClick={() => setOpen(!isOpen)}
-            className="block ease-in duration-300 z-20 cursor-pointer"
+            className="block ease-in duration-300 z-[999] cursor-pointer"
           >
             <MenuButton
               isOpen={isOpen}
@@ -74,13 +64,13 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         <motion.div
-          initial={{ opacity: 0, y: "-100%" }}
+          initial={{ opacity: 0, y: "70px" }}
           animate={{ opacity: isOpen ? 1 : 0, y: isOpen ? "0%" : "-100%" }}
           transition={{ ease: "easeOut", duration: 0.4 }}
-          className="absolute top-[100px] left-0 right-0 bottom-0 flex items-center w-full h-screen bg-primary  text-white "
+          className="absolute top-[70px] left-0 right-0 bottom-0 flex items-center w-full h-[80vh] bg-purple  text-white z-20"
         >
-          <div className="w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-2 mt-[50px] md:mt-[100px] gap-y-10">
-            <ul className=" h-full flex flex-col">
+          <div className="w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-2 h-full">
+            <ul className=" h-full flex flex-col justify-evenly uppercase text-center text-[25px]">
               <li onClick={() => setOpen(false)}>
                 <Link href="/chisiamo">chi siamo</Link>
               </li>

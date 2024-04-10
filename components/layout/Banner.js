@@ -10,11 +10,13 @@ const Banner = () => {
             <h3 className="text-[32px] lg:text-[35px] xl:text-[34px] 2xl:text-[35px] text-white font-bold">
               Prenota un preventivo gratuito
             </h3>
-            <p className="text-xl text-white font-normal">
-              Scrivici per prenotare una visita dove ti mostreremo il
-              campionario e prenderemo le misure necessarie a farti il
-              preventivo
-            </p>
+            <p
+              className="text-xl text-white font-normal"
+              dangerouslySetInnerHTML={{
+                __html:
+                  "Scrivici per prenotare una visita dove ti mostreremo il <strong>campionario</strong> e prenderemo le <strong>misure</strong> necessarie a farti il preventivo",
+              }}
+            ></p>
           </div>
           <div className="flex flex-col max-w-max">
             <CtaPrimary link="/">richiedi preventivo</CtaPrimary>

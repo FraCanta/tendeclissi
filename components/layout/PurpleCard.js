@@ -19,7 +19,7 @@ const PurpleCard = ({ title, description, cta, link }) => {
         >
           {title}
         </Typography>
-        <Typography className="md:text-xl xl:text-base 2xl:text-[1.125rem]">
+        <Typography className="md:text-xl xl:text-base 2xl:text-[1.125rem] text-white">
           {description}
         </Typography>
       </CardBody>

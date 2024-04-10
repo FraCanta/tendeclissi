@@ -3,23 +3,19 @@ import About from "@/public/assets/chisiamo.jpeg";
 import MediaTextReverse from "../layout/MediaTextReverse";
 import Image from "next/image";
 import Avatar from "@/public/assets/avatar.svg";
-const Team = () => {
+const Team = ({ data }) => {
   return (
     <div className="min-h-screen w-full bg-gradient-to-50 flex flex-col justify-center py-20">
       <div className="w-[90%] mx-auto flex flex-col gap-y-20 2xl:gap-y-[150px]">
         <div className="grid grid-cols-1 xl:grid-cols-2 items-center gap-8">
           <div className="flex flex-col gap-6">
             <h2 className="text-[32px] md:text-[45px] lg:text-[50px] xl:text-[45px] font-bold text-white">
-              Il team di Tendeclissi
+              La squadra di Tendeclissi
             </h2>
-            <p className="sm:text-xl md:text-[22px] lg:text-xl font-normal text-white">
-              Spiegazione che dei soci e della squadra operativa - Lorem ipsum
-              dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-              ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-              voluptate velit - tipo fino qua
-            </p>
+            <p
+              className="sm:text-xl md:text-[22px] lg:text-xl font-normal text-white"
+              dangerouslySetInnerHTML={{ __html: data.descrizione }}
+            ></p>
           </div>
           <div className="flex flex-col gap-2 relative w-full h-full items-center justify-center">
             <Image
@@ -35,8 +31,8 @@ const Team = () => {
         </div>
         <MediaTextReverse
           img={About}
-          title="Come lavora la nostra squadra"
-          description="Spiegazione di come lavorano parlando sia del lavoro completo che della manutenzione con attenzione all’utilizzo di materie prime italiane - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. - tipo fino qua"
+          title="Il nostro metodo di lavoro"
+          data={data}
         />
       </div>
     </div>

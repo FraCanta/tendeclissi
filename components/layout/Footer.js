@@ -62,12 +62,12 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-col justify-center items-center w-[90%] mx-auto text-center">
+        <div className="flex flex-col justify-center items-center w-[90%] mx-auto lg:text-center">
           <div className="h-0.5 w-full mx-auto bg-white"></div>
-          <p className="pt-6">
+          <small className="pt-6 text-white text-base">
             Dati società - P.iva 123456789 - Sede legale - Privacy Policy -
             Cookie Policy
-          </p>
+          </small>
         </div>
       </div>
     </>
