@@ -75,10 +75,10 @@ const Navbar = () => {
                 <Link href="/chisiamo">chi siamo</Link>
               </li>
               <li onClick={() => setOpen(false)}>
-                <Link href="/"> showroom</Link>
+                <Link href="/showroom"> showroom</Link>
               </li>
               <li onClick={() => setOpen(false)}>
-                <Link href="/"> Servizi</Link>
+                <Link href="/servizi"> Servizi</Link>
               </li>
               <li onClick={() => setOpen(false)}>
                 <Link href="/"> Progetti</Link>
