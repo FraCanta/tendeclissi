@@ -13,7 +13,7 @@ const Team = ({ data }) => {
               La squadra di Tendeclissi
             </h2>
             <p
-              className="sm:text-xl md:text-[22px] lg:text-xl font-normal text-white"
+              className="text-xl md:text-[22px] lg:text-xl font-normal text-white"
               dangerouslySetInnerHTML={{ __html: data.descrizione }}
             ></p>
           </div>

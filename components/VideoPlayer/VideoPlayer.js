@@ -1,5 +1,5 @@
 import { useState } from "react";
-import CtaSecondary from "../layout/CtaSecondary";
+import CtaOutlinePrimary from "../layout/CtaOutlinePrimary";
 
 const VideoPlayer = () => {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -39,10 +39,10 @@ const VideoPlayer = () => {
 
       <div className="absolute inset-0 flex items-center">
         <div className="w-[90%] mx-auto text-white flex flex-col gap-8 ">
-          <h3 className="text-5xl lg:text-[48px] font-bold">
+          <h3 className="text-[32px] md:text-[45px] lg:text-[50px] xl:text-[45px] font-bold">
             Il futuro di Tendeclissi
           </h3>
-          <p className="w-full lg:w-10/12 text-md lg:text-xl text-white font-normal">
+          <p className="w-full lg:w-10/12 text-xl lg:text-2xl text-white font-normal">
             Che tu stia cercando di creare il riparo perfetto dal sole per una
             casa, un condominio, un giardino o un’attività commerciale, oppure
             un modo per riparare o motorizzare le tue tende, siamo pronti a
@@ -52,7 +52,7 @@ const VideoPlayer = () => {
             visitare il nostro showroom digitale e scoprire i prodotti che
             offriamo.
           </p>
-          <CtaSecondary link="/">Scopri i prodotti</CtaSecondary>
+          <CtaOutlinePrimary link="/">Scopri i prodotti</CtaOutlinePrimary>
         </div>
       </div>
     </div>
