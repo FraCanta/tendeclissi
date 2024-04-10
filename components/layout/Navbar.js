@@ -133,7 +133,16 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link href="/">Progetti</Link>
+            <Link
+              href="/progetti"
+              className={` ${
+                pathname === "/progetti"
+                  ? "font-semibold underline underline-offset-4 transition-all ease-linear"
+                  : ""
+              }`}
+            >
+              Progetti
+            </Link>
           </li>
           <li>
             <Link href="/">Contatti</Link>

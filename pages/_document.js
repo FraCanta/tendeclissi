@@ -4,6 +4,7 @@ export default function Document() {
   return (
     <Html lang="it">
       <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -33,7 +34,6 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
           rel="stylesheet"
         ></link>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <body>
         <Main />

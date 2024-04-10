@@ -1,0 +1,15 @@
+.tab-bordered {
+  font-size: 23px;
+  color: #6f7ccf;
+  border-color: 1px solid #6f7ccf;
+}
+
+/* Create an active/current tablink class */
+.tab-active {
+  color: #fff;
+  background-color: #323e8c !important;
+  border-color: 1px solid #6f7ccf;
+}
+.tabcontent.hidden {
+  display: none;
+}

@@ -1,7 +1,6 @@
 import React from "react";
 
 const HeroPage = ({ children, backgroundImage }) => {
-  console.log(backgroundImage);
   return (
     <div
       className="min-h-[90vh] md:min-h-[40vh] lg:min-h-[60vh] flex flex-col justify-center relative bg-gradient-to-50"
