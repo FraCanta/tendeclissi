@@ -82,7 +82,7 @@ const Navbar = () => {
                 <Link href="/servizi"> Servizi</Link>
               </li>
               <li onClick={() => setOpen(false)}>
-                <Link href="/"> Progetti</Link>
+                <Link href="/progetti"> Progetti</Link>
               </li>
               <li onClick={() => setOpen(false)}>
                 <Link href="/"> Contatti</Link>
