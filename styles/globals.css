@@ -15,7 +15,7 @@ p {
 
 @layer utilities {
   .bg-hero {
-    background-image: url("../public/assets/heroImg.jpg");
+    background-image: url("../public/assets/progetti/img15.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
