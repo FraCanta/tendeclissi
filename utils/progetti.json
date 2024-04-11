@@ -2,100 +2,98 @@
   "tabs": [
     {
       "name": "Tutti",
-      "bg": "primary",
-      "color": "white",
       "content": [
         {
           "img": "/assets/progetti/img1.jpg",
           "title": " Titolo progetto",
           "descrizione": "Breve descrizione del progetto in questione e della problematica - max due righe poi tagliato",
-          "link": "/"
+          "link": "/progetti/gruppo1/progetto1"
         },
         {
           "img": "/assets/progetti/img2.jpg",
           "title": " Titolo progetto",
           "descrizione": "Breve descrizione del progetto in questione e della problematica - max due righe poi tagliato",
-          "link": "/"
+          "link": "/progetti/gruppo1/progetto2"
         },
         {
           "img": "/assets/progetti/img3.jpg",
           "title": " Titolo progetto",
           "descrizione": "Breve descrizione del progetto in questione e della problematica - max due righe poi tagliato",
-          "link": "/"
+          "link": "/progetti/gruppo1/progetto3"
         },
 
         {
           "img": "/assets/progetti/img4.jpg",
           "title": " Titolo progetto",
           "descrizione": "Breve descrizione del progetto in questione e della problematica - max due righe poi tagliato",
-          "link": "/"
+          "link": "/progetti/gruppo1/progetto4"
         },
         {
           "img": "/assets/progetti/img5.jpg",
           "title": " Titolo progetto",
           "descrizione": "Breve descrizione del progetto in questione e della problematica - max due righe poi tagliato",
-          "link": "/"
+          "link": "/progetti/gruppo1/progetto5"
         },
         {
           "img": "/assets/progetti/img6.jpg",
           "title": " Titolo progetto",
           "descrizione": "Breve descrizione del progetto in questione e della problematica - max due righe poi tagliato",
-          "link": "/"
+          "link": "/progetti/gruppo2/progetto6"
         },
 
         {
           "img": "/assets/progetti/img7.jpg",
           "title": " Titolo progetto",
           "descrizione": "Breve descrizione del progetto in questione e della problematica - max due righe poi tagliato",
-          "link": "/"
+          "link": "/progetti/gruppo2/progetto7"
         },
         {
           "img": "/assets/progetti/img8.jpg",
           "title": " Titolo progetto",
           "descrizione": "Breve descrizione del progetto in questione e della problematica - max due righe poi tagliato",
-          "link": "/"
+          "link": "/progetti/gruppo2/progetto8"
         },
         {
           "img": "/assets/progetti/img9.jpg",
           "title": " Titolo progetto",
           "descrizione": "Breve descrizione del progetto in questione e della problematica - max due righe poi tagliato",
-          "link": "/"
+          "link": "/progetti/gruppo2/progetto9"
         },
         {
           "img": "/assets/progetti/img10.jpg",
           "title": " Titolo progetto",
           "descrizione": "Breve descrizione del progetto in questione e della problematica - max due righe poi tagliato",
-          "link": "/"
+          "link": "/progetti/gruppo2/progetto10"
         },
         {
           "img": "/assets/progetti/img11.jpg",
           "title": " Titolo progetto",
           "descrizione": "Breve descrizione del progetto in questione e della problematica - max due righe poi tagliato",
-          "link": "/"
+          "link": "/progetti/gruppo3/progetto11"
         },
         {
           "img": "/assets/progetti/img12.jpg",
           "title": " Titolo progetto",
           "descrizione": "Breve descrizione del progetto in questione e della problematica - max due righe poi tagliato",
-          "link": "/"
+          "link": "/progetti/gruppo3/progetto12"
         },
         {
           "img": "/assets/progetti/img13.jpg",
           "title": " Titolo progetto",
           "descrizione": "Breve descrizione del progetto in questione e della problematica - max due righe poi tagliato",
-          "link": "/"
+          "link": "/progetti/gruppo3/progetto13"
         },
         {
           "img": "/assets/progetti/img14.jpg",
           "title": " Titolo progetto",
           "descrizione": "Breve descrizione del progetto in questione e della problematica - max due righe poi tagliato",
-          "link": "/"
+          "link": "/progetti/gruppo3/progetto14"
         },
         {
           "img": "/assets/progetti/img15.jpg",
           "title": " Titolo progetto",
           "descrizione": "Breve descrizione del progetto in questione e della problematica - max due righe poi tagliato",
-          "link": "/"
+          "link": "/progetti/gruppo3/progetto15"
         }
       ]
     },
@@ -207,5 +205,6 @@
         }
       ]
     }
-  ]
+  ],
+  "singleProject": {}
 }

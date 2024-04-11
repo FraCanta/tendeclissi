@@ -6,7 +6,7 @@ import React from "react";
 const Progetti = () => {
   return (
     <>
-      <HeroPage>
+      <HeroPage className="bg-gradient-to-50">
         <h1 className="text-[40px] xl:text-[60px] xl:leading-[1.2] fxl:text-[70px] font-bold text-white xl:max-w-3xl">
           I nostri migliori lavori
         </h1>
