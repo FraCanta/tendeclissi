@@ -127,7 +127,7 @@ const SingleProject = ({ project }) => {
 
       <Banner />
       <div className="w-[90%] mx-auto py-20 flex flex-col gap-10">
-        <h3 className="text-5xl font-bold">Progetti correlati</h3>
+        <h3 className="text-3xl lg:text-5xl font-bold">Progetti correlati</h3>
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-2">
           <ProjectCard
             link="/"
