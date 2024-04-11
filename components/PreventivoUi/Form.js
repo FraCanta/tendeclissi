@@ -3,7 +3,7 @@ import React from "react";
 const Form = () => {
   return (
     <form className="w-full max-w-3xl mx-auto  flex flex-col gap-6">
-      <h4 className="text-4xl font-bold">I tuoi dati</h4>
+      <h4 className="text-2xl lg:text-4xl font-bold">I tuoi dati</h4>
       <div className="flex flex-col lg:flex-row -mx-3  gap-4">
         <div className="w-full md:w-1/2 px-3 p-2 bg-white border border-yellow">
           <input
@@ -43,7 +43,7 @@ const Form = () => {
         </div>
       </div>
       <div className="flex flex-col  -mx-3 gap-4 ">
-        <h4 className="text-4xl font-bold">Cosa ti serve</h4>
+        <h4 className="text-2xl lg:text-4xl font-bold">Cosa ti serve</h4>
         <div className="w-full flex gap-6">
           <div class="flex items-center">
             <input
@@ -93,7 +93,9 @@ const Form = () => {
         </div>
       </div>
       <div className="flex flex-col  -mx-3 gap-4 ">
-        <h4 className="text-4xl font-bold">Richieste particolari</h4>
+        <h4 className="text-2xl lg:text-4xl font-bold">
+          Richieste particolari
+        </h4>
         <div className="w-full  px-3 p-2 bg-white border border-yellow">
           <textarea
             id="message"
@@ -103,7 +105,7 @@ const Form = () => {
           ></textarea>
         </div>
       </div>
-      <div className="w-full grid grid-cols-2 items-center">
+      <div className="w-full grid grid-cols-1 lg:grid-cols-2 items-center gap-y-4">
         <label className="text-black ">
           <input type="checkbox" /> Accetto la privacy bla bla bla
         </label>
