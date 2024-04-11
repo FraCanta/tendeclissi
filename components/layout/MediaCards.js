@@ -26,7 +26,7 @@ const MediaCards = ({
           <Image src={img} fill alt="img di prova" className="object-cover" />
           <div className="absolute inset-0 bg-black opacity-50"></div>
 
-          <div className="absolute inset-0 flex flex-col items-center xl:justify-center gap-4 lg:text-center text-white mt-20 sm:mt-32 md:mt-[90px] lg:mt-[150px] xl:mt-0 h-full">
+          <div className="absolute inset-0 flex flex-col items-center xl:justify-center gap-4 lg:text-center text-white mt-20 sm:mt-[4rem] md:mt-[90px] lg:mt-[150px] xl:mt-0 h-full">
             <h2 className="text-white text-[30px] md:text-[44px] lg:text-[45px] xl:text-[35px] 2xl:text-[45px] z-10 w-[90%] xl:w-[70%] 2xl:w-[65%] 2xla:w-[60%] mx-auto font-bold">
               {mainTitle}
             </h2>
@@ -34,7 +34,7 @@ const MediaCards = ({
               className="z-10 w-[90%] xl:w-[60%] fxl:w-[55%] mx-auto sm:text-xl md:text-[22px] xl:text-xl text-white"
               dangerouslySetInnerHTML={{ __html: mainDescription }}
             ></p>
-            <div className="xl:hidden absolute bottom-40 sm:bottom-52   md:bottom-40 md:left-10 lg:bottom-52 xl:left-16 w-[90%] left-5 right-0  text-darkGray ">
+            <div className="xl:hidden absolute bottom-40 sm:bottom-[6rem]   md:bottom-40 md:left-10 lg:bottom-52 xl:left-16 w-[90%] left-5 right-0  text-darkGray ">
               <Swiper
                 slidesPerView={1}
                 spaceBetween={20}

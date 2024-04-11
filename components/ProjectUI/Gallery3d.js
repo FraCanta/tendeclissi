@@ -35,25 +35,25 @@ const Gallery3d = () => {
         modules={[EffectCoverflow, Pagination, Navigation]}
         className="swiper_container"
       >
-        <SwiperSlide>
+        <SwiperSlide className="swiper_slide">
           <img src="/assets/progetti/img2.jpg" alt="slide_image" />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="swiper_slide">
           <img src="/assets/progetti/img3.jpg" alt="slide_image" />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="swiper_slide">
           <img src="/assets/progetti/img4.jpg" alt="slide_image" />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="swiper_slide">
           <img src="/assets/progetti/img5.jpg" alt="slide_image" />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="swiper_slide">
           <img src="/assets/progetti/img6.jpg" alt="slide_image" />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="swiper_slide">
           <img src="/assets/progetti/img7.jpg" alt="slide_image" />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="swiper_slide">
           <img src="/assets/progetti/img8.jpg" alt="slide_image" />
         </SwiperSlide>
 
