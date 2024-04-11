@@ -73,23 +73,72 @@ const Navbar = () => {
           <div className="w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-2 h-full">
             <ul className=" h-full flex flex-col justify-evenly uppercase text-center text-[22px]">
               <li onClick={() => setOpen(false)}>
-                <Link href="/chisiamo">chi siamo</Link>
+                <Link
+                  href="/chisiamo"
+                  className={` ${
+                    pathname === "/chisiamo"
+                      ? "font-semibold underline underline-offset-4 transition-all ease-linear"
+                      : ""
+                  }`}
+                >
+                  chi siamo
+                </Link>
               </li>
               <li onClick={() => setOpen(false)}>
-                <Link href="/showroom"> showroom</Link>
+                <Link
+                  href="/showroom"
+                  className={` ${
+                    pathname === "/showroom"
+                      ? "font-semibold underline underline-offset-4 transition-all ease-linear"
+                      : ""
+                  }`}
+                >
+                  {" "}
+                  showroom
+                </Link>
               </li>
               <li onClick={() => setOpen(false)}>
-                <Link href="/servizi"> Servizi</Link>
+                <Link
+                  href="/servizi"
+                  className={` ${
+                    pathname === "/servizi"
+                      ? "font-semibold underline underline-offset-4 transition-all ease-linear"
+                      : ""
+                  }`}
+                >
+                  {" "}
+                  Servizi
+                </Link>
               </li>
               <li onClick={() => setOpen(false)}>
-                <Link href="/progetti"> Progetti</Link>
+                <Link
+                  href="/progetti"
+                  className={` ${
+                    pathname === "/progetti"
+                      ? "font-semibold underline underline-offset-4 transition-all ease-linear"
+                      : ""
+                  }`}
+                >
+                  {" "}
+                  Progetti
+                </Link>
               </li>
               <li onClick={() => setOpen(false)}>
-                <Link href="/"> Contatti</Link>
+                <Link
+                  href="/contatti"
+                  className={` ${
+                    pathname === "/contatti"
+                      ? "font-semibold underline underline-offset-4 transition-all ease-linear"
+                      : ""
+                  }`}
+                >
+                  {" "}
+                  Contatti
+                </Link>
               </li>
 
               <li onClick={() => setOpen(false)}>
-                <CtaPrimary link="/">Richiedi preventivo</CtaPrimary>
+                <CtaPrimary link="/preventivo">Richiedi preventivo</CtaPrimary>
               </li>
             </ul>
           </div>
@@ -145,10 +194,19 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link href="/">Contatti</Link>
+            <Link
+              href="/contatti"
+              className={` ${
+                pathname === "/contatti"
+                  ? "font-semibold underline underline-offset-4 transition-all ease-linear"
+                  : ""
+              }`}
+            >
+              Contatti
+            </Link>
           </li>
           <li>
-            <CtaPrimary link="/">Richiedi preventivo</CtaPrimary>
+            <CtaPrimary link="/preventivo">Richiedi preventivo</CtaPrimary>
           </li>
         </ul>
       </div>

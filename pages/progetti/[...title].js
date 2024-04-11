@@ -34,7 +34,7 @@ const SingleProject = ({ project }) => {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-10 ">
             <div className="aspect-square bg-purple w-full flex  h-full  relative items-center ">
-              <div className="-top-10 lg:-top-10 2xl:-top-20  -left-10 absolute w-full flex justify-center self-stretch">
+              <div className="-top-10 lg:-top-10 2xl:-top-20 fxl:-top-16  -left-10 absolute w-full flex justify-center self-stretch">
                 <p className="text-primary/70 font-regular text-[200px] xl:text-[150px] 2xl:text-[200px]">
                   1
                 </p>
@@ -75,7 +75,7 @@ const SingleProject = ({ project }) => {
               </div>
             </div>
             <div className="aspect-square bg-purple w-full flex  h-full items-center relative">
-              <div className="-top-10 lg:-top-10 2xl:-top-20  -left-10 absolute w-full flex justify-center self-stretch">
+              <div className="-top-10 lg:-top-10 2xl:-top-20 fxl:-top-16  -left-10 absolute w-full flex justify-center self-stretch">
                 <p className="text-primary/70 font-regular text-[200px] xl:text-[150px] 2xl:text-[200px]">
                   2
                 </p>
