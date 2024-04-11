@@ -3,7 +3,7 @@ import React from "react";
 
 const InfoCard = () => {
   return (
-    <div class=" w-[90%] lg:max-w-3xl 2xl:max-w-6xl mx-auto !p-20 lg:text-center bg-white shadow-xl sm:p-8 flex flex-col gap-6 lg:gap-10">
+    <div class=" w-[90%] lg:max-w-3xl 2xl:max-w-6xl mx-auto !p-8 lg:!p-20 lg:text-center bg-white shadow-xl sm:p-8 flex flex-col gap-6 lg:gap-10">
       <h2 class="mb-2 text-3xl lg:text-5xl font-bold text-primary">
         Per informazioni
       </h2>

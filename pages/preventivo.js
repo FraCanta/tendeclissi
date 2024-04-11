@@ -1,3 +1,4 @@
+import Tab from "@/components/ProjectUI/Tab";
 import HeroPage from "@/components/hero/HeroPage";
 import React from "react";
 
@@ -17,6 +18,9 @@ const Preventivo = () => {
           }}
         ></p>
       </HeroPage>
+      <div className="w-[90%] mx-auto py-10 lg:py-20">
+        <Tab />
+      </div>
     </div>
   );
 };
