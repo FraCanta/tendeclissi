@@ -20,13 +20,13 @@ export function CardHero() {
         <Typography
           variant="h2"
           color="white"
-          className="mb-2 font-bold lg:mb-6 md:text-3xl lg:text-4xl xl:text-xl 2xl:text-2xl"
+          className="mb-2 font-bold lg:mb-6 text-2xl md:text-3xl lg:text-4xl xl:text-xl 2xl:text-2xl"
         >
           UI/UX Review Check
         </Typography>
         <Typography
           color="white"
-          className="font-regular md:text-2xl lg:text-3xl xl:text-lg"
+          className="font-regular text-base md:text-2xl lg:text-3xl xl:text-lg"
         >
           Because it&apos;s about motivating the doers. Because I&apos;m here to
           follow my dreams and inspire others.
