@@ -24,19 +24,20 @@ const SingleProject = ({ project }) => {
       </HeroProject>
       <div className="w-[90%] mx-auto lg:w-full grid grid-cols-1 lg:grid-cols-2 gap-6 lg:py-0 lg:pb-20 py-20">
         <div className="lg:w-[90%] flex  flex-col h-full justify-center lg:justify-self-end gap-10">
-          <h2 className="text-5xl lg:text-6xl font-bold">
+          <h2 className="text-5xl lg:text-4xl 2xl:text-6xl font-bold">
             Analisi della problematica
           </h2>
-          <p className="text-xl lg:text-2xl">
+          <p className="text-xl 2xl:text-2xl">
             Seguiamo tutta la vita della tua tenda ...- Lorem ipsum dolor sit
             amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
             ut labore et dolore magna aliqua.- tipo fino qua
           </p>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-10 ">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-10 ">
             <div className="aspect-square bg-purple w-full flex  h-full  relative items-center ">
-              <div className="-top-10 lg:-top-20 -left-10 absolute w-full flex justify-center self-stretch">
-                {" "}
-                <p className="text-primary/70 font-regular text-[210px]">1</p>
+              <div className="-top-10 lg:-top-10 2xl:-top-20  -left-10 absolute w-full flex justify-center self-stretch">
+                <p className="text-primary/70 font-regular text-[200px] xl:text-[150px] 2xl:text-[200px]">
+                  1
+                </p>
               </div>
               <div className="w-[90%] mx-auto">
                 <Card className="mt-6 lg:w-full !bg-transparent mx-auto ">
@@ -63,7 +64,7 @@ const SingleProject = ({ project }) => {
                     </Typography>
                     <Typography
                       color="white"
-                      className="font-regular md:text-2xl lg:text-3xl xl:text-lg"
+                      className="font-regular md:text-2xl lg:text-base 2xl:text-2xl"
                     >
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore
@@ -74,8 +75,10 @@ const SingleProject = ({ project }) => {
               </div>
             </div>
             <div className="aspect-square bg-purple w-full flex  h-full items-center relative">
-              <div className="-top-10 lg:-top-20 -left-10 absolute w-full flex justify-center self-stretch">
-                <p className="text-primary/70 font-regular text-[200px]">2</p>
+              <div className="-top-10 lg:-top-10 2xl:-top-20  -left-10 absolute w-full flex justify-center self-stretch">
+                <p className="text-primary/70 font-regular text-[200px] xl:text-[150px] 2xl:text-[200px]">
+                  2
+                </p>
               </div>
               <div className="w-[90%] mx-auto">
                 <Card className="mt-6 lg:w-full !bg-transparent mx-auto ">
@@ -102,7 +105,7 @@ const SingleProject = ({ project }) => {
                     </Typography>
                     <Typography
                       color="white"
-                      className="font-regular md:text-2xl lg:text-3xl xl:text-lg"
+                      className="font-regular md:text-2xl lg:text-base 2xl:text-2xl"
                     >
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore
@@ -128,7 +131,7 @@ const SingleProject = ({ project }) => {
       <Banner />
       <div className="w-[90%] mx-auto py-20 flex flex-col gap-10">
         <h3 className="text-3xl lg:text-5xl font-bold">Progetti correlati</h3>
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-2">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2">
           <ProjectCard
             link="/"
             img="/assets/progetti/img2.jpg"
