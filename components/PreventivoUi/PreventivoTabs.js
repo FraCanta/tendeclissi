@@ -1,27 +1,26 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useState } from "react";
-import data from "@/utils/progetti.json";
-import ProjectCard from "./ProjectCard";
+import data from "@/utils/preventivo.json";
+import FormSection from "./FormSection";
 
-const Tab = () => {
+const PreventivoTabs = () => {
   const tabActive = data.tabs;
   const [activeTab, setActiveTab] = useState(0);
 
   const openProject = (index) => {
     setActiveTab(index);
   };
-
   return (
     <>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 p-3 border border-yellow gap-2">
+      <div className="grid grid-cols-1 md:grid-cols-2  py-3 border-b border-b-yellow gap-2">
         {tabActive.map((el, index) => (
           <button
             key={index}
             className={
               activeTab === index
-                ? "w-full h-auto  py-[15px] px-[33px] flex justify-center items-center  font-bold tab-bordered tab-active"
-                : "border border-purple text-purple py-[15px] px-[33px] flex justify-center items-center  font-bold"
+                ? "w-full h-auto  py-[15px] px-[33px] flex justify-center items-center  font-bold border-b-4 border-b-primary text-primary uppercase"
+                : "border-b border-b-purple text-purple py-[15px] px-[33px] flex justify-center items-center  font-regular uppercase"
             }
             onClick={() => openProject(index)}
           >
@@ -39,19 +38,12 @@ const Tab = () => {
             y: activeTab === index ? 0 : 5,
             transition: { duration: 0.5, type: "tween" }, // Specifica la durata dell'animazione
           }}
-          className={`w-full grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-6 ${
+          className={`w-full py-10 ${
             activeTab === index ? "tabcontent" : "tabcontent hidden"
           }`}
         >
           {tab.content.map((content, contentIndex) => (
-            <ProjectCard
-              key={contentIndex}
-              content={content}
-              link={content.link}
-              img={content.img}
-              title={content.title}
-              desctiption={content.descrizione}
-            />
+            <FormSection key={contentIndex} />
           ))}
         </motion.div>
       ))}
@@ -59,4 +51,4 @@ const Tab = () => {
   );
 };
 
-export default Tab;
+export default PreventivoTabs;

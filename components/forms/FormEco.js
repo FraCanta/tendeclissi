@@ -16,36 +16,36 @@ const FormEco = () => {
           aliquat enim ad minim.
         </p>
         <form className="w-full max-w-3xl mx-auto lg:my-12">
-          <div className="flex flex-wrap -mx-3 mb-6 gap-4 md:gap-0">
-            <div className="w-full md:w-1/2 px-3">
+          <div className="flex flex-col lg:flex-row -mx-3 mb-6 gap-4">
+            <div className="w-full md:w-1/2 px-3 p-2 bg-white border border-yellow">
               <input
-                className="appearance-none block w-full bg-gray-200 text-gray-700 border  px-[33px] py-[15px]  leading-tight focus:outline-none focus:bg-white"
+                className="appearance-none block w-full bg-white text-gray-700 border border-purple  px-[33px] py-[15px]  leading-tight focus:outline-none focus:bg-white"
                 id="grid-first-name"
                 type="text"
                 placeholder="Nome"
               />
             </div>
-            <div className="w-full md:w-1/2 px-3">
+            <div className="w-full md:w-1/2 px-3 p-2 bg-white border border-yellow">
               <input
-                className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200  px-[33px] py-[15px] leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                className="appearance-none block w-full bg-white text-gray-700 border border-purple  px-[33px] py-[15px]  leading-tight focus:outline-none focus:bg-white"
                 id="grid-last-name"
                 type="text"
                 placeholder="Cognome"
               />
             </div>
           </div>
-          <div className="flex flex-wrap -mx-3 gap-4 md:gap-0">
-            <div className="w-full md:w-1/2 px-3 ">
+          <div className="flex flex-col lg:flex-row -mx-3 gap-4 ">
+            <div className="w-full md:w-1/2 px-3 p-2 bg-white border border-yellow">
               <input
-                className="appearance-none block w-full bg-gray-200 text-gray-700 px-[33px] py-[15px] leading-tight focus:outline-none focus:bg-white"
+                className="appearance-none block w-full bg-white text-gray-700 border border-purple  px-[33px] py-[15px]  leading-tight focus:outline-none focus:bg-white"
                 id="grid-first-name"
                 type="text"
                 placeholder="Numero di telefono"
               />
             </div>
-            <div className="w-full md:w-1/2 px-3">
+            <div className="w-full md:w-1/2 px-3 p-2 flex items-center">
               <button
-                className="flex w-full items-center justify-center uppercase 3xl:text-[35px] 4xl:text-[55px]  px-[33px] py-[10px]  md:text-[25px] lg:text-xl fxl:text-[25px]   bg-primary text-white font-regular"
+                className="flex w-full items-center justify-center uppercase 3xl:text-[35px] 4xl:text-[55px]  px-[33px] py-[15px]  md:text-[25px] lg:text-xl fxl:text-[25px]   bg-primary text-white font-regular"
                 type="submit"
               >
                 chiedi il preventivo

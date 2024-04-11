@@ -1,3 +1,4 @@
+import PreventivoTabs from "@/components/PreventivoUi/PreventivoTabs";
 import Tab from "@/components/ProjectUI/Tab";
 import HeroPage from "@/components/hero/HeroPage";
 import React from "react";
@@ -7,7 +8,7 @@ const Preventivo = () => {
     <div>
       {" "}
       <HeroPage backgroundImage="/assets/chisiamoImg.jpg">
-        <h1 className="text-[40px] xl:text-[60px] xl:leading-[1.2] fxl:text-[70px] font-bold text-white xl:max-w-7xl">
+        <h1 className="text-[40px] lxl:text-[60px] leading-[1.2] fxl:text-[70px] font-bold text-white xl:max-w-7xl">
           Richiedi il preventivo o il sopralluogo
         </h1>
         <p
@@ -19,7 +20,7 @@ const Preventivo = () => {
         ></p>
       </HeroPage>
       <div className="w-[90%] mx-auto py-10 lg:py-20">
-        <Tab />
+        <PreventivoTabs />
       </div>
     </div>
   );
