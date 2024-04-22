@@ -10,7 +10,6 @@ import SimpleCard from "./SimpleCard";
 const MediaCards = ({
   reverseLayout,
   img,
-
   mainTitle,
   mainDescription,
   cardsData,
@@ -54,6 +53,7 @@ const MediaCards = ({
                       title={card.title}
                       description={card.description}
                       cta={card.cta}
+                      link={card.link}
                     />
                   </SwiperSlide>
                 ))}
@@ -72,6 +72,7 @@ const MediaCards = ({
                 title={card.title}
                 description={card.description}
                 cta={card.cta}
+                link={card.link}
               />
             ))}
           </div>

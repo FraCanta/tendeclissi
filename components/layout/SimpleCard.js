@@ -7,7 +7,7 @@ import {
   Button,
 } from "@material-tailwind/react";
 import CtaPrimary from "./CtaPrimary";
-const SimpleCard = ({ title, description, cta }) => {
+const SimpleCard = ({ title, description, link, cta }) => {
   return (
     <Card className="md:w-[100%]  xl:w-[95%] 2xl:w-[70%]  fxl:w-[85%] flex flex-col mx-auto shadow-lg p-0 sm:p-4 md:p-10 xl:p-2 2xl:p-[1rem] fxl:p-8 gap-1 fxl:gap-4">
       <CardBody className=" !p-4 2xl:!p-2">
@@ -23,7 +23,7 @@ const SimpleCard = ({ title, description, cta }) => {
         </Typography>
       </CardBody>
       <CardFooter className="!p-4 !py-6">
-        <CtaPrimary link="/">{cta} </CtaPrimary>
+        <CtaPrimary link={`${link}`}>{cta} </CtaPrimary>
       </CardFooter>
     </Card>
   );

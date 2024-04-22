@@ -6,6 +6,7 @@ import Banner from "@/components/layout/Banner";
 import Faq from "@/components/FAQ/Faq";
 import data from "@/utils/showroom.json";
 const Showroom = () => {
+  console.log(jsonData);
   return (
     <div>
       <HeroPage backgroundImage="/assets/chisiamoImg.jpg">
@@ -21,7 +22,7 @@ const Showroom = () => {
         <div className="w-full ">
           <MediaCards
             reverseLayout={false}
-            img="/assets/showroom.jpg"
+            img={data.cappottine.img}
             mainTitle="Cappottine"
             mainDescription={data.cappottine.descrizione}
             cardsData={jsonData.section1}
@@ -30,7 +31,7 @@ const Showroom = () => {
         <div className="w-full ">
           <MediaCards
             reverseLayout={true}
-            img="/assets/showroom.jpg"
+            img={data.tendeDaSole.img}
             mainTitle="Tende da sole"
             mainDescription={data.tendeDaSole.descrizione}
             cardsData={jsonData.section2}
@@ -40,7 +41,7 @@ const Showroom = () => {
         <div className="w-full">
           <MediaCards
             reverseLayout={false}
-            img="/assets/showroom.jpg"
+            img={data.giardino.img}
             mainTitle="Tende da sole per esterni e giardini"
             mainDescription={data.giardino.descrizione}
             cardsData={jsonData.section3}

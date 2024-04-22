@@ -168,7 +168,6 @@ export default SingleProject;
 //   const { params } = context;
 
 //   let targetObj = data?.singleProject?.[params?.title[1]];
-//   console.log("targetObject", targetObj);
 //   const arr = Object.keys(data?.singleWine);
 //   const filteredOthers = arr
 //     .filter(

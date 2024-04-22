@@ -23,7 +23,7 @@ const HeroHome = () => {
           </p>
         </div>
 
-        <CtaPrimary link="/">scopri i prodotti</CtaPrimary>
+        <CtaPrimary link="/showroom">scopri i prodotti</CtaPrimary>
       </div>
 
       <div className="xl:w-[70%] mx-auto flex lg:gap-12 z-10 w-[90%]">
