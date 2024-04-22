@@ -39,10 +39,10 @@ const TabContent = ({ content, title, description, isImageLeft }) => {
         </>
       ) : (
         <>
-          <div className="relative aspect-square">
+          <div className="relative aspect-square order-last lg:order-first">
             <Image src="https://placehold.jp/500x500.png" alt="" fill />
           </div>
-          <div className="flex flex-col gap-8">
+          <div className="flex flex-col gap-8 order-first lg:order-last">
             <h2 className="text-3xl lg:text-5xl font-bold">{title}</h2>
             <p className="text-xl">{description}</p>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
