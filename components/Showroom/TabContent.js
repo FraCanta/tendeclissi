@@ -29,18 +29,30 @@ const TabContent = ({ content, title, description, isImageLeft }) => {
                 </div>
               ))}
             </div>
-            <CtaPrimary link="/preventivo">
-              preventivo per questo prodotto
-            </CtaPrimary>
+            <div className="hidden lg:block">
+              <CtaPrimary link="/preventivo">
+                preventivo per questo prodotto
+              </CtaPrimary>
+            </div>
           </div>
           <div className="relative aspect-square">
             <Image src="https://placehold.jp/500x500.png" alt="" fill />
+          </div>
+          <div className="block lg:hidden order-last">
+            <CtaPrimary link="/preventivo">
+              preventivo per questo prodotto
+            </CtaPrimary>
           </div>
         </>
       ) : (
         <>
           <div className="relative aspect-square order-last lg:order-first">
             <Image src="https://placehold.jp/500x500.png" alt="" fill />
+          </div>
+          <div className="block lg:hidden order-last">
+            <CtaPrimary link="/preventivo">
+              preventivo per questo prodotto
+            </CtaPrimary>
           </div>
           <div className="flex flex-col gap-8 order-first lg:order-last">
             <h2 className="text-3xl lg:text-5xl font-bold">{title}</h2>
@@ -56,6 +68,7 @@ const TabContent = ({ content, title, description, isImageLeft }) => {
                       className="object-cover h-auto w-auto object-top"
                     />
                   </div>
+
                   <div>
                     <h4 className="font-bold text-2xl">{el.nome}</h4>
                     <p className="text-white">{el.descrizione}</p>
@@ -63,9 +76,11 @@ const TabContent = ({ content, title, description, isImageLeft }) => {
                 </div>
               ))}
             </div>
-            <CtaPrimary link="/preventivo">
-              preventivo per questo prodotto
-            </CtaPrimary>
+            <div className="hidden lg:block">
+              <CtaPrimary link="/preventivo">
+                preventivo per questo prodotto
+              </CtaPrimary>
+            </div>
           </div>
         </>
       )}

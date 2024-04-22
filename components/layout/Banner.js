@@ -19,7 +19,7 @@ const Banner = () => {
             ></p>
           </div>
           <div className="flex flex-col max-w-max">
-            <CtaPrimary link="/">richiedi preventivo</CtaPrimary>
+            <CtaPrimary link="/preventivo">richiedi preventivo</CtaPrimary>
             <div></div>
           </div>
         </div>
