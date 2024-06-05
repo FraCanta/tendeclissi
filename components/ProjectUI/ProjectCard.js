@@ -1,10 +1,11 @@
 import React from "react";
-
 import Image from "next/image";
 import Link from "next/link";
-const ProjectCard = ({ img, title, desctiption, link }) => {
+
+const ProjectCard = ({ img, title, description, link }) => {
+  console.log(link);
   return (
-    <Link href={link}>
+    <Link href={`${link}`}>
       <div className="w-full p-4 shadow-lg">
         <div
           color="blue-gray"
@@ -14,7 +15,7 @@ const ProjectCard = ({ img, title, desctiption, link }) => {
         </div>
         <div className="!p-0 !pt-3 ">
           <h5 className="text-black font-bold">{title}</h5>
-          <p>{desctiption}</p>
+          <p>{description}</p>
         </div>
       </div>
     </Link>

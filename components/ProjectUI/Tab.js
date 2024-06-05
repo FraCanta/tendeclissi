@@ -6,6 +6,7 @@ import ProjectCard from "./ProjectCard";
 
 const Tab = () => {
   const tabActive = data.tabs;
+  console.log(tabActive);
   const [activeTab, setActiveTab] = useState(0);
 
   const openProject = (index) => {
@@ -50,7 +51,7 @@ const Tab = () => {
               link={content.link}
               img={content.img}
               title={content.title}
-              desctiption={content.descrizione}
+              description={content.descrizione}
             />
           ))}
         </motion.div>
