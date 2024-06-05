@@ -194,21 +194,21 @@
       "link": "/showroom/cappottine",
       "seoTitle": "Tende da sole a caduta | Tendeclissi",
       "seoDescription": "Scopri i modelli di tende da sole a cappottina disponibili nel nostro catalogo, per coprire finestre, ingressi e creare tettoie di protezione.",
-      "img": "/assets/progetti/img7.jpg",
-      "heroTitle": "",
-      "heroParagraph": "",
+      "img": "/assets/progetti/img2.jpg",
+      "heroTitle": "Tende da sole",
+      "heroParagraph": "Dalle classiche tende con rullo avvolgibile e tessuto a vista, alle tende a caduta per dare respiro ai tuoi spazi coperti, fino al design elegante delle tende tonde e a guscio.",
       "cards": [
         {
-          "title": "Più ombra",
-          "descrizione": "Le tende a caduta sono progettate per fornire un’area d’ombra più ampia rispetto ad altri modelli."
+          "title": "Destinazione versatile",
+          "descrizione": "Con i loro diversi modelli, si adattano sia ad abitazioni private che attività commerciali."
         },
         {
-          "title": "Più sporgenza",
-          "descrizione": "I modelli dotati di braccetti permettono di aumentare ulteriormente la superficie coperta dalla tenda."
+          "title": "Disponibili in varie larghezze",
+          "descrizione": "Potrai creare un’area d’ombra spaziosa e praticabile, larga fino a 13 metri."
         },
         {
-          "title": "Più elegante",
-          "descrizione": "Grazie al modello in ferro battuto, si adatta perfettamente anche a dimore storiche, ville e agriturismi."
+          "title": "Eleganti e moderne",
+          "descrizione": "Scegli tra design ovali, tondeggianti, avveniristici e ferro battuto per dimore storiche."
         }
       ],
 
