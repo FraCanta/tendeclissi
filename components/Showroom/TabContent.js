@@ -9,8 +9,11 @@ const TabContent = ({ content, title, description, isImageLeft }) => {
       {isImageLeft ? (
         <>
           <div className="flex flex-col gap-8">
-            <h2 className="text-3xl lg:text-5xl font-bold">{title}</h2>
-            <p className="text-xl">{description}</p>
+            <h3 className="text-3xl lg:text-5xl font-bold">{title}</h3>
+            <p
+              className="text-xl"
+              dangerouslySetInnerHTML={{ __html: description }}
+            ></p>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
               {content.funzio.map((el, i) => (
                 <div key={i} className="p-8 bg-purple text-white flex gap-4">
@@ -24,14 +27,17 @@ const TabContent = ({ content, title, description, isImageLeft }) => {
                   </div>
                   <div>
                     <h4 className="font-bold text-2xl">{el.nome}</h4>
-                    <p className="text-white">{el.descrizione}</p>
+                    <p
+                      className="text-white"
+                      dangerouslySetInnerHTML={{ __html: el.descrizione }}
+                    ></p>
                   </div>
                 </div>
               ))}
             </div>
             <div className="hidden lg:block">
-              <CtaPrimary link="/preventivo">
-                preventivo per questo prodotto
+              <CtaPrimary link="/richiesta-preventivo#preventivo">
+                Richiedi preventivo
               </CtaPrimary>
             </div>
           </div>
@@ -39,7 +45,7 @@ const TabContent = ({ content, title, description, isImageLeft }) => {
             <Image src="https://placehold.jp/500x500.png" alt="" fill />
           </div>
           <div className="block lg:hidden order-last">
-            <CtaPrimary link="/preventivo">
+            <CtaPrimary link="/richiesta-preventivo#preventivo">
               preventivo per questo prodotto
             </CtaPrimary>
           </div>
@@ -50,13 +56,16 @@ const TabContent = ({ content, title, description, isImageLeft }) => {
             <Image src="https://placehold.jp/500x500.png" alt="" fill />
           </div>
           <div className="block lg:hidden order-last">
-            <CtaPrimary link="/preventivo">
-              preventivo per questo prodotto
+            <CtaPrimary link="/richiesta-preventivo#preventivo">
+              Richiedi preventivo
             </CtaPrimary>
           </div>
           <div className="flex flex-col gap-8 order-first lg:order-last">
             <h2 className="text-3xl lg:text-5xl font-bold">{title}</h2>
-            <p className="text-xl">{description}</p>
+            <p
+              className="text-xl"
+              dangerouslySetInnerHTML={{ __html: description }}
+            ></p>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
               {content.funzio.map((el, i) => (
                 <div key={i} className="p-8 bg-purple text-white flex gap-4">
@@ -71,14 +80,17 @@ const TabContent = ({ content, title, description, isImageLeft }) => {
 
                   <div>
                     <h4 className="font-bold text-2xl">{el.nome}</h4>
-                    <p className="text-white">{el.descrizione}</p>
+                    <p
+                      className="text-white"
+                      dangerouslySetInnerHTML={{ __html: el.descrizione }}
+                    ></p>
                   </div>
                 </div>
               ))}
             </div>
             <div className="hidden lg:block">
-              <CtaPrimary link="/preventivo">
-                preventivo per questo prodotto
+              <CtaPrimary link="/richiesta-preventivo#preventivo">
+                richiedi preventivo
               </CtaPrimary>
             </div>
           </div>

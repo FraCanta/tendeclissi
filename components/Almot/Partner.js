@@ -7,14 +7,14 @@ const Partner = () => {
   return (
     <div className="w-[90%] mx-auto min-h-screen flex flex-col justify-center items-center gap-6 py-10 xl:py-32">
       <div className="grid grid-cols-1 xl:grid-cols-2 items-center gap-10 ">
-        <div className="flex flex-col gap-6">
-          <h2 className="text-[35px] md:text-[45px] lg:text-[50px] xl:text-[45px] font-bold text-black">
-            Il team di Tendeclissi
+        <div className="flex flex-col gap-6" id="motorizzazione">
+          <h2 className="text-[35px] md:text-[45px] lg:text-[50px] xl:text-[45px] font-bold text-black max-w-2xl">
+            Motorizzazione delle tende da sole
           </h2>
           <p className="text-lg md:text-[22px] lg:text-xl font-normal text-black">
-            breve presentazione del partner che fornisce i motorini - Lorem
-            ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua.- tipo fino qua
+            Hai bisogno di rendere più facile l’apertura e la chiusura della tua
+            tenda da sole, o vuoi installarne una nuova da poter gestire in
+            tutta comodità? Scopri il nostro servizio di motorizzazione:
           </p>
         </div>
         <div className="relative w-[250px] h-[80px] xl:w-[350px] xl:h-[150px]  mx-auto">
@@ -48,7 +48,8 @@ const Partner = () => {
                   Valutazione del telaio
                 </h4>
                 <p className="text-lightPurple">
-                  Capire se la tenda è compatibile
+                  Facciamo un sopralluogo per verificare che la tua tenda sia
+                  compatibile.
                 </p>
               </div>
             </div>
@@ -68,7 +69,8 @@ const Partner = () => {
                   Scelta del motore
                 </h4>
                 <p className="text-lightPurple">
-                  Capire se la tenda è compatibile
+                  Identifichiamo il motore giusto in base alla tenda e alle tue
+                  esigenze.
                 </p>
               </div>
             </div>
@@ -85,10 +87,10 @@ const Partner = () => {
               </div>
               <div>
                 <h4 className="font-bold text-xl md:text-3xl xl:text-xl 2xl:text-2xl fxl:text-[25px]">
-                  Conversione
+                  Conversione di tende manuali
                 </h4>
                 <p className="text-lightPurple">
-                  Capire se la tenda è compatibile
+                  Motorizziamo tende che nascono con sistema manuale.
                 </p>
               </div>
             </div>

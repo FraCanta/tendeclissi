@@ -21,7 +21,7 @@ const MediaText = ({ img, title, description, cta }) => {
             className="text-xl md:text-[22px] lg:text-xl  font-normal "
             dangerouslySetInnerHTML={{ __html: description }}
           ></p>
-          <CtaPrimary link="/showroom">{cta}</CtaPrimary>
+          <CtaPrimary link="/chi-siamo">{cta}</CtaPrimary>
         </div>
       </div>
     </div>

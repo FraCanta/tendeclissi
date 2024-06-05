@@ -9,7 +9,7 @@ const InfoCard = () => {
       </h2>
       <div className="w-full lg:w-[90%] mx-auto h-[1.02px] bg-yellow"></div>
       <h4 class="text-lg lg:text-[25px] text-black font-bold">
-        Rispondiamo ai seguenti contatti
+        Rispondiamo ai seguenti contatti:
       </h4>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center w-full gap-8 lg:gap-0">
         <div className="flex gap-2 w-full lg:justify-center items-center">

@@ -5,7 +5,7 @@ import Placeholder from "@/public/assets/imgplaceholder.svg";
 const CardCat = ({ title, description }) => {
   return (
     <div>
-      <div className="p-4 md:p-[30px] shadow-xl bg-white">
+      <div className="p-4 md:p-[25px] shadow-xl bg-white h-full ">
         <div className="flex justify-evenly gap-4 items-start">
           <div className="h-8 w-14 relative">
             <Image

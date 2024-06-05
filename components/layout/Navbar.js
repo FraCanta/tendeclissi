@@ -74,9 +74,9 @@ const Navbar = () => {
             <ul className=" h-full flex flex-col justify-evenly uppercase text-center text-[22px]">
               <li onClick={() => setOpen(false)}>
                 <Link
-                  href="/chisiamo"
+                  href="/chi-siamo"
                   className={` ${
-                    pathname === "/chisiamo"
+                    pathname === "/chi-siamo"
                       ? "font-semibold underline underline-offset-4 transition-all ease-linear"
                       : ""
                   }`}
@@ -99,9 +99,9 @@ const Navbar = () => {
               </li>
               <li onClick={() => setOpen(false)}>
                 <Link
-                  href="/servizi"
+                  href="/servizi-tende-da-sole"
                   className={` ${
-                    pathname === "/servizi"
+                    pathname === "/servizi-tende-da-sole"
                       ? "font-semibold underline underline-offset-4 transition-all ease-linear"
                       : ""
                   }`}
@@ -138,7 +138,9 @@ const Navbar = () => {
               </li>
 
               <li onClick={() => setOpen(false)}>
-                <CtaPrimary link="/preventivo">Richiedi preventivo</CtaPrimary>
+                <CtaPrimary link="/richiesta-preventivo#preventivo">
+                  Richiedi preventivo
+                </CtaPrimary>
               </li>
             </ul>
           </div>
@@ -147,9 +149,9 @@ const Navbar = () => {
         <ul className="xl:flex gap-6 2xl:gap-[2.5rem]  text-xl xl:text-lg 2xl:text-xl fxl:text-[1.563rem] uppercase items-center leading-[2.344rem] hidden z-[9999]">
           <li>
             <Link
-              href="/chisiamo"
+              href="/chi-siamo"
               className={` ${
-                pathname === "/chisiamo"
+                pathname === "/chi-siamo"
                   ? "font-semibold underline underline-offset-4 transition-all ease-linear"
                   : ""
               }`}
@@ -171,9 +173,9 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              href="/servizi"
+              href="/servizi-tende-da-sole"
               className={` ${
-                pathname === "/servizi"
+                pathname === "/servizi-tende-da-sole"
                   ? "font-semibold underline underline-offset-4 transition-all ease-linear"
                   : ""
               }`}
@@ -206,7 +208,9 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <CtaPrimary link="/preventivo">Richiedi preventivo</CtaPrimary>
+            <CtaPrimary link="/richiesta-preventivo#preventivo">
+              Richiedi preventivo
+            </CtaPrimary>
           </li>
         </ul>
       </div>

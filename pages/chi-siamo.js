@@ -7,9 +7,46 @@ import Stoffe from "@/public/assets/stoffe.png";
 import Banner from "@/components/layout/Banner";
 import VideoPlayer from "@/components/VideoPlayer/VideoPlayer";
 import data from "@/utils/chisiamo.json";
+import Head from "next/head";
 const Chisiamo = () => {
   return (
     <div>
+      <Head>
+        <title>Tendeclissi | Chi siamo e dove trovarci</title>
+        <meta
+          name="description"
+          content="Il mondo delle tende da sole è la nostra passione: con la nostra squadra offriamo prodotti e servizi in Veneto e nelle Marche."
+        />
+        <meta
+          property="og:url"
+          content="https://www.tendeclissi.it/chi-siamo
+/"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Tendeclissi | Chi siamo e dove trovarci"
+        />
+        <meta
+          property="og:description"
+          content="Il mondo delle tende da sole è la nostra passione: con la nostra squadra offriamo prodotti e servizi in Veneto e nelle Marche."
+        />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="tendeclissi.it/chi-siamo" />
+        <meta
+          property="twitter:url"
+          content="https://www.tendeclissi.it/chi-siamo"
+        />
+        <meta
+          name="twitter:title"
+          content="Tendeclissi | Chi siamo e dove trovarci"
+        />
+        <meta
+          name="twitter:description"
+          content="Il mondo delle tende da sole è la nostra passione: con la nostra squadra offriamo prodotti e servizi in Veneto e nelle Marche."
+        />
+      </Head>
       <HeroPage backgroundImage="/assets/chisiamoImg.jpg">
         <div className="flex flex-col gap-6">
           <h1 className="text-[54px] xl:text-[60px] fxl:text-[70px] font-bold text-white">
@@ -43,7 +80,12 @@ const Chisiamo = () => {
         description="Offriamo i nostri servizi in Veneto e nelle Marche, e grazie al nostro showroom completamente digitale è possibile esplorare i prodotti che offriamo da qualsiasi posto e a qualsiasi ora: una scelta che abbiamo preso per poter raggiungere con la passione per il nostro lavoro sempre più persone.
         Contattaci per richiedere un campione dei nostri prodotti, richiedere un preventivo senza impegno e fissare un sopralluogo!"
       />
-      <Banner />
+      <Banner
+        text="Prenota un sopralluogo gratuito"
+        description="Scrivici per prenotare un sopralluogo: ti mostreremo il <strong>campionario</strong> e prenderemo le <strong>misure</strong> necessarie per definire il tuo preventivo."
+        cta="Richiedi un preventivo"
+        link="/richiesta-preventivo#sopralluogo"
+      />
       <VideoPlayer />
     </div>
   );

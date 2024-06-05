@@ -15,148 +15,153 @@
   "giardino": {
     "img": "/assets/progetti/img5.jpg",
 
-    "descrizione": "Cerchi di più di una semplice tenda per il tuo giardino? Le nostre <strong>pergole richiudibili</strong> o con sistema a <strong>lame orientabili</strong> e le <strong>vele ombreggianti</strong> possono creare l’angolo d’ombra perfetto nel verde."
+    "descrizione": "Cerchi di più di una semplice tenda per il tuo giardino? Le nostre <strong>pergole</strong> richiudibili o con sistema a lame orientabili e le <strong>vele ombreggianti</strong> possono creare l’angolo d’ombra perfetto nel verde."
   },
   "section1": [
     {
-      "title": "Cappottine standard",
-      "description": "Descrizione brevissima max due righe non di più e con descrizione abbastanza chiara",
-      "cta": "Vedi le cappottine standard",
-      "link": "/showroom/cappottine"
+      "title": "Cappottine mobili",
+      "description": "Il riparo dal sole perfetto per piccole finestre e ingressi.",
+      "cta": "Vedi le cappottine mobili",
+      "link": "/showroom/cappottine#cappottine-mobili"
     },
     {
       "title": "Cappottine fisse",
       "description": "La soluzione per riparare gli ingressi dagli elementi atmosferici.",
       "cta": "Vedi le cappottine fisse",
-      "link": "/showroom/cappottine"
+      "link": "/showroom/cappottine#cappottine-fisse"
     }
   ],
   "section2": [
     {
       "title": "Tende a caduta",
-      "description": "Estendi la superficie protetta dalla luce solare.",
+      "description": "Aumenta la superficie protetta dalla luce solare.",
       "cta": "Vedi le tende a caduta",
-      "link": "/showroom/tende-da-sole"
+      "link": "/showroom/tende-da-sole#tende-a-caduta"
     },
     {
       "title": "Tende classiche",
       "description": "Le soluzioni più versatili, da 2,40 a 13 metri di larghezza.",
       "cta": "Vedi le tende classiche",
-      "link": "/showroom/tende-da-sole"
+      "link": "/showroom/tende-da-sole#tende-classiche"
     },
     {
       "title": "Tende a guscio",
       "description": "Un design pulito per la massima resa estetica.",
       "cta": "Vedi le tende a guscio",
-      "link": "/showroom/tende-da-sole"
+      "link": "/showroom/tende-da-sole#tende-a-guscio"
     }
   ],
   "section3": [
     {
       "title": "Pergole",
-      "description": "Descrizione brevissima max due righe non di più e con descrizione abbastanza chiara",
+      "description": "Soluzioni sia con teli richiudibili che lame orientabili.",
       "cta": "Vedi le pergole",
-      "link": "/showroom/tende-da-sole-per-esterni-e-giardini"
+      "link": "/showroom/tende-da-sole-per-esterni-e-giardini#pergole"
     },
     {
       "title": "Vele ombreggianti",
-      "description": "Descrizione brevissima max due righe non di più e con descrizione abbastanza chiara",
+      "description": "Disponibili sia semplici che in soluzioni customizzate.",
       "cta": "Vele ombreggianti",
-      "link": "/showroom/tende-da-sole-per-esterni-e-giardini"
+      "link": "/showroom/tende-da-sole-per-esterni-e-giardini#vele-ombreggianti"
     },
     {
-      "title": "Coperture box auto",
-      "description": "Descrizione brevissima max due righe non di più e con descrizione abbastanza chiara",
-      "cta": "Coperture box auto",
-      "link": "/showroom/tende-da-sole-per-esterni-e-giardini"
+      "title": "Copertura box auto",
+      "description": "La soluzione su misura per mettere al riparo il tuo veicolo.",
+      "cta": "Copertura box auto",
+      "link": "/showroom/tende-da-sole-per-esterni-e-giardini#copertura-box-auto"
     }
   ],
   "singleCat": {
     "cappottine": {
       "link": "/showroom/cappottine",
-      "title": "Cappottine standard e fisse",
+      "seoTitle": "Tende da sole cappottine | Tendeclissi",
+      "seoDescription": "Scopri i modelli di tende da sole a cappottina disponibili nel nostro catalogo, per coprire finestre, ingressi e creare tettoie di protezione.",
       "img": "/assets/progetti/img7.jpg",
+      "heroTitle": "Cappottine mobili e fisse",
+      "heroParagraph": "Un grande classico senza tempo per riparare e incorniciare <strong>piccole finestre, portoncini e ingressi</strong>, o creare una tettoia fissa di protezione sia dal sole che dalla pioggia.",
       "cards": [
         {
-          "title": "Beneficio 1",
-          "descrizione": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt utla."
+          "title": "Regolabili",
+          "descrizione": "A seconda delle caratteristiche del modello, una cappottina può disporre di più regolazioni."
         },
         {
-          "title": "Beneficio 2",
-          "descrizione": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt utla."
+          "title": "Versatili",
+          "descrizione": "Possono coprire finestre, ingressi, portoncini di abitazioni private e creare tettoie per attività commerciali."
         },
         {
-          "title": "Beneficio 3",
-          "descrizione": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt utla."
+          "title": "Protettive",
+          "descrizione": "Le cappottine possono non solo riparare dal sole, ma riparare anche dagli agenti atmosferici."
         }
       ],
+
       "tabs": [
         {
-          "name": "cappottine standard",
+          "name": "cappottine mobili",
+          "link": "cappottine-mobili",
           "content": [
             {
-              "title": "Modello 1",
-              "descrizione": "breve spiegazione del modello - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.- tipo fino qua",
+              "title": "Modello Venezia",
+              "descrizione": "Ideale per proteggere porte e piccole finestre, con la caratteristica forma bombata il modello Venezia può disporre di <strong>3 o 4 spicchi</strong>.",
               "funzio": [
                 {
-                  "nome": "Funzionalità 1",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Supporti",
+                  "descrizione": "Supporti a parete."
                 },
                 {
-                  "nome": "Funzionalità 2",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Accessori",
+                  "descrizione": "Kit di accessori in alluminio verniciati bianchi."
                 },
                 {
-                  "nome": "Funzionalità 3",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Manovra",
+                  "descrizione": "Manovra a corda o motorizzabile."
                 },
                 {
-                  "nome": "Funzionalità 4",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Comando",
+                  "descrizione": "Comando a destra vista frontale."
                 }
               ]
             },
             {
-              "title": "Modello 2",
-              "descrizione": "breve spiegazione del modello - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.- tipo fino qua",
+              "title": "Modello Firenze",
+              "descrizione": "Studiato per fornire una <strong>maggiore sporgenza</strong>, il modello Firenze permette una <strong>doppia regolazione</strong> e si presta in modo versatile per ingressi di abitazioni, strutture alberghiere e attività commerciali.",
               "funzio": [
                 {
-                  "nome": "Funzionalità 1",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Supporti",
+                  "descrizione": "Supporti a parete."
                 },
                 {
-                  "nome": "Funzionalità 2",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Accessori",
+                  "descrizione": "Kit di accessori in alluminio verniciati bianchi."
                 },
                 {
-                  "nome": "Funzionalità 3",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Manovra",
+                  "descrizione": "Manovra a corda o motorizzabile."
                 },
                 {
-                  "nome": "Funzionalità 4",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Comando",
+                  "descrizione": "Comando a destra vista frontale."
                 }
               ]
             },
             {
-              "title": "Modello 3",
-              "descrizione": "breve spiegazione del modello - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.- tipo fino qua",
+              "title": "Modello Semitonda e Tonda",
+              "descrizione": "Utilizzati quando l’architettura o la forma della finestra è <strong>ovale e tondeggiante</strong>, i modelli Semitonda e Tonda si adattano al profilo per una resa estetica ottimale.",
               "funzio": [
                 {
-                  "nome": "Funzionalità 1",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Supporti",
+                  "descrizione": "Supporti a parete."
                 },
                 {
-                  "nome": "Funzionalità 2",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Accessori",
+                  "descrizione": "Kit di accessori in alluminio verniciati bianchi."
                 },
                 {
-                  "nome": "Funzionalità 3",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Manovra",
+                  "descrizione": "Manovra a corda o motorizzabile."
                 },
                 {
-                  "nome": "Funzionalità 4",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Comando",
+                  "descrizione": "Comando a destra vista frontale."
                 }
               ]
             }
@@ -164,70 +169,20 @@
         },
         {
           "name": "cappottine fisse",
+          "link": "cappottine-fisse",
+
           "content": [
             {
-              "title": "Modello 1",
-              "descrizione": "breve spiegazione del modello - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.- tipo fino qua",
+              "title": "Cappottine fisse",
+              "descrizione": "Le cappottine possono essere utilizzare anche come tettoie, fornendo <strong>protezione dagli agenti atmosferici</strong> per ingressi di strutture alberghiere, capannoni industriali, magazzini e attività commerciali.",
               "funzio": [
                 {
-                  "nome": "Funzionalità 1",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Materiale",
+                  "descrizione": "Le cappottine fisse vengono spesso fatte in PVC."
                 },
                 {
-                  "nome": "Funzionalità 2",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
-                },
-                {
-                  "nome": "Funzionalità 3",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
-                },
-                {
-                  "nome": "Funzionalità 4",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
-                }
-              ]
-            },
-            {
-              "title": "Modello 2",
-              "descrizione": "breve spiegazione del modello - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.- tipo fino qua",
-              "funzio": [
-                {
-                  "nome": "Funzionalità 1",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
-                },
-                {
-                  "nome": "Funzionalità 2",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
-                },
-                {
-                  "nome": "Funzionalità 3",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
-                },
-                {
-                  "nome": "Funzionalità 4",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
-                }
-              ]
-            },
-            {
-              "title": "Modello 3",
-              "descrizione": "breve spiegazione del modello - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.- tipo fino qua",
-              "funzio": [
-                {
-                  "nome": "Funzionalità 1",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
-                },
-                {
-                  "nome": "Funzionalità 2",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
-                },
-                {
-                  "nome": "Funzionalità 3",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
-                },
-                {
-                  "nome": "Funzionalità 4",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Accessori",
+                  "descrizione": "Kit di accessori in alluminio."
                 }
               ]
             }
@@ -236,90 +191,109 @@
       ]
     },
     "tende-da-sole": {
-      "link": "/showroom/tende-da-sole",
-      "title": "Tende da sole",
-      "img": "/assets/progetti/img2.jpg",
+      "link": "/showroom/cappottine",
+      "seoTitle": "Tende da sole a caduta | Tendeclissi",
+      "seoDescription": "Scopri i modelli di tende da sole a cappottina disponibili nel nostro catalogo, per coprire finestre, ingressi e creare tettoie di protezione.",
+      "img": "/assets/progetti/img7.jpg",
+      "heroTitle": "",
+      "heroParagraph": "",
       "cards": [
         {
-          "title": "Beneficio 1",
-          "descrizione": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt utla."
+          "title": "Più ombra",
+          "descrizione": "Le tende a caduta sono progettate per fornire un’area d’ombra più ampia rispetto ad altri modelli."
         },
         {
-          "title": "Beneficio 2",
-          "descrizione": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt utla."
+          "title": "Più sporgenza",
+          "descrizione": "I modelli dotati di braccetti permettono di aumentare ulteriormente la superficie coperta dalla tenda."
         },
         {
-          "title": "Beneficio 3",
-          "descrizione": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt utla."
+          "title": "Più elegante",
+          "descrizione": "Grazie al modello in ferro battuto, si adatta perfettamente anche a dimore storiche, ville e agriturismi."
         }
       ],
+
       "tabs": [
         {
           "name": "tende a caduta",
+          "link": "tende-a-caduta",
           "content": [
             {
-              "title": "Modello 1",
-              "descrizione": "breve spiegazione del modello - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.- tipo fino qua",
+              "title": "Modello 10-10C",
+              "descrizione": "Il modello più classico: il rullo è a vista e la tenda può essere <strong>ancorata tramite gancetti o ringhiera</strong>, oppure tramite <strong>braccetti</strong> per far sporgere di più la tenda.",
               "funzio": [
                 {
-                  "nome": "Funzionalità 1",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Braccetti",
+                  "descrizione": "Braccetti da 40/50 cm regolabili."
                 },
                 {
-                  "nome": "Funzionalità 2",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Tettuccio",
+                  "descrizione": "Tettuccio di protezione da 15/20 cm."
                 },
                 {
-                  "nome": "Funzionalità 3",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Altezza",
+                  "descrizione": "60 cm compresa la balza da 25 cm."
                 },
                 {
-                  "nome": "Funzionalità 4",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Garanzia",
+                  "descrizione": "Garanzia di prodotto di 5 anni."
                 }
               ]
             },
             {
-              "title": "Modello 2",
-              "descrizione": "breve spiegazione del modello - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.- tipo fino qua",
+              "title": "Modello Athena e Athena XS",
+              "descrizione": "La tenda Athena, con rullo esposto, è dotata di guide laterali che permettono di <strong>fermare la tela a qualsiasi altezza desiderata</strong>; la variante XS è dotata di braccetti che permettono di aumentare la sporgenza in fuori.",
               "funzio": [
                 {
-                  "nome": "Funzionalità 1",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Tettuccio",
+                  "descrizione": "Tettuccio di protezione da 15/20 cm."
                 },
                 {
-                  "nome": "Funzionalità 2",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Altezza",
+                  "descrizione": "60 cm per giro rullo e balza."
                 },
                 {
-                  "nome": "Funzionalità 3",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Braccetti",
+                  "descrizione": "Inclusi per la tenda Athena XS."
                 },
                 {
-                  "nome": "Funzionalità 4",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Garanzia",
+                  "descrizione": "Garanzia di prodotto di 5 anni."
                 }
               ]
             },
             {
-              "title": "Modello 3",
-              "descrizione": "breve spiegazione del modello - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.- tipo fino qua",
+              "title": "Modello con braccetti a parete",
+              "descrizione": "Grazie ai braccetti fissati direttamente sulla parete dell’edificio, quando la tenda viene richiusa rimane aderente alla parete, garantendo un <strong>uso ottimale degli spazi.</strong>",
               "funzio": [
                 {
-                  "nome": "Funzionalità 1",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Tettuccio",
+                  "descrizione": "Tettuccio di protezione da 15/20 cm."
                 },
                 {
-                  "nome": "Funzionalità 2",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Rullo",
+                  "descrizione": "Disponibile con rullo a vista o con guscio."
                 },
                 {
-                  "nome": "Funzionalità 3",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Garanzia",
+                  "descrizione": "Garanzia di prodotto di 5 anni."
+                }
+              ]
+            },
+            {
+              "title": "Modello in ferro battuto",
+              "descrizione": "Devi installare la tua tenda su una <strong>dimora storica</strong> o un edificio con specifici <strong>requisiti di stile decoro</strong>? Il nostro modello in ferro battuto completerà perfettamente il quadro.",
+              "funzio": [
+                {
+                  "nome": "Braccetti",
+                  "descrizione": "Braccetti in ferro battuto."
                 },
                 {
-                  "nome": "Funzionalità 4",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Tettuccio",
+                  "descrizione": "Tettuccio sagomato dello stesso colore del telaio."
+                },
+                {
+                  "nome": "Garanzia",
+                  "descrizione": "Garanzia di prodotto di 5 anni."
                 }
               ]
             }
@@ -327,70 +301,94 @@
         },
         {
           "name": "tende classiche",
+          "link": "tende-classiche",
+
           "content": [
             {
-              "title": "Modello 1",
-              "descrizione": "breve spiegazione del modello - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.- tipo fino qua",
+              "title": "Modello Combi",
+              "descrizione": "Adatto <strong>sia per abitazioni private che per attività commerciali</strong>, il modello Combi è dotato di braccia che si agganciano sulle staffe di supporto che reggono il rullo.",
               "funzio": [
                 {
-                  "nome": "Funzionalità 1",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Larghezza",
+                  "descrizione": "Da un minimo di 2,40 m a un massimo di 5 m."
                 },
                 {
-                  "nome": "Funzionalità 2",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Tettuccio",
+                  "descrizione": "È possibile aggiungere un tettuccio di protezione."
                 },
                 {
-                  "nome": "Funzionalità 3",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Profondità",
+                  "descrizione": "Da un minimo di 1,8 m a un massimo di 3 m."
                 },
                 {
-                  "nome": "Funzionalità 4",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Garanzia",
+                  "descrizione": "Garanzia di prodotto di 5 anni."
                 }
               ]
             },
             {
-              "title": "Modello 2",
-              "descrizione": "breve spiegazione del modello - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.- tipo fino qua",
+              "title": "Modello BQ 40",
+              "descrizione": "La tenda classica per eccellenza: il modello BQ 40 M è il più versatile del nostro catalogo, grazie al sistema di braccia che permette di raggiungere <strong>grandi dimensioni</strong>.",
               "funzio": [
                 {
-                  "nome": "Funzionalità 1",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Larghezza",
+                  "descrizione": "Raggiunge fino a 8 m di larghezza."
                 },
                 {
-                  "nome": "Funzionalità 2",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Sporgenza",
+                  "descrizione": "Raggiunge fino a 3,5 o 4 m di profondità."
                 },
                 {
-                  "nome": "Funzionalità 3",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Tettuccio",
+                  "descrizione": "È possibile aggiungere un tettuccio di protezione."
                 },
                 {
-                  "nome": "Funzionalità 4",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Garanzia",
+                  "descrizione": "Garanzia di prodotto di 5 anni."
                 }
               ]
             },
             {
-              "title": "Modello 3",
-              "descrizione": "breve spiegazione del modello - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.- tipo fino qua",
+              "title": "Modello BQ 40 140-170",
+              "descrizione": "Perfetto per i <strong>balconi agli ultimi piani</strong> o le <strong>mansarde</strong>, il modello BQ 40 140-170 è la soluzione più adatta per dare più respiro e praticabilità alla superficie coperta.",
               "funzio": [
                 {
-                  "nome": "Funzionalità 1",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Larghezza",
+                  "descrizione": "Raggiunge fino a 6 m di larghezza."
                 },
                 {
-                  "nome": "Funzionalità 2",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Sporgenza",
+                  "descrizione": "Raggiunge fino a 3 m di sporgenza."
                 },
                 {
-                  "nome": "Funzionalità 3",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Tettuccio",
+                  "descrizione": "È possibile aggiungere un tettuccio di protezione."
                 },
                 {
-                  "nome": "Funzionalità 4",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Garanzia",
+                  "descrizione": "Garanzia di prodotto di 5 anni."
+                }
+              ]
+            },
+            {
+              "title": "Modello BQ 40 Intermedio",
+              "descrizione": "Nato per rispondere ai bisogni di <strong>coperture ampie per le attività commerciali</strong>, il modello BQ 40 Intermedio è dotato di un potente motore per l’apertura e chiusura della tenda.",
+              "funzio": [
+                {
+                  "nome": "Larghezza",
+                  "descrizione": "Raggiunge fino a 10 m di larghezza."
+                },
+                {
+                  "nome": "Sporgenza",
+                  "descrizione": "Raggiunge fino a 4,2 m di sporgenza."
+                },
+                {
+                  "nome": "Tettuccio",
+                  "descrizione": "È possibile aggiungere un tettuccio di protezione."
+                },
+                {
+                  "nome": "Garanzia",
+                  "descrizione": "Garanzia di prodotto di 5 anni."
                 }
               ]
             }
@@ -398,70 +396,116 @@
         },
         {
           "name": "tende a guscio",
+          "link": "tende-a-guscio",
+
           "content": [
             {
-              "title": "Modello 1",
-              "descrizione": "breve spiegazione del modello - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.- tipo fino qua",
+              "title": "Modello M",
+              "descrizione": "Con la sua forma ovale tondeggiante, la tenda a guscio M costituisce un <strong>modello di base</strong> perfetto per una <strong>resa semplice e pulita</strong>.",
               "funzio": [
                 {
-                  "nome": "Funzionalità 1",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Larghezza",
+                  "descrizione": "Raggiunge fino a 5 m di larghezza."
                 },
                 {
-                  "nome": "Funzionalità 2",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Sporgenza",
+                  "descrizione": "Raggiunge fino a 2,5 m di sporgenza."
                 },
                 {
-                  "nome": "Funzionalità 3",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Motorizzata",
+                  "descrizione": "Motore elettronico per apertura e chiusura."
                 },
                 {
-                  "nome": "Funzionalità 4",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Garanzia",
+                  "descrizione": "Garanzia di prodotto di 5 anni."
                 }
               ]
             },
             {
-              "title": "Modello 2",
-              "descrizione": "breve spiegazione del modello - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.- tipo fino qua",
+              "title": "Modello MP",
+              "descrizione": "Le tende a guscio del modello MP possono essere <strong>attaccate sia al soffitto che alla parete</strong> e offrono un’opzione di forma differente, raggiungendo <strong>fino a 6 m di larghezza</strong>.",
               "funzio": [
                 {
-                  "nome": "Funzionalità 1",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Larghezza",
+                  "descrizione": "Raggiunge fino a 6 m di larghezza."
                 },
                 {
-                  "nome": "Funzionalità 2",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Sporgenza",
+                  "descrizione": "Raggiunge fino a 3,1 m di sporgenza."
                 },
                 {
-                  "nome": "Funzionalità 3",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Motorizzata",
+                  "descrizione": "Motore elettronico per apertura e chiusura."
                 },
                 {
-                  "nome": "Funzionalità 4",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Garanzia",
+                  "descrizione": "Garanzia di prodotto di 5 anni."
                 }
               ]
             },
             {
-              "title": "Modello 3",
-              "descrizione": "breve spiegazione del modello - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.- tipo fino qua",
+              "title": "Modello Epica",
+              "descrizione": "Il modello Epica, dotato di un cassonetto quadrato, è la soluzione più adatta per <strong>aumentare la superficie coperta</strong>, sfruttando sia la larghezza che la <strong>sporgenza</strong> della tenda.",
               "funzio": [
                 {
-                  "nome": "Funzionalità 1",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Larghezza",
+                  "descrizione": "Raggiunge fino a 6 m di larghezza."
                 },
                 {
-                  "nome": "Funzionalità 2",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Sporgenza",
+                  "descrizione": "Raggiunge fino a 4,1 m di sporgenza."
                 },
                 {
-                  "nome": "Funzionalità 3",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Motorizzata",
+                  "descrizione": "Motore elettronico per apertura e chiusura."
                 },
                 {
-                  "nome": "Funzionalità 4",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Garanzia",
+                  "descrizione": "Garanzia di prodotto di 5 anni."
+                }
+              ]
+            },
+            {
+              "title": "Modello MP XL",
+              "descrizione": "Con il suo design avveniristico, il modello MP XL può essere dotato di un <strong>sistema di illuminazione LED</strong> per una resa estetica che non lascia indifferenti!",
+              "funzio": [
+                {
+                  "nome": "Larghezza",
+                  "descrizione": "Raggiunge fino a 6 m di larghezza."
+                },
+                {
+                  "nome": "Sporgenza",
+                  "descrizione": "Raggiunge fino a 3,6 m di sporgenza."
+                },
+                {
+                  "nome": "Motorizzata",
+                  "descrizione": "Motore elettronico per apertura e chiusura."
+                },
+                {
+                  "nome": "Garanzia",
+                  "descrizione": "Garanzia di prodotto di 5 anni."
+                }
+              ]
+            },
+            {
+              "title": "Modello Giotto",
+              "descrizione": "Con linee guida di scorrimento laterali, la tenda a guscio Giotto è la scelta ideale per riparare dal sole i <strong>pergolati</strong>, le <strong>strutture in legno</strong> e i <strong>balconi inseriti nel tetto</strong>.",
+              "funzio": [
+                {
+                  "nome": "Larghezza",
+                  "descrizione": "Raggiunge fino a 10 m di larghezza."
+                },
+                {
+                  "nome": "Sporgenza",
+                  "descrizione": "Raggiunge fino a 5 m di sporgenza."
+                },
+                {
+                  "nome": "Motorizzata",
+                  "descrizione": "Motore elettronico per apertura e chiusura."
+                },
+                {
+                  "nome": "Garanzia",
+                  "descrizione": "Garanzia di prodotto di 5 anni."
                 }
               ]
             }
@@ -471,89 +515,115 @@
     },
     "tende-da-sole-per-esterni-e-giardini": {
       "link": "/showroom/tende-da-sole-per-esterni-e-giardino",
-      "title": "Tende da sole per esterni e giardini",
+      "seoTitle": "Tende da sole a caduta | Tendeclissi",
+      "seoDescription": "Scopri i modelli di tende da sole a cappottina disponibili nel nostro catalogo, per coprire finestre, ingressi e creare tettoie di protezione.",
       "img": "/assets/progetti/img5.jpg",
+      "heroTitle": "Coperture per esterni e giardino",
+      "heroParagraph": "Cerchi di più di una semplice tenda? Le nostre pergole richiudibili o con sistema a lame orientabili e le vele ombreggianti possono creare l’angolo d’ombra perfetto nel giardino o proteggere la tua auto.",
       "cards": [
         {
-          "title": "Beneficio 1",
-          "descrizione": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt utla."
+          "title": "Pergole motorizzate",
+          "descrizione": "Tutti i modelli sono dotati di movimentazione del telo a motore con telecomando."
         },
         {
-          "title": "Beneficio 2",
-          "descrizione": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt utla."
+          "title": "Soluzioni versatili",
+          "descrizione": "Disponibili in diverse larghezze e sporgenze, sono installabili su strutture in alluminio o in legno."
         },
         {
-          "title": "Beneficio 3",
-          "descrizione": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt utla."
+          "title": "Strutture personalizzabili",
+          "descrizione": "Oltre alle soluzioni standard, è possibile anche progettare coperture customizzate."
         }
       ],
       "tabs": [
         {
           "name": "pergole",
+          "link": "pergole",
           "content": [
             {
-              "title": "Modello 1",
-              "descrizione": "breve spiegazione del modello - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.- tipo fino qua",
+              "title": "Modello Rimini",
+              "descrizione": "La pergola Rimini <strong>bioclimatica con lame orientabili</strong> si distingue per il suo design ricercato e innovativo, offre protezione totale o parziale dal sole e un’ottima aerazione.",
               "funzio": [
                 {
-                  "nome": "Funzionalità 1",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Larghezza",
+                  "descrizione": "Raggiunge fino a 4 m di larghezza."
                 },
                 {
-                  "nome": "Funzionalità 2",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Sporgenza",
+                  "descrizione": "Raggiunge fino a 6,58 m di sporgenza."
                 },
                 {
-                  "nome": "Funzionalità 3",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Motorizzazione",
+                  "descrizione": "Movimentazione a motore con telecomando."
                 },
                 {
-                  "nome": "Funzionalità 4",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Versioni disponibili",
+                  "descrizione": "Versione isola, addossata e a moduli multipli."
                 }
               ]
             },
             {
-              "title": "Modello 2",
-              "descrizione": "breve spiegazione del modello - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.- tipo fino qua",
+              "title": "Modello Rieti",
+              "descrizione": "Vuoi installare una pergola su una <strong>struttura di legno preesistente</strong>? Scegli il modello Rieti, con copertura in PVC oscurante richiudibile e con sistema salvagoccia.",
               "funzio": [
                 {
-                  "nome": "Funzionalità 1",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Larghezza",
+                  "descrizione": "Raggiunge fino a 13 m di larghezza."
                 },
                 {
-                  "nome": "Funzionalità 2",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Sporgenza",
+                  "descrizione": "Raggiunge fino a 6 m di sporgenza."
                 },
                 {
-                  "nome": "Funzionalità 3",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Motorizzazione",
+                  "descrizione": "Movimentazione a motore con telecomando."
                 },
                 {
-                  "nome": "Funzionalità 4",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Versioni disponibili",
+                  "descrizione": "Soluzione a due, tre e quattro guide."
                 }
               ]
             },
             {
-              "title": "Modello 3",
-              "descrizione": "breve spiegazione del modello - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.- tipo fino qua",
+              "title": "Modello Perugia",
+              "descrizione": "La pergola Perugia è costituita da una <strong>struttura in alluminio con tenda richiudibile</strong> a impacchettamento in PVC oscurante, fissata a un sistema di traversi.",
               "funzio": [
                 {
-                  "nome": "Funzionalità 1",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Larghezza",
+                  "descrizione": "Raggiunge fino a 13 m di larghezza."
                 },
                 {
-                  "nome": "Funzionalità 2",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Sporgenza",
+                  "descrizione": "Raggiunge fino a 6 m di sporgenza."
                 },
                 {
-                  "nome": "Funzionalità 3",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Motorizzazione",
+                  "descrizione": "Movimentazione a motore con telecomando."
                 },
                 {
-                  "nome": "Funzionalità 4",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Versioni disponibili",
+                  "descrizione": "Soluzione a due, tre e quattro guide."
+                }
+              ]
+            },
+            {
+              "title": "Modello Dubai",
+              "descrizione": "Con una copertura in PVC oscurante con sistema salvagoccia, la pergola Dubai è dotata di una struttura in alluminio, tenda richiudibile e <strong>può raggiungere 7 m di sporgenza</strong>.",
+              "funzio": [
+                {
+                  "nome": "Larghezza",
+                  "descrizione": "Raggiunge fino a 13 m di larghezza."
+                },
+                {
+                  "nome": "Sporgenza",
+                  "descrizione": "Raggiunge fino a 7 m di sporgenza."
+                },
+                {
+                  "nome": "Motorizzazione",
+                  "descrizione": "Movimentazione a motore con telecomando."
+                },
+                {
+                  "nome": "Versioni disponibili",
+                  "descrizione": "Soluzione a due, tre e quattro guide."
                 }
               ]
             }
@@ -561,141 +631,63 @@
         },
         {
           "name": "vele ombreggianti",
+          "link": "vele-ombreggianti",
+
           "content": [
             {
-              "title": "Modello 1",
-              "descrizione": "breve spiegazione del modello - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.- tipo fino qua",
+              "title": "Tende a vela standard",
+              "descrizione": "Nella loro versioni triangolare e quadrata, le vele ombreggianti possono essere <strong>ancorate su pali, balconi e muri,</strong> creando un angolo d’ombra nel punto che desideri.",
               "funzio": [
                 {
-                  "nome": "Funzionalità 1",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "",
+                  "descrizione": "Vela triangolare ancorata su pali"
                 },
                 {
-                  "nome": "Funzionalità 2",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "",
+                  "descrizione": "Vela rettangolare ancorata su un balcone e un palo di sostegno"
                 },
                 {
-                  "nome": "Funzionalità 3",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
-                },
-                {
-                  "nome": "Funzionalità 4",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "",
+                  "descrizione": "Vela ancorata da muro a muro"
                 }
               ]
             },
             {
-              "title": "Modello 2",
-              "descrizione": "breve spiegazione del modello - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.- tipo fino qua",
+              "title": "Tende a vela personalizzate",
+              "descrizione": "Le soluzioni standard delle tende a vela possono essere combinate per creare un progetto su misura, aggiungendo il sistema rullo delle tende da sole e creando strutture personalizzate per sistemi a doppia vela.",
               "funzio": [
                 {
-                  "nome": "Funzionalità 1",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "",
+                  "descrizione": "Rullo avvolgente e punto di ancoraggio"
                 },
                 {
-                  "nome": "Funzionalità 2",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
-                },
-                {
-                  "nome": "Funzionalità 3",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
-                },
-                {
-                  "nome": "Funzionalità 4",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
-                }
-              ]
-            },
-            {
-              "title": "Modello 3",
-              "descrizione": "breve spiegazione del modello - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.- tipo fino qua",
-              "funzio": [
-                {
-                  "nome": "Funzionalità 1",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
-                },
-                {
-                  "nome": "Funzionalità 2",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
-                },
-                {
-                  "nome": "Funzionalità 3",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
-                },
-                {
-                  "nome": "Funzionalità 4",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "",
+                  "descrizione": "Doppia vela su struttura in metallo fissata a pilastri"
                 }
               ]
             }
           ]
         },
         {
-          "name": "coperture box auto",
+          "name": "copertura box auto",
+          "link": "copertura-box-auto",
+
           "content": [
             {
-              "title": "Modello 1",
-              "descrizione": "breve spiegazione del modello - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.- tipo fino qua",
+              "title": "Box auto",
+              "descrizione": "Hai bisogno di creare uno spazio coperto per la tua auto? Possiamo individuare insieme la soluzione giusta in base alle tue preferenze di materiale e verniciatura e alle tue esigenze.",
               "funzio": [
                 {
-                  "nome": "Funzionalità 1",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Struttura personalizzabile",
+                  "descrizione": "Chiusa, a pergola oppure a L con i lati liberi."
                 },
                 {
-                  "nome": "Funzionalità 2",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Ampia scelta di tessuti",
+                  "descrizione": "Resinati, impermeabilizzati, acrilici, traforati."
                 },
                 {
-                  "nome": "Funzionalità 3",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
-                },
-                {
-                  "nome": "Funzionalità 4",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
-                }
-              ]
-            },
-            {
-              "title": "Modello 2",
-              "descrizione": "breve spiegazione del modello - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.- tipo fino qua",
-              "funzio": [
-                {
-                  "nome": "Funzionalità 1",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
-                },
-                {
-                  "nome": "Funzionalità 2",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
-                },
-                {
-                  "nome": "Funzionalità 3",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
-                },
-                {
-                  "nome": "Funzionalità 4",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
-                }
-              ]
-            },
-            {
-              "title": "Modello 3",
-              "descrizione": "breve spiegazione del modello - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.- tipo fino qua",
-              "funzio": [
-                {
-                  "nome": "Funzionalità 1",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
-                },
-                {
-                  "nome": "Funzionalità 2",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
-                },
-                {
-                  "nome": "Funzionalità 3",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
-                },
-                {
-                  "nome": "Funzionalità 4",
-                  "descrizione": "Lorem ipsum dolor sit amet, consectetur"
+                  "nome": "Opzioni di fissaggio",
+                  "descrizione": "Con corde, guide, binari o telo rigido."
                 }
               ]
             }

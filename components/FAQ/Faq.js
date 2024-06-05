@@ -6,31 +6,35 @@ const Faq = () => {
       <div className="w-[90%] mx-auto flex flex-col gap-8 py-20 lg:py-0">
         <h3 className="text-[48px] uppercase font-bold">Faq</h3>
         <p className="max-w-3xl text-xl ">
-          breve spiegazione di cosa sono le cappottine - Lorem ipsum dolor sit
-          amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-          labore et dolore magna aliqua.- tipo fino qua
+          La nostra squadra è sempre a tua disposizione per rispondere a
+          qualsiasi dubbio e aiutarti a scegliere la copertura più adatta per le
+          tue esigenze. Hai qualche domanda o curiosità sui nostri prodotti e
+          servizi? Mandaci un’email!
         </p>
         <div className="flex flex-col gap-y-10">
           <div className="grid grid-cols-1 xl:grid-cols-2 gap-6">
             <div className="flex flex-col gap-2">
-              <h4 className="font-bold text-[25px]">Faq1</h4>
+              <h4 className="font-bold text-[25px]">
+                Potete motorizzare una vecchia tenda?
+              </h4>
               <p className="text-[#A1AEB7] text-lg">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat m dolor sit amet,
-                consectetur adipisicing elit, sed do eiusmod tempor inc.
+                Certamente! Faremo un sopralluogo per verificare il modello e
+                capire se è necessario fare altre modifiche oltre
+                all’installazione del motore, dopodiché si potrà procedere con
+                il preventivo e l’operazione di motorizzazione.
               </p>
             </div>
             <div className="flex flex-col gap-2">
               {" "}
-              <h4 className="font-bold text-[25px]">Faq2</h4>
+              <h4 className="font-bold text-[25px]">
+                Potete sostituire componenti rotti o danneggiati?
+              </h4>
               <p className="text-[#A1AEB7] text-lg">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat m dolor sit amet,
-                consectetur adipisicing elit, sed do eiusmod tempor inc.
+                Sì, i nostri servizi includono anche le operazioni di
+                riparazione. Nel caso di un danno a un singolo braccio sarà
+                necessario sostituire entrambe le braccia della tenda, in modo
+                da garantire un movimento omogeneo del tessuto e un’usura
+                uniforme.
               </p>
             </div>
           </div>
@@ -38,24 +42,26 @@ const Faq = () => {
             <div className="grid grid-cols-1 xl:grid-cols-2 gap-6">
               <div className="flex flex-col gap-2">
                 {" "}
-                <h4 className="font-bold text-[25px]">Faq3</h4>
+                <h4 className="font-bold text-[25px]">
+                  Posso lavare il tessuto della tela?
+                </h4>
                 <p className="text-[#A1AEB7] text-lg">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat m dolor sit
-                  amet, consectetur adipisicing elit, sed do eiusmod tempor inc.
+                  Si può sempre pulire manualmente la tela, utilizzando prodotti
+                  appositi per il tipo di tessuto e un panno umido. Sconsigliamo
+                  invece i lavaggi ad alta pressione, che possono danneggiare le
+                  cuciture o le saldature delle tende con più di 2 anni di vita.
                 </p>
               </div>
               <div className="flex flex-col gap-2">
                 {" "}
-                <h4 className="font-bold text-[25px]">Faq4</h4>
+                <h4 className="font-bold text-[25px]">
+                  Potete installare una tenda sul cappotto di un’abitazione?
+                </h4>
                 <p className="text-[#A1AEB7] text-lg">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat m dolor sit
-                  amet, consectetur adipisicing elit, sed do eiusmod tempor inc.
+                  Assolutamente: adoperando lavorazioni e materiali specifici è
+                  possibile ancorare correttamente la tenda allo strato più
+                  solido della casa. Contattaci per maggiori informazioni sul
+                  procedimento e per richiedere un preventivo su misura.
                 </p>
               </div>
             </div>

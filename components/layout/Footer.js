@@ -18,8 +18,8 @@ const Footer = () => {
             />
             <p className="uppercase text-white font-medium">tendeclissi</p>
           </div>
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
-            <div className="flex flex-col gap-2">
+          <div className="grid grid-cols-1 lg:grid-cols-6 gap-4">
+            <div className="flex flex-col gap-2 col-span-2">
               <h3>PRODOTTI</h3>
               <ul>
                 <li>
@@ -30,18 +30,22 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-col gap-2 col-span-2">
               <h3>SERVIZI</h3>
-              <ul>
+              <ul className="flex flex-col gap-2">
                 <li>
-                  <Link href="/">Cambio tela</Link>
+                  <Link href="/servizi-tende-da-sole#motorizzazione">
+                    Motorizzazione delle tende da sole
+                  </Link>
                 </li>
                 <li>
-                  <Link href="/">Motorizzazione</Link>
+                  <Link href="/servizi-tende-da-sole#riparazione-e-manutenzione">
+                    Riparazione e manutenzione di tende da sole
+                  </Link>
                 </li>
               </ul>
             </div>
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-col gap-2 col-span-2">
               <h3>CONTATTI</h3>
               <ul>
                 <li>
@@ -57,7 +61,9 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex flex-col lg:items-end">
-            <CtaSecondary link="/">richiedi preventivo</CtaSecondary>
+            <CtaSecondary link="/richiesta-preventivo#preventivo#preventivo">
+              richiedi preventivo
+            </CtaSecondary>
             <div></div>
           </div>
         </div>

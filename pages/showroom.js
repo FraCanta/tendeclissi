@@ -5,10 +5,46 @@ import jsonData from "@/utils/showroom.json";
 import Banner from "@/components/layout/Banner";
 import Faq from "@/components/FAQ/Faq";
 import data from "@/utils/showroom.json";
+import Head from "next/head";
 const Showroom = () => {
-  console.log(jsonData);
   return (
     <div>
+      <Head>
+        <title>Showroom tende da sole | Tendeclissi</title>
+        <meta
+          name="description"
+          content="Esplora il nostro showroom digitale e trova la soluzione per te tra cappottine, tende da sole classiche, tende a caduta, tende a guscio, pergole e vele ombreggianti."
+        />
+        <meta
+          property="og:url"
+          content="https://www.tendeclissi.it/showroom
+/"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Showroom tende da sole | Tendeclissi"
+        />
+        <meta
+          property="og:description"
+          content="Esplora il nostro showroom digitale e trova la soluzione per te tra cappottine, tende da sole classiche, tende a caduta, tende a guscio, pergole e vele ombreggianti."
+        />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="tendeclissi.it/showroom" />
+        <meta
+          property="twitter:url"
+          content="https://www.tendeclissi.it/showroom"
+        />
+        <meta
+          name="twitter:title"
+          content="Showroom tende da sole | Tendeclissi"
+        />
+        <meta
+          name="twitter:description"
+          content="Esplora il nostro showroom digitale e trova la soluzione per te tra cappottine, tende da sole classiche, tende a caduta, tende a guscio, pergole e vele ombreggianti."
+        />
+      </Head>
       <HeroPage backgroundImage="/assets/chisiamoImg.jpg">
         <h1 className="text-[40px] xl:text-[60px] xl:leading-[1.2] fxl:text-[70px] font-bold text-white xl:max-w-2xl">
           Entra nel nostro showroom digitale
@@ -49,7 +85,12 @@ const Showroom = () => {
         </div>
       </div>
       <Faq />
-      <Banner />
+      <Banner
+        text="Prenota un preventivo gratuito"
+        description="Scrivici per prenotare una visita dove ti mostreremo il <strong>campionario</strong> e prenderemo le <strong>misure</strong> necessarie a farti il preventivo."
+        link="/richiesta-preventivo#preventivo"
+        cta="Richiedi preventivo"
+      />
     </div>
   );
 };

@@ -15,15 +15,16 @@ const HeroHome = () => {
       <div className="flex flex-col lg:justify-center xl:items-center z-10 w-[90%] mx-auto gap-10">
         <div className="flex flex-col justify-center xl:items-center">
           <h1 className="text-[45px] md:text-[70px] lg:text-[100px] xl:text-[70px] fxl:text-[80px] text-white font-bold">
-            Tende da sole
+            Tendeclissi | Tende da sole
           </h1>
           <p className="text-white text-md md:text-xl lg:text-3xl xl:text-xl fxl:text-3xl w-full xl:w-[60%] mx-auto xl:text-center font-regular leading-normal">
-            Vivamus pretium ultricies lacus, vitae tincidunt arcu malesuada nec.
-            Aliquam erat volutpat. Aenean finibus eros et metus eleifend
+            Entra nel nostro spazio dedicato al mondo delle tende da sole, per
+            abitazioni private, attività commerciali ed esterni: la nostra
+            squadra è pronta a fornirti la soluzione su misura per te!
           </p>
         </div>
 
-        <CtaPrimary link="/showroom">scopri i prodotti</CtaPrimary>
+        <CtaPrimary link="/showroom">scopri i nostri prodotti</CtaPrimary>
       </div>
 
       <div className="xl:w-[70%] mx-auto flex lg:gap-12 z-10 w-[90%]">
@@ -71,13 +72,22 @@ const HeroHome = () => {
           }}
         >
           <SwiperSlide>
-            <CardHero />
+            <CardHero
+              title="Più di 40 anni di esperienza"
+              descrizione="dei nostri esperti a disposizione per te"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <CardHero />
+            <CardHero
+              title="Impegno per l’eccellenza"
+              descrizione="per un servizio su misura per le tue esigenze"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <CardHero />
+            <CardHero
+              title="Sguardo rivolto al futuro"
+              descrizione="per offrirti prodotti sempre più affidabili e innovativi"
+            />
           </SwiperSlide>
         </Swiper>
       </div>

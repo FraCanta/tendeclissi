@@ -2,23 +2,21 @@
   "tabs": [
     {
       "name": "Preventivo",
+      "link": "preventivo",
+
       "content": [
         {
-          "img": "/assets/progetti/img1.jpg",
-          "title": " Titolo progetto",
-          "descrizione": "Breve descrizione del progetto in questione e della problematica - max due righe poi tagliato",
-          "link": "/progetti/gruppo1/progetto1"
+          "addressInput": false
         }
       ]
     },
     {
       "name": "Sopralluogo",
+      "link": "sopralluogo",
+
       "content": [
         {
-          "img": "/assets/progetti/img1.jpg",
-          "title": " Titolo progetto",
-          "descrizione": "Breve descrizione del progetto in questione e della problematica - max due righe poi tagliato",
-          "link": "/"
+          "addressInput": true
         }
       ]
     }

@@ -1,11 +1,37 @@
 import InfoCard from "@/components/InfoCard/InfoCard";
 import HeroPage from "@/components/hero/HeroPage";
 import React from "react";
+import Head from "next/head";
 
 const Contatti = () => {
   return (
     <div>
-      {" "}
+      <Head>
+        <title>Tendeclissi | Contatti</title>
+        <meta
+          name="description"
+          content="Contattaci per richiedere informazioni sui prodotti nel nostro catalogo di tende da sole, i servizi che offriamo o per richiedere un sopralluogo o un preventivo gratuito."
+        />
+        <meta property="og:url" content="https://www.tendeclissi.it/contatti" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Tendeclissi | Contatti" />
+        <meta
+          property="og:description"
+          content="Contattaci per richiedere informazioni sui prodotti nel nostro catalogo di tende da sole, i servizi che offriamo o per richiedere un sopralluogo o un preventivo gratuito."
+        />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="tendeclissi.it/contatti" />
+        <meta
+          property="twitter:url"
+          content="https://www.tendeclissi.it/contatti"
+        />
+        <meta name="twitter:title" content="Tendeclissi | Contatti" />
+        <meta
+          name="twitter:description"
+          content="Contattaci per richiedere informazioni sui prodotti nel nostro catalogo di tende da sole, i servizi che offriamo o per richiedere un sopralluogo o un preventivo gratuito."
+        />
+      </Head>
       <HeroPage backgroundImage="/assets/chisiamoImg.jpg">
         <h1 className="text-[40px] xl:text-[60px] xl:leading-[1.2] fxl:text-[70px] font-bold text-white xl:max-w-4xl">
           Dove trovarci
