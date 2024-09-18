@@ -46,7 +46,7 @@ const Navbar = () => {
             className="h-12 w-12 lg:h-[70px] lg:w-[70px] fxl:h-[80px] fxl:w-[80px] "
           />
         </Link>
-        <div className="flex gap-8 items-center xl:hidden ">
+        <div className="flex items-center gap-8 xl:hidden ">
           <div
             onClick={() => setOpen(!isOpen)}
             className="block ease-in duration-300 z-[999] cursor-pointer"
@@ -68,7 +68,7 @@ const Navbar = () => {
           initial={{ opacity: 0, y: "70px" }}
           animate={{ opacity: isOpen ? 1 : 0, y: isOpen ? "0%" : "-100%" }}
           transition={{ ease: "easeOut", duration: 0.4 }}
-          className="absolute top-[70px] left-0 right-0 bottom-0 flex items-center w-full h-[60vh] bg-purple  text-white z-20"
+          className="absolute top-[70px] left-0 right-0 bottom-0 flex items-center w-full h-[70vh] bg-purple  text-white z-20"
         >
           <div className="w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-2 h-full">
             <ul className=" h-full flex flex-col justify-evenly uppercase text-center text-[22px]">

@@ -8,9 +8,9 @@ import { Autoplay, Pagination } from "swiper/modules";
 
 const HeroHome = () => {
   return (
-    <div className="min-h-screen mx-auto relative flex flex-col lg:items-center justify-center gap-12 lg:mt-0 bg-hero overflow-x-hidden">
+    <div className="relative flex flex-col justify-center min-h-screen gap-12 mx-auto overflow-x-hidden lg:items-center lg:mt-0 bg-hero">
       {/* Overlay nero opaco */}
-      <div className="absolute inset-0 bg-black opacity-45"></div>
+      <div className="absolute inset-0 bg-black/45"></div>
 
       <div className="flex flex-col lg:justify-center xl:items-center z-10 w-[90%] mx-auto gap-10">
         <div className="flex flex-col justify-center xl:items-center">
