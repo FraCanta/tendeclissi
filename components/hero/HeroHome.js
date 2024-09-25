@@ -75,18 +75,21 @@ const HeroHome = () => {
             <CardHero
               title="Più di 40 anni di esperienza"
               descrizione="dei nostri esperti a disposizione per te"
+              icon="material-symbols-light:event-available-outline"
             />
           </SwiperSlide>
           <SwiperSlide>
             <CardHero
               title="Impegno per l’eccellenza"
               descrizione="per un servizio su misura per le tue esigenze"
+              icon="material-symbols:favorite-outline"
             />
           </SwiperSlide>
           <SwiperSlide>
             <CardHero
               title="Sguardo rivolto al futuro"
               descrizione="per offrirti prodotti sempre più affidabili e innovativi"
+              icon="material-symbols:fast-forward-outline"
             />
           </SwiperSlide>
         </Swiper>

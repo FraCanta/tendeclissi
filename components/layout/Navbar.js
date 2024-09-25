@@ -35,16 +35,21 @@ const Navbar = () => {
   }, [lastScrollTop]);
 
   return (
-    <motion.div className="w-full h-[5rem] lg:h-[7.5rem] py-4 lg:py-5 bg-lightGray shadow-lg justify-between items-center flex text-black font-normal relative z-[9999]">
+    <motion.div className="w-full h-[5rem] lg:h-[8.5rem]  bg-lightGray shadow-lg justify-between items-center flex text-black font-normal relative z-[9999]">
       <div className="w-[90%] m-auto flex justify-between items-center ">
         <Link href="/" onClick={() => setOpen(false)} className=" z-[9999]">
-          <Image
-            src={Logo}
-            alt="logo tendeclissi"
-            height={80}
-            width={80}
-            className="h-12 w-12 lg:h-[70px] lg:w-[70px] fxl:h-[80px] fxl:w-[80px] "
-          />
+          <div className="flex flex-col items-center justify-center gap-1">
+            <Image
+              src={Logo}
+              alt="logo tendeclissi"
+              height={80}
+              width={80}
+              className="h-14 w-14 lg:h-[70px] lg:w-[70px] "
+            />
+            <p className="hidden font-medium text-black uppercase lg:block">
+              tendeclissi
+            </p>
+          </div>
         </Link>
         <div className="flex items-center gap-8 xl:hidden ">
           <div
