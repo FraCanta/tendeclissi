@@ -1,12 +1,12 @@
 import Image from "next/image";
 import React from "react";
 import Almot from "@/public/assets/almot.png";
-import Almot2 from "@/public/assets/almot_azienda2.jpg";
+import Almot2 from "@/public/assets/img/Almot.webp";
 import Placeholder from "@/public/assets/imgplaceholder.svg";
 const Partner = () => {
   return (
     <div className="w-[90%] mx-auto min-h-screen flex flex-col justify-center items-center gap-6 py-10 xl:py-32">
-      <div className="grid grid-cols-1 xl:grid-cols-2 items-center gap-10 ">
+      <div className="grid items-center grid-cols-1 gap-10 xl:grid-cols-2 ">
         <div className="flex flex-col gap-6" id="motorizzazione">
           <h2 className="text-[35px] md:text-[45px] lg:text-[50px] xl:text-[45px] font-bold text-black max-w-2xl">
             Motorizzazione delle tende da sole
@@ -21,25 +21,25 @@ const Partner = () => {
           <Image src={Almot} alt="avatar" fill className="object-cover " />
         </div>
       </div>
-      <div className=" min-h-screen w-full flex flex-col gap-10">
+      <div className="flex flex-col w-full min-h-screen gap-10 ">
         <div className="relative aspect-square xl:aspect-video">
           <Image
             src={Almot2}
             alt="avatar"
             fill
-            className="object-cover h-auto w-auto object-top"
+            className="object-cover object-top w-auto h-auto"
           />
         </div>
 
-        <div className="grid grid-cols-1 xl:grid-cols-3   items-center gap-6 2xl:gap-20">
+        <div className="grid items-center grid-cols-1 gap-6 xl:grid-cols-3 2xl:gap-20">
           <div className="p-4 md:p-[30px] shadow-xl">
-            <div className="flex justify-evenly items-center ">
-              <div className="h-20 w-20 relative">
+            <div className="flex items-center gap-4 justify-evenly">
+              <div className="relative w-20 h-20">
                 <Image
                   src={Placeholder}
                   alt="avatar"
                   fill
-                  className="object-cover h-auto w-auto object-top"
+                  className="object-cover object-top w-auto h-auto"
                 />
               </div>
 
@@ -55,13 +55,13 @@ const Partner = () => {
             </div>
           </div>
           <div className="p-[30px] shadow-xl">
-            <div className="flex justify-evenly items-center ">
-              <div className="h-20 w-20 relative">
+            <div className="flex items-center gap-4 justify-evenly">
+              <div className="relative w-20 h-20">
                 <Image
                   src={Placeholder}
                   alt="avatar"
                   fill
-                  className="object-cover h-auto w-auto object-top"
+                  className="object-cover object-top w-auto h-auto"
                 />
               </div>
               <div>
@@ -76,13 +76,13 @@ const Partner = () => {
             </div>
           </div>
           <div className="p-[30px] shadow-xl">
-            <div className="flex justify-evenly items-center ">
-              <div className="h-20 w-20 relative">
+            <div className="flex items-center gap-4 justify-evenly">
+              <div className="relative w-20 h-20">
                 <Image
                   src={Placeholder}
                   alt="avatar"
                   fill
-                  className="object-cover h-auto w-auto object-top"
+                  className="object-cover object-top w-auto h-auto"
                 />
               </div>
               <div>

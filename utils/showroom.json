@@ -3,17 +3,17 @@
     "paragrafo": "Visita il nostro showroom digitale ed esplora da qualsiasi posto e a qualsiasi ora i prodotti che offriamo in Veneto e nelle Marche: un’ampia gamma di <strong>cappottine</strong>, <strong>tende</strong> e soluzioni per il <strong>giardino</strong>, selezionate privilegiando <strong>materie prime italiane</strong>."
   },
   "cappottine": {
-    "img": "/assets/progetti/img7.jpg",
+    "img": "/assets/showroom/cappottine_cover.webp",
 
     "descrizione": "Un grande classico senza tempo per riparare e incorniciare <strong>piccole finestre</strong>, <strong>portoncini</strong> e <strong>ingressi</strong>, o creare una tettoia fissa di protezione sia dal sole che dagli agenti atmosferici."
   },
   "tendeDaSole": {
-    "img": "/assets/progetti/img2.jpg",
+    "img": "/assets/showroom/tendesole_cover.webp",
 
     "descrizione": "Dalle classiche tende con <strong>rullo avvolgibile e tessuto a vista</strong>, alle <strong>tende a caduta</strong> per dare respiro ai tuoi spazi coperti, fino al design elegante delle <strong>tende tonde e a guscio</strong>: trova il prodotto giusto per la tua abitazione privata o la tua attività commerciale."
   },
   "giardino": {
-    "img": "/assets/progetti/img5.jpg",
+    "img": "/assets/showroom/pergola_cover.webp",
 
     "descrizione": "Cerchi di più di una semplice tenda per il tuo giardino? Le nostre <strong>pergole</strong> richiudibili o con sistema a lame orientabili e le <strong>vele ombreggianti</strong> possono creare l’angolo d’ombra perfetto nel verde."
   },

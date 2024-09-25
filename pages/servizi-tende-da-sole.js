@@ -84,7 +84,7 @@ const Servizi = () => {
             }}
           ></p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:flex-row gap-4  h-full">
+        <div className="grid h-full grid-cols-1 gap-4 md:grid-cols-2 xl:flex-row">
           {serviceData?.servizi.map((item, index) => {
             return (
               <Card
@@ -92,6 +92,7 @@ const Servizi = () => {
                 number={item.number}
                 title={item.title}
                 description={item.descrizione}
+                img={item.img}
               />
             );
           })}

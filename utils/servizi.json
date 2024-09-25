@@ -3,22 +3,26 @@
     {
       "number": "1",
       "title": "Preventivo personalizzato",
-      "descrizione": "Dopo il montaggio, ci assicuriamo che la tua tenda possa ripararti dal sole il più a lungo possibile: ci occupiamo di riparazioni, pulizia e interventi di manutenzione, seguendo la tenda da sole in tutta la sua vita."
+      "descrizione": "Dopo il montaggio, ci assicuriamo che la tua tenda possa ripararti dal sole il più a lungo possibile: ci occupiamo di riparazioni, pulizia e interventi di manutenzione, seguendo la tenda da sole in tutta la sua vita.",
+      "img": "/assets/img/preventivo.webp"
     },
     {
       "number": "2",
       "title": "Vendita",
-      "descrizione": "Ti guidiamo nell’identificazione della soluzione più adatta per le tue esigenze e dei prodotti che serviranno per realizzarla, mettendo a disposizione tutte le nostre conoscenze e la nostra esperienza."
+      "descrizione": "Ti guidiamo nell’identificazione della soluzione più adatta per le tue esigenze e dei prodotti che serviranno per realizzarla, mettendo a disposizione tutte le nostre conoscenze e la nostra esperienza.",
+      "img": "/assets/img/vendita.webp"
     },
     {
       "number": "3",
       "title": "Montaggio",
-      "descrizione": "Dopo un sopralluogo per verificare le caratteristiche del luogo in cui la tenda verrà installata, definiamo insieme a te gli ultimi dettagli del progetto e in seguito all’acquisto procuriamo tutti i materiali e i prodotti selezionati insieme."
+      "descrizione": "Dopo un sopralluogo per verificare le caratteristiche del luogo in cui la tenda verrà installata, definiamo insieme a te gli ultimi dettagli del progetto e in seguito all’acquisto procuriamo tutti i materiali e i prodotti selezionati insieme.",
+      "img": "/assets/img/montaggio.webp"
     },
     {
       "number": "4",
       "title": "Riparazione e manutenzione",
-      "descrizione": "Nel corso degli anni ti aiutiamo a far durare le tue tende il più a lungo possibile, occupandoci in prima persona dell’ordinaria manutenzione oppure degli interventi di riparazione."
+      "descrizione": "Nel corso degli anni ti aiutiamo a far durare le tue tende il più a lungo possibile, occupandoci in prima persona dell’ordinaria manutenzione oppure degli interventi di riparazione.",
+      "img": "/assets/img/riparazione.webp"
     }
   ]
 }

@@ -6,6 +6,7 @@ import Banner from "@/components/layout/Banner";
 import Faq from "@/components/FAQ/Faq";
 import data from "@/utils/showroom.json";
 import Head from "next/head";
+import HeroPage2 from "@/components/hero/HeroPage2";
 const Showroom = () => {
   return (
     <div>
@@ -45,7 +46,7 @@ const Showroom = () => {
           content="Esplora il nostro showroom digitale e trova la soluzione per te tra cappottine, tende da sole classiche, tende a caduta, tende a guscio, pergole e vele ombreggianti."
         />
       </Head>
-      <HeroPage backgroundImage="/assets/chisiamoImg.jpg">
+      <HeroPage2 backgroundImage="/assets/showroom/showroom_hero.webp">
         <h1 className="text-[40px] xl:text-[60px] xl:leading-[1.2] fxl:text-[70px] font-bold text-white xl:max-w-2xl">
           Entra nel nostro showroom digitale
         </h1>
@@ -53,8 +54,8 @@ const Showroom = () => {
           className="max-w-7xl text-xl xl:text-2xl fxl:text-[25px] font-regular text-white"
           dangerouslySetInnerHTML={{ __html: data.hero.paragrafo }}
         ></p>
-      </HeroPage>
-      <div className="flex flex-col gap-20 overflow-hidden ">
+      </HeroPage2>
+      <div className="flex flex-col gap-20 py-10 overflow-hidden">
         <div className="w-full ">
           <MediaCards
             reverseLayout={false}
