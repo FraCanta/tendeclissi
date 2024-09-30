@@ -15,6 +15,11 @@ const Form = ({ content, onCategoryChange, onRadioChange }) => {
   const [subcategories, setSubcategories] = useState([]);
   const [selectedSubcategory, setSelectedSubcategory] = useState("");
 
+  const handleSubmit = (e) => {
+    e.preventDefault(); // Previeni il comportamento predefinito del submit
+    // Qui puoi gestire l'invio dei dati del form, come un'API call o un'altra logica
+  };
+
   const subcategoryMap = {
     Cappottine: ["Cappottine mobili", "Cappottine fisse"],
     "Tende da sole": ["Tende a caduta", "Tende classiche", "Tende a guscio"],
@@ -68,10 +73,13 @@ const Form = ({ content, onCategoryChange, onRadioChange }) => {
   }, [categoryOptions]);
 
   return (
-    <form className="w-full max-w-3xl mx-auto flex flex-col gap-6">
-      <h4 className="text-2xl lg:text-4xl font-bold">I tuoi dati</h4>
-      <div className="flex flex-col lg:flex-row -mx-3 gap-4">
-        <div className="w-full md:w-1/2 px-3 p-2 bg-white border border-yellow">
+    <form
+      className="flex flex-col w-full max-w-3xl gap-6 mx-auto"
+      onSubmit={handleSubmit}
+    >
+      <h4 className="text-2xl font-bold lg:text-4xl">I tuoi dati</h4>
+      <div className="flex flex-col gap-4 -mx-3 lg:flex-row">
+        <div className="w-full p-2 px-3 bg-white border md:w-1/2 border-yellow">
           <input
             className="appearance-none block w-full bg-white text-gray-700 border border-purple px-[33px] py-[15px] leading-tight focus:outline-none focus:bg-white"
             id="grid-first-name"
@@ -79,7 +87,7 @@ const Form = ({ content, onCategoryChange, onRadioChange }) => {
             placeholder="Nome"
           />
         </div>
-        <div className="w-full md:w-1/2 px-3 p-2 bg-white border border-yellow">
+        <div className="w-full p-2 px-3 bg-white border md:w-1/2 border-yellow">
           <input
             className="appearance-none block w-full bg-white text-gray-700 border border-purple px-[33px] py-[15px] leading-tight focus:outline-none focus:bg-white"
             id="grid-last-name"
@@ -90,7 +98,7 @@ const Form = ({ content, onCategoryChange, onRadioChange }) => {
       </div>
       {content.addressInput ? (
         <div className="flex flex-col -mx-3">
-          <div className="w-full px-3 p-2 bg-white border border-yellow">
+          <div className="w-full p-2 px-3 bg-white border border-yellow">
             <input
               className="appearance-none block w-full bg-white text-gray-700 border border-purple px-[33px] py-[15px] leading-tight focus:outline-none focus:border-white focus:bg-white"
               id="grid-address"
@@ -101,8 +109,8 @@ const Form = ({ content, onCategoryChange, onRadioChange }) => {
         </div>
       ) : null}
 
-      <div className="flex flex-col -mx-3 gap-4">
-        <div className="w-full px-3 p-2 bg-white border border-yellow">
+      <div className="flex flex-col gap-4 -mx-3">
+        <div className="w-full p-2 px-3 bg-white border border-yellow">
           <input
             className="appearance-none block w-full bg-white text-gray-700 border border-purple px-[33px] py-[15px] leading-tight focus:outline-none focus:bg-white"
             id="grid-phone"
@@ -111,21 +119,21 @@ const Form = ({ content, onCategoryChange, onRadioChange }) => {
           />
         </div>
       </div>
-      <div className="flex flex-col -mx-3 gap-4">
-        <h4 className="text-2xl lg:text-4xl font-bold">Cosa ti serve</h4>
-        <div className="w-full flex gap-6">
+      <div className="flex flex-col gap-4 -mx-3">
+        <h4 className="text-2xl font-bold lg:text-4xl">Cosa ti serve</h4>
+        <div className="flex w-full gap-6">
           <div className="flex items-center">
             <input
               id="bordered-radio-1"
               type="radio"
               name="bordered-radio"
-              className="w-8 h-8 text-primary border-black"
+              className="w-8 h-8 border-black text-primary"
               checked={activeRadio === "bordered-radio-1"}
               onChange={handleRadioChange}
             />
             <label
               htmlFor="bordered-radio-1"
-              className="w-full py-4 ms-2 text-xl font-medium text-black"
+              className="w-full py-4 text-xl font-medium text-black ms-2"
             >
               Prodotto
             </label>
@@ -135,27 +143,27 @@ const Form = ({ content, onCategoryChange, onRadioChange }) => {
               id="bordered-radio-2"
               type="radio"
               name="bordered-radio"
-              className="w-8 h-8 text-primary border-black"
+              className="w-8 h-8 border-black text-primary"
               checked={activeRadio === "bordered-radio-2"}
               onChange={handleRadioChange}
             />
             <label
               htmlFor="bordered-radio-2"
-              className="w-full py-4 ms-2 text-xl font-medium text-black"
+              className="w-full py-4 text-xl font-medium text-black ms-2"
             >
               Servizio
             </label>
           </div>
         </div>
       </div>
-      <div className="flex flex-col -mx-3 gap-4">
+      <div className="flex flex-col gap-4 -mx-3">
         <div
-          className="relative w-full px-3 p-2 bg-white border border-yellow"
+          className="relative w-full p-2 px-3 bg-white border border-yellow"
           onClick={toggleList}
         >
-          <div className="flex items-center gap-6 justify-between">
+          <div className="flex items-center justify-between gap-6">
             <div className="bg-white border border-primary text-purple text-sm focus:ring-primary focus:border-primary block w-full px-[33px] py-[15px]">
-              <button className="w-full flex items-center justify-between text-sm lg:text-xl">
+              <button className="flex items-center justify-between w-full text-sm lg:text-xl">
                 {selectedCategory === "Seleziona"
                   ? "Seleziona"
                   : selectedCategory}
@@ -179,7 +187,7 @@ const Form = ({ content, onCategoryChange, onRadioChange }) => {
             </div>
             {showList && (
               <ul
-                className="absolute top-20 left-0 lg:right-0 bg-white w-full text-xl z-10 transition-colors duration-300 flex flex-col gap-2"
+                className="absolute left-0 z-10 flex flex-col w-full gap-2 text-xl transition-colors duration-300 bg-white top-20 lg:right-0"
                 style={{ padding: "20px 0 28px" }}
               >
                 <li
@@ -210,14 +218,14 @@ const Form = ({ content, onCategoryChange, onRadioChange }) => {
         </div>
       )}
       {selectedCategory !== "Seleziona" && subcategories.length > 0 && (
-        <div className="flex flex-col -mx-3 gap-4">
+        <div className="flex flex-col gap-4 -mx-3">
           <div
-            className="relative w-full px-3 p-2 bg-white border border-yellow"
+            className="relative w-full p-2 px-3 bg-white border border-yellow"
             onClick={toggleSubList}
           >
-            <div className="flex items-center gap-6 justify-between">
+            <div className="flex items-center justify-between gap-6">
               <div className="bg-white border border-primary text-purple text-sm focus:ring-primary focus:border-primary block w-full px-[33px] py-[15px]">
-                <button className="w-full flex items-center justify-between  text-sm lg:text-xl relative">
+                <button className="relative flex items-center justify-between w-full text-sm lg:text-xl">
                   {selectedSubcategory ? selectedSubcategory : "Seleziona"}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -239,7 +247,7 @@ const Form = ({ content, onCategoryChange, onRadioChange }) => {
               </div>
               {showSubList && (
                 <ul
-                  className="absolute top-20 left-0 lg:right-0 bg-white w-full text-xl z-10 transition-colors duration-300 flex flex-col gap-2"
+                  className="absolute left-0 z-10 flex flex-col w-full gap-2 text-xl transition-colors duration-300 bg-white top-20 lg:right-0"
                   style={{ padding: "20px 0 28px" }}
                 >
                   {subcategories.map((subcategory) => (
@@ -258,11 +266,11 @@ const Form = ({ content, onCategoryChange, onRadioChange }) => {
           </div>
         </div>
       )}
-      <div className="flex flex-col -mx-3 gap-4">
-        <h4 className="text-2xl lg:text-4xl font-bold">
+      <div className="flex flex-col gap-4 -mx-3">
+        <h4 className="text-2xl font-bold lg:text-4xl">
           Richieste particolari
         </h4>
-        <div className="w-full px-3 p-2 bg-white border border-yellow">
+        <div className="w-full p-2 px-3 bg-white border border-yellow">
           <textarea
             id="message"
             rows="10"
@@ -271,8 +279,8 @@ const Form = ({ content, onCategoryChange, onRadioChange }) => {
           ></textarea>
         </div>
       </div>
-      <div className="w-full grid grid-cols-1 items-center gap-y-8">
-        <label className="text-black flex gap-4">
+      <div className="grid items-center w-full grid-cols-1 gap-y-8">
+        <label className="flex gap-4 text-black">
           <input type="checkbox" />
           <span
             dangerouslySetInnerHTML={{
