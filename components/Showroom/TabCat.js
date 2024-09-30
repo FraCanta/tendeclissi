@@ -5,9 +5,22 @@ import { useRouter } from "next/router";
 
 const TabCat = ({ category }) => {
   const router = useRouter();
-  const tabLink = router.asPath.split("#")[1];
   const tabActive = category.tabs;
+
+  // Ottieni il valore dall'URL o imposta il primo tab come default
+  const tabLink = router.asPath.split("#")[1] || tabActive[0].link;
+
   const [activeTab, setActiveTab] = useState(tabLink);
+
+  // Usa useEffect per impostare l'activeTab in base all'URL quando cambia
+  useEffect(() => {
+    const currentTab = router.asPath.split("#")[1];
+    if (currentTab) {
+      setActiveTab(currentTab);
+    } else {
+      setActiveTab(tabActive[0].link); // Fallback al primo tab
+    }
+  }, [router.asPath, tabActive]);
 
   const openProject = (index) => {
     setActiveTab(index);
@@ -16,7 +29,7 @@ const TabCat = ({ category }) => {
 
   return (
     <>
-      <div className="flex flex-col lg:flex-row py-3 border-b border-b-yellow gap-2">
+      <div className="flex flex-col gap-2 py-3 border-b lg:flex-row border-b-yellow">
         {tabActive.map((tab, index) => {
           return (
             <button
@@ -28,20 +41,20 @@ const TabCat = ({ category }) => {
               }
               onClick={() => openProject(tab.link)}
             >
-              <h2 className={`text-[22px]`}>{tab.name}</h2>
+              <h2 className="text-[22px]">{tab.name}</h2>
             </button>
           );
         })}
       </div>
       {tabActive.map((tab, index) => (
-        <motion.div // Usa motion.div anziché div
+        <motion.div
           key={index}
           id={tab.name}
-          initial={{ opacity: 0, y: 5 }} // Aggiungi animazioni iniziali
+          initial={{ opacity: 0, y: 5 }}
           animate={{
             opacity: activeTab === tab.link ? 1 : 0,
             y: activeTab === tab.link ? 0 : 5,
-            transition: { duration: 0.5, type: "tween" }, // Specifica la durata dell'animazione
+            transition: { duration: 0.5, type: "tween" },
           }}
           className={`w-full py-10 flex flex-col gap-10 ${
             activeTab === tab.link ? "tabcontent" : "tabcontent hidden"
