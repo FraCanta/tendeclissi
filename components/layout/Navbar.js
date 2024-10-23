@@ -115,7 +115,7 @@ const Navbar = () => {
                   Servizi
                 </Link>
               </li>
-              <li onClick={() => setOpen(false)}>
+              {/* <li onClick={() => setOpen(false)}>
                 <Link
                   href="/progetti"
                   className={` ${
@@ -127,7 +127,7 @@ const Navbar = () => {
                   {" "}
                   Progetti
                 </Link>
-              </li>
+              </li> */}
               <li onClick={() => setOpen(false)}>
                 <Link
                   href="/contatti"
@@ -188,7 +188,7 @@ const Navbar = () => {
               Servizi
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link
               href="/progetti"
               className={` ${
@@ -199,7 +199,7 @@ const Navbar = () => {
             >
               Progetti
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link
               href="/contatti"
