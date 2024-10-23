@@ -1,7 +1,7 @@
 import HeroPage from "@/components/hero/HeroPage";
 import MediaText from "@/components/layout/MediaText";
 import React from "react";
-import Italy from "@/public/assets/italy2.svg";
+import Italy from "@/public/assets/cartina_italia.svg";
 import Team from "@/components/Team/Team";
 import Stoffe from "@/public/assets/img/chisiamo_2.webp";
 import Banner from "@/components/layout/Banner";
@@ -72,6 +72,7 @@ const Chisiamo = () => {
         cta="contatti"
         img={Italy}
         title="Dove trovarci"
+        alt="Cartina dell’Italia con evidenziate in blu il Veneto e in giallo le Marche, dove Tendeclissi è operativa."
         description={data.dove.descrizione}
       />
       <Team data={data.team} />

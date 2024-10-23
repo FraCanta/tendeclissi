@@ -1,14 +1,14 @@
 import Image from "next/image";
 import React from "react";
 import CtaPrimary from "./CtaPrimary";
-const MediaText2 = ({ img, title, description, cta }) => {
+const MediaText2 = ({ img, title, description, cta, alt }) => {
   return (
     <div className="flex items-center justify-center w-full min-h-screen">
       <div className="w-[90%] mx-auto grid grid-cols-1 xl:grid-cols-2 gap-6 py-12 xl:py-20 2xl:py-18 fxl:gap-8">
         <div className="relative aspect-square ">
           <Image
             src={img}
-            alt="placeholder"
+            alt={alt}
             fill
             className="object-cover w-auto h-auto md:object-contain lg:object-cover "
           />

@@ -64,7 +64,7 @@ const MediaCards = ({
           <div
             className={`hidden absolute top-0 ${
               reverseLayout ? "-left-[335px]" : "-right-[335px]"
-            } w-[48%] fxl:w-[45%] h-full xl:flex flex-col justify-center items-center gap-6 2xla:gap-8 text-center`}
+            } w-[48%] fxl:w-[45%] h-full xl:flex flex-col justify-center items-center gap-6 2xl:gap-3 2xla:gap-6 text-center`}
           >
             {cardsData.map((card, index) => (
               <SimpleCard

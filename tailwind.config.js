@@ -26,7 +26,7 @@ module.exports = {
 
         "2xl": "1500px",
         // => @media (min-width: 1536px) { ... }
-        "2xla": "1800px",
+        "2xla": "1680px",
         // => @media (min-width: 1680px) { ... }
         fxl: "1920px",
         // => @media (min-width: 1920px) { ... }

@@ -22,13 +22,13 @@
       "title": "Cappottine mobili",
       "description": "Il riparo dal sole perfetto per piccole finestre e ingressi.",
       "cta": "Vedi le cappottine mobili",
-      "link": "/showroom/cappottine#cappottine-mobili"
+      "link": "/showroom/tende-cappottine#cappottine-mobili"
     },
     {
       "title": "Cappottine fisse",
       "description": "La soluzione per riparare gli ingressi dagli elementi atmosferici.",
       "cta": "Vedi le cappottine fisse",
-      "link": "/showroom/cappottine#cappottine-fisse"
+      "link": "/showroom/tende-cappottine#cappottine-fisse"
     }
   ],
   "section2": [
@@ -36,19 +36,19 @@
       "title": "Tende a caduta",
       "description": "Aumenta la superficie protetta dalla luce solare.",
       "cta": "Vedi le tende a caduta",
-      "link": "/showroom/tende-da-sole#tende-a-caduta"
+      "link": "/showroom/tende-da-sole#tende-da-sole-a-caduta"
     },
     {
       "title": "Tende classiche",
       "description": "Le soluzioni più versatili, da 2,40 a 13 metri di larghezza.",
       "cta": "Vedi le tende classiche",
-      "link": "/showroom/tende-da-sole#tende-classiche"
+      "link": "/showroom/tende-da-sole#tende-da-sole-classiche"
     },
     {
       "title": "Tende a guscio",
       "description": "Un design pulito per la massima resa estetica.",
       "cta": "Vedi le tende a guscio",
-      "link": "/showroom/tende-da-sole#tende-a-guscio"
+      "link": "/showroom/tende-da-sole#tende-da-sole-a-guscio"
     }
   ],
   "section3": [
@@ -65,18 +65,24 @@
       "link": "/showroom/tende-da-sole-per-esterni-e-giardini#vele-ombreggianti"
     },
     {
-      "title": "Copertura box auto",
+      "title": "Coperture box auto",
       "description": "La soluzione su misura per mettere al riparo il tuo veicolo.",
       "cta": "Copertura box auto",
-      "link": "/showroom/tende-da-sole-per-esterni-e-giardini#copertura-box-auto"
+      "link": "/showroom/tende-da-sole-per-esterni-e-giardini#coperture-box-auto"
+    },
+    {
+      "title": "Coperture su misura",
+      "description": "La soluzione su misura per mettere al riparo il tuo veicolo.",
+      "cta": "Copertura box auto",
+      "link": "/showroom/tende-da-sole-per-esterni-e-giardini#coperture-su-misura"
     }
   ],
   "singleCat": {
-    "cappottine": {
-      "link": "/showroom/cappottine",
+    "tende-cappottine": {
+      "link": "/showroom/tende-cappottine",
       "seoTitle": "Tende da sole cappottine | Tendeclissi",
       "seoDescription": "Scopri i modelli di tende da sole a cappottina disponibili nel nostro catalogo, per coprire finestre, ingressi e creare tettoie di protezione.",
-      "img": "/assets/progetti/img7.jpg",
+      "img": "/assets/showroom/cappottine_cover.webp",
       "heroTitle": "Cappottine mobili e fisse",
       "heroParagraph": "Un grande classico senza tempo per riparare e incorniciare <strong>piccole finestre, portoncini e ingressi</strong>, o creare una tettoia fissa di protezione sia dal sole che dalla pioggia.",
       "cards": [
@@ -102,6 +108,7 @@
             {
               "title": "Modello Venezia",
               "descrizione": "Ideale per proteggere porte e piccole finestre, con la caratteristica forma bombata il modello Venezia può disporre di <strong>3 o 4 spicchi</strong>.",
+              "img": "/assets/showroom/cappottine/cappottine_mobili/modello_venezia.webp",
               "funzio": [
                 {
                   "nome": "Supporti",
@@ -124,6 +131,8 @@
             {
               "title": "Modello Firenze",
               "descrizione": "Studiato per fornire una <strong>maggiore sporgenza</strong>, il modello Firenze permette una <strong>doppia regolazione</strong> e si presta in modo versatile per ingressi di abitazioni, strutture alberghiere e attività commerciali.",
+              "img": "/assets/showroom/cappottine/cappottine_mobili/modello_firenze.webp",
+
               "funzio": [
                 {
                   "nome": "Supporti",
@@ -144,8 +153,10 @@
               ]
             },
             {
-              "title": "Modello Semitonda e Tonda",
+              "title": "Modello Roma",
               "descrizione": "Utilizzati quando l’architettura o la forma della finestra è <strong>ovale e tondeggiante</strong>, i modelli Semitonda e Tonda si adattano al profilo per una resa estetica ottimale.",
+              "img": "/assets/showroom/cappottine/cappottine_mobili/modello_roma.webp",
+
               "funzio": [
                 {
                   "nome": "Supporti",
@@ -173,16 +184,26 @@
 
           "content": [
             {
-              "title": "Cappottine fisse",
-              "descrizione": "Le cappottine possono essere utilizzare anche come tettoie, fornendo <strong>protezione dagli agenti atmosferici</strong> per ingressi di strutture alberghiere, capannoni industriali, magazzini e attività commerciali.",
+              "title": "Cappottine liscia",
+              "descrizione": "Crea una copertura protettiva per il tuo ingresso <strong>semplice ed essenziale</strong>, creando una zona d’ombra e riparata dalla pioggia.",
+              "img": "/assets/showroom/cappottine/cappottine_fisse/cappottine_fisse.webp",
+
               "funzio": [
                 {
-                  "nome": "Materiale",
-                  "descrizione": "Le cappottine fisse vengono spesso fatte in PVC."
-                },
+                  "nome": "Garanzia",
+                  "descrizione": "Garanzia di prodotti di 5 anni."
+                }
+              ]
+            },
+            {
+              "title": "Cappottine con bordo",
+              "descrizione": "Per una copertura base ma con un <strong>tocco estetico in più</strong>, scegli una cappottina fissa con bordo per arricchire l’ingresso della tua struttura.",
+              "img": "/assets/showroom/cappottine/cappottine_fisse/imgplaceholder.svg",
+
+              "funzio": [
                 {
-                  "nome": "Accessori",
-                  "descrizione": "Kit di accessori in alluminio."
+                  "nome": "Garanzia",
+                  "descrizione": "Garanzia di prodotti di 5 anni."
                 }
               ]
             }
@@ -194,7 +215,7 @@
       "link": "/showroom/cappottine",
       "seoTitle": "Tende da sole a caduta | Tendeclissi",
       "seoDescription": "Scopri i modelli di tende da sole a cappottina disponibili nel nostro catalogo, per coprire finestre, ingressi e creare tettoie di protezione.",
-      "img": "/assets/progetti/img2.jpg",
+      "img": "/assets/showroom/tendesole_cover.webp",
       "heroTitle": "Tende da sole",
       "heroParagraph": "Dalle classiche tende con rullo avvolgibile e tessuto a vista, alle tende a caduta per dare respiro ai tuoi spazi coperti, fino al design elegante delle tende tonde e a guscio.",
       "cards": [
@@ -215,10 +236,12 @@
       "tabs": [
         {
           "name": "tende a caduta",
-          "link": "tende-a-caduta",
+          "link": "tende-da-sole-a-caduta",
           "content": [
             {
-              "title": "Modello 10-10C",
+              "title": "Tende con braccetti",
+              "img": "/assets/showroom/tende_da_sole/tende_con_braccetti.webp",
+
               "descrizione": "Il modello più classico: il rullo è a vista e la tenda può essere <strong>ancorata tramite gancetti o ringhiera</strong>, oppure tramite <strong>braccetti</strong> per far sporgere di più la tenda.",
               "funzio": [
                 {
@@ -240,8 +263,56 @@
               ]
             },
             {
-              "title": "Modello Athena e Athena XS",
-              "descrizione": "La tenda Athena, con rullo esposto, è dotata di guide laterali che permettono di <strong>fermare la tela a qualsiasi altezza desiderata</strong>; la variante XS è dotata di braccetti che permettono di aumentare la sporgenza in fuori.",
+              "title": "Tenda con braccetti a parete",
+              "img": "/assets/showroom/tende_da_sole/tende_con_braccetti_a_parete.webp",
+
+              "descrizione": "Grazie ai braccetti fissati direttamente sulla parete dell’edificio, quando la tenda viene richiusa rimane aderente alla parete, garantendo un <strong>uso ottimale degli spazi</strong>.",
+              "funzio": [
+                {
+                  "nome": "Tettuccio",
+                  "descrizione": "Tettuccio di protezione da 15/20 cm."
+                },
+                {
+                  "nome": "Rullo",
+                  "descrizione": "Disponibile con rullo a vista o con guscio."
+                },
+
+                {
+                  "nome": "Garanzia",
+                  "descrizione": "Garanzia di prodotto di 5 anni."
+                }
+              ]
+            },
+
+            {
+              "title": "Tenda con cavi a guscio",
+              "img": "/assets/showroom/tende_da_sole/tende_con_cavi_a_guscio.webp",
+
+              "descrizione": "Un modello a caduta dotato di cavi per lo scorrimento della tenda in apertura e chiusura, insieme a un guscio per <strong>maggiore protezione della copertura</strong>.",
+              "funzio": [
+                {
+                  "nome": "Garanzia",
+                  "descrizione": "Garanzia di prodotto di 5 anni."
+                }
+              ]
+            },
+            {
+              "title": "Tenda con cavi",
+              "img": "/assets/showroom/tende_da_sole/imgplaceholder.svg",
+
+              "descrizione": "Una tenda da sole a caduta con sistema di <strong>scorrimento verticale a cavi</strong>, per un design pulito ed essenziale della copertura.",
+              "funzio": [
+                {
+                  "nome": "Garanzia",
+                  "descrizione": "Garanzia di prodotto di 5 anni."
+                }
+              ]
+            },
+            {
+              "title": "Tenda a guide fisse",
+              "img": "/assets/showroom/tende_da_sole/tende_a_guide_fisse.webp",
+
+              "descrizione": "Con rullo esposto, è dotata di guide laterali che permettono di <strong>fermare la tela a qualsiasi altezza desiderata</strong>; può essere dotata di <strong>braccetti</strong> per aumentare la sporgenza in fuori.",
               "funzio": [
                 {
                   "nome": "Tettuccio",
@@ -252,9 +323,17 @@
                   "descrizione": "60 cm per giro rullo e balza."
                 },
                 {
-                  "nome": "Braccetti",
-                  "descrizione": "Inclusi per la tenda Athena XS."
-                },
+                  "nome": "Garanzia",
+                  "descrizione": "Garanzia di prodotto di 5 anni."
+                }
+              ]
+            },
+            {
+              "title": "Tenda a caduta con ganci",
+              "img": "/assets/showroom/tende_da_sole/tenda_a_caduta_con_ganci.webp",
+
+              "descrizione": "Grazie all’<strong>installazione di appositi ganci</strong>, la tela di questo modello di tenda da sole può essere facilmente ancorata per creare una zona d’ombra.",
+              "funzio": [
                 {
                   "nome": "Garanzia",
                   "descrizione": "Garanzia di prodotto di 5 anni."
@@ -262,17 +341,11 @@
               ]
             },
             {
-              "title": "Modello con braccetti a parete",
-              "descrizione": "Grazie ai braccetti fissati direttamente sulla parete dell’edificio, quando la tenda viene richiusa rimane aderente alla parete, garantendo un <strong>uso ottimale degli spazi.</strong>",
+              "title": "Tenda Carmen",
+              "img": "/assets/showroom/tende_da_sole/imgplaceholder.svg",
+
+              "descrizione": "Un modello di tenda da sole a caduta con <strong>rullo esposto e guide laterali</strong> per lo scorrimento della tela in apertura e chiusura.",
               "funzio": [
-                {
-                  "nome": "Tettuccio",
-                  "descrizione": "Tettuccio di protezione da 15/20 cm."
-                },
-                {
-                  "nome": "Rullo",
-                  "descrizione": "Disponibile con rullo a vista o con guscio."
-                },
                 {
                   "nome": "Garanzia",
                   "descrizione": "Garanzia di prodotto di 5 anni."
@@ -280,16 +353,22 @@
               ]
             },
             {
-              "title": "Modello in ferro battuto",
-              "descrizione": "Devi installare la tua tenda su una <strong>dimora storica</strong> o un edificio con specifici <strong>requisiti di stile decoro</strong>? Il nostro modello in ferro battuto completerà perfettamente il quadro.",
+              "title": "Tenda Giotto",
+              "img": "/assets/showroom/tende_da_sole/tenda_giotto.webp",
+
+              "descrizione": "Con linee guida di scorrimento laterali, la tenda a guscio Giotto è la scelta ideale per riparare dal sole i <strong>pergolati</strong>, le <strong>strutture in legno</strong> e i <strong>balconi</strong> inseriti nel tetto.",
               "funzio": [
                 {
-                  "nome": "Braccetti",
-                  "descrizione": "Braccetti in ferro battuto."
+                  "nome": "Larghezza",
+                  "descrizione": "Raggiunge fino a 10 m di larghezza."
                 },
                 {
-                  "nome": "Tettuccio",
-                  "descrizione": "Tettuccio sagomato dello stesso colore del telaio."
+                  "nome": "Sporgenza",
+                  "descrizione": "Raggiunge fino a 5 m di sporgenza."
+                },
+                {
+                  "nome": "Motorizzata",
+                  "descrizione": "Motore elettronico per apertura e chiusura."
                 },
                 {
                   "nome": "Garanzia",
@@ -301,11 +380,13 @@
         },
         {
           "name": "tende classiche",
-          "link": "tende-classiche",
+          "link": "tende-da-sole-classiche",
 
           "content": [
             {
-              "title": "Modello Combi",
+              "title": "Tenda Combi",
+              "img": "/assets/showroom/tende_da_sole/tenda_combi.webp",
+
               "descrizione": "Adatto <strong>sia per abitazioni private che per attività commerciali</strong>, il modello Combi è dotato di braccia che si agganciano sulle staffe di supporto che reggono il rullo.",
               "funzio": [
                 {
@@ -327,8 +408,10 @@
               ]
             },
             {
-              "title": "Modello BQ 40",
-              "descrizione": "La tenda classica per eccellenza: il modello BQ 40 M è il più versatile del nostro catalogo, grazie al sistema di braccia che permette di raggiungere <strong>grandi dimensioni</strong>.",
+              "title": "Tenda Barra Quadra",
+              "img": "/assets/showroom/tende_da_sole/tenda_barra_quadra.webp",
+
+              "descrizione": "La tenda classica per eccellenza: il modello a barra quadra è molto il più versatile grazie al sistema di braccia che permette di raggiungere <strong>grandi dimensioni</strong>.",
               "funzio": [
                 {
                   "nome": "Larghezza",
@@ -349,8 +432,10 @@
               ]
             },
             {
-              "title": "Modello BQ 40 140-170",
-              "descrizione": "Perfetto per i <strong>balconi agli ultimi piani</strong> o le <strong>mansarde</strong>, il modello BQ 40 140-170 è la soluzione più adatta per dare più respiro e praticabilità alla superficie coperta.",
+              "title": "Tenda BI-Barra quadra",
+              "img": "/assets/showroom/tende_da_sole/imgplaceholder.svg",
+
+              "descrizione": "<strong>La più grande delle nostre tende classiche</strong>: il modello BI-Barra può raggiungere i 13 metri di larghezza, per una zona d’ombra il più spaziosa possibile.",
               "funzio": [
                 {
                   "nome": "Larghezza",
@@ -371,21 +456,11 @@
               ]
             },
             {
-              "title": "Modello BQ 40 Intermedio",
-              "descrizione": "Nato per rispondere ai bisogni di <strong>coperture ampie per le attività commerciali</strong>, il modello BQ 40 Intermedio è dotato di un potente motore per l’apertura e chiusura della tenda.",
+              "title": "Tenda Otello",
+              "img": "/assets/showroom/tende_da_sole/tenda_otello.webp",
+
+              "descrizione": "Perfetto per <strong>spazi ristretti e balconi scoperti</strong>, il modello Otello crea una tettoia mobile grazie alla presenza di un doppio terminale, fornendo più spazio vivibile sotto la tela.",
               "funzio": [
-                {
-                  "nome": "Larghezza",
-                  "descrizione": "Raggiunge fino a 10 m di larghezza."
-                },
-                {
-                  "nome": "Sporgenza",
-                  "descrizione": "Raggiunge fino a 4,2 m di sporgenza."
-                },
-                {
-                  "nome": "Tettuccio",
-                  "descrizione": "È possibile aggiungere un tettuccio di protezione."
-                },
                 {
                   "nome": "Garanzia",
                   "descrizione": "Garanzia di prodotto di 5 anni."
@@ -396,11 +471,13 @@
         },
         {
           "name": "tende a guscio",
-          "link": "tende-a-guscio",
+          "link": "tende-da-sole-a-guscio",
 
           "content": [
             {
-              "title": "Modello M",
+              "title": "Tenda a guscio M",
+              "img": "/assets/showroom/tende_da_sole/tenda_a_guscio_m.webp",
+
               "descrizione": "Con la sua forma ovale tondeggiante, la tenda a guscio M costituisce un <strong>modello di base</strong> perfetto per una <strong>resa semplice e pulita</strong>.",
               "funzio": [
                 {
@@ -422,7 +499,9 @@
               ]
             },
             {
-              "title": "Modello MP",
+              "title": "Tenda a guscio MP",
+              "img": "/assets/showroom/tende_da_sole/tenda_a_guscio_mp.webp",
+
               "descrizione": "Le tende a guscio del modello MP possono essere <strong>attaccate sia al soffitto che alla parete</strong> e offrono un’opzione di forma differente, raggiungendo <strong>fino a 6 m di larghezza</strong>.",
               "funzio": [
                 {
@@ -444,7 +523,9 @@
               ]
             },
             {
-              "title": "Modello Epica",
+              "title": "Tenda Epica",
+              "img": "/assets/showroom/tende_da_sole/tenda_epica.webp",
+
               "descrizione": "Il modello Epica, dotato di un cassonetto quadrato, è la soluzione più adatta per <strong>aumentare la superficie coperta</strong>, sfruttando sia la larghezza che la <strong>sporgenza</strong> della tenda.",
               "funzio": [
                 {
@@ -466,7 +547,9 @@
               ]
             },
             {
-              "title": "Modello MP XL",
+              "title": "Tenda MP XL",
+              "img": "/assets/showroom/tende_da_sole/tenda_a_guscio_mp_xl.webp",
+
               "descrizione": "Con il suo design avveniristico, il modello MP XL può essere dotato di un <strong>sistema di illuminazione LED</strong> per una resa estetica che non lascia indifferenti!",
               "funzio": [
                 {
@@ -488,21 +571,11 @@
               ]
             },
             {
-              "title": "Modello Giotto",
-              "descrizione": "Con linee guida di scorrimento laterali, la tenda a guscio Giotto è la scelta ideale per riparare dal sole i <strong>pergolati</strong>, le <strong>strutture in legno</strong> e i <strong>balconi inseriti nel tetto</strong>.",
+              "title": "Tenda a barra quadra con guscio",
+              "img": "/assets/showroom/tende_da_sole/imgplaceholder.svg",
+
+              "descrizione": "Un modello che unisce il <strong>sistema di braccia</strong> per sostenere la tela e aumentare la superficie coperta al <strong>design pulito</strong> delle tende a guscio.",
               "funzio": [
-                {
-                  "nome": "Larghezza",
-                  "descrizione": "Raggiunge fino a 10 m di larghezza."
-                },
-                {
-                  "nome": "Sporgenza",
-                  "descrizione": "Raggiunge fino a 5 m di sporgenza."
-                },
-                {
-                  "nome": "Motorizzata",
-                  "descrizione": "Motore elettronico per apertura e chiusura."
-                },
                 {
                   "nome": "Garanzia",
                   "descrizione": "Garanzia di prodotto di 5 anni."
@@ -515,9 +588,9 @@
     },
     "tende-da-sole-per-esterni-e-giardini": {
       "link": "/showroom/tende-da-sole-per-esterni-e-giardino",
-      "seoTitle": "Tende da sole a caduta | Tendeclissi",
-      "seoDescription": "Scopri i modelli di tende da sole a cappottina disponibili nel nostro catalogo, per coprire finestre, ingressi e creare tettoie di protezione.",
-      "img": "/assets/progetti/img5.jpg",
+      "seoTitle": "Tende da sole per esterni e giardino | Tendeclissi",
+      "seoDescription": " Scopri come creare la zona d’ombra perfetta per il giardino o riparare la tua auto con le nostre soluzioni di tende a vela, pergole e box auto.",
+      "img": "/assets/showroom/pergola_cover.webp",
       "heroTitle": "Coperture per esterni e giardino",
       "heroParagraph": "Cerchi di più di una semplice tenda? Le nostre pergole richiudibili o con sistema a lame orientabili e le vele ombreggianti possono creare l’angolo d’ombra perfetto nel giardino o proteggere la tua auto.",
       "cards": [
@@ -540,8 +613,10 @@
           "link": "pergole",
           "content": [
             {
-              "title": "Modello Rimini",
-              "descrizione": "La pergola Rimini <strong>bioclimatica con lame orientabili</strong> si distingue per il suo design ricercato e innovativo, offre protezione totale o parziale dal sole e un’ottima aerazione.",
+              "title": "Pergola bioclimatica orientabile",
+              "img": "/assets/showroom/pergole/pergola_bioclimatica_orientabile.webp",
+
+              "descrizione": "La pergola <strong>bioclimatica con lame orientabili</strong> si distingue per il suo design ricercato e innovativo, offre protezione totale o parziale dal sole e un’ottima aerazione.",
               "funzio": [
                 {
                   "nome": "Larghezza",
@@ -562,52 +637,10 @@
               ]
             },
             {
-              "title": "Modello Rieti",
-              "descrizione": "Vuoi installare una pergola su una <strong>struttura di legno preesistente</strong>? Scegli il modello Rieti, con copertura in PVC oscurante richiudibile e con sistema salvagoccia.",
-              "funzio": [
-                {
-                  "nome": "Larghezza",
-                  "descrizione": "Raggiunge fino a 13 m di larghezza."
-                },
-                {
-                  "nome": "Sporgenza",
-                  "descrizione": "Raggiunge fino a 6 m di sporgenza."
-                },
-                {
-                  "nome": "Motorizzazione",
-                  "descrizione": "Movimentazione a motore con telecomando."
-                },
-                {
-                  "nome": "Versioni disponibili",
-                  "descrizione": "Soluzione a due, tre e quattro guide."
-                }
-              ]
-            },
-            {
-              "title": "Modello Perugia",
-              "descrizione": "La pergola Perugia è costituita da una <strong>struttura in alluminio con tenda richiudibile</strong> a impacchettamento in PVC oscurante, fissata a un sistema di traversi.",
-              "funzio": [
-                {
-                  "nome": "Larghezza",
-                  "descrizione": "Raggiunge fino a 13 m di larghezza."
-                },
-                {
-                  "nome": "Sporgenza",
-                  "descrizione": "Raggiunge fino a 6 m di sporgenza."
-                },
-                {
-                  "nome": "Motorizzazione",
-                  "descrizione": "Movimentazione a motore con telecomando."
-                },
-                {
-                  "nome": "Versioni disponibili",
-                  "descrizione": "Soluzione a due, tre e quattro guide."
-                }
-              ]
-            },
-            {
-              "title": "Modello Dubai",
-              "descrizione": "Con una copertura in PVC oscurante con sistema salvagoccia, la pergola Dubai è dotata di una struttura in alluminio, tenda richiudibile e <strong>può raggiungere 7 m di sporgenza</strong>.",
+              "title": "Pergola a pacchetto",
+              "img": "/assets/showroom/pergole/pergola_a_pacchetto.webp",
+
+              "descrizione": "Questo modello presenta una <strong>struttura in alluminio con tenda richiudibile</strong> a impacchettamento in PVC oscurante, fissata a un sistema di traversi.",
               "funzio": [
                 {
                   "nome": "Larghezza",
@@ -626,6 +659,22 @@
                   "descrizione": "Soluzione a due, tre e quattro guide."
                 }
               ]
+            },
+            {
+              "title": "Pergola con telo fisso",
+              "img": "/assets/showroom/pergole/pergola_con_telo_fisso.webp",
+
+              "descrizione": "Il modello di pergola con telo fisso crea una <strong>zona d’ombra costantemente protetta</strong>, installabile su strutture ad hoc o preesistenti.",
+              "funzio": [
+                {
+                  "nome": "Larghezza",
+                  "descrizione": "Raggiunge fino a 13 m di larghezza."
+                },
+                {
+                  "nome": "Sporgenza",
+                  "descrizione": "Raggiunge fino a 7 m di sporgenza."
+                }
+              ]
             }
           ]
         },
@@ -635,7 +684,9 @@
 
           "content": [
             {
-              "title": "Tende a vela standard",
+              "title": "Tende a vela indipendente",
+              "img": "/assets/showroom/pergole/imgplaceholder.svg",
+
               "descrizione": "Nella loro versioni triangolare e quadrata, le vele ombreggianti possono essere <strong>ancorate su pali, balconi e muri,</strong> creando un angolo d’ombra nel punto che desideri.",
               "funzio": [
                 {
@@ -653,16 +704,14 @@
               ]
             },
             {
-              "title": "Tende a vela personalizzate",
-              "descrizione": "Le soluzioni standard delle tende a vela possono essere combinate per creare un progetto su misura, aggiungendo il sistema rullo delle tende da sole e creando strutture personalizzate per sistemi a doppia vela.",
+              "title": "Tende a vela avvolgibile",
+              "img": "/assets/showroom/pergole/imgplaceholder.svg",
+
+              "descrizione": "Le tende a vela possono essere <strong>abbinate a un rullo</strong>, rendendole avvolgibili come le classiche tende e più versatili nell’utilizzo.",
               "funzio": [
                 {
                   "nome": "",
                   "descrizione": "Rullo avvolgente e punto di ancoraggio"
-                },
-                {
-                  "nome": "",
-                  "descrizione": "Doppia vela su struttura in metallo fissata a pilastri"
                 }
               ]
             }
@@ -675,7 +724,36 @@
           "content": [
             {
               "title": "Box auto",
-              "descrizione": "Hai bisogno di creare uno spazio coperto per la tua auto? Possiamo individuare insieme la soluzione giusta in base alle tue preferenze di materiale e verniciatura e alle tue esigenze.",
+              "img": "/assets/showroom/pergole/imgplaceholder.svg",
+
+              "descrizione": "Progettiamo <strong>box auto personalizzati</strong> in base alle tue preferenze di materiale e verniciatura, con diverse opzioni di tessuti e di sistemi di fissaggio.",
+              "funzio": [
+                {
+                  "nome": "Struttura personalizzabile",
+                  "descrizione": "Chiusa, a pergola oppure a L con i lati liberi."
+                },
+                {
+                  "nome": "Ampia scelta di tessuti",
+                  "descrizione": "Resinati, impermeabilizzati, acrilici, traforati."
+                },
+                {
+                  "nome": "Opzioni di fissaggio",
+                  "descrizione": "Con corde, guide, binari o telo rigido."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "coperture su misura",
+          "link": "coperture-su-misura",
+
+          "content": [
+            {
+              "title": "Coperture esterne personalizzate",
+              "img": "/assets/showroom/pergole/imgplaceholder.svg",
+
+              "descrizione": "Realizziamo coperture per esterni su misura: ti aiutiamo a individuare la <strong>struttura</strong>, i <strong>tessuti</strong> e i <strong>fissaggi</strong> più adatti alle tue esigenze.",
               "funzio": [
                 {
                   "nome": "Struttura personalizzabile",

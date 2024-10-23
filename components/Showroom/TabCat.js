@@ -56,7 +56,7 @@ const TabCat = ({ category }) => {
             y: activeTab === tab.link ? 0 : 5,
             transition: { duration: 0.5, type: "tween" },
           }}
-          className={`w-full py-10 flex flex-col gap-10 ${
+          className={`w-full py-20 flex flex-col gap-24 ${
             activeTab === tab.link ? "tabcontent" : "tabcontent hidden"
           }`}
         >
@@ -67,6 +67,7 @@ const TabCat = ({ category }) => {
               content={content}
               title={content.title}
               description={content.descrizione}
+              img={content.img}
               isImageLeft={contentIndex % 2 === 0} // Alternanza: immagine a sinistra se l'indice è pari, altrimenti a destra
             />
           ))}
