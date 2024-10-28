@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import CtaPrimary from "../layout/CtaPrimary";
 import Placeholder from "@/public/assets/imgplaceholder.svg";
+import { Icon } from "@iconify/react";
 
 const TabContent = ({ content, title, description, isImageLeft, img }) => {
   return (
@@ -16,13 +17,18 @@ const TabContent = ({ content, title, description, isImageLeft, img }) => {
             ></p>
             <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
               {content.funzio.map((el, i) => (
-                <div key={i} className="flex gap-4 p-4 text-white bg-purple">
-                  <div className="relative h-14 w-14">
-                    <Image
+                <div key={i} className="flex gap-2 p-4 text-white bg-purple">
+                  <div className="relative flex">
+                    {/* <Image
                       src={Placeholder}
                       alt="avatar"
                       fill
                       className="object-cover object-top w-auto h-auto"
+                    /> */}
+                    <Icon
+                      icon="ic:baseline-check"
+                      width="1.8rem"
+                      height="1.8rem"
                     />
                   </div>
                   <div>
@@ -44,7 +50,7 @@ const TabContent = ({ content, title, description, isImageLeft, img }) => {
               </CtaPrimary>
             </div>
           </div>
-          <div className="relative aspect-square">
+          <div className="relative w-full h-[300px] lg:h-[500px]">
             <Image src={img} alt="" fill className="object-cover" />
           </div>
           <div className="order-last block lg:hidden">
@@ -58,7 +64,7 @@ const TabContent = ({ content, title, description, isImageLeft, img }) => {
         </>
       ) : (
         <>
-          <div className="relative order-last aspect-square lg:order-first">
+          <div className="relative order-last w-full h-[300px] lg:h-[500px] lg:order-first">
             <Image src={img} alt="" fill className="object-cover" />
           </div>
           <div className="order-last block lg:hidden">
@@ -74,13 +80,18 @@ const TabContent = ({ content, title, description, isImageLeft, img }) => {
             ></p>
             <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
               {content.funzio.map((el, i) => (
-                <div key={i} className="flex gap-4 p-4 text-white bg-purple">
-                  <div className="relative h-14 w-14">
-                    <Image
+                <div key={i} className="flex gap-2 p-4 text-white bg-purple">
+                  <div className="relative flex">
+                    {/* <Image
                       src={Placeholder}
                       alt="avatar"
                       fill
                       className="object-cover object-top w-auto h-auto"
+                    /> */}
+                    <Icon
+                      icon="ic:baseline-check"
+                      width="1.8rem"
+                      height="1.8rem"
                     />
                   </div>
 
