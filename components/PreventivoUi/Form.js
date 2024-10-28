@@ -187,7 +187,7 @@ const Form = ({ content, onCategoryChange, onRadioChange }) => {
             </div>
             {showList && (
               <ul
-                className="absolute left-0 z-10 flex flex-col w-full gap-2 text-xl transition-colors duration-300 bg-white top-20 lg:right-0"
+                className="absolute left-0 z-10 flex flex-col w-full gap-2 text-xl transition-colors duration-300 bg-white border top-20 lg:right-0 border-yellow"
                 style={{ padding: "20px 0 28px" }}
               >
                 <li
@@ -247,7 +247,7 @@ const Form = ({ content, onCategoryChange, onRadioChange }) => {
               </div>
               {showSubList && (
                 <ul
-                  className="absolute left-0 z-10 flex flex-col w-full gap-2 text-xl transition-colors duration-300 bg-white top-20 lg:right-0"
+                  className="absolute left-0 z-10 flex flex-col w-full gap-2 text-xl transition-colors duration-300 bg-white border top-20 lg:right-0 border-yellow"
                   style={{ padding: "20px 0 28px" }}
                 >
                   {subcategories.map((subcategory) => (

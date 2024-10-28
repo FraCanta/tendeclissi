@@ -46,7 +46,7 @@ const Showroom = () => {
           content="Esplora il nostro showroom digitale e trova la soluzione per te tra cappottine, tende da sole classiche, tende a caduta, tende a guscio, pergole e vele ombreggianti."
         />
       </Head>
-      <HeroPage2 backgroundImage="/assets/showroom/showroom_hero.webp">
+      <HeroPage backgroundImage="/assets/showroom/showroom_hero.webp">
         <h1 className="text-[40px] xl:text-[60px] xl:leading-[1.2] fxl:text-[70px] font-bold text-white xl:max-w-2xl">
           Entra nel nostro showroom digitale
         </h1>
@@ -54,7 +54,7 @@ const Showroom = () => {
           className="max-w-7xl text-xl xl:text-2xl fxl:text-[25px] font-regular text-white"
           dangerouslySetInnerHTML={{ __html: data.hero.paragrafo }}
         ></p>
-      </HeroPage2>
+      </HeroPage>
       <div className="flex flex-col gap-20 py-10 overflow-hidden">
         <div className="w-full ">
           <MediaCards
