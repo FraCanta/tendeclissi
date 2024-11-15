@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const FormSection = ({ content }) => {
   // Stato inizializzato a null per indicare nessuna immagine di default
-  const [imageSrc, setImageSrc] = useState("/assets/img/riparazione.webp");
+  const [imageSrc, setImageSrc] = useState("/assets/img/vendita.webp");
 
   const handleCategoryChange = (category) => {
     let newImageSrc = null; // Inizializza senza immagine
