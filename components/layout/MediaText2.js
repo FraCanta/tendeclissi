@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import CtaPrimary from "./CtaPrimary";
-const MediaText2 = ({ img, title, description, cta, alt }) => {
+const MediaText2 = ({ img, title, description, cta, alt, link }) => {
   return (
     <div className="flex items-center justify-center w-full min-h-screen">
       <div className="w-[90%] mx-auto grid grid-cols-1 xl:grid-cols-2 gap-6 py-12 xl:py-20 2xl:py-18 fxl:gap-8">
@@ -21,7 +21,7 @@ const MediaText2 = ({ img, title, description, cta, alt }) => {
             className="text-xl md:text-[22px] lg:text-xl  font-normal "
             dangerouslySetInnerHTML={{ __html: description }}
           ></p>
-          <CtaPrimary link="/chi-siamo">{cta}</CtaPrimary>
+          <CtaPrimary link={link}>{cta}</CtaPrimary>
         </div>
       </div>
     </div>

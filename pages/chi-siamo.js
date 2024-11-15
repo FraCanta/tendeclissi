@@ -71,6 +71,7 @@ const Chisiamo = () => {
       <MediaText2
         cta="contatti"
         img={Italy}
+        link="/contatti"
         title="Dove trovarci"
         alt="Cartina dell’Italia con evidenziate in blu il Veneto e in giallo le Marche, dove Tendeclissi è operativa."
         description={data.dove.descrizione}
@@ -78,6 +79,7 @@ const Chisiamo = () => {
       <Team data={data.team} />
       <MediaText2
         img={Stoffe}
+        link="/showroom"
         cta="Vai allo showroom"
         title="La qualità dei nostri prodotti"
         description="Offriamo i nostri servizi in Veneto e nelle Marche, e grazie al nostro showroom completamente digitale è possibile esplorare i prodotti che offriamo da qualsiasi posto e a qualsiasi ora: una scelta che abbiamo preso per poter raggiungere con la passione per il nostro lavoro sempre più persone.
