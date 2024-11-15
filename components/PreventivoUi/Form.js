@@ -275,7 +275,7 @@ const Form = ({ content, onCategoryChange, onRadioChange }) => {
             id="message"
             rows="10"
             className="block p-2.5 w-full text-base text-black bg-white border border-primary focus:ring-primary focus:border-primary"
-            placeholder="Write your thoughts here..."
+            placeholder="Dacci tutte le informazioni che ritieni necessarie per preparare il [preventivo/sopralluogo]..."
           ></textarea>
         </div>
       </div>

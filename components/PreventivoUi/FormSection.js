@@ -3,35 +3,38 @@ import Form from "./Form";
 import Image from "next/image";
 
 const FormSection = ({ content }) => {
-  const [imageSrc, setImageSrc] = useState("/assets/progetti/img8.jpg");
+  // Stato inizializzato a null per indicare nessuna immagine di default
+  const [imageSrc, setImageSrc] = useState("/assets/img/riparazione.webp");
 
   const handleCategoryChange = (category) => {
-    let newImageSrc = "/assets/progetti/img8.jpg"; // Immagine predefinita
+    let newImageSrc = null; // Inizializza senza immagine
     switch (category) {
       case "Cappottine":
-        newImageSrc = "/assets/progetti/img7.jpg";
+        newImageSrc = "/assets/showroom/cappottine_cover.webp";
         break;
       case "Tende da sole":
-        newImageSrc = "/assets/progetti/img2.jpg";
+        newImageSrc = "/assets/showroom/tendesole_cover.webp";
         break;
       case "Tende da sole per esterni e giardini":
-        newImageSrc = "/assets/progetti/img5.jpg";
+        newImageSrc = "/assets/showroom/pergola_cover.webp";
         break;
       case "Manutenzione":
-        newImageSrc = "/assets/progetti/img8.jpg";
+        newImageSrc = "/assets/img/riparazione.webp";
         break;
       case "Motorizzazione":
-        newImageSrc = "/assets/progetti/img8.jpg";
+        newImageSrc = "/assets/almot_azienda.jpg";
         break;
       default:
-        newImageSrc = "/assets/progetti/img8.jpg"; // Immagine predefinita
+        newImageSrc = "/assets/img/riparazione.webp"; // Nessuna immagine di default
     }
     setImageSrc(newImageSrc);
   };
 
   const handleRadioChange = (selectedRadio) => {
     if (selectedRadio === "bordered-radio-2") {
-      setImageSrc("/assets/progetti/img8.jpg"); // Immagine predefinita per "Servizio"
+      setImageSrc("/assets/almot_azienda.jpg"); // Immagine specifica per "Servizio"
+    } else {
+      setImageSrc("/assets/img/vendita.webp"); // Nessuna immagine per altre opzioni
     }
   };
 
@@ -42,7 +45,7 @@ const FormSection = ({ content }) => {
         onCategoryChange={handleCategoryChange}
         onRadioChange={handleRadioChange}
       />
-      <div className="relative h-full hidden lg:block">
+      <div className="relative hidden h-full lg:block">
         <Image
           src={imageSrc}
           alt="Selected Category"
