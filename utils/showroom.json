@@ -342,7 +342,7 @@
             },
             {
               "title": "Tenda Carmen",
-              "img": "/assets/showroom/tende_da_sole/imgplaceholder.svg",
+              "img": "/assets/showroom/tende_da_sole/tenda_carmen.webp",
 
               "descrizione": "Un modello di tenda da sole a caduta con <strong>rullo esposto e guide laterali</strong> per lo scorrimento della tela in apertura e chiusura.",
               "funzio": [
@@ -425,42 +425,6 @@
                   "nome": "Tettuccio",
                   "descrizione": "È possibile aggiungere un tettuccio di protezione."
                 },
-                {
-                  "nome": "Garanzia",
-                  "descrizione": "Garanzia di prodotto di 5 anni."
-                }
-              ]
-            },
-            {
-              "title": "Tenda BI-Barra quadra",
-              "img": "/assets/showroom/tende_da_sole/imgplaceholder.svg",
-
-              "descrizione": "<strong>La più grande delle nostre tende classiche</strong>: il modello BI-Barra può raggiungere i 13 metri di larghezza, per una zona d’ombra il più spaziosa possibile.",
-              "funzio": [
-                {
-                  "nome": "Larghezza",
-                  "descrizione": "Raggiunge fino a 6 m di larghezza."
-                },
-                {
-                  "nome": "Sporgenza",
-                  "descrizione": "Raggiunge fino a 3 m di sporgenza."
-                },
-                {
-                  "nome": "Tettuccio",
-                  "descrizione": "È possibile aggiungere un tettuccio di protezione."
-                },
-                {
-                  "nome": "Garanzia",
-                  "descrizione": "Garanzia di prodotto di 5 anni."
-                }
-              ]
-            },
-            {
-              "title": "Tenda Otello",
-              "img": "/assets/showroom/tende_da_sole/tenda_otello.webp",
-
-              "descrizione": "Perfetto per <strong>spazi ristretti e balconi scoperti</strong>, il modello Otello crea una tettoia mobile grazie alla presenza di un doppio terminale, fornendo più spazio vivibile sotto la tela.",
-              "funzio": [
                 {
                   "nome": "Garanzia",
                   "descrizione": "Garanzia di prodotto di 5 anni."
@@ -685,7 +649,7 @@
           "content": [
             {
               "title": "Tende a vela indipendente",
-              "img": "/assets/showroom/pergole/imgplaceholder.svg",
+              "img": "/assets/showroom/pergole/vela_indipendente.jpg",
 
               "descrizione": "Nella loro versioni triangolare e quadrata, le vele ombreggianti possono essere <strong>ancorate su pali, balconi e muri,</strong> creando un angolo d’ombra nel punto che desideri.",
               "funzio": [
@@ -705,7 +669,7 @@
             },
             {
               "title": "Tende a vela avvolgibile",
-              "img": "/assets/showroom/pergole/imgplaceholder.svg",
+              "img": "/assets/showroom/pergole/vela_avvolgibile.webp",
 
               "descrizione": "Le tende a vela possono essere <strong>abbinate a un rullo</strong>, rendendole avvolgibili come le classiche tende e più versatili nell’utilizzo.",
               "funzio": [
@@ -724,7 +688,7 @@
           "content": [
             {
               "title": "Box auto",
-              "img": "/assets/showroom/pergole/imgplaceholder.svg",
+              "img": "/assets/showroom/pergole/copertura_box_auto.webp",
 
               "descrizione": "Progettiamo <strong>box auto personalizzati</strong> in base alle tue preferenze di materiale e verniciatura, con diverse opzioni di tessuti e di sistemi di fissaggio.",
               "funzio": [
@@ -751,7 +715,7 @@
           "content": [
             {
               "title": "Coperture esterne personalizzate",
-              "img": "/assets/showroom/pergole/imgplaceholder.svg",
+              "img": "/assets/showroom/pergole/coperture_esterne_personalizzate.jpg",
 
               "descrizione": "Realizziamo coperture per esterni su misura: ti aiutiamo a individuare la <strong>struttura</strong>, i <strong>tessuti</strong> e i <strong>fissaggi</strong> più adatti alle tue esigenze.",
               "funzio": [

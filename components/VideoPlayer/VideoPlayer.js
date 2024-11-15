@@ -1,5 +1,6 @@
 import { useState } from "react";
 import CtaOutlinePrimary from "../layout/CtaOutlinePrimary";
+import CtaSecondary from "../layout/CtaSecondary";
 
 const VideoPlayer = () => {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -52,9 +53,7 @@ const VideoPlayer = () => {
             visitare il nostro showroom digitale e scoprire i prodotti che
             offriamo.
           </p>
-          <CtaOutlinePrimary link="/showroom">
-            Scopri i prodotti
-          </CtaOutlinePrimary>
+          <CtaSecondary link="/showroom">Scopri i prodotti</CtaSecondary>
         </div>
       </div>
     </div>
