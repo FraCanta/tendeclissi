@@ -26,7 +26,7 @@ const VideoPlayer = () => {
     <div className="relative h-screen lg:h-[70vh] xl:h-screen fxl:h-[90vh] w-full">
       <video
         id="videoPlayer"
-        className="h-full w-full object-cover"
+        className="object-cover w-full h-full"
         onClick={togglePlay}
         autoPlay
         loop
@@ -42,7 +42,7 @@ const VideoPlayer = () => {
           <h3 className="text-[32px] md:text-[45px] lg:text-[50px] xl:text-[45px] font-bold">
             Il futuro di Tendeclissi
           </h3>
-          <p className="w-full lg:w-10/12 text-xl lg:text-2xl text-white font-normal">
+          <p className="w-full text-xl font-normal text-white lg:w-10/12 lg:text-2xl">
             Che tu stia cercando di creare il riparo perfetto dal sole per una
             casa, un condominio, un giardino o un’attività commerciale, oppure
             un modo per riparare o motorizzare le tue tende, siamo pronti a
@@ -52,7 +52,9 @@ const VideoPlayer = () => {
             visitare il nostro showroom digitale e scoprire i prodotti che
             offriamo.
           </p>
-          <CtaOutlinePrimary link="/">Scopri i prodotti</CtaOutlinePrimary>
+          <CtaOutlinePrimary link="/showroom">
+            Scopri i prodotti
+          </CtaOutlinePrimary>
         </div>
       </div>
     </div>
