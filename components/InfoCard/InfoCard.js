@@ -12,19 +12,19 @@ const InfoCard = () => {
         Rispondiamo ai seguenti contatti:
       </h4>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center w-full gap-8 lg:gap-0">
-        <div className="flex gap-2 w-full lg:justify-center items-center">
+        <div className="flex items-center w-full gap-2 lg:justify-center">
           <Icon icon="solar:letter-bold" className="w-6 h-6 text-primary" />
           <span>info@tendeclissi.it</span>
         </div>
-        <div className="flex gap-2 w-full lg:justify-center items-center">
+        <div className="flex items-center w-full gap-2 lg:justify-center">
           <Icon icon="mage:whatsapp-filled" className="w-6 h-6 text-primary" />
-          <span>877-255-7945</span>
+          <span>+39 328 7512239</span>
         </div>
-        <div className="flex gap-2 w-full lg:justify-center items-center">
+        <div className="flex items-center w-full gap-2 lg:justify-center">
           <Icon icon="dashicons:facebook" className="w-6 h-6 text-primary" />
           <span>@tendeclissi</span>
         </div>
-        <div className="flex gap-2 w-full lg:justify-center items-center">
+        <div className="flex items-center w-full gap-2 lg:justify-center">
           <Icon icon="mdi:instagram" className="w-6 h-6 text-primary" />
           <span>@tendeclissi</span>
         </div>
