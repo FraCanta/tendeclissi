@@ -1,8 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import Almot from "@/public/assets/almot.png";
-import Almot2 from "@/public/assets/img/Almot.webp";
-import Placeholder from "@/public/assets/imgplaceholder.svg";
+import Almot2 from "@/public/assets/img/michele_montaggio.webp";
 import { Icon } from "@iconify/react";
 const Partner = () => {
   return (
@@ -22,8 +21,8 @@ const Partner = () => {
           <Image src={Almot} alt="avatar" fill className="object-cover " />
         </div>
       </div>
-      <div className="flex flex-col w-full min-h-screen gap-10 ">
-        <div className="relative aspect-square xl:aspect-video">
+      <div className="grid w-full grid-cols-1 gap-8 lg:gap-4 lg:grid-cols-2 ">
+        <div className="relative aspect-square ">
           <Image
             src={Almot2}
             alt="avatar"
@@ -32,16 +31,10 @@ const Partner = () => {
           />
         </div>
 
-        <div className="grid items-center grid-cols-1 gap-6 xl:grid-cols-3 2xl:gap-20">
-          <div className="p-4 md:p-[30px] shadow-xl">
+        <div className="grid grid-cols-1 gap-10 lg:gap-20">
+          <div className="flex items-center p-4 shadow-xl md:p-6">
             <div className="flex gap-2 justify-evenly">
               <div className="relative w-10 h-auto">
-                {/* <Image
-                  src={Placeholder}
-                  alt="avatar"
-                  fill
-                  className="object-cover object-top w-auto h-auto"
-                /> */}
                 <Icon
                   icon="material-symbols:award-star-outline"
                   width="2rem"
@@ -61,15 +54,9 @@ const Partner = () => {
               </div>
             </div>
           </div>
-          <div className="p-[30px] shadow-xl">
+          <div className="flex items-center p-4 shadow-xl md:p-6">
             <div className="flex gap-2 justify-evenly">
               <div className="relative w-10 h-auto">
-                {/* <Image
-                  src={Placeholder}
-                  alt="avatar"
-                  fill
-                  className="object-cover object-top w-auto h-auto"
-                /> */}
                 <Icon
                   icon="material-symbols:award-star-outline"
                   width="2rem"
@@ -88,15 +75,9 @@ const Partner = () => {
               </div>
             </div>
           </div>
-          <div className="p-[30px] shadow-xl">
+          <div className="flex items-center p-4 shadow-xl md:p-6">
             <div className="flex gap-2 justify-evenly">
               <div className="relative w-10 h-auto">
-                {/* <Image
-                  src={Placeholder}
-                  alt="avatar"
-                  fill
-                  className="object-cover object-top w-auto h-auto"
-                /> */}
                 <Icon
                   icon="material-symbols:award-star-outline"
                   width="2rem"
