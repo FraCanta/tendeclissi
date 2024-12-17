@@ -47,7 +47,7 @@ export default function Home() {
         cta="Contatti"
         img={About}
         title="Chi siamo e dove trovarci"
-        description="Siamo una squadra specializzata nel mondo delle <strong>tende da sole e dei servizi correlati</strong>, che offriamo in <strong>Veneto</strong> e nelle <strong>Marche</strong>: scopri il nostro catalogo grazie allo <a href='/showroom' target='_blank'><strong>showroom completamente digitale</strong></a> e contattaci per richiedere un preventivo senza impegno e fissare un sopralluogo!
+        description="Siamo una squadra specializzata nel mondo dei sistemi ombra <strong>tende da sole e dei servizi correlati</strong>, che offriamo in <strong>Veneto</strong> e nelle <strong>Marche</strong>: scopri il nostro catalogo grazie allo <a href='/showroom' target='_blank'><strong>showroom completamente digitale</strong></a> e contattaci per richiedere un preventivo senza impegno e fissare un sopralluogo!
         "
       />
       <div className="flex flex-col gap-20 mb-20 overflow-hidden">
@@ -56,7 +56,7 @@ export default function Home() {
             reverseLayout={true}
             img="/assets/img/3.webp"
             mainTitle="I nostri prodotti per privati"
-            mainDescription="Sei alla ricerca del dettaglio giusto per completare la tua abitazione privata? Ti aiutiamo a trovare la soluzione per te tra le nostre cappottine, tende a caduta, classiche e a guscio, creando un riparo dal sole che concilia praticità e resa estetica."
+            mainDescription="Sei alla ricerca di una schermatura solare per vivere finalmente il tuo outdoor? Ti aiutiamo a trovare la soluzione per te tra le nostre cappottine, tende a caduta, classiche e a guscio, creando un riparo dal sole che concilia praticità e resa estetica."
             title="Capppottine"
             cardsData={jsonData.section1}
           />
@@ -66,7 +66,7 @@ export default function Home() {
             reverseLayout={false}
             img="/assets/img/4.webp"
             mainTitle="I nostri prodotti per ristorazione e commercio"
-            mainDescription="Personalizza con il tuo brand una delle nostre tende per creare un’area riparata agibile per la tua attività commerciale, riparare dalle intemperie le entrate della tua azienda o completare con il giusto dettaglio estetico l’esterno del tuo agriturismo."
+            mainDescription="Personalizza con il tuo brand una delle nostre tende per creare un’area/spazio protetta agibile/vivibile per la tua attività commerciale, riparare dalle intemperie le entrate della tua azienda o completare con il giusto dettaglio estetico l’esterno della tua struttura ricettiva."
             cardsData={jsonData.section2}
           />
         </div>

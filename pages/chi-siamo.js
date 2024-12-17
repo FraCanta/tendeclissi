@@ -58,13 +58,15 @@ const Chisiamo = () => {
             Tende da sole per passione
           </h2>
           <p className="max-w-7xl text-xl xl:text-2xl fxl:text-[25px] font-normal text-white">
-            Creare il riparo perfetto dal sole è la nostra passione: Tendeclissi
-            nasce per rispondere alle esigenze di case, condomini, attività
-            commerciali e giardini, specializzandosi in tutto ciò che è il mondo
-            delle tende da sole. Grazie all’esperienza pluridecennale della
-            nostra squadra, ti guideremo nella scelta della tenda su misura per
-            le tue esigenze e di tutte le attività dal montaggio alla
-            manutenzione e riparazione nel corso del tempo.
+            Creare sistemi ombra in grado di offrire il riparo dal sole e
+            protezione daglia agenti atmosferici è la nostra passione.
+            Tendeclissi nasce per endere vivibile ogni spazio esterno
+            realizzando le migliori schermature solari per case, condomini,
+            attività commerciali e giardini, specializzandosi soprattutto nel
+            mondo delle tende da sole. Grazie all’esperienza pluridecennale
+            della nostra squadra, ti guideremo nella scelta della soluzione su
+            misura per le tue esigenze e di tutte le attività dal montaggio alla
+            manutenzione e riparazione/assistenza nel corso del tempo.
           </p>
         </div>
       </HeroPage2>
@@ -82,12 +84,12 @@ const Chisiamo = () => {
         link="/showroom"
         cta="Vai allo showroom"
         title="La qualità dei nostri prodotti"
-        description="Offriamo i nostri servizi in Veneto e nelle Marche, e grazie al nostro showroom completamente digitale è possibile esplorare i prodotti che offriamo da qualsiasi posto e a qualsiasi ora: una scelta che abbiamo preso per poter raggiungere con la passione per il nostro lavoro sempre più persone.
-        Contattaci per richiedere un campione dei nostri prodotti, richiedere un preventivo senza impegno e fissare un sopralluogo!"
+        description="Nella scelta dei prodotti da offrire ai nostri clienti ci impegniamo per proporre il più possibile <strong>materiali</strong> di <strong>lavorazione italiana</strong>, a partire dalla provenienza della componentistica, affidandoci a fornitori nazionali con esperienza pluridecennale consolidata sul territorio. Utilizziamo componenti in leghe metalliche provenienti da Padova e scegliamo materiali solidi che garantiscono la massima resistenza, durevolezza e longevità delle strutture nel tempo. Disponiamo dei migliori marchi di tessuti nazionali ed internazionali di aziende leader nel settore come Parà Tempotest, Giovanrdi, Sattler, Corti, Dickson, Swela tutti con garanzia Europea e certificazione UNI EN 13561 per offrire il massimo della resistenza e la migliore qualità possibile.  "
       />
       <Banner
         text="Prenota un sopralluogo gratuito"
-        description="Scrivici per prenotare un sopralluogo: ti mostreremo il <strong>campionario</strong> e prenderemo le <strong>misure</strong> necessarie per definire il tuo preventivo."
+        description="Scrivici per prenotare un sopralluogo: prenderemo le misure, ti mostreremo le possibili soluzioni e potrai scegliere il tessuto più adatto ai tuoi bisogni direttamente dal nostro campionario fisico.
+."
         cta="Richiedi un preventivo"
         link="/richiesta-preventivo#sopralluogo"
       />

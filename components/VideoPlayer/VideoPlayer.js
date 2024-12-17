@@ -41,18 +41,21 @@ const VideoPlayer = () => {
       <div className="absolute inset-0 flex items-center">
         <div className="w-[90%] mx-auto text-white flex flex-col gap-8 ">
           <h3 className="text-[32px] md:text-[45px] lg:text-[50px] xl:text-[45px] font-bold">
-            Il futuro di Tendeclissi
+            Il tuo futuro con Tendeclissi
           </h3>
-          <p className="w-full text-xl font-normal text-white lg:w-10/12 lg:text-2xl">
-            Che tu stia cercando di creare il riparo perfetto dal sole per una
-            casa, un condominio, un giardino o un’attività commerciale, oppure
-            un modo per riparare o motorizzare le tue tende, siamo pronti a
-            mettere a disposizione tutte le nostre conoscenze e la nostra
+          <p
+            className="w-full text-xl font-normal text-white lg:w-10/12 lg:text-2xl"
+            dangerouslySetInnerHTML={{
+              __html: `Che tu stia cercando di creare uno spazio vivibile protetto dal sole e dalle intemperie per una
+            casa, un condominio; vivere al meglio il tuo giardino, aumentare la fruibilità di un’attività commerciale, oppure
+            il modo per riparare o motorizzare le tue tende, siamo pronti a
+            mettere a disposizione tutte le nostre conoscenze, la professionalità e la nostra
             passione per rispondere alla tua esigenza. Contattaci online per
-            richiedere un preventivo su misura o prenditi un momento per
-            visitare il nostro showroom digitale e scoprire i prodotti che
-            offriamo.
-          </p>
+            <strong>richiedere un preventivo</strong> su misura o prenditi un momento per
+            <strong>visitare il nostro showroom digitale</strong> e scoprire i prodotti che
+            offriamo.`,
+            }}
+          ></p>
           <CtaSecondary link="/showroom">Scopri i prodotti</CtaSecondary>
         </div>
       </div>

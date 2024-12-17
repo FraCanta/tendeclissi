@@ -15,7 +15,7 @@ const TabContent = ({ content, title, description, isImageLeft, img }) => {
               className="text-xl"
               dangerouslySetInnerHTML={{ __html: description }}
             ></p>
-            <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
+            <div className="grid grid-cols-1 gap-2 lg:grid-cols-2">
               {content.funzio.map((el, i) => (
                 <div key={i} className="flex gap-2 p-4 text-white bg-purple">
                   <div className="relative flex">
@@ -50,7 +50,7 @@ const TabContent = ({ content, title, description, isImageLeft, img }) => {
               </CtaPrimary>
             </div>
           </div>
-          <div className="relative w-full h-[300px] lg:h-[500px]">
+          <div className="relative w-full h-[300px] lg:h-[550px]">
             <Image src={img} alt="" fill className="object-cover" />
           </div>
           <div className="order-last block lg:hidden">
@@ -64,7 +64,7 @@ const TabContent = ({ content, title, description, isImageLeft, img }) => {
         </>
       ) : (
         <>
-          <div className="relative order-last w-full h-[300px] lg:h-[500px] lg:order-first">
+          <div className="relative order-last w-full h-[300px] lg:h-[550px] lg:order-first">
             <Image src={img} alt="" fill className="object-cover" />
           </div>
           <div className="order-last block lg:hidden">
@@ -78,7 +78,7 @@ const TabContent = ({ content, title, description, isImageLeft, img }) => {
               className="text-xl"
               dangerouslySetInnerHTML={{ __html: description }}
             ></p>
-            <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
+            <div className="grid grid-cols-1 gap-2 lg:grid-cols-2">
               {content.funzio.map((el, i) => (
                 <div key={i} className="flex gap-2 p-4 text-white bg-purple">
                   <div className="relative flex">

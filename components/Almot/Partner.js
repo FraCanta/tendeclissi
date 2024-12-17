@@ -14,7 +14,7 @@ const Partner = () => {
           <p className="text-lg md:text-[22px] lg:text-xl font-normal text-black">
             Hai bisogno di rendere più facile l’apertura e la chiusura della tua
             tenda da sole, o vuoi installarne una nuova da poter gestire in
-            tutta comodità? Scopri il nostro servizio di motorizzazione:
+            totale comodità? Scopri il nostro servizio di motorizzazione:
           </p>
         </div>
         <div className="relative w-[250px] h-[80px] xl:w-[350px] xl:h-[150px]  mx-auto">

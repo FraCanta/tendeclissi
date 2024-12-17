@@ -88,7 +88,7 @@ const HeroHome = () => {
           <SwiperSlide>
             <CardHero
               title="Sguardo rivolto al futuro"
-              descrizione="per offrirti prodotti sempre più affidabili e innovativi"
+              descrizione="per offrirti prodotti resistenti, affidabili e innovativi"
               icon="material-symbols:fast-forward-outline"
             />
           </SwiperSlide>

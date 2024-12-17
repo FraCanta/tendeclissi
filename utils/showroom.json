@@ -5,12 +5,12 @@
   "cappottine": {
     "img": "/assets/showroom/cappottine_cover.webp",
 
-    "descrizione": "Un grande classico senza tempo per riparare e incorniciare <strong>piccole finestre</strong>, <strong>portoncini</strong> e <strong>ingressi</strong>, o creare una tettoia fissa di protezione sia dal sole che dagli agenti atmosferici."
+    "descrizione": "Un grande classico senza tempo per riparare e incorniciare <strong>finestre</strong>, <strong>balconi</strong>, <strong>portoncini</strong> e <strong>ingressi</strong>, o creare una tettoia fissa di protezione sia dal sole che dagli agenti atmosferici."
   },
   "tendeDaSole": {
     "img": "/assets/showroom/tendesole_cover.webp",
 
-    "descrizione": "Dalle classiche tende con <strong>rullo avvolgibile e tessuto a vista</strong>, alle <strong>tende a caduta</strong> per dare respiro ai tuoi spazi coperti, fino al design elegante delle <strong>tende tonde e a guscio</strong>: trova il prodotto giusto per la tua abitazione privata o la tua attività commerciale."
+    "descrizione": "Dalle classiche ed affidabili tende con <strong>rullo avvolgibile e tessuto a vista</strong>, alla massima protezione e privacy offerta dalle <strong>tende a caduta</strong>, fino al design elegante delle <strong>tende tonde e a guscio</strong>: trova il prodotto giusto per la tua abitazione privata o la tua attività commerciale."
   },
   "giardino": {
     "img": "/assets/showroom/pergola_cover.webp",
@@ -26,7 +26,7 @@
     },
     {
       "title": "Cappottine fisse",
-      "description": "La soluzione per riparare gli ingressi dagli elementi atmosferici.",
+      "description": "La soluzione per riparare/proteggere sportelli, casse e distributori automatici dagli elementi atmosferici.",
       "cta": "Vedi le cappottine fisse",
       "link": "/showroom/tende-cappottine#cappottine-fisse"
     }
@@ -34,13 +34,13 @@
   "section2": [
     {
       "title": "Tende a caduta",
-      "description": "Aumenta la superficie protetta dalla luce solare.",
+      "description": "Aumenta la superficie protetta dalla luce solare e la privacy dei tuoi ambienti domestici e professionali.",
       "cta": "Vedi le tende a caduta",
       "link": "/showroom/tende-da-sole#tende-da-sole-a-caduta"
     },
     {
       "title": "Tende classiche",
-      "description": "Le soluzioni più versatili, da 2,40 a 13 metri di larghezza.",
+      "description": "Le soluzioni più affidabili/versatili, da 2,40 a 13 metri di larghezza.",
       "cta": "Vedi le tende classiche",
       "link": "/showroom/tende-da-sole#tende-da-sole-classiche"
     },
@@ -107,7 +107,7 @@
           "content": [
             {
               "title": "Modello Venezia",
-              "descrizione": "Ideale per proteggere porte e piccole finestre, con la caratteristica forma bombata il modello Venezia può disporre di <strong>3 o 4 spicchi</strong>.",
+              "descrizione": "Cappottina in alluminio a settore circolare con raggiera ad angolo di 90°, realizzabile a 3 o 4 spicchi. Una volta chiusa l'ingombro a parete è minimo. Larghezza da 100 cm a 600 cm e sporgenza variabile da 80 cm fino a 200 cm. Mantovana di serie dritta o ad onda su tutti i modelli.",
               "img": "/assets/showroom/cappottine/cappottine_mobili/modello_venezia.webp",
               "funzio": [
                 {
@@ -116,21 +116,21 @@
                 },
                 {
                   "nome": "Accessori",
-                  "descrizione": "Kit di accessori in alluminio verniciati bianchi."
+                  "descrizione": "Kit di accessori di serie in alluminio verniciato bianco (telaio personalizzabile con altri colori)."
                 },
                 {
                   "nome": "Manovra",
-                  "descrizione": "Manovra a corda o motorizzabile."
+                  "descrizione": "Manovra manuale a corda o con arganello, anche motorizzabile."
                 },
                 {
                   "nome": "Comando",
-                  "descrizione": "Comando a destra vista frontale."
+                  "descrizione": "Comando di serie a destra vista frontale, o personalizzabile."
                 }
               ]
             },
             {
               "title": "Modello Firenze",
-              "descrizione": "Studiato per fornire una <strong>maggiore sporgenza</strong>, il modello Firenze permette una <strong>doppia regolazione</strong> e si presta in modo versatile per ingressi di abitazioni, strutture alberghiere e attività commerciali.",
+              "descrizione": "Cappottina in alluminio la cui particolarità consente il montaggio su pareti con altezza limitata. Il modello Firenze è studiato per fornire una <strong>maggiore sporgenza</strong>, in minore altezza permette una <strong>doppia regolazione</strong> e si presta in modo versatile per ingressi di abitazioni, strutture alberghiere e attività commerciali. Una volta richiusa a parete avremmo l'ingombro del primo spicchio che resta aperto. Larghezza da 150 cm a 600 cm e sporgenza variabile da 90 cm fino a 180 cm. Mantovana di serie dritta o ad onda su tutti i modelli..",
               "img": "/assets/showroom/cappottine/cappottine_mobili/modello_firenze.webp",
 
               "funzio": [
@@ -140,7 +140,7 @@
                 },
                 {
                   "nome": "Accessori",
-                  "descrizione": "Kit di accessori in alluminio verniciati bianchi."
+                  "descrizione": "Kit di accessori di serie in alluminio verniciato bianco (telaio personalizzabile con altri colori)."
                 },
                 {
                   "nome": "Manovra",
@@ -154,7 +154,7 @@
             },
             {
               "title": "Modello Roma",
-              "descrizione": "Utilizzati quando l’architettura o la forma della finestra è <strong>ovale e tondeggiante</strong>, i modelli Semitonda e Tonda si adattano al profilo per una resa estetica ottimale.",
+              "descrizione": "Cappotina in alluminio a settore circolare con raggiera circolare. Utilizzata quando l’architettura o la forma della finestra è <strong>ovale e tondeggiante</strong>, i modelli Semitonda e Tonda si adattano al profilo per una resa estetica ottimale. Larghezza da 160 cm a 400 cm e sporgenza variabile da 80 cm a 180 cm. Mantovana di serie dritta o ad onda su tutti i modelli..",
               "img": "/assets/showroom/cappottine/cappottine_mobili/modello_roma.webp",
 
               "funzio": [
@@ -164,7 +164,7 @@
                 },
                 {
                   "nome": "Accessori",
-                  "descrizione": "Kit di accessori in alluminio verniciati bianchi."
+                  "descrizione": "Kit di accessori di serie in alluminio verniciato bianco (telaio personalizzabile con altri colori)."
                 },
                 {
                   "nome": "Manovra",
@@ -184,20 +184,20 @@
 
           "content": [
             {
-              "title": "Cappottine liscia",
-              "descrizione": "Crea una copertura protettiva per il tuo ingresso <strong>semplice ed essenziale</strong>, creando una zona d’ombra e riparata dalla pioggia.",
+              "title": "Cappottine fissa",
+              "descrizione": "Crea una copertura protettiva fissa per il tuo ingresso <strong>semplice ed essenziale</strong>, creando una zona d’ombra e riparata dalla pioggia. Utilizzata molto per proteggere bancomat, sportelli, distributori e casse automatiche. Su entrambe le cappottine fisse si consiglia l'uso di un tessuto in PVC.",
               "img": "/assets/showroom/cappottine/cappottine_fisse/cappottine_fisse.webp",
 
               "funzio": [
                 {
                   "nome": "Garanzia",
-                  "descrizione": "Garanzia di prodotti di 5 anni."
+                  "descrizione": "Garanzia di prodotti di 2 anni."
                 }
               ]
             },
             {
-              "title": "Cappottine con bordo",
-              "descrizione": "Per una copertura base ma con un <strong>tocco estetico in più</strong>, scegli una cappottina fissa con bordo per arricchire l’ingresso della tua struttura.",
+              "title": "Cappottina fissa con bordo",
+              "descrizione": "Per una copertura fissa ma con un <strong>tocco estetico in più</strong>, scegli una cappottina fissa con bordo per arricchire l’ingresso della tua struttura. Il bordo inoltre offre una maggiore protezione. Utilizzata molto per proteggere bancomat, sportelli, distributori e casse automatiche.",
               "img": "/assets/showroom/cappottine/cappottine_fisse/imgplaceholder.svg",
 
               "funzio": [
@@ -217,7 +217,7 @@
       "seoDescription": "Scopri i modelli di tende da sole a cappottina disponibili nel nostro catalogo, per coprire finestre, ingressi e creare tettoie di protezione.",
       "img": "/assets/showroom/tendesole_cover.webp",
       "heroTitle": "Tende da sole",
-      "heroParagraph": "Dalle classiche tende con rullo avvolgibile e tessuto a vista, alle tende a caduta per dare respiro ai tuoi spazi coperti, fino al design elegante delle tende tonde e a guscio.",
+      "heroParagraph": "Dalle classiche tende con rullo avvolgibile e tessuto a vista, alle tende a caduta per proteggere la tua casa e rendere vivibile il tuo spazio esterno, fino al design elegante delle tende a guscio o delle classiche cappottine.",
       "cards": [
         {
           "title": "Destinazione versatile",
@@ -225,11 +225,11 @@
         },
         {
           "title": "Disponibili in varie larghezze",
-          "descrizione": "Potrai creare un’area d’ombra spaziosa e praticabile, larga fino a 13 metri."
+          "descrizione": "Potrai creare una zona d’ombra spaziosa e praticabile, larga fino a 63 metri quadri."
         },
         {
           "title": "Eleganti e moderne",
-          "descrizione": "Scegli tra design ovali, tondeggianti, avveniristici e ferro battuto per dimore storiche."
+          "descrizione": "Lasciati affascinare dallo stile classico delle cappottine e tende in ferro battuto o dalle più avvenieristiche/moderne tende a guscio."
         }
       ],
 
@@ -242,23 +242,31 @@
               "title": "Tende con braccetti",
               "img": "/assets/showroom/tende_da_sole/tende_con_braccetti.webp",
 
-              "descrizione": "Il modello più classico: il rullo è a vista e la tenda può essere <strong>ancorata tramite gancetti o ringhiera</strong>, oppure tramite <strong>braccetti</strong> per far sporgere di più la tenda.",
+              "descrizione": "Grande semplicità, massima affidabilità. Tenda pratica e funzionale, è corredata di braccetti con una lunghezza standard di 50 cm regolabile su posizioni fisse da 0° a 180°. Disponibile sia nel modello con rullo a vista che con il guscio protettivo in alluminio. Sistema di ancoraggio <strong>tramite occhielli</strong>, oppure <strong>braccetti regolabili</strong> per offrire maggiore sporgenza.",
               "funzio": [
                 {
                   "nome": "Braccetti",
-                  "descrizione": "Braccetti da 40/50 cm regolabili."
+                  "descrizione": "Braccetti da 40/50/60/70 cm regolabili da 0° a 180°."
                 },
                 {
                   "nome": "Tettuccio",
                   "descrizione": "Tettuccio di protezione da 15/20 cm."
                 },
                 {
-                  "nome": "Altezza",
-                  "descrizione": "60 cm compresa la balza da 25 cm."
+                  "nome": "Colori",
+                  "descrizione": "Struttura disponibile in varie colorazioni."
+                },
+                {
+                  "nome": "Motorizzazioni",
+                  "descrizione": "Possibilità di inserire motore meccanico o radio meccanico da 30 a 50 Nm."
+                },
+                {
+                  "nome": "Misure",
+                  "descrizione": "Larghezza massima consigliata 450 cm. Altezza massima consigliata 350 cm. Mantovana di serie da 25 cm."
                 },
                 {
                   "nome": "Garanzia",
-                  "descrizione": "Garanzia di prodotto di 5 anni."
+                  "descrizione": "Garanzia sul prodotto di 2 anni."
                 }
               ]
             },
@@ -266,20 +274,31 @@
               "title": "Tenda con braccetti a parete",
               "img": "/assets/showroom/tende_da_sole/tende_con_braccetti_a_parete.webp",
 
-              "descrizione": "Grazie ai braccetti fissati direttamente sulla parete dell’edificio, quando la tenda viene richiusa rimane aderente alla parete, garantendo un <strong>uso ottimale degli spazi</strong>.",
+              "descrizione": "Tenda ideale per l'installazione su chioschi e finestre. I braccetti in alluminio da 80 cm fino a 150 cm sono corredati di una molla interna per al costante tensione del telo. Disponibile sia nel modello con il rullo a vista che con il guscio protettivo in alluminio. Grazie al sistema di ancoraggio a parete, quando la tenda viene richiusa rimane aderente all'edificio, garantendo un <strong>uso ottimale degli spazi</strong>.",
               "funzio": [
+                {
+                  "nome": "Braccetti",
+                  "descrizione": "Braccetti da 80 cm a 150 cm regolabili da 0° a 180°."
+                },
                 {
                   "nome": "Tettuccio",
                   "descrizione": "Tettuccio di protezione da 15/20 cm."
                 },
                 {
-                  "nome": "Rullo",
-                  "descrizione": "Disponibile con rullo a vista o con guscio."
+                  "nome": "Colori",
+                  "descrizione": "Struttura disponibile in varie colorazioni."
                 },
-
+                {
+                  "nome": "Motorizzazioni",
+                  "descrizione": "Possibilità di inserire motore meccanico, radio meccanico o elettronico da 30 a 50 Nm."
+                },
+                {
+                  "nome": "Misure",
+                  "descrizione": "Larghezza massima consigliata 400 cm. Sporgenza massima consigliata di 150 cm. Mantovana di serie da 25 cm."
+                },
                 {
                   "nome": "Garanzia",
-                  "descrizione": "Garanzia di prodotto di 5 anni."
+                  "descrizione": "Garanzia sul prodotto di 2 anni."
                 }
               ]
             },
@@ -297,34 +316,58 @@
               ]
             },
             {
-              "title": "Tenda con cavi",
+              "title": "Tenda a caduta con cavi",
               "img": "/assets/showroom/tende_da_sole/imgplaceholder.svg",
 
-              "descrizione": "Una tenda da sole a caduta con sistema di <strong>scorrimento verticale a cavi</strong>, per un design pulito ed essenziale della copertura.",
+              "descrizione": "Praticità e stile contraddistinguono questa tenda da sole a caduta con sistema di <strong>scorrimento verticale a cavi</strong>, per un design pulito ed essenziale della schermatura solare, particolarmente indicata per finestre e facciate continue. Disponibile sia nel modello con il rullo a vista che con il guscio protettivo in alluminio. Grazie ai cavi la tenda può essere fermata a qualunque altezza garantendo sempre la massima sicurezza.",
               "funzio": [
                 {
+                  "nome": "Ancoraggio",
+                  "descrizione": "Sistema di scorrimento del terminale su cavi in acciaio inox da 4mm o su asta d'acciaio da 10mm."
+                },
+                {
+                  "nome": "Colori",
+                  "descrizione": "Struttura disponibile in varie colorazioni."
+                },
+                {
+                  "nome": "Motorizzazioni",
+                  "descrizione": "Possibilità di inserire motore meccanico, radio meccanico o elettronico da 30 a 50 Nm."
+                },
+                {
+                  "nome": "Misure",
+                  "descrizione": "Larghezza massima consigliata 450 cm. Altezza massima consigliata 350 cm."
+                },
+                {
                   "nome": "Garanzia",
-                  "descrizione": "Garanzia di prodotto di 5 anni."
+                  "descrizione": "Garanzia di prodotto di 2 anni."
                 }
               ]
             },
             {
-              "title": "Tenda a guide fisse",
+              "title": "Tenda con guide fisse",
               "img": "/assets/showroom/tende_da_sole/tende_a_guide_fisse.webp",
 
-              "descrizione": "Con rullo esposto, è dotata di guide laterali che permettono di <strong>fermare la tela a qualsiasi altezza desiderata</strong>; può essere dotata di <strong>braccetti</strong> per aumentare la sporgenza in fuori.",
+              "descrizione": "Tenda verticale a caduta con guide laterali particolarmente indicata per balconi e pergolati, ozone ventilate, è dotata di due binari ancorati sul parapetto o a terra che permettono di <strong>fermare la tela a qualsiasi altezza desiderata</strong>. Disponibile anche nella versione con braccetti orientabili e chiusura a cremagliera. Tale allestimento garantisce un ottimo tensionamento del telo ed è ideale per aumentare sporgenza e traspirabilità. Su questo modello è possibile aggiungere il guscio di protezione in alluminio.",
               "funzio": [
                 {
-                  "nome": "Tettuccio",
-                  "descrizione": "Tettuccio di protezione da 15/20 cm."
+                  "nome": "Ancoraggio",
+                  "descrizione": "Sistemi di scorrimento del terminale su guide di alluminio aperte da 2 cm x 4 cm."
                 },
                 {
-                  "nome": "Altezza",
-                  "descrizione": "60 cm per giro rullo e balza."
+                  "nome": "Colori",
+                  "descrizione": "Struttura disponibile in varie colorazioni."
+                },
+                {
+                  "nome": "Motorizzazioni",
+                  "descrizione": "Possibilità di inserire motore meccanico o radio meccanico da 30 a 50 Nm."
+                },
+                {
+                  "nome": "Misure",
+                  "descrizione": "Larghezza massima consigliata 400 cm. Altezza massima consigliata 300 cm."
                 },
                 {
                   "nome": "Garanzia",
-                  "descrizione": "Garanzia di prodotto di 5 anni."
+                  "descrizione": "Garanzia sul prodotto di 2 anni."
                 }
               ]
             },
@@ -341,14 +384,30 @@
               ]
             },
             {
-              "title": "Tenda Carmen",
+              "title": "Tenda Zip",
               "img": "/assets/showroom/tende_da_sole/tenda_carmen.webp",
 
-              "descrizione": "Un modello di tenda da sole a caduta con <strong>rullo esposto e guide laterali</strong> per lo scorrimento della tela in apertura e chiusura.",
+              "descrizione": "Tenda a caduta verticale con guide laterali e guscio in alluminio verniciato per la protezione del telo. Ideata per chiudere spazi esterni garantendo una buona resistenza agli agenti atmosferici. Trova la sua applicazione soprattutto in gazebi e pergolati. Il sistema zip consente di mantenere agganciato il telo alle guide laterali offrendo una maggiore impermeabilizzazione. Teli in PVC disponibili anche trasparenti o in tessuto. Manova a motore o manuale.",
               "funzio": [
                 {
+                  "nome": "Ancoraggio",
+                  "descrizione": "Sistema di scorrimento del terminale su guide laterali in alluminio chiuse da 4,4 cm x 8,5 cm."
+                },
+                {
+                  "nome": "Colori",
+                  "descrizione": "Struttura disponibile in varie colorazioni."
+                },
+                {
+                  "nome": "Motorizzazioni",
+                  "descrizione": "Possibiltà di inserire motore elettronico da 30 a 50 Nm."
+                },
+                {
+                  "nome": "Misure",
+                  "descrizione": "Larghezza massima consigliata 350 cm. ALtezza massima consigliata 300 cm. Per misure maggiori si consiglia il doppio modulo."
+                },
+                {
                   "nome": "Garanzia",
-                  "descrizione": "Garanzia di prodotto di 5 anni."
+                  "descrizione": "Garanzia sul prodotto di 2 anni."
                 }
               ]
             },
@@ -356,23 +415,31 @@
               "title": "Tenda Giotto",
               "img": "/assets/showroom/tende_da_sole/tenda_giotto.webp",
 
-              "descrizione": "Con linee guida di scorrimento laterali, la tenda a guscio Giotto è la scelta ideale per riparare dal sole i <strong>pergolati</strong>, le <strong>strutture in legno</strong> e i <strong>balconi</strong> inseriti nel tetto.",
+              "descrizione": "Questa tenda rappresenta una valida soluzione per la copertura di strutture esistenti. Composte da un guscio superiore per la protezione del telo e da guide laterali con carrelli di scorrimento. Il telaio è completamente in alluminio verniciato, il telo consigliato in PVC. Disponibile solo con manovra a motore. In alcuni modelli si possono aggiungere dei montanti frontali in modo da creare strutture per la copertura di spazi esterni come balconi inseriti nel tetto o pergole grezze in legno o ferro.",
               "funzio": [
                 {
-                  "nome": "Larghezza",
-                  "descrizione": "Raggiunge fino a 10 m di larghezza."
+                  "nome": "Ancoraggio",
+                  "descrizione": "Sistema di scorrimento del terminale su carrelli laterali ancorati a scheletro portante in alluminio o a strutture preesistenti."
                 },
                 {
-                  "nome": "Sporgenza",
-                  "descrizione": "Raggiunge fino a 5 m di sporgenza."
+                  "nome": "Colori",
+                  "descrizione": "Struttura disponibile in varie colorazioni."
                 },
                 {
-                  "nome": "Motorizzata",
-                  "descrizione": "Motore elettronico per apertura e chiusura."
+                  "nome": "Motorizzazioni",
+                  "descrizione": "Possibilità di inserire motore elettronico da 30 a 50Nm."
+                },
+                {
+                  "nome": "Misure",
+                  "descrizione": "Larghezza massima copribile 10 m, sporgenza massima di 5m. Grazie al doppio modulo si possono coprire anche larghezze maggiori creando più sezioni indipendenti."
+                },
+                {
+                  "nome": "Automatismi",
+                  "descrizione": "Motore elettronico per apertura e chiusura da 50, 80 o 100 Nm."
                 },
                 {
                   "nome": "Garanzia",
-                  "descrizione": "Garanzia di prodotto di 5 anni."
+                  "descrizione": "Garanzia sul prodotto di 2 anni."
                 }
               ]
             }
@@ -556,15 +623,15 @@
       "seoDescription": " Scopri come creare la zona d’ombra perfetta per il giardino o riparare la tua auto con le nostre soluzioni di tende a vela, pergole e box auto.",
       "img": "/assets/showroom/pergola_cover.webp",
       "heroTitle": "Coperture per esterni e giardino",
-      "heroParagraph": "Cerchi di più di una semplice tenda? Le nostre pergole richiudibili o con sistema a lame orientabili e le vele ombreggianti possono creare l’angolo d’ombra perfetto nel giardino o proteggere la tua auto.",
+      "heroParagraph": "Cerchi di più di una semplice tenda? La nostra azienda offre soluzioni fisse come pergole impermeabili e strutture bioclimatiche fisse con sistema a lame orientabili in grado di creare un ambiente godibile 365 giorni l'anno. Le nostre vele ombreggianti possono creare l’angolo d’ombra perfetto nel giardino di casa o proteggere la tua auto.",
       "cards": [
         {
           "title": "Pergole motorizzate",
-          "descrizione": "Tutti i modelli sono dotati di movimentazione del telo a motore con telecomando."
+          "descrizione": "Tutti i modelli sono dotati di movimentazione a motore per manovrare il telo o le lamelle di alluminio attraverso telecomando o perfino con sistema domotico."
         },
         {
           "title": "Soluzioni versatili",
-          "descrizione": "Disponibili in diverse larghezze e sporgenze, sono installabili su strutture in alluminio o in legno."
+          "descrizione": "Disponibili in diverse larghezze e sporgenze, sono installabili sia appoggiandosi a fabbricati o pergolati già esistenti oppure creando strutture ad isola indipendenti."
         },
         {
           "title": "Strutture personalizzabili",
@@ -577,10 +644,10 @@
           "link": "pergole",
           "content": [
             {
-              "title": "Pergola bioclimatica orientabile",
+              "title": "Bioclimatica orientabile",
               "img": "/assets/showroom/pergole/pergola_bioclimatica_orientabile.webp",
 
-              "descrizione": "La pergola <strong>bioclimatica con lame orientabili</strong> si distingue per il suo design ricercato e innovativo, offre protezione totale o parziale dal sole e un’ottima aerazione.",
+              "descrizione": "La struttura <strong>bioclimatica con lame orientabili</strong> si distingue per il suo design ricercato e innovativo, offre protezione totale o parziale dal sole e un’ottima aerazione.",
               "funzio": [
                 {
                   "nome": "Larghezza",

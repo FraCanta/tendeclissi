@@ -35,7 +35,7 @@ const Navbar = () => {
   }, [lastScrollTop]);
 
   return (
-    <motion.div className="w-full h-[5rem] lg:h-[8.5rem]  bg-lightGray shadow-lg justify-between items-center flex text-black font-normal relative z-[9999]">
+    <motion.div className="w-full h-[5rem] md:h-[8.5rem]  bg-lightGray shadow-lg justify-between items-center flex text-black font-normal relative z-[9999]">
       <div className="w-[90%] m-auto flex justify-between items-center ">
         <Link href="/" onClick={() => setOpen(false)} className=" z-[9999]">
           <div className="flex flex-col items-center justify-center gap-1">
@@ -44,7 +44,7 @@ const Navbar = () => {
               alt="logo tendeclissi"
               height={80}
               width={80}
-              className="h-14 w-14 lg:h-[70px] lg:w-[70px] "
+              className="h-14 w-14 md:h-[90px] md:w-[90px] lg:h-[70px] lg:w-[70px] "
             />
             <p className="hidden font-medium text-black uppercase lg:block">
               tendeclissi
@@ -69,79 +69,69 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Menu */}
+        {isOpen && (
+          <div
+            onClick={() => setOpen(false)}
+            className="fixed top-[5rem] md:top-[8.5rem] left-0 right-0 bottom-0 z-10 bg-black/40"
+          />
+        )}
+
         <motion.div
           initial={{ opacity: 0, y: "70px" }}
           animate={{ opacity: isOpen ? 1 : 0, y: isOpen ? "0%" : "-100%" }}
           transition={{ ease: "easeOut", duration: 0.4 }}
-          className="absolute top-[70px] left-0 right-0 bottom-0 flex items-center w-full h-[70vh] bg-purple  text-white z-20"
+          className="absolute top-[5rem] md:top-[8.5rem] left-0 right-0 bottom-0 flex items-center w-full h-[70vh] bg-purple text-white z-20"
         >
           <div className="w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-2 h-full">
-            <ul className=" h-full flex flex-col justify-evenly uppercase text-center text-[22px]">
+            <ul className="h-full flex flex-col justify-evenly uppercase text-center text-[22px] md:text-3xl">
               <li onClick={() => setOpen(false)}>
                 <Link
                   href="/chi-siamo"
-                  className={` ${
+                  className={`${
                     pathname === "/chi-siamo"
                       ? "font-semibold underline underline-offset-4 transition-all ease-linear"
                       : ""
                   }`}
                 >
-                  chi siamo
+                  Chi siamo
                 </Link>
               </li>
               <li onClick={() => setOpen(false)}>
                 <Link
                   href="/showroom"
-                  className={` ${
+                  className={`${
                     pathname === "/showroom"
                       ? "font-semibold underline underline-offset-4 transition-all ease-linear"
                       : ""
                   }`}
                 >
-                  {" "}
-                  showroom
+                  Showroom
                 </Link>
               </li>
               <li onClick={() => setOpen(false)}>
                 <Link
                   href="/servizi-tende-da-sole"
-                  className={` ${
+                  className={`${
                     pathname === "/servizi-tende-da-sole"
                       ? "font-semibold underline underline-offset-4 transition-all ease-linear"
                       : ""
                   }`}
                 >
-                  {" "}
                   Servizi
                 </Link>
               </li>
-              {/* <li onClick={() => setOpen(false)}>
-                <Link
-                  href="/progetti"
-                  className={` ${
-                    pathname === "/progetti"
-                      ? "font-semibold underline underline-offset-4 transition-all ease-linear"
-                      : ""
-                  }`}
-                >
-                  {" "}
-                  Progetti
-                </Link>
-              </li> */}
               <li onClick={() => setOpen(false)}>
                 <Link
                   href="/contatti"
-                  className={` ${
+                  className={`${
                     pathname === "/contatti"
                       ? "font-semibold underline underline-offset-4 transition-all ease-linear"
                       : ""
                   }`}
                 >
-                  {" "}
                   Contatti
                 </Link>
               </li>
-
               <li onClick={() => setOpen(false)}>
                 <CtaPrimary link="/richiesta-preventivo#preventivo">
                   Richiedi preventivo
@@ -150,6 +140,7 @@ const Navbar = () => {
             </ul>
           </div>
         </motion.div>
+
         {/* Menu desktop */}
         <ul className="xl:flex gap-6 2xl:gap-[2.5rem]  text-xl xl:text-lg 2xl:text-xl fxl:text-[1.563rem] uppercase items-center leading-[2.344rem] hidden z-[9999]">
           <li>

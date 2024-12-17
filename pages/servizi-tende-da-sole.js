@@ -98,6 +98,43 @@ const Servizi = () => {
           })}
         </div>
       </div>
+      <div className="w-[90%] mx-auto h-full pb-10 xl:pb-20 flex flex-col gap-10">
+        <div className="flex flex-col gap-6">
+          <h2
+            className="text-[35px] md:text-[45px] lg:text-[50px] xl:text-[45px] font-bold text-black"
+            id="riparazione-e-manutenzione"
+          >
+            Alcuni esempi di servizi che offriamo:
+          </h2>
+          <div className="grid grid-cols-1 lg:grid-cols-2">
+            <div>
+              <ul className="list-disc list-inside text-lg md:text-[22px] lg:text-xl font-normal text-black flex flex-col gap-3">
+                <li>Inversione della tela</li>
+                <li>Pulizia dei telai</li>
+                <li>Installazione tettuccio di protezione</li>
+                <li>
+                  Installazione sensori a vibrazione, vento, sole e pioggia
+                </li>
+                <li>Riparazione delle braccia</li>
+              </ul>
+            </div>
+            <div>
+              <ul className="list-disc list-inside text-lg md:text-[22px] lg:text-xl font-normal text-black flex flex-col gap-3">
+                <li>Riparazione dell’arganello</li>
+                <li>Sostituzione delle braccia</li>
+                <li>
+                  Sostituzione di componenti specifiche dell’impianto di
+                  motorizzazione
+                </li>
+                <li>
+                  Installazione gestione e controllo domotica su tende
+                  motorizzate
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="w-[90%] mx-auto h-full pb-10  ">
         <div className="xl:w-[60%] mx-auto flex flex-col xl:flex-row justify-evenly gap-10">
           <PurpleCard
