@@ -58,7 +58,7 @@ export default function Home() {
           <MediaCards
             reverseLayout={true}
             img="/assets/img/3.webp"
-            mainTitle="I nostri prodotti per privati"
+            mainTitle="I nostri prodotti per voi"
             mainDescription="Che tu stia cercando di creare uno spazio vivibile protetto dal sole e dalle intemperie per una casa, un condominio; vivere al meglio il tuo giardino, aumentare la fruibilità di un’attività commerciale, oppure il modo per riparare o motorizzare le tue tende, siamo pronti a mettere a disposizione tutte le nostre conoscenze, la professionalità e la nostra passione per rispondere alla tua esigenza. Contattaci online per richiedere un preventivo su misura o prenditi un momento per visitare il nostro showroom digitale e scoprire i prodotti che offriamo."
             title="Capppottine"
             cardsData={jsonData.section1}
