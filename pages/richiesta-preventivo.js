@@ -50,7 +50,7 @@ const Preventivo = () => {
           Richiedi il preventivo o il sopralluogo
         </h1>
         <p
-          className="max-w-7xl text-xl xl:text-2xl fxl:text-[25px] font-regular text-white"
+          className="max-w-7xl text-lg xl:text-2xl fxl:text-[25px] font-regular text-white"
           dangerouslySetInnerHTML={{
             __html:
               "Hai già deciso qual è la tenda più adatta per la tua abitazione, il tuo giardino o la tua attività commerciale? O hai bisogno di un consiglio per trovare la soluzione giusta in base alle tue esigenze? Richiedendo un preventivo, riceverai gratuitamente via email un'offerta' in base alle informazioni che inserirai nel form. In alternativa, puoi prenotare direttamente un nostro sopralluogo, in cui discuteremo insieme la tenda da sole perfetta per te. Il nostro team è a disposizione!",
