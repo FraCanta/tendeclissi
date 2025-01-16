@@ -17,6 +17,7 @@ const MediaText2 = ({ img, title, description, cta, alt, link }) => {
           <h2 className="text-[32px] md:text-[45px] lg:text-[50px] xl:text-[45px] font-bold text-black">
             {title}
           </h2>
+
           <p
             className="text-xl md:text-[22px] lg:text-xl  font-normal "
             dangerouslySetInnerHTML={{ __html: description }}

@@ -5,6 +5,9 @@ import MediaCards from "@/components/layout/MediaCards";
 import jsonData from "@/utils/cards.json";
 import FormEco from "@/components/forms/FormEco";
 import About from "@/public/assets/img/2.webp";
+import Pronto from "@/public/assets/img/pronto-intervento-tenda.webp";
+
+import MediaText3 from "@/components/layout/MediaText3";
 
 export default function Home() {
   return (
@@ -44,52 +47,31 @@ export default function Home() {
       </Head>
       <HeroHome />
       <MediaText
-        cta="Contatti"
+        cta="Chi siamo"
         img={About}
         title="Chi siamo e dove trovarci"
         description="Siamo una squadra specializzata nel mondo dei sistemi ombra <strong>tende da sole e dei servizi correlati</strong>, che offriamo in <strong>Veneto</strong> e nelle <strong>Marche</strong>: scopri il nostro catalogo grazie allo <a href='/showroom' target='_blank'><strong>showroom completamente digitale</strong></a> e contattaci per richiedere un preventivo senza impegno e fissare un sopralluogo!
         "
       />
-      <div className="flex flex-col gap-20 mb-20 overflow-hidden">
+      <div className="flex flex-col gap-20 mb-0 overflow-hidden">
         <div className="w-full ">
           <MediaCards
             reverseLayout={true}
             img="/assets/img/3.webp"
             mainTitle="I nostri prodotti per privati"
-            mainDescription="Sei alla ricerca di una schermatura solare per vivere finalmente il tuo outdoor? Ti aiutiamo a trovare la soluzione per te tra le nostre cappottine, tende a caduta, classiche e a guscio, creando un riparo dal sole che concilia praticità e resa estetica."
+            mainDescription="Che tu stia cercando di creare uno spazio vivibile protetto dal sole e dalle intemperie per una casa, un condominio; vivere al meglio il tuo giardino, aumentare la fruibilità di un’attività commerciale, oppure il modo per riparare o motorizzare le tue tende, siamo pronti a mettere a disposizione tutte le nostre conoscenze, la professionalità e la nostra passione per rispondere alla tua esigenza. Contattaci online per richiedere un preventivo su misura o prenditi un momento per visitare il nostro showroom digitale e scoprire i prodotti che offriamo."
             title="Capppottine"
             cardsData={jsonData.section1}
           />
         </div>
-        <div className="w-full ">
-          <MediaCards
-            reverseLayout={false}
-            img="/assets/img/4.webp"
-            mainTitle="I nostri prodotti per ristorazione e commercio"
-            mainDescription="Personalizza con il tuo brand una delle nostre tende per creare un’area/spazio protetta agibile/vivibile per la tua attività commerciale, riparare dalle intemperie le entrate della tua azienda o completare con il giusto dettaglio estetico l’esterno della tua struttura ricettiva."
-            cardsData={jsonData.section2}
-          />
-        </div>
-
-        <div className="w-full">
-          <MediaCards
-            reverseLayout={true}
-            img="/assets/img/5.webp"
-            mainTitle="I nostri prodotti per aree camping e scuole"
-            mainDescription="Vuoi aggiungere un’area ombreggiata all’interno della tua area camping oppure fuori dalla tua scuola, creando un nuovo luogo di aggregazione al riparo dal sole? Scopri le nostre tende con maggiore copertura e pensate per gli esterni."
-            cardsData={jsonData.section3}
-          />
-        </div>
-        <div className="w-full ">
-          <MediaCards
-            reverseLayout={false}
-            img="/assets/img/6.webp"
-            mainTitle="I nostri servizi per assicurazioni e amministratori di condominio"
-            mainDescription="Hai bisogno di riparare o fare manutenzione delle tende del tuo condominio? O sei un assicuratore in cerca di un partner di fiducia che segua le tende dei tuoi clienti lungo tutta la vita del prodotto? Scopri i nostri servizi su misura per te."
-            cardsData={jsonData.section4}
-          />
-        </div>
       </div>
+      <MediaText3
+        cta="Contattaci su WhatsApp"
+        img={Pronto}
+        title="Pronto intervento tenda"
+        link={"https://wa.me/+393513789430"}
+        description="In caso di eventi atmosferici improvvisi come forti tempeste, bufere o grandinate, interveniamo in brevissimo tempo per riparare o sostituire la tua tenda."
+      />
 
       <div className="min-h-screen md:min-h-[50vh] xl:min-h-[78vh]  fxl:min-h-[60vh] w-full bg-gradient-to-50 flex flex-col justify-center items-center py-10 lg:py-0">
         <FormEco />

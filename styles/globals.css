@@ -5,6 +5,9 @@
 html {
   touch-action: manipulation;
 }
+html::-webkit-scrollbar {
+  display: none;
+}
 
 body {
   padding: 0;
@@ -15,6 +18,24 @@ body {
 p {
   line-height: 1.6 !important;
   color: #505d68;
+}
+.nav-scroll {
+  /* background: linear-gradient(0deg, hsl(240, 30%, 17%), hsl(199, 59.5%, 14.5%)); */
+  /* background: rgb(15, 45, 59) !important; */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-color: transparent;
+  padding: 0;
+  position: fixed !important;
+  top: -80px !important;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  -o-transition: transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+  -webkit-transform: translateY(80px);
+  -ms-transform: translateY(80px);
+  transform: translateY(80px);
 }
 
 @layer utilities {

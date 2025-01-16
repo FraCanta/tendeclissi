@@ -6,6 +6,8 @@ import React from "react";
 import serviceData from "@/utils/servizi.json";
 import PurpleCard from "@/components/layout/PurpleCard";
 import Head from "next/head";
+import Partner2 from "@/components/Almot/Partner2";
+import Partner3 from "@/components/Almot/Partner3";
 
 const Servizi = () => {
   return (
@@ -54,7 +56,7 @@ const Servizi = () => {
           I nostri servizi
         </h1>
         <p
-          className="max-w-5xl text-xl xl:text-2xl fxl:text-[25px] font-regular text-white"
+          className="max-w-5xl text-lg xl:text-2xl fxl:text-[25px] font-regular text-white"
           dangerouslySetInnerHTML={{
             __html:
               "Dalla scelta della tenda all’installazione, fino agli interventi di <strong>riparazione</strong> e <strong>manutenzione</strong>: la nostra squadra può aiutarti in tutte le fasi di vita della tua tenda da sole, offrendoti un <strong>supporto mirato e personalizzato</strong>.",
@@ -62,80 +64,16 @@ const Servizi = () => {
         ></p>
       </HeroPage>
       <Partner />
+      <Partner2 />
+      <Partner3 />
       <Banner
-        text="Richiedi un preventivo gratuito"
-        description="Scrivici per richiedere un preventivo su misura in base alle tue esigenze: la nostra squadra ti aiuterà a individuare la soluzione più adatta!"
-        cta="Richiedi preventivo"
-        link="/richiesta-preventivo#preventivo"
+        icon={"mage:whatsapp-filled"}
+        text="Rispondiamo alle tue esigenze"
+        description="Scrivici per spiegarci al meglio quali sono le tue necessità e la nostra squadra ti aiuterà a individuare la soluzione più adatta!"
+        cta="Contattaci su WhatsApp"
+        link={"https://wa.me/+393513789430"}
       />{" "}
-      <div className="w-[90%] mx-auto h-full py-10 xl:py-20 flex flex-col gap-10 min-h-screen">
-        <div className="flex flex-col gap-6">
-          <h2
-            className="text-[35px] md:text-[45px] lg:text-[50px] xl:text-[45px] font-bold text-black"
-            id="riparazione-e-manutenzione"
-          >
-            Riparazione e manutenzione di tende da sole
-          </h2>
-          <p
-            className="text-lg md:text-[22px] lg:text-xl font-normal text-black max-w-3xl"
-            dangerouslySetInnerHTML={{
-              __html:
-                "Dopo il montaggio, ci assicuriamo che la tua tenda possa ripararti dal sole il più a lungo possibile: ci occupiamo di riparazioni, pulizia e interventi di manutenzione, seguendo la tenda da sole in tutta la sua vita.",
-            }}
-          ></p>
-        </div>
-        <div className="grid h-full grid-cols-1 gap-4 md:grid-cols-2 xl:flex-row">
-          {serviceData?.servizi.map((item, index) => {
-            return (
-              <Card
-                key={index}
-                number={item.number}
-                title={item.title}
-                description={item.descrizione}
-                img={item.img}
-              />
-            );
-          })}
-        </div>
-      </div>
-      <div className="w-[90%] mx-auto h-full pb-10 xl:pb-20 flex flex-col gap-10">
-        <div className="flex flex-col gap-6">
-          <h2
-            className="text-[35px] md:text-[45px] lg:text-[50px] xl:text-[45px] font-bold text-black"
-            id="riparazione-e-manutenzione"
-          >
-            Alcuni esempi di servizi che offriamo:
-          </h2>
-          <div className="grid grid-cols-1 lg:grid-cols-2">
-            <div>
-              <ul className="list-disc list-inside text-lg md:text-[22px] lg:text-xl font-normal text-black flex flex-col gap-3">
-                <li>Inversione della tela</li>
-                <li>Pulizia dei telai</li>
-                <li>Installazione tettuccio di protezione</li>
-                <li>
-                  Installazione sensori a vibrazione, vento, sole e pioggia
-                </li>
-                <li>Riparazione delle braccia</li>
-              </ul>
-            </div>
-            <div>
-              <ul className="list-disc list-inside text-lg md:text-[22px] lg:text-xl font-normal text-black flex flex-col gap-3">
-                <li>Riparazione dell’arganello</li>
-                <li>Sostituzione delle braccia</li>
-                <li>
-                  Sostituzione di componenti specifiche dell’impianto di
-                  motorizzazione
-                </li>
-                <li>
-                  Installazione gestione e controllo domotica su tende
-                  motorizzate
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="w-[90%] mx-auto h-full pb-10  ">
+      <div className="w-[90%] mx-auto h-full my-10  ">
         <div className="xl:w-[60%] mx-auto flex flex-col xl:flex-row justify-evenly gap-10">
           <PurpleCard
             title="Sai già cosa ti serve?"
@@ -145,9 +83,10 @@ const Servizi = () => {
           />
           <PurpleCard
             title="Hai bisogno di aiuto?"
-            description="Siamo disponibili a venire nella tua casa o nella tua azienda per consigliarti al meglio."
-            cta="Richiedi un sopralluogo"
-            link="/richiesta-preventivo#sopralluogo"
+            description="Scrivici per spiegarci al meglio quali sono le tue necessità!"
+            cta="Contattaci su whatsapp"
+            icon={"mage:whatsapp-filled"}
+            link={"https://wa.me/+393513789430"}
           />
         </div>
       </div>

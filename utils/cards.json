@@ -1,76 +1,22 @@
 {
   "section1": [
     {
-      "title": "Cappottine",
-      "description": "Il riparo dal sole perfetto per piccole finestre e ingressi.",
+      "title": "Per privati",
+      "description": "Ti aiutiamo a trovare la soluzione per il tuo spazio esterno",
       "cta": "Vedi le cappottine",
       "link": "/showroom/tende-cappottine#cappottine-mobili"
     },
     {
-      "title": "Tende classiche",
-      "description": "La soluzione più affidabile al miglior prezzo, da 2,4 a 13 metri di larghezza.",
+      "title": "Per commercianti",
+      "description": "Trova la tenda giusta per proteggere i tuoi prodotti e aumentare la visibilità del brand",
       "cta": "Vedi le tende classiche",
       "link": "/showroom/tende-da-sole#tende-da-sole-classiche"
     },
     {
-      "title": "Tende a guscio",
-      "description": "Un design pulito, linee eleganti per la massima resa estetica.",
-      "cta": "Vedi le tende a guscio",
-      "link": "/showroom/tende-da-sole#tende-a-guscio"
-    }
-  ],
-  "section2": [
-    {
-      "title": "Cappottine",
-      "description": "Per coprire gli ingressi di alberghi e strutture.",
-      "cta": "Vedi le cappottine",
-      "link": "/showroom/tende-cappottine#cappottine-mobili"
-    },
-    {
-      "title": "Tende classiche",
-      "description": "Modelli motorizzati con ampia copertura e massima resa.",
-      "cta": "Vedi le tende classiche",
-      "link": "/showroom/tende-da-sole#tende-da-sole-classiche"
-    },
-    {
-      "title": "Tende a guscio",
-      "description": "Un prodotto funzionale di pregio per strutture attente al design.",
-      "cta": "Vedi le tende a guscio",
-      "link": "/showroom/tende-da-sole#tende-da-sole-a-guscio"
-    }
-  ],
-  "section3": [
-    {
-      "title": "Tende classiche",
-      "description": "Per arrivare fino a una larghezza di 13 metri e 58 mq di area ombreggiata.",
-      "cta": "Vedi le tende classiche",
-      "link": "/showroom/tende-da-sole#tende-da-sole-classiche"
-    },
-    {
-      "title": "Pergole",
-      "description": "Soluzioni sia con teli richiudibili che lame orientabili. (Sono due prodotti diversi! La Pergola ha la chiusura a pacchetto, la Bioclimatica ha la struttura fissa con le lame orientabili)",
-      "cta": "Vedi le pergole",
-      "link": "/showroom/tende-da-sole-per-esterni-e-giardini#pergole"
-    },
-    {
-      "title": "Vele ombreggianti",
-      "description": "Disponibili sia semplici che in soluzioni customizzate.",
-      "cta": "Vedi le tende a vela",
-      "link": "/showroom/tende-da-sole-per-esterni-e-giardini#vele-ombreggianti"
-    }
-  ],
-  "section4": [
-    {
-      "title": "Riparazione e manutenzione",
-      "description": "Prendersi cura delle tende per farle durare più a lungo.",
-      "cta": "Chiedi un preventivo",
-      "link": "/richiesta-preventivo#preventivo"
-    },
-    {
-      "title": "Motorizzazione",
-      "description": "Installazione di motore elettrico su tende preesistenti.",
-      "cta": "Chiedi un preventivo",
-      "link": "/richiesta-preventivo#preventivo"
+      "title": "Per servizi recettivi",
+      "description": "Crea lo spazio perfetto al riparo dal sole per migliorare la vivibilità del tuo ristorante",
+      "cta": "Prenota un sopralluogo",
+      "link": "/richiesta-preventivo#sopralluogo"
     }
   ]
 }

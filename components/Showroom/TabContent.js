@@ -50,7 +50,7 @@ const TabContent = ({ content, title, description, isImageLeft, img }) => {
               </CtaPrimary>
             </div>
           </div>
-          <div className="relative w-full h-[290px] lg:h-[550px]">
+          <div className="relative w-full h-[300px] lg:h-[550px]">
             <Image src={img} alt="" fill className="object-cover" />
           </div>
           <div className="order-last block lg:hidden">

@@ -59,22 +59,24 @@
       "link": "/showroom/tende-da-sole-per-esterni-e-giardini#pergole"
     },
     {
-      "title": "Vele ombreggianti",
-      "description": "Disponibili sia semplici che in soluzioni customizzate.",
-      "cta": "Vele ombreggianti",
-      "link": "/showroom/tende-da-sole-per-esterni-e-giardini#vele-ombreggianti"
+      "title": "Bioclimatiche",
+      "description": "Soluzioni innovative con le bioclimatiche.",
+      "cta": "Vedi le bioclimatiche",
+      "link": "/showroom/tende-da-sole-per-esterni-e-giardini#bioclimatiche"
     },
+
     {
       "title": "Coperture box auto",
       "description": "La soluzione su misura per mettere al riparo il tuo veicolo.",
       "cta": "Copertura box auto",
       "link": "/showroom/tende-da-sole-per-esterni-e-giardini#coperture-box-auto"
     },
+
     {
-      "title": "Coperture su misura",
-      "description": "La soluzione su misura per mettere al riparo il tuo veicolo.",
-      "cta": "Copertura box auto",
-      "link": "/showroom/tende-da-sole-per-esterni-e-giardini#coperture-su-misura"
+      "title": "Vele ombreggianti",
+      "description": "Disponibili sia semplici che in soluzioni customizzate.",
+      "cta": "Vele ombreggianti",
+      "link": "/showroom/tende-da-sole-per-esterni-e-giardini#vele-ombreggianti"
     }
   ],
   "singleCat": {
@@ -304,20 +306,8 @@
             },
 
             {
-              "title": "Tenda con cavi a guscio",
-              "img": "/assets/showroom/tende_da_sole/tende_con_cavi_a_guscio.webp",
-
-              "descrizione": "Un modello a caduta dotato di cavi per lo scorrimento della tenda in apertura e chiusura, insieme a un guscio per <strong>maggiore protezione della copertura</strong>.",
-              "funzio": [
-                {
-                  "nome": "Garanzia",
-                  "descrizione": "Garanzia di prodotto di 5 anni."
-                }
-              ]
-            },
-            {
               "title": "Tenda a caduta con cavi",
-              "img": "/assets/showroom/tende_da_sole/imgplaceholder.svg",
+              "img": "/assets/showroom/tende_da_sole/tende_con_cavi_a_guscio.webp",
 
               "descrizione": "Praticità e stile contraddistinguono questa tenda da sole a caduta con sistema di <strong>scorrimento verticale a cavi</strong>, per un design pulito ed essenziale della schermatura solare, particolarmente indicata per finestre e facciate continue. Disponibile sia nel modello con il rullo a vista che con il guscio protettivo in alluminio. Grazie ai cavi la tenda può essere fermata a qualunque altezza garantendo sempre la massima sicurezza.",
               "funzio": [
@@ -345,7 +335,7 @@
             },
             {
               "title": "Tenda con guide fisse",
-              "img": "/assets/showroom/tende_da_sole/tende_a_guide_fisse.webp",
+              "img": "/assets/imgplaceholder.svg",
 
               "descrizione": "Tenda verticale a caduta con guide laterali particolarmente indicata per balconi e pergolati, ozone ventilate, è dotata di due binari ancorati sul parapetto o a terra che permettono di <strong>fermare la tela a qualsiasi altezza desiderata</strong>. Disponibile anche nella versione con braccetti orientabili e chiusura a cremagliera. Tale allestimento garantisce un ottimo tensionamento del telo ed è ideale per aumentare sporgenza e traspirabilità. Su questo modello è possibile aggiungere il guscio di protezione in alluminio.",
               "funzio": [
@@ -371,18 +361,7 @@
                 }
               ]
             },
-            {
-              "title": "Tenda a caduta con ganci",
-              "img": "/assets/showroom/tende_da_sole/tenda_a_caduta_con_ganci.webp",
 
-              "descrizione": "Grazie all’<strong>installazione di appositi ganci</strong>, la tela di questo modello di tenda da sole può essere facilmente ancorata per creare una zona d’ombra.",
-              "funzio": [
-                {
-                  "nome": "Garanzia",
-                  "descrizione": "Garanzia di prodotto di 5 anni."
-                }
-              ]
-            },
             {
               "title": "Tenda Zip",
               "img": "/assets/showroom/tende_da_sole/tenda_carmen.webp",
@@ -600,18 +579,6 @@
                   "descrizione": "Garanzia di prodotto di 5 anni."
                 }
               ]
-            },
-            {
-              "title": "Tenda a barra quadra con guscio",
-              "img": "/assets/showroom/tende_da_sole/imgplaceholder.svg",
-
-              "descrizione": "Un modello che unisce il <strong>sistema di braccia</strong> per sostenere la tela e aumentare la superficie coperta al <strong>design pulito</strong> delle tende a guscio.",
-              "funzio": [
-                {
-                  "nome": "Garanzia",
-                  "descrizione": "Garanzia di prodotto di 5 anni."
-                }
-              ]
             }
           ]
         }
@@ -643,30 +610,6 @@
           "name": "pergole",
           "link": "pergole",
           "content": [
-            {
-              "title": "Bioclimatica orientabile",
-              "img": "/assets/showroom/pergole/pergola_bioclimatica_orientabile.webp",
-
-              "descrizione": "La struttura <strong>bioclimatica con lame orientabili</strong> si distingue per il suo design ricercato e innovativo, offre protezione totale o parziale dal sole e un’ottima aerazione.",
-              "funzio": [
-                {
-                  "nome": "Larghezza",
-                  "descrizione": "Raggiunge fino a 4 m di larghezza."
-                },
-                {
-                  "nome": "Sporgenza",
-                  "descrizione": "Raggiunge fino a 6,58 m di sporgenza."
-                },
-                {
-                  "nome": "Motorizzazione",
-                  "descrizione": "Movimentazione a motore con telecomando."
-                },
-                {
-                  "nome": "Versioni disponibili",
-                  "descrizione": "Versione isola, addossata e a moduli multipli."
-                }
-              ]
-            },
             {
               "title": "Pergola a pacchetto",
               "img": "/assets/showroom/pergole/pergola_a_pacchetto.webp",
@@ -710,6 +653,65 @@
           ]
         },
         {
+          "name": "bioclimatiche",
+          "link": "bioclimatiche",
+
+          "content": [
+            {
+              "title": "Bioclimatica orientabile",
+              "img": "/assets/showroom/pergole/pergola_bioclimatica_orientabile.webp",
+
+              "descrizione": "La struttura <strong>bioclimatica con lame orientabili</strong> si distingue per il suo design ricercato e innovativo, offre protezione totale o parziale dal sole e un’ottima aerazione.",
+              "funzio": [
+                {
+                  "nome": "Larghezza",
+                  "descrizione": "Raggiunge fino a 4 m di larghezza."
+                },
+                {
+                  "nome": "Sporgenza",
+                  "descrizione": "Raggiunge fino a 6,58 m di sporgenza."
+                },
+                {
+                  "nome": "Motorizzazione",
+                  "descrizione": "Movimentazione a motore con telecomando."
+                },
+                {
+                  "nome": "Versioni disponibili",
+                  "descrizione": "Versione isola, addossata e a moduli multipli."
+                }
+              ]
+            }
+          ]
+        },
+
+        {
+          "name": "copertura box auto",
+          "link": "copertura-box-auto",
+
+          "content": [
+            {
+              "title": "Box auto",
+              "img": "/assets/showroom/pergole/copertura_box_auto.webp",
+
+              "descrizione": "Progettiamo <strong>box auto personalizzati</strong> in base alle tue preferenze di materiale e verniciatura, con diverse opzioni di tessuti e di sistemi di fissaggio.",
+              "funzio": [
+                {
+                  "nome": "Struttura personalizzabile",
+                  "descrizione": "Chiusa, a pergola oppure a L con i lati liberi."
+                },
+                {
+                  "nome": "Ampia scelta di tessuti",
+                  "descrizione": "Resinati, impermeabilizzati, acrilici, traforati."
+                },
+                {
+                  "nome": "Opzioni di fissaggio",
+                  "descrizione": "Con corde, guide, binari o telo rigido."
+                }
+              ]
+            }
+          ]
+        },
+        {
           "name": "vele ombreggianti",
           "link": "vele-ombreggianti",
 
@@ -743,60 +745,6 @@
                 {
                   "nome": "",
                   "descrizione": "Rullo avvolgente e punto di ancoraggio"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "copertura box auto",
-          "link": "copertura-box-auto",
-
-          "content": [
-            {
-              "title": "Box auto",
-              "img": "/assets/showroom/pergole/copertura_box_auto.webp",
-
-              "descrizione": "Progettiamo <strong>box auto personalizzati</strong> in base alle tue preferenze di materiale e verniciatura, con diverse opzioni di tessuti e di sistemi di fissaggio.",
-              "funzio": [
-                {
-                  "nome": "Struttura personalizzabile",
-                  "descrizione": "Chiusa, a pergola oppure a L con i lati liberi."
-                },
-                {
-                  "nome": "Ampia scelta di tessuti",
-                  "descrizione": "Resinati, impermeabilizzati, acrilici, traforati."
-                },
-                {
-                  "nome": "Opzioni di fissaggio",
-                  "descrizione": "Con corde, guide, binari o telo rigido."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "coperture su misura",
-          "link": "coperture-su-misura",
-
-          "content": [
-            {
-              "title": "Coperture esterne personalizzate",
-              "img": "/assets/showroom/pergole/coperture_esterne_personalizzate.jpg",
-
-              "descrizione": "Realizziamo coperture per esterni su misura: ti aiutiamo a individuare la <strong>struttura</strong>, i <strong>tessuti</strong> e i <strong>fissaggi</strong> più adatti alle tue esigenze.",
-              "funzio": [
-                {
-                  "nome": "Struttura personalizzabile",
-                  "descrizione": "Chiusa, a pergola oppure a L con i lati liberi."
-                },
-                {
-                  "nome": "Ampia scelta di tessuti",
-                  "descrizione": "Resinati, impermeabilizzati, acrilici, traforati."
-                },
-                {
-                  "nome": "Opzioni di fissaggio",
-                  "descrizione": "Con corde, guide, binari o telo rigido."
                 }
               ]
             }

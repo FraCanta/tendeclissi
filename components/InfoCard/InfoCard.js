@@ -1,4 +1,5 @@
 import { Icon } from "@iconify/react";
+import Link from "next/link";
 import React from "react";
 
 const InfoCard = () => {
@@ -11,23 +12,43 @@ const InfoCard = () => {
       <h4 class="text-lg lg:text-[25px] text-black font-bold">
         Rispondiamo ai seguenti contatti:
       </h4>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center w-full gap-8 lg:gap-0">
-        <div className="flex items-center w-full gap-2 lg:justify-center">
+      <div className="grid w-full grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4 justify-items-center lg:gap-0">
+        <Link
+          href="mailto:info@tendeclissi.it"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center w-full gap-2 lg:justify-center"
+        >
           <Icon icon="solar:letter-bold" className="w-6 h-6 text-primary" />
           <span>info@tendeclissi.it</span>
-        </div>
-        <div className="flex items-center w-full gap-2 lg:justify-center">
+        </Link>
+        <Link
+          href="https://wa.me/393287512239"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center w-full gap-2 lg:justify-center"
+        >
           <Icon icon="mage:whatsapp-filled" className="w-6 h-6 text-primary" />
           <span>+39 328 7512239</span>
-        </div>
-        <div className="flex items-center w-full gap-2 lg:justify-center">
+        </Link>
+        <Link
+          href="https://www.facebook.com/profile.php?id=61555867858038"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center w-full gap-2 lg:justify-center"
+        >
           <Icon icon="dashicons:facebook" className="w-6 h-6 text-primary" />
           <span>@tendeclissi</span>
-        </div>
-        <div className="flex items-center w-full gap-2 lg:justify-center">
+        </Link>
+        <Link
+          href="https://www.instagram.com/_tendeclissi/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center w-full gap-2 lg:justify-center"
+        >
           <Icon icon="mdi:instagram" className="w-6 h-6 text-primary" />
           <span>@tendeclissi</span>
-        </div>
+        </Link>
       </div>
     </div>
   );

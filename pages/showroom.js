@@ -51,7 +51,7 @@ const Showroom = () => {
           Entra nel nostro showroom digitale
         </h1>
         <p
-          className="max-w-7xl text-xl xl:text-2xl fxl:text-[25px] font-regular text-white"
+          className="max-w-7xl text-lg xl:text-2xl fxl:text-[25px] font-regular text-white"
           dangerouslySetInnerHTML={{ __html: data.hero.paragrafo }}
         ></p>
       </HeroPage>

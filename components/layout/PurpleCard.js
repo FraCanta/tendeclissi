@@ -8,7 +8,9 @@ import {
 } from "@material-tailwind/react";
 import CtaOutline from "./CtaOutline";
 import CtaSecondary from "./CtaSecondary";
-const PurpleCard = ({ title, description, cta, link }) => {
+import Link from "next/link";
+import { Icon } from "@iconify/react";
+const PurpleCard = ({ title, description, cta, link, icon }) => {
   return (
     <Card className="md:w-[100%]  xl:w-[95%] 2xl:w-[70%]  fxl:w-[85%] text-white flex flex-col justify-center items-center text-center mx-auto bg-purple p-2 sm:p-4 md:p-10 xl:p-2 2xl:p-[1rem] fxl:p-8 gap-2 fxl:gap-4">
       <CardBody>
@@ -27,7 +29,14 @@ const PurpleCard = ({ title, description, cta, link }) => {
         {cta === "vai allo showroom" ? (
           <CtaOutline link={link}>{cta}</CtaOutline>
         ) : (
-          <CtaSecondary link={link}>{cta}</CtaSecondary>
+          <Link
+            href={link}
+            icon={icon}
+            target="_blank"
+            className="bg-white flex items-center gap-4 py-[15px] px-[20px] lg:px-[33px] text-primary  uppercase font-medium z-10 text-base md:text-[25px] lg:text-xl xl:text-base 2xl:text-xl fxl:text-[25px]"
+          >
+            {cta} <Icon icon={icon} className="w-6 h-6 text-primary" />
+          </Link>
         )}
       </CardFooter>
     </Card>

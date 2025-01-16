@@ -57,7 +57,7 @@ const Chisiamo = () => {
           <h2 className="text-2xl lg:text-[30px] text-white font-regular">
             Tende da sole per passione
           </h2>
-          <p className="max-w-7xl text-xl xl:text-2xl fxl:text-[25px] font-normal text-white">
+          <p className="max-w-7xl text-lg xl:text-2xl fxl:text-[25px] font-normal text-white">
             Creare sistemi ombra in grado di offrire il riparo dal sole e
             protezione daglia agenti atmosferici è la nostra passione.
             Tendeclissi nasce per endere vivibile ogni spazio esterno
@@ -93,7 +93,7 @@ const Chisiamo = () => {
         cta="Richiedi un preventivo"
         link="/richiesta-preventivo#sopralluogo"
       />
-      <VideoPlayer />
+      {/* <VideoPlayer /> */}
     </div>
   );
 };
