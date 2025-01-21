@@ -70,7 +70,7 @@ export default function Home() {
         img={Pronto}
         title="Pronto intervento tenda"
         link={"https://wa.me/+393513789430"}
-        description="In caso di eventi atmosferici improvvisi come forti tempeste, bufere o grandinate, interveniamo in brevissimo tempo per riparare o sostituire la tua tenda."
+        description="In caso di eventi atmosferici improvvisi come forti temporali, bufere o grandinate, interveniamo in brevissimo tempo per riparare o sostituire la tua tenda."
       />
 
       <div className="min-h-screen md:min-h-[50vh] xl:min-h-[78vh]  fxl:min-h-[60vh] w-full bg-gradient-to-50 flex flex-col justify-center items-center py-10 lg:py-0">
