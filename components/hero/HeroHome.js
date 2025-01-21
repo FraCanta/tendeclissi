@@ -14,9 +14,13 @@ const HeroHome = () => {
 
       <div className="flex flex-col lg:justify-center xl:items-center z-10 w-[90%] mx-auto gap-10">
         <div className="flex flex-col justify-center xl:items-center">
-          <h1 className="text-[45px] md:text-[70px] lg:text-[100px] xl:text-[70px] fxl:text-[80px] text-white font-bold">
-            Tendeclissi Fra voi e il sole
+          <h1 className="text-[45px] md:text-[70px] lg:text-[100px] fxl:text-[80px] text-white font-bold leading-none">
+            Tendeclissi
           </h1>
+          <h2 className="text-[45px] md:text-[70px] lg:text-[100px] xl:text-[70px] fxl:text-[80px] leading- text-white font-bold">
+            Fra voi e il sole
+          </h2>
+
           <p className="text-white text-md md:text-xl lg:text-3xl xl:text-xl fxl:text-3xl w-full xl:w-[60%] mx-auto xl:text-center font-regular leading-normal">
             Entra nel nostro spazio dedicato al mondo delle tende da sole, per
             abitazioni private, attività commerciali ed esterni: la nostra
