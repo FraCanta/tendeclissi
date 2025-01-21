@@ -68,7 +68,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex flex-col lg:items-end">
-            <CtaSecondary link="/richiesta-preventivo#preventivo#preventivo">
+            <CtaSecondary link="/richiesta-preventivo#preventivo">
               richiedi preventivo
             </CtaSecondary>
             <div></div>
