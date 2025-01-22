@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Almot from "@/public/assets/almot.png";
-import Almot2 from "@/public/assets/img/riparazione.webp";
+import Almot2 from "@/public/assets/img/cambio_tela.webp";
 import { Icon } from "@iconify/react";
 const Partner2 = () => {
   return (
@@ -92,7 +91,7 @@ const Partner2 = () => {
             src={Almot2}
             alt="avatar"
             fill
-            className="object-cover object-top w-auto h-auto"
+            className="object-cover object-bottom w-auto h-auto"
           />
         </div>
       </div>

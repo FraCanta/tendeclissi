@@ -22,7 +22,12 @@ const MediaCards = ({
     >
       <div className="relative min-h-screen md:h-[80vh] lg:h-[60vh] xl:h-screen 2xl:h-[95vh] 2xla:h-[80vh] fxl:h-[90vh] w-full xl:w-[70%] 2xl:w-[78%] fxl:w-[80%]">
         <div>
-          <Image src={img} fill alt="img di prova" className="object-cover" />
+          <Image
+            src={img}
+            fill
+            alt="immagine copertina"
+            className="object-cover"
+          />
           <div className="absolute inset-0 bg-black/45"></div>
 
           <div className="absolute inset-0 flex flex-col items-center xl:justify-center gap-4 lg:text-center text-white mt-20 sm:mt-[3rem] md:mt-[90px] lg:mt-[150px] xl:mt-0 h-full">

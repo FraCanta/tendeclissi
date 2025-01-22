@@ -36,12 +36,12 @@ const TabCat = ({ category }) => {
               key={index}
               className={
                 activeTab == tab.link
-                  ? "w-full h-auto py-[15px] px-[20px] flex justify-center items-center font-bold border-b-4 border-b-primary text-primary uppercase"
+                  ? "w-full h-auto py-[15px] px-[20px]  flex justify-center items-center font-bold border-b-4 border-b-primary text-primary uppercase"
                   : "w-full border-b border-b-purple text-purple py-[15px] px-[33px] flex justify-center items-center font-regular uppercase"
               }
               onClick={() => openProject(tab.link)}
             >
-              <h2 className="text-[22px]">{tab.name}</h2>
+              <h2 className="text-lg xl:text-[22px] lg:text-lg">{tab.name}</h2>
             </button>
           );
         })}

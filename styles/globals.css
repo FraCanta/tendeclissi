@@ -39,12 +39,12 @@ p {
 }
 
 @layer utilities {
-  .bg-hero {
+  /* .bg-hero {
     background-image: url("../public/assets/img/hero_img.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-  }
+  } */
 }
 
 .swiper {

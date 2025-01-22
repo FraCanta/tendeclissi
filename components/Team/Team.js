@@ -1,5 +1,5 @@
 import React from "react";
-import About from "@/public/assets/img/2.webp";
+import About from "@/public/assets/img/il_nostro_metodo_di_lavoro.webp";
 import MediaTextReverse from "../layout/MediaTextReverse";
 import Image from "next/image";
 import Avatar from "@/public/assets/img/Michele.webp";

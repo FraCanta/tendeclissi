@@ -3,7 +3,7 @@
     "paragrafo": "Visita il nostro showroom digitale ed esplora da qualsiasi posto e a qualsiasi ora i prodotti che offriamo in Veneto e nelle Marche: un’ampia gamma di <strong>cappottine</strong>, <strong>tende</strong> e soluzioni per il <strong>giardino</strong>, selezionate privilegiando <strong>materie prime italiane</strong>."
   },
   "cappottine": {
-    "img": "/assets/showroom/cappottine_cover.webp",
+    "img": "/assets/showroom/cappottine_covr.webp",
 
     "descrizione": "Un grande classico senza tempo per riparare e incorniciare <strong>finestre</strong>, <strong>balconi</strong>, <strong>portoncini</strong> e <strong>ingressi</strong>, o creare una tettoia fissa di protezione sia dal sole che dagli agenti atmosferici."
   },
@@ -84,7 +84,7 @@
       "link": "/showroom/tende-cappottine",
       "seoTitle": "Tende da sole cappottine | Tendeclissi",
       "seoDescription": "Scopri i modelli di tende da sole a cappottina disponibili nel nostro catalogo, per coprire finestre, ingressi e creare tettoie di protezione.",
-      "img": "/assets/showroom/cappottine_cover.webp",
+      "img": "/assets/showroom/cappottine_covr.webp",
       "heroTitle": "Cappottine mobili e fisse",
       "heroParagraph": "Un grande classico senza tempo per riparare e incorniciare <strong>piccole finestre, portoncini e ingressi</strong>, o creare una tettoia fissa di protezione sia dal sole che dalla pioggia.",
       "cards": [
@@ -110,7 +110,7 @@
             {
               "title": "Modello Venezia",
               "descrizione": "Cappottina in alluminio a settore circolare con raggiera ad angolo di 90°, realizzabile a 3 o 4 spicchi. Una volta chiusa l'ingombro a parete è minimo. Larghezza da 100 cm a 600 cm e sporgenza variabile da 80 cm fino a 200 cm. Mantovana di serie dritta o ad onda su tutti i modelli.",
-              "img": "/assets/showroom/cappottine/cappottine_mobili/modello_venezia.webp",
+              "img": "/assets/showroom/cappottine/cappottine_mobili/modello_venezia2.webp",
               "funzio": [
                 {
                   "nome": "Supporti",
@@ -157,7 +157,7 @@
             {
               "title": "Modello Roma",
               "descrizione": "Cappotina in alluminio a settore circolare con raggiera circolare. Utilizzata quando l’architettura o la forma della finestra è <strong>ovale e tondeggiante</strong>, i modelli Semitonda e Tonda si adattano al profilo per una resa estetica ottimale. Larghezza da 160 cm a 400 cm e sporgenza variabile da 80 cm a 180 cm. Mantovana di serie dritta o ad onda su tutti i modelli..",
-              "img": "/assets/showroom/cappottine/cappottine_mobili/modello_roma.webp",
+              "img": "/assets/showroom/cappottine/cappottine_mobili/modello_roma2.webp",
 
               "funzio": [
                 {
@@ -659,7 +659,7 @@
           "content": [
             {
               "title": "Bioclimatica orientabile",
-              "img": "/assets/showroom/pergole/pergola_bioclimatica_orientabile.webp",
+              "img": "/assets/showroom/bioclimatica.webp",
 
               "descrizione": "La struttura <strong>bioclimatica con lame orientabili</strong> si distingue per il suo design ricercato e innovativo, offre protezione totale o parziale dal sole e un’ottima aerazione.",
               "funzio": [

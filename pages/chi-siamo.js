@@ -3,7 +3,7 @@ import MediaText from "@/components/layout/MediaText";
 import React from "react";
 import Italy from "@/public/assets/cartina_italia.svg";
 import Team from "@/components/Team/Team";
-import Stoffe from "@/public/assets/img/chisiamo_2.webp";
+import Stoffe from "@/public/assets/img/la_quaità_dei_nostri_prodotti.webp";
 import Banner from "@/components/layout/Banner";
 import VideoPlayer from "@/components/VideoPlayer/VideoPlayer";
 import data from "@/utils/chisiamo.json";
@@ -49,7 +49,7 @@ const Chisiamo = () => {
           content="Il mondo delle tende da sole è la nostra passione: con la nostra squadra offriamo prodotti e servizi in Veneto e nelle Marche."
         />
       </Head>
-      <HeroPage2 backgroundImage="/assets/img/chisiamo_hero.webp">
+      <HeroPage2 backgroundImage="/assets/img/hero_chi_siamo_tendeclissi.webp">
         <div className="flex flex-col gap-6">
           <h1 className="text-[54px] xl:text-[60px] fxl:text-[70px] font-bold text-white">
             Tendeclissi

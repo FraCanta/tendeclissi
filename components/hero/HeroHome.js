@@ -9,19 +9,31 @@ import { Autoplay, Pagination } from "swiper/modules";
 const HeroHome = () => {
   return (
     <div className="relative flex flex-col justify-center min-h-screen gap-12 mx-auto overflow-x-hidden lg:items-center lg:mt-0 bg-hero">
+      {/* Video di sfondo */}
+      <video
+        className="absolute inset-0 object-cover w-full h-full"
+        autoPlay
+        muted
+        loop
+        playsInline
+      >
+        <source src="/assets/video/promo_sito.webm" type="video/webm" />
+        Your browser does not support the video tag.
+      </video>
+
       {/* Overlay nero opaco */}
       <div className="absolute inset-0 bg-black/45"></div>
 
-      <div className="flex flex-col lg:justify-center xl:items-center z-10 w-[90%] mx-auto gap-10">
+      <div className="flex flex-col lg:justify-center xl:items-center z-10 w-[90%] mx-auto gap-6 2xl:gap-10">
         <div className="flex flex-col justify-center xl:items-center">
-          <h1 className="text-[45px] md:text-[70px] lg:text-[100px] fxl:text-[80px] text-white font-bold leading-none">
+          <h1 className="text-[45px] md:text-[80px] fxl:text-[80px] text-white font-bold leading-none">
             Tendeclissi
           </h1>
-          <h2 className="text-[45px] md:text-[70px] lg:text-[100px] xl:text-[70px] fxl:text-[80px] leading- text-white font-bold">
+          <h2 className="text-[30px] lg:text-[45px] fxl:text-[80px] leading- text-white font-regular">
             Fra voi e il sole
           </h2>
 
-          <p className="text-white text-md md:text-xl lg:text-3xl xl:text-xl fxl:text-3xl w-full xl:w-[60%] mx-auto xl:text-center font-regular leading-normal">
+          <p className="text-white text-md md:text-xl lg:text-lg 2xl:text-xl fxl:text-3xl w-full xl:w-[60%] mx-auto xl:text-center font-regular leading-normal">
             Entra nel nostro spazio dedicato al mondo delle tende da sole, per
             abitazioni private, attività commerciali ed esterni: la nostra
             squadra è pronta a fornirti la soluzione su misura per te!
