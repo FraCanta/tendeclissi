@@ -79,7 +79,7 @@ const Showroom = () => {
           <MediaCards
             reverseLayout={false}
             img={data.giardino.img}
-            mainTitle="Tende da sole per esterni e giardini"
+            mainTitle="Pergole e strutture fisse"
             mainDescription={data.giardino.descrizione}
             cardsData={jsonData.section3}
           />

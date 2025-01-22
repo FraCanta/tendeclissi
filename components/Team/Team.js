@@ -28,7 +28,7 @@ const Team = ({ data }) => {
             </div>
 
             <h4 className="text-[25px] font-bold text-white">Michele Soldo</h4>
-            <p className="text-xl text-white capitalize">socio</p>
+            <p className="text-xl text-white capitalize">Titolare</p>
           </div>
         </div>
         <MediaTextReverse

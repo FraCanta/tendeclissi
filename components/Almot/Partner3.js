@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import Almot from "@/public/assets/almot.png";
-import Almot2 from "@/public/assets/img/preventivo.webp";
+import Almot2 from "@/public/assets/riparazione.png";
 import { Icon } from "@iconify/react";
 const Partner3 = () => {
   return (
@@ -96,7 +96,7 @@ const Partner3 = () => {
               <li>Pulizia dei telai</li>
               <li>Installazione tettuccio di protezione</li>
               <li>Installazione sensori a vibrazione, vento, sole e pioggia</li>
-              <li>Riparazione delle braccia</li>
+              <li>Riparazione dei bracci</li>
               <li>Riparazione dell’arganello</li>
               <li>Sostituzione delle braccia</li>
               <li>

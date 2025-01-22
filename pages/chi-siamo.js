@@ -3,9 +3,8 @@ import MediaText from "@/components/layout/MediaText";
 import React from "react";
 import Italy from "@/public/assets/cartina_italia.svg";
 import Team from "@/components/Team/Team";
-import Stoffe from "@/public/assets/img/la_quaità_dei_nostri_prodotti.webp";
+import Stoffe from "@/public/assets/stoffe.png";
 import Banner from "@/components/layout/Banner";
-import VideoPlayer from "@/components/VideoPlayer/VideoPlayer";
 import data from "@/utils/chisiamo.json";
 import Head from "next/head";
 import MediaText2 from "@/components/layout/MediaText2";
@@ -84,12 +83,11 @@ const Chisiamo = () => {
         link="/showroom"
         cta="Vai allo showroom"
         title="La qualità dei nostri prodotti"
-        description="Nella scelta dei prodotti da offrire ai nostri clienti ci impegniamo per proporre il più possibile <strong>materiali</strong> di <strong>lavorazione italiana</strong>, a partire dalla provenienza della componentistica, affidandoci a fornitori nazionali con esperienza pluridecennale consolidata sul territorio. Utilizziamo componenti in leghe metalliche provenienti da Padova e scegliamo materiali solidi che garantiscono la massima resistenza, durevolezza e longevità delle strutture nel tempo. Disponiamo dei migliori marchi di tessuti nazionali ed internazionali di aziende leader nel settore come Parà Tempotest, Giovanrdi, Sattler, Corti, Dickson, Swela tutti con garanzia Europea e certificazione UNI EN 13561 per offrire il massimo della resistenza e la migliore qualità possibile.  "
+        description="Nella scelta dei prodotti da offrire ai nostri clienti ci impegniamo per proporre il più possibile <strong>materiali</strong> di <strong>lavorazione italiana</strong>, a partire dalla provenienza della componentistica, affidandoci a fornitori nazionali con esperienza pluridecennale consolidata sul territorio. Utilizziamo componenti in leghe metalliche prodotte in Veneto e scegliamo materiali solidi che garantiscono la massima resistenza, durevolezza e longevità delle strutture nel tempo. Disponiamo dei migliori marchi di tessuti nazionali ed internazionali di aziende leader nel settore come <strong>Parà Tempotest</strong>, <strong>Giovardi</strong>, <strong>Sattler</strong>, <strong>Corti</strong>, <strong>Dickson</strong>, <strong>Swela</strong> tutti con garanzia Europea e certificazione UNI EN 13561 per offrire il massimo della resistenza e la migliore qualità possibile.  "
       />
       <Banner
         text="Prenota un sopralluogo gratuito"
-        description="Scrivici per prenotare un sopralluogo: prenderemo le misure, ti mostreremo le possibili soluzioni e potrai scegliere il tessuto più adatto ai tuoi bisogni direttamente dal nostro campionario fisico.
-."
+        description="Scrivici per prenotare un sopralluogo: prenderemo le misure, ti mostreremo le possibili soluzioni e potrai scegliere il tessuto più adatto ai tuoi bisogni direttamente dal nostro campionario fisico."
         cta="Richiedi un preventivo"
         link="/richiesta-preventivo#sopralluogo"
       />
