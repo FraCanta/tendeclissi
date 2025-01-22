@@ -1,5 +1,4 @@
-import HeroPage from "@/components/hero/HeroPage";
-import MediaText from "@/components/layout/MediaText";
+import Uni from "@/public/assets/logo_uni.svg";
 import React from "react";
 import Italy from "@/public/assets/cartina_italia.svg";
 import Team from "@/components/Team/Team";
@@ -80,6 +79,7 @@ const Chisiamo = () => {
       <Team data={data.team} />
       <MediaText2
         img={Stoffe}
+        img2={Uni}
         link="/showroom"
         cta="Vai allo showroom"
         title="La qualità dei nostri prodotti"
