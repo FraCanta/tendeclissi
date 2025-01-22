@@ -3,13 +3,64 @@ import "@/styles/globals.css";
 import "@/styles/tabs.css";
 import "@/styles/gallery.css";
 import Head from "next/head";
-
+import { FloatingWhatsApp } from "react-floating-whatsapp";
+import { useEffect, useState } from "react";
 export default function App({ Component, pageProps }) {
+  const [showWhatsApp, setShowWhatsApp] = useState(false);
+  const [isClient, setIsClient] = useState(false);
+
+  // Funzione per monitorare lo scroll
+  const handleScroll = () => {
+    const scrollPosition = window.scrollY; // Ottieni la posizione attuale dello scroll
+    const triggerHeight = 400; // Altezza dopo la quale mostrare il bottone (puoi cambiare questo valore)
+
+    // Mostra il bottone se la posizione dello scroll è maggiore del triggerHeight
+    if (scrollPosition > triggerHeight) {
+      setShowWhatsApp(true);
+    } else {
+      setShowWhatsApp(false);
+    }
+  };
+
+  // Controllo per eseguire la logica solo nel client
+  useEffect(() => {
+    setIsClient(true); // Impostiamo a true quando il componente è montato nel client
+
+    if (isClient) {
+      window.addEventListener("scroll", handleScroll);
+
+      // Esegui il controllo anche subito dopo che la pagina è stata caricata per determinare se deve essere mostrato
+      handleScroll();
+
+      // Rimuovi l'evento scroll quando il componente è smontato
+      return () => {
+        window.removeEventListener("scroll", handleScroll);
+      };
+    }
+  }, [isClient]);
   return (
-   <> <Head> <meta name="viewport" content="viewport-fit=cover" /></Head>
-    <Layout>
-      <Component {...pageProps} />
-    </Layout>
+    <>
+      {" "}
+      <Head>
+        {" "}
+        <meta name="viewport" content="viewport-fit=cover" />
+      </Head>
+      {showWhatsApp && (
+        <FloatingWhatsApp
+          phoneNumber="+393287512239"
+          avatar="/assets/logo.svg"
+          accountName="Tendeclissi | Pronto Intervento tenda"
+          statusMessage="Ti rispondiamo subito"
+          notificationSound={true}
+          allowClickAway={true}
+          placeholder="Scrivi un messaggio"
+          chatMessage="Ciao, come possiamo aiutarti?"
+          notificationLoop={true}
+        />
+      )}
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
     </>
   );
 }
