@@ -26,7 +26,7 @@ const MediaCards = ({
             src={img}
             fill
             alt="immagine copertina"
-            className="object-contain "
+            className="object-cover "
           />
           <div className="absolute inset-0 bg-black/45"></div>
 
