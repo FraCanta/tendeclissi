@@ -17,7 +17,7 @@ const HeroHome = () => {
         loop
         playsInline
       >
-        <source src="/assets/video/promo_sito.webm" type="video/webm" />
+        <source src="/assets/video/hero_video.mov" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
