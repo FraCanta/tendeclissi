@@ -1,6 +1,7 @@
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import React, { useEffect, useRef } from "react";
+import { Toaster } from "react-hot-toast";
 
 const Layout = (props) => {
   const navbarRef = useRef(null);
@@ -28,6 +29,24 @@ const Layout = (props) => {
   }, []); // Dependency array vuota per eseguire l'effetto solo una volta
   return (
     <>
+      <Toaster
+        position="top-right"
+        toastOptions={{
+          duration: 3000,
+          success: {
+            iconTheme: {
+              primary: "#5cb4ad",
+              secondary: "white",
+            },
+          },
+          error: {
+            iconTheme: {
+              primary: "red",
+              secondary: "white",
+            },
+          },
+        }}
+      />
       <Navbar nr={navbarRef} />
       <main>{props.children}</main>
 

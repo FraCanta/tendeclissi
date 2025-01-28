@@ -8,7 +8,7 @@ import { Autoplay, Pagination } from "swiper/modules";
 
 const HeroHome = () => {
   return (
-    <div className="relative flex flex-col justify-center min-h-screen gap-12 mx-auto overflow-x-hidden lg:items-center lg:mt-0 bg-hero">
+    <div className="relative flex flex-col justify-center h-[calc(100vh_-_100px)] gap-8 mx-auto overflow-x-hidden lg:items-center lg:mt-0 bg-hero">
       {/* Video di sfondo */}
       <video
         className="absolute inset-0 object-cover w-full h-full"

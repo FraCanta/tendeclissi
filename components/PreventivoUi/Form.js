@@ -10,7 +10,7 @@ const Form = ({ content, onCategoryChange, onRadioChange }) => {
   const [categoryOptions, setCategoryOptions] = useState([
     "Cappottine",
     "Tende da sole",
-    "Tende da sole per esterni e giardini",
+    "Pergole e strutture fisse",
   ]);
   const [subcategories, setSubcategories] = useState([]);
   const [selectedSubcategory, setSelectedSubcategory] = useState("");
@@ -23,10 +23,12 @@ const Form = ({ content, onCategoryChange, onRadioChange }) => {
   const subcategoryMap = {
     Cappottine: ["Cappottine mobili", "Cappottine fisse"],
     "Tende da sole": ["Tende a caduta", "Tende classiche", "Tende a guscio"],
-    "Tende da sole per esterni e giardini": [
+    "Pergole e strutture fisse": [
       "Pergole",
-      "Vele ombreggianti",
+      "Bioclimatiche",
       "Copertura box auto",
+      "Vele ombreggianti",
+      ,
     ],
   };
 
@@ -62,7 +64,7 @@ const Form = ({ content, onCategoryChange, onRadioChange }) => {
       setCategoryOptions([
         "Cappottine",
         "Tende da sole",
-        "Tende da sole per esterni e giardini",
+        "Pergole e strutture fisse",
       ]);
     }
   };

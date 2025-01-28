@@ -10,12 +10,12 @@ const FormSection = ({ content }) => {
     let newImageSrc = null; // Inizializza senza immagine
     switch (category) {
       case "Cappottine":
-        newImageSrc = "/assets/showroom/cappottine_cover.webp";
+        newImageSrc = "/assets/showroom/cappottine_covr.webp";
         break;
       case "Tende da sole":
-        newImageSrc = "/assets/showroom/tendesole_cover.webp";
+        newImageSrc = "/assets/showroom/tende_da_sole/cover_tende_da_sole.webp";
         break;
-      case "Tende da sole per esterni e giardini":
+      case "Pergole e strutture fisse":
         newImageSrc = "/assets/showroom/pergola_cover.webp";
         break;
       case "Manutenzione":

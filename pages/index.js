@@ -8,8 +8,15 @@ import About from "@/public/assets/img/2.webp";
 import Pronto from "@/public/assets/img/pronto-intervento-tenda.webp";
 
 import MediaText3 from "@/components/layout/MediaText3";
+import { useState } from "react";
 
 export default function Home() {
+  const [inputs, setInputs] = useState({
+    name: "",
+    surname: "",
+    phone: "",
+    message: "",
+  });
   return (
     <>
       <Head>
@@ -73,8 +80,8 @@ export default function Home() {
         description="In caso di eventi atmosferici improvvisi come forti temporali, bufere o grandinate, interveniamo in brevissimo tempo per riparare o sostituire la tua tenda."
       />
 
-      <div className="min-h-screen md:min-h-[50vh] xl:min-h-[78vh]  fxl:min-h-[60vh] w-full bg-gradient-to-50 flex flex-col justify-center items-center py-10 lg:py-0">
-        <FormEco />
+      <div className="flex flex-col items-center justify-center w-full bg-gradient-to-50 ">
+        <FormEco inputs={inputs} setInputs={setInputs} formType="ecobonus" />
       </div>
     </>
   );
