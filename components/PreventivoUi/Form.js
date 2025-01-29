@@ -1,6 +1,14 @@
 import React, { useState, useEffect } from "react";
+import toast from "react-hot-toast";
 
-const Form = ({ content, onCategoryChange, onRadioChange }) => {
+const Form = ({
+  content,
+  onCategoryChange,
+  onRadioChange,
+  inputs,
+  setInputs,
+  formType,
+}) => {
   const [showList, setShowList] = useState(false);
   const [showSubList, setShowSubList] = useState(false);
 
@@ -15,9 +23,71 @@ const Form = ({ content, onCategoryChange, onRadioChange }) => {
   const [subcategories, setSubcategories] = useState([]);
   const [selectedSubcategory, setSelectedSubcategory] = useState("");
 
-  const handleSubmit = (e) => {
-    e.preventDefault(); // Previeni il comportamento predefinito del submit
-    // Qui puoi gestire l'invio dei dati del form, come un'API call o un'altra logica
+  const [privacyChecked, setPrivacyChecked] = useState(false);
+
+  const handleChange = (e) => {
+    setInputs((prev) => ({
+      ...prev,
+      [e.target.id]: e.target.value,
+    }));
+  };
+
+  const onSubmitForm = async (e) => {
+    e.preventDefault();
+    if (
+      inputs.name &&
+      inputs.surname &&
+      inputs.message &&
+      inputs.phone &&
+      (formType === "sopralluogo" ? inputs.address : true) // Se formType è sopralluogo, verifica anche address
+    ) {
+      try {
+        const formDataMail = {
+          ...inputs,
+          formType,
+          privacyChecked,
+          selectedCategory,
+          selectedSubcategory,
+          productOrService:
+            activeRadio === "bordered-radio-1" ? "Prodotto" : "Servizio",
+        };
+
+        console.log("Dati inviati al server:", JSON.stringify(formDataMail));
+
+        const res = await fetch(`/api/email`, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formDataMail),
+        });
+
+        if (res.status === 200) {
+          setInputs({
+            name: "",
+            surname: "",
+            phone: "",
+            message: "",
+            selectedCategory: "Seleziona",
+            selectedSubcategory: "Seleziona",
+            privacyChecked: false,
+            address: "",
+          });
+          toast.success(
+            `Hey ${inputs.name}, your message was sent successfully`
+          );
+        } else {
+          throw new Error("Failed to send data");
+        }
+      } catch (error) {
+        toast.error(
+          `Hey ${inputs.name}, your message wasn't sent successfully`
+        );
+      }
+    } else {
+      console.log(inputs);
+      toast.error("Please fill in all required fields");
+    }
   };
 
   const subcategoryMap = {
@@ -77,46 +147,61 @@ const Form = ({ content, onCategoryChange, onRadioChange }) => {
   return (
     <form
       className="flex flex-col w-full max-w-3xl gap-6 mx-auto"
-      onSubmit={handleSubmit}
+      onSubmit={onSubmitForm}
     >
       <h4 className="text-2xl font-bold lg:text-4xl">I tuoi dati</h4>
       <div className="flex flex-col gap-4 -mx-3 lg:flex-row">
         <div className="w-full p-2 px-3 bg-white border md:w-1/2 border-yellow">
           <input
-            className="appearance-none block w-full bg-white text-gray-700 border border-purple px-[33px] py-[15px] leading-tight focus:outline-none focus:bg-white"
-            id="grid-first-name"
+            className="appearance-none block w-full bg-white text-gray-700 border border-purple px-[22px] py-[12px]  lg:px-[33px] lg:py-[15px]  leading-tight focus:outline-none focus:bg-white"
+            id="name"
+            name="name"
+            required
             type="text"
             placeholder="Nome"
+            value={inputs.name}
+            onChange={handleChange}
           />
         </div>
         <div className="w-full p-2 px-3 bg-white border md:w-1/2 border-yellow">
           <input
-            className="appearance-none block w-full bg-white text-gray-700 border border-purple px-[33px] py-[15px] leading-tight focus:outline-none focus:bg-white"
-            id="grid-last-name"
+            className="appearance-none block w-full bg-white text-gray-700 border border-purple  px-[22px] py-[12px]  lg:px-[33px] lg:py-[15px]  leading-tight focus:outline-none focus:bg-white"
+            id="surname"
             type="text"
+            name="surname"
+            required
+            value={inputs.surname}
+            onChange={handleChange}
             placeholder="Cognome"
           />
         </div>
       </div>
-      {content.addressInput ? (
+      {content.addressInput && (
         <div className="flex flex-col -mx-3">
           <div className="w-full p-2 px-3 bg-white border border-yellow">
             <input
-              className="appearance-none block w-full bg-white text-gray-700 border border-purple px-[33px] py-[15px] leading-tight focus:outline-none focus:border-white focus:bg-white"
-              id="grid-address"
+              className="appearance-none block w-full bg-white text-gray-700 border border-purple  px-[22px] py-[12px]  lg:px-[33px] lg:py-[15px]  leading-tight focus:outline-none focus:bg-white"
+              id="address"
               type="text"
+              name="address"
+              required
+              value={inputs.address}
+              onChange={handleChange}
               placeholder="Indirizzo"
             />
           </div>
         </div>
-      ) : null}
+      )}
 
       <div className="flex flex-col gap-4 -mx-3">
         <div className="w-full p-2 px-3 bg-white border border-yellow">
           <input
-            className="appearance-none block w-full bg-white text-gray-700 border border-purple px-[33px] py-[15px] leading-tight focus:outline-none focus:bg-white"
-            id="grid-phone"
+            className="appearance-none block w-full bg-white text-gray-700 border border-purple  px-[22px] py-[12px]  lg:px-[33px] lg:py-[15px]  leading-tight focus:outline-none focus:bg-white"
+            id="phone"
             type="text"
+            value={inputs.phone}
+            required
+            onChange={handleChange}
             placeholder="Numero di telefono"
           />
         </div>
@@ -128,7 +213,8 @@ const Form = ({ content, onCategoryChange, onRadioChange }) => {
             <input
               id="bordered-radio-1"
               type="radio"
-              name="bordered-radio"
+              name="prodotto"
+              value={inputs.product}
               className="w-8 h-8 border-black text-primary"
               checked={activeRadio === "bordered-radio-1"}
               onChange={handleRadioChange}
@@ -144,7 +230,8 @@ const Form = ({ content, onCategoryChange, onRadioChange }) => {
             <input
               id="bordered-radio-2"
               type="radio"
-              name="bordered-radio"
+              name="servizio"
+              value={inputs.service}
               className="w-8 h-8 border-black text-primary"
               checked={activeRadio === "bordered-radio-2"}
               onChange={handleRadioChange}
@@ -275,22 +362,36 @@ const Form = ({ content, onCategoryChange, onRadioChange }) => {
         <div className="w-full p-2 px-3 bg-white border border-yellow">
           <textarea
             id="message"
-            rows="10"
+            onChange={handleChange}
+            value={inputs.message}
+            cols="10"
+            rows="5"
+            required
             className="block p-2.5 w-full text-base text-black bg-white border border-primary focus:ring-primary focus:border-primary"
             placeholder="Dacci tutte le informazioni che ritieni necessarie per preparare il [preventivo/sopralluogo]..."
           ></textarea>
         </div>
       </div>
       <div className="grid items-center w-full grid-cols-1 gap-y-8">
-        <label className="flex gap-4 text-black">
-          <input type="checkbox" />
-          <span
-            dangerouslySetInnerHTML={{
-              __html:
-                "Ho letto l'<a href='/privacy-policy'><strong>informativa sulla privacy</strong></a> e acconsento alla memorizzazione dei miei dati, secondo quanto stabilito dal regolamento europeo per la protezione dei dati personali n. 679/2016 (GDPR), per avere informazioni sui servizi di www.tendeclissi.it",
-            }}
-          ></span>
-        </label>
+        <div className="flex items-center max-w-3xl gap-2 mx-auto">
+          <input
+            type="checkbox"
+            id="privacy"
+            name="privacy"
+            value="SI"
+            required
+            onChange={() => setPrivacyChecked(!privacyChecked)}
+            checked={privacyChecked}
+          />{" "}
+          <label htmlFor="privacy" className="text-black ">
+            <span
+              dangerouslySetInnerHTML={{
+                __html:
+                  "Ho letto l'<a href='/privacy-policy'><strong>informativa sulla privacy</strong></a> e acconsento alla memorizzazione dei miei dati, secondo quanto stabilito dal regolamento europeo per la protezione dei dati personali n. 679/2016 (GDPR), per avere informazioni sui servizi di www.tendeclissi.it",
+              }}
+            ></span>{" "}
+          </label>
+        </div>
         <button
           className="flex w-full items-center justify-center uppercase 3xl:text-[35px] 4xl:text-[55px] px-[33px] py-[15px] md:text-[25px] lg:text-xl fxl:text-[25px] bg-primary text-white font-regular"
           type="submit"

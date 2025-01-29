@@ -3,6 +3,18 @@ import Form from "./Form";
 import Image from "next/image";
 
 const FormSection = ({ content }) => {
+  const [inputs, setInputs] = useState({
+    name: "",
+    surname: "",
+    phone: "",
+    message: "",
+    address: "",
+    selectedCategory: "",
+    selectedSubcategory: "",
+    productOrService: "",
+    privacyChecked: false,
+  });
+
   // Stato inizializzato a null per indicare nessuna immagine di default
   const [imageSrc, setImageSrc] = useState("/assets/img/vendita.webp");
 
@@ -40,11 +52,26 @@ const FormSection = ({ content }) => {
 
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 w-[90%] lg:w-full mx-auto">
-      <Form
-        content={content}
-        onCategoryChange={handleCategoryChange}
-        onRadioChange={handleRadioChange}
-      />
+      {content.addressInput ? (
+        <Form
+          content={content}
+          onCategoryChange={handleCategoryChange}
+          onRadioChange={handleRadioChange}
+          inputs={inputs}
+          setInputs={setInputs}
+          formType="sopralluogo"
+        />
+      ) : (
+        <Form
+          content={content}
+          onCategoryChange={handleCategoryChange}
+          onRadioChange={handleRadioChange}
+          inputs={inputs}
+          setInputs={setInputs}
+          formType="preventivo"
+        />
+      )}
+
       <div className="relative hidden h-full lg:block">
         <Image
           src={imageSrc}

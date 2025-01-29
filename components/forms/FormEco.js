@@ -32,6 +32,7 @@ const FormEco = ({ inputs, setInputs, formType }) => {
             surname: "",
             phone: "",
             message: "",
+            privacyChecked: false,
           });
           toast.success(
             `Hey ${inputs.name}, your message was sent successfully`
