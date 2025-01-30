@@ -5,6 +5,10 @@ export default function Document() {
     <Html lang="it">
       <Head>
         <meta name="viewport" content="width=device-width" />{" "}
+        <meta
+          name="google-site-verification"
+          content="lf_K3RZ7Ht1rE_ACb2qtSNZasy1eG51NJ6Qs2M_eupw"
+        />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
