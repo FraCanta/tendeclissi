@@ -43,8 +43,22 @@ export default function App({ Component, pageProps }) {
     <>
       {" "}
       <Head>
-        {" "}
-        <meta name="viewport" content="viewport-fit=cover" />
+        <>
+          <meta name="viewport" content="viewport-fit=cover" />
+          <Script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-R9FQJCZ50X"
+            strategy="afterInteractive"
+          ></Script>
+          <Script id="google-analytics" strategy="afterInteractive">
+            {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-R9FQJCZ50X', { 'debug_mode': true });
+        `}
+          </Script>
+        </>
       </Head>
       {showWhatsApp && (
         <FloatingWhatsApp
@@ -62,19 +76,6 @@ export default function App({ Component, pageProps }) {
       <Layout>
         <Component {...pageProps} />
       </Layout>
-      <Script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=G-R9FQJCZ50X"
-        strategy="afterInteractive"
-      ></Script>
-      <Script id="google-analytics" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-R9FQJCZ50X', { 'debug_mode': true });
-        `}
-      </Script>
     </>
   );
 }
