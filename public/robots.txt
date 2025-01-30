@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://tendeclissi.it
+
+# Sitemaps
+Sitemap: https://tendeclissi.it/sitemap.xml
