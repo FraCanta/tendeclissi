@@ -75,6 +75,23 @@ export default function App({ Component, pageProps }) {
           gtag('config', 'G-R9FQJCZ50X', { 'debug_mode': true });
         `}
       </Script>
+      {/* Configurazione Iubenda */}
+      <Script id="iubenda-cs-configuration" strategy="afterInteractive">
+        {`
+          var _iub = _iub || [];
+_iub.csConfiguration = {"siteId":3913156,"cookiePolicyId":71604536,"lang":"it","storage":{"useSiteId":true}};
+        `}
+      </Script>
+      <Script
+        src="https://cs.iubenda.com/autoblocking/3913156.js"
+        strategy="afterInteractive"
+      />
+      <Script
+        src="//cdn.iubenda.com/cs/iubenda_cs.js"
+        charset="UTF-8"
+        async
+        strategy="afterInteractive"
+      />
     </>
   );
 }
