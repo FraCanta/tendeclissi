@@ -87,11 +87,7 @@ export default async function mailer(req, res) {
     // Invio della mail principale
     await transporter.sendMail({
       from: `Tendeclissi <info@tendeclissi.it>`,
-      to: [
-        "fcantale14@gmail.com",
-        "info@tendeclissi.it",
-        "mirandauxdesigner@gmail.com",
-      ],
+      to: ["info@tendeclissi.it"],
       subject: subject,
       html: emailHtml,
     });
