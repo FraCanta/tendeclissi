@@ -387,7 +387,7 @@ const Form = ({
             <span
               dangerouslySetInnerHTML={{
                 __html:
-                  "Ho letto l'<a href='/privacy-policy'><strong>informativa sulla privacy</strong></a> e acconsento alla memorizzazione dei miei dati, secondo quanto stabilito dal regolamento europeo per la protezione dei dati personali n. 679/2016 (GDPR), per avere informazioni sui servizi di www.tendeclissi.it",
+                  "Ho letto l'<a href='https://www.iubenda.com/privacy-policy/71604536/legal' target='_blank'><strong>informativa sulla privacy</strong></a> e acconsento alla memorizzazione dei miei dati, secondo quanto stabilito dal regolamento europeo per la protezione dei dati personali n. 679/2016 (GDPR), per avere informazioni sui servizi di www.tendeclissi.it",
               }}
             ></span>{" "}
           </label>

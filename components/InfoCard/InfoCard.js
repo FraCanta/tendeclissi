@@ -12,7 +12,7 @@ const InfoCard = () => {
       <h4 class="text-lg lg:text-[25px] text-black font-bold">
         Rispondiamo ai seguenti contatti:
       </h4>
-      <div className="grid w-full grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4 justify-items-center lg:gap-0">
+      <div className="grid w-full grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-5 justify-items-center lg:gap-0">
         <Link
           href="mailto:info@tendeclissi.it"
           target="_blank"
@@ -47,6 +47,15 @@ const InfoCard = () => {
           className="flex items-center w-full gap-2 lg:justify-center"
         >
           <Icon icon="mdi:instagram" className="w-6 h-6 text-primary" />
+          <span>@tendeclissi</span>
+        </Link>
+        <Link
+          href="https://www.tiktok.com/@tendeclissi"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center w-full gap-2 lg:justify-center"
+        >
+          <Icon icon="ic:round-tiktok" className="w-6 h-6 text-primary" />
           <span>@tendeclissi</span>
         </Link>
       </div>
