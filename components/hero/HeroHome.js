@@ -29,7 +29,7 @@ const HeroHome = () => {
           <h1 className="text-[45px] md:text-[80px] xl:text-[70px] 2xl:text-[80px] text-white font-bold leading-none">
             Tendeclissi
           </h1>
-          <h2 className="text-[30px] lg:text-[45px] xl:text-[35px] 2xl:text-[45px] fxl:text-[80px] leading- text-white font-regular">
+          <h2 className="text-[30px] lg:text-[45px] xl:text-[35px] 2xl:text-[45px] fxl:text-[80px] text-white font-regular">
             Fra voi e il sole
           </h2>
 
@@ -43,7 +43,7 @@ const HeroHome = () => {
         <CtaPrimary link="/showroom">scopri i nostri prodotti</CtaPrimary>
       </div>
 
-      <div className="xl:w-[70%] mx-auto flex lg:gap-12 z-10 w-[90%]">
+      <div className="xl:w-[70%] mx-auto flex items-center justify-center lg:gap-12 z-10 w-[90%]">
         <Swiper
           slidesPerView={3}
           spaceBetween={20}
