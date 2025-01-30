@@ -49,13 +49,13 @@ const Chisiamo = () => {
       </Head>
       <HeroPage2 backgroundImage="/assets/img/hero_chi_siamo_tendeclissi.webp">
         <div className="flex flex-col gap-6">
-          <h1 className="text-[54px] xl:text-[60px] fxl:text-[70px] font-bold text-white">
+          <h1 className="text-[54px] 2xl:text-[60px] xl:text-[50px] fxl:text-[70px] font-bold text-white">
             Tendeclissi
           </h1>
-          <h2 className="text-2xl lg:text-[30px] text-white font-regular">
+          <h2 className="text-2xl lg:text-[30px] xl:text-2xl 2xl:text-[30px] text-white font-regular">
             Tende da sole per passione
           </h2>
-          <p className="max-w-7xl text-lg xl:text-2xl fxl:text-[25px] font-normal text-white">
+          <p className="max-w-7xl text-lg xl:text-xl 2xl:text-2xl fxl:text-[25px] font-normal text-white">
             Creare sistemi ombra in grado di offrire il riparo dal sole e
             protezione daglia agenti atmosferici è la nostra passione.
             Tendeclissi nasce per endere vivibile ogni spazio esterno

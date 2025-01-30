@@ -3,7 +3,7 @@ import React from "react";
 const HeroPage2 = ({ children, backgroundImage }) => {
   return (
     <div
-      className="min-h-screen md:min-h-[50vh] lg:min-h-[80vh] 2xl:min-h-[60vh] flex flex-col justify-center relative "
+      className="min-h-screen md:min-h-[50vh] lg:min-h-[80vh] xl:min-h-[60vh] flex flex-col justify-center relative "
       style={{
         backgroundImage: `url(${backgroundImage})`,
         backgroundSize: "cover",

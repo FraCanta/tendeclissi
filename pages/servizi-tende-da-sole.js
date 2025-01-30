@@ -52,11 +52,11 @@ const Servizi = () => {
         />
       </Head>
       <HeroPage backgroundImage="/assets/chisiamoImg.jpg">
-        <h1 className="text-[40px] xl:text-[60px] xl:leading-[1.2] fxl:text-[70px] font-bold text-white xl:max-w-3xl">
+        <h1 className="text-[40px] xl:text-[50px] xl:leading-normal 2xl:text-[60px] 2xl:leading-[1.2] fxl:text-[70px] font-bold text-white xl:max-w-3xl">
           I nostri servizi
         </h1>
         <p
-          className="max-w-5xl text-lg xl:text-2xl fxl:text-[25px] font-regular text-white"
+          className="max-w-5xl text-lg xl:text-xl 2xl:text-2xl fxl:text-[25px] font-regular text-white"
           dangerouslySetInnerHTML={{
             __html:
               "Dalla scelta della tenda all’installazione, fino agli interventi di <strong>riparazione</strong> e <strong>manutenzione</strong>: la nostra squadra può aiutarti in tutte le fasi di vita della tua tenda da sole, offrendoti un <strong>supporto mirato e personalizzato</strong>.",
@@ -74,7 +74,7 @@ const Servizi = () => {
         link={"https://wa.me/+393513789430"}
       />{" "}
       <div className="w-[90%] mx-auto h-full my-10  ">
-        <div className="xl:w-[60%] mx-auto flex flex-col xl:flex-row justify-evenly gap-10">
+        <div className="2xl:w-[60%] mx-auto flex flex-col xl:flex-row justify-evenly gap-10">
           <PurpleCard
             title="Sai già cosa ti serve?"
             description="Esplora tutti i nostri prodotti nello showroom digitale per trovare quello che cerchi."

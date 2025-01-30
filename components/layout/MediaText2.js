@@ -10,21 +10,27 @@ const MediaText2 = ({ img, title, description, cta, alt, link, img2 }) => {
             src={img}
             alt={alt}
             fill
-            className="object-cover w-auto h-auto md:object-contain lg:object-cover "
+            className="object-cover w-auto h-auto md:object-contain lg:object-cover 2xl:object-cover fxl:object-contain"
           />
         </div>
-        <div className="flex flex-col justify-center gap-6">
-          <h2 className="text-[32px] md:text-[45px] lg:text-[50px] xl:text-[45px] font-bold text-black">
+        <div className="flex flex-col justify-center gap-4">
+          <h2 className="text-[32px] md:text-[45px] lg:text-[50px] xl:text-[35px] 2xl:text-[45px] font-bold text-black">
             {title}
           </h2>
 
           <p
-            className="text-xl md:text-[22px] lg:text-xl  font-normal "
+            className="text-xl md:text-[22px] lg:text-xl xl:text-lg 2xl:text-xl  font-normal "
             dangerouslySetInnerHTML={{ __html: description }}
           ></p>
           {img2 && (
             <div className="relative">
-              <Image src={img2} alt={alt} width={150} height={150} />
+              <Image
+                src={img2}
+                alt={alt}
+                width={150}
+                height={150}
+                className="w-[100px] h-[100px]"
+              />
             </div>
           )}
 

@@ -46,11 +46,11 @@ const Preventivo = () => {
         />
       </Head>
       <HeroPage backgroundImage="/assets/chisiamoImg.jpg">
-        <h1 className="text-[40px] lxl:text-[60px] leading-[1.2] fxl:text-[70px] font-bold text-white xl:max-w-7xl">
+        <h1 className="text-[40px] xl:text-[50px] xl:leading-normal 2xl:text-[60px] 2xl:leading-[1.2] fxl:text-[70px] font-bold text-white xl:max-w-7xl">
           Richiedi il preventivo o il sopralluogo
         </h1>
         <p
-          className="max-w-7xl text-lg xl:text-2xl fxl:text-[25px] font-regular text-white"
+          className="max-w-7xl text-lg xl:text-xl 2xl:text-2xl fxl:text-[25px] font-regular text-white"
           dangerouslySetInnerHTML={{
             __html:
               "Hai già deciso qual è la tenda più adatta per la tua abitazione, il tuo giardino o la tua attività commerciale? O hai bisogno di un consiglio per trovare la soluzione giusta in base alle tue esigenze? Richiedendo un preventivo, riceverai gratuitamente via email un'offerta' in base alle informazioni che inserirai nel form. In alternativa, puoi prenotare direttamente un nostro sopralluogo, in cui discuteremo insieme la tenda da sole perfetta per te. Il nostro team è a disposizione!",

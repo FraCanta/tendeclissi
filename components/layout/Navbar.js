@@ -14,7 +14,7 @@ const Navbar = ({ nr }) => {
   return (
     <header>
       <nav
-        className="w-full h-[5rem] md:h-[8.5rem]  bg-lightGray shadow-lg flex items-center justify-between text-black font-normal z-[999999] "
+        className="w-full h-[5rem] md:h-[8.5rem] xl:h-[7rem] 2xl:h-[8.5rem] bg-lightGray shadow-lg flex items-center justify-between text-black font-normal z-[999999] "
         id="header"
         ref={nr}
       >
@@ -26,9 +26,9 @@ const Navbar = ({ nr }) => {
                 alt="logo tendeclissi"
                 height={80}
                 width={80}
-                className="h-14 w-14 md:h-[90px] md:w-[90px] lg:h-[70px] lg:w-[70px] "
+                className="h-14 w-14 md:h-[90px] md:w-[90px] lg:h-[70px] lg:w-[70px] xl:h-[60px] xl:w-[60px] 2xl:h-[70px] 2xl:w-[70px] "
               />
-              <p className="hidden font-medium text-black uppercase lg:block">
+              <p className="hidden font-medium text-black uppercase lg:block xl:text-xs 2xl:text-sm fxl:text-[0.625rem]">
                 tendeclissi
               </p>
             </div>
@@ -65,7 +65,7 @@ const Navbar = ({ nr }) => {
             className="absolute top-[5rem] md:top-[8.5rem] left-0 right-0 bottom-0 flex items-center w-full h-[70vh] bg-purple text-white z-20"
           >
             <div className="w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-2 h-full">
-              <ul className="h-full flex flex-col justify-evenly uppercase text-center text-[22px] md:text-3xl">
+              <ul className="h-full flex flex-col justify-evenly uppercase text-center text-[22px] md:text-3xl xl:text-xl 2xl:text-3xl fxl:text-[1.563rem] font-semibold leading-[2.344rem]">
                 <li onClick={() => setOpen(false)}>
                   <Link
                     href="/chi-siamo"
@@ -124,7 +124,7 @@ const Navbar = ({ nr }) => {
           </motion.div>
 
           {/* Menu desktop */}
-          <ul className="xl:flex gap-6 2xl:gap-[2.5rem]  text-xl xl:text-lg 2xl:text-xl fxl:text-[1.563rem] uppercase items-center leading-[2.344rem] hidden z-[9999]">
+          <ul className="xl:flex gap-6 xl:gap-8 2xl:gap-[2.5rem]  text-xl xl:text-lg 2xl:text-xl fxl:text-[1.563rem] uppercase items-center leading-[2.344rem] hidden z-[9999]">
             <li>
               <Link
                 href="/chi-siamo"

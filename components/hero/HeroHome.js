@@ -8,7 +8,7 @@ import { Autoplay, Pagination } from "swiper/modules";
 
 const HeroHome = () => {
   return (
-    <div className="relative flex flex-col justify-center h-[calc(100vh_-_100px)] gap-8 mx-auto overflow-x-hidden lg:items-center lg:mt-0 bg-hero">
+    <div className="relative flex flex-col justify-center h-[calc(100vh_-_80px)] md:h-[calc(100vh_-_120px)] xl:h-[calc(100vh_-_100px)] 2xl:h-[calc(100vh_-_120px)] gap-8 mx-auto overflow-x-hidden lg:items-center lg:mt-0 bg-hero">
       {/* Video di sfondo */}
       <video
         className="absolute inset-0 object-cover w-full h-full"
@@ -26,10 +26,10 @@ const HeroHome = () => {
 
       <div className="flex flex-col lg:justify-center xl:items-center z-10 w-[90%] mx-auto gap-6 2xl:gap-10">
         <div className="flex flex-col justify-center xl:items-center">
-          <h1 className="text-[45px] md:text-[80px] fxl:text-[80px] text-white font-bold leading-none">
+          <h1 className="text-[45px] md:text-[80px] xl:text-[70px] 2xl:text-[80px] text-white font-bold leading-none">
             Tendeclissi
           </h1>
-          <h2 className="text-[30px] lg:text-[45px] fxl:text-[80px] leading- text-white font-regular">
+          <h2 className="text-[30px] lg:text-[45px] xl:text-[35px] 2xl:text-[45px] fxl:text-[80px] leading- text-white font-regular">
             Fra voi e il sole
           </h2>
 
