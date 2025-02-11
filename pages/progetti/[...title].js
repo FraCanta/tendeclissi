@@ -9,6 +9,7 @@ import Gallery3d from "@/components/ProjectUI/Gallery3d";
 import ProjectCard from "@/components/ProjectUI/ProjectCard";
 
 const SingleProject = ({ project }) => {
+  console.log(project);
   return (
     <>
       <HeroProject backgroundImage="/assets/progetti/img1.jpg">
@@ -23,7 +24,7 @@ const SingleProject = ({ project }) => {
       </HeroProject>
       <div className="w-[90%] mx-auto lg:w-full grid grid-cols-1 lg:grid-cols-2 gap-6 lg:py-0 lg:pb-20 py-20">
         <div className="lg:w-[90%] flex  flex-col h-full justify-center lg:justify-self-end gap-10">
-          <h2 className="text-5xl lg:text-4xl 2xl:text-6xl font-bold">
+          <h2 className="text-5xl font-bold lg:text-4xl 2xl:text-6xl">
             Analisi della problematica
           </h2>
           <p className="text-xl 2xl:text-2xl">
@@ -31,9 +32,9 @@ const SingleProject = ({ project }) => {
             amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
             ut labore et dolore magna aliqua.- tipo fino qua
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-10 ">
-            <div className="aspect-square bg-purple w-full flex  h-full  relative items-center ">
-              <div className="-top-10 lg:-top-10 2xl:-top-20 fxl:-top-16  -left-10 absolute w-full flex justify-center self-stretch">
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:gap-10 ">
+            <div className="relative flex items-center w-full h-full aspect-square bg-purple ">
+              <div className="absolute flex self-stretch justify-center w-full -top-10 lg:-top-10 2xl:-top-20 fxl:-top-16 -left-10">
                 <p className="text-primary/70 font-regular text-[200px] xl:text-[150px] 2xl:text-[200px]">
                   1
                 </p>
@@ -45,7 +46,7 @@ const SingleProject = ({ project }) => {
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
                       fill="currentColor"
-                      className="mb-4 h-12 w-12 text-white"
+                      className="w-12 h-12 mb-4 text-white"
                     >
                       <path
                         fillRule="evenodd"
@@ -73,8 +74,8 @@ const SingleProject = ({ project }) => {
                 </Card>
               </div>
             </div>
-            <div className="aspect-square bg-purple w-full flex  h-full items-center relative">
-              <div className="-top-10 lg:-top-10 2xl:-top-20 fxl:-top-16  -left-10 absolute w-full flex justify-center self-stretch">
+            <div className="relative flex items-center w-full h-full aspect-square bg-purple">
+              <div className="absolute flex self-stretch justify-center w-full -top-10 lg:-top-10 2xl:-top-20 fxl:-top-16 -left-10">
                 <p className="text-primary/70 font-regular text-[200px] xl:text-[150px] 2xl:text-[200px]">
                   2
                 </p>
@@ -86,7 +87,7 @@ const SingleProject = ({ project }) => {
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
                       fill="currentColor"
-                      className="mb-4 h-12 w-12 text-white"
+                      className="w-12 h-12 mb-4 text-white"
                     >
                       <path
                         fillRule="evenodd"
@@ -128,77 +129,81 @@ const SingleProject = ({ project }) => {
       </div>
 
       <Banner />
-      <div className="w-[90%] mx-auto py-20 flex flex-col gap-10">
-        <h3 className="text-3xl lg:text-5xl font-bold">Progetti correlati</h3>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2">
+      {/* <div className="w-[90%] mx-auto py-20 flex flex-col gap-10">
+        <h3 className="text-3xl font-bold lg:text-5xl">Progetti correlati</h3>
+        <div className="grid grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-4">
           <ProjectCard
             img="/assets/progetti/img2.jpg"
             title="Titolo progetto"
+            link="/"
             desctiption="Breve descrizione del progetto in questione e della problematica - max due righe poi tagliato"
           />
           <ProjectCard
             img="/assets/progetti/img3.jpg"
             title="Titolo progetto"
+            link={others.link}
             desctiption="Breve descrizione del progetto in questione e della problematica - max due righe poi tagliato"
           />
           <ProjectCard
             img="/assets/progetti/img4.jpg"
             title="Titolo progetto"
+            link={project.link}
             desctiption="Breve descrizione del progetto in questione e della problematica - max due righe poi tagliato"
           />
           <ProjectCard
             img="/assets/progetti/img5.jpg"
             title="Titolo progetto"
+            link={project.link}
             desctiption="Breve descrizione del progetto in questione e della problematica - max due righe poi tagliato"
           />
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
 
 export default SingleProject;
 
-export async function getStaticProps(context) {
-  const { params } = context;
+// export async function getStaticProps(context) {
+//   const { params } = context;
 
-  let targetObj = data?.singleProject?.[params?.title[1]];
-  const arr = Object.keys(data?.singleProject);
-  console.log(arr);
-  const filteredOthers = arr
-    .filter(
-      (el) =>
-        el !== params.title[1] && data?.singleProject?.cat == params.title[0]
-    )
-    .map((el) => {
-      return {
-        name: data?.singleProject?.[el]?.name,
-        img: data?.singleProject?.[el]?.img,
-        link: data?.singleProject?.[el]?.link,
-      };
-    });
-  return {
-    props: {
-      project: targetObj,
-      others: filteredOthers,
-    },
-  };
-}
+//   let targetObj = data?.singleProject?.[params?.title[1]];
+//   const arr = Object.keys(data?.singleProject);
+//   console.log(arr);
+//   const filteredOthers = arr
+//     .filter(
+//       (el) =>
+//         el !== params.title[1] && data?.singleProject?.cat == params.title[0]
+//     )
+//     .map((el) => {
+//       return {
+//         name: data?.singleProject?.[el]?.name,
+//         img: data?.singleProject?.[el]?.img,
+//         link: data?.singleProject?.[el]?.link,
+//       };
+//     });
+//   return {
+//     props: {
+//       project: targetObj,
+//       others: filteredOthers,
+//     },
+//   };
+// }
 
-export async function getStaticPaths() {
-  const projects = Object.keys(data?.singleProject).map(
-    (el) => data?.singleProject[el]
-  );
-  const paths = projects.map((el) => {
-    return {
-      params: {
-        title: [el?.cat, el?.title],
-      },
-    };
-  });
+// export async function getStaticPaths() {
+//   const projects = Object.keys(data?.singleProject).map(
+//     (el) => data?.singleProject[el]
+//   );
+//   const paths = projects.map((el) => {
+//     return {
+//       params: {
+//         title: [el?.cat, el?.title],
+//       },
+//     };
+//   });
 
-  return {
-    paths,
-    fallback: false,
-  };
-}
+//   return {
+//     paths,
+//     fallback: false,
+//   };
+// }

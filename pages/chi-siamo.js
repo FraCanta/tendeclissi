@@ -58,7 +58,7 @@ const Chisiamo = () => {
           <p className="max-w-7xl text-lg xl:text-xl 2xl:text-2xl fxl:text-[25px] font-normal text-white">
             Creare sistemi ombra in grado di offrire il riparo dal sole e
             protezione daglia agenti atmosferici è la nostra passione.
-            Tendeclissi nasce per endere vivibile ogni spazio esterno
+            Tendeclissi nasce per rendere vivibile ogni spazio esterno
             realizzando le migliori schermature solari per case, condomini,
             attività commerciali e giardini, specializzandosi soprattutto nel
             mondo delle tende da sole. Grazie all’esperienza pluridecennale
@@ -83,7 +83,7 @@ const Chisiamo = () => {
         link="/showroom"
         cta="Vai allo showroom"
         title="La qualità dei nostri prodotti"
-        description="Nella scelta dei prodotti da offrire ai nostri clienti ci impegniamo per proporre il più possibile <strong>materiali</strong> di <strong>lavorazione italiana</strong>, a partire dalla provenienza della componentistica, affidandoci a fornitori nazionali con esperienza pluridecennale consolidata sul territorio. Utilizziamo componenti in leghe metalliche prodotte in Veneto e scegliamo materiali solidi che garantiscono la massima resistenza, durevolezza e longevità delle strutture nel tempo. Disponiamo dei migliori marchi di tessuti nazionali ed internazionali di aziende leader nel settore come <strong>Parà Tempotest</strong>, <strong>Giovardi</strong>, <strong>Sattler</strong>, <strong>Corti</strong>, <strong>Dickson</strong>, <strong>Swela</strong> tutti con garanzia Europea e certificazione UNI EN 13561 per offrire il massimo della resistenza e la migliore qualità possibile.  "
+        description="Nella scelta dei prodotti da offrire ai nostri clienti ci impegniamo per proporre il più possibile <strong>materiali</strong> di <strong>lavorazione italiana</strong>, a partire dalla provenienza della componentistica, affidandoci a fornitori nazionali con esperienza pluridecennale consolidata sul territorio. Utilizziamo componenti in leghe metalliche prodotte in Veneto e scegliamo materiali solidi che garantiscono la massima resistenza, durevolezza e longevità delle strutture nel tempo. Disponiamo dei migliori marchi di tessuti nazionali ed internazionali di aziende leader nel settore come <strong>Parà Tempotest</strong>, <strong>Giovanardi</strong>, <strong>Sattler</strong>, <strong>Corti</strong>, <strong>Dickson</strong>, <strong>Swela</strong> tutti con garanzia Europea e certificazione UNI EN 13561 per offrire il massimo della resistenza e la migliore qualità possibile.  "
       />
       <Banner
         text="Prenota un sopralluogo gratuito"

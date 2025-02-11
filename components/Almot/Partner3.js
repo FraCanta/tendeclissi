@@ -20,7 +20,7 @@ const Partner3 = () => {
             src={Almot2}
             alt="avatar"
             fill
-            className="object-cover w-auto h-auto"
+            className="object-cover object-top w-auto h-auto"
           />
         </div>
 
