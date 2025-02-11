@@ -164,46 +164,46 @@ const SingleProject = ({ project }) => {
 
 export default SingleProject;
 
-// export async function getStaticProps(context) {
-//   const { params } = context;
+export async function getStaticProps(context) {
+  const { params } = context;
 
-//   let targetObj = data?.singleProject?.[params?.title[1]];
-//   const arr = Object.keys(data?.singleProject);
-//   console.log(arr);
-//   const filteredOthers = arr
-//     .filter(
-//       (el) =>
-//         el !== params.title[1] && data?.singleProject?.cat == params.title[0]
-//     )
-//     .map((el) => {
-//       return {
-//         name: data?.singleProject?.[el]?.name,
-//         img: data?.singleProject?.[el]?.img,
-//         link: data?.singleProject?.[el]?.link,
-//       };
-//     });
-//   return {
-//     props: {
-//       project: targetObj,
-//       others: filteredOthers,
-//     },
-//   };
-// }
+  let targetObj = data?.singleProject?.[params?.title[1]];
+  const arr = Object.keys(data?.singleProject);
+  console.log(arr);
+  const filteredOthers = arr
+    .filter(
+      (el) =>
+        el !== params.title[1] && data?.singleProject?.cat == params.title[0]
+    )
+    .map((el) => {
+      return {
+        name: data?.singleProject?.[el]?.name,
+        img: data?.singleProject?.[el]?.img,
+        link: data?.singleProject?.[el]?.link,
+      };
+    });
+  return {
+    props: {
+      project: targetObj,
+      others: filteredOthers,
+    },
+  };
+}
 
-// export async function getStaticPaths() {
-//   const projects = Object.keys(data?.singleProject).map(
-//     (el) => data?.singleProject[el]
-//   );
-//   const paths = projects.map((el) => {
-//     return {
-//       params: {
-//         title: [el?.cat, el?.title],
-//       },
-//     };
-//   });
+export async function getStaticPaths() {
+  const projects = Object.keys(data?.singleProject).map(
+    (el) => data?.singleProject[el]
+  );
+  const paths = projects.map((el) => {
+    return {
+      params: {
+        title: [el?.cat, el?.title],
+      },
+    };
+  });
 
-//   return {
-//     paths,
-//     fallback: false,
-//   };
-// }
+  return {
+    paths,
+    fallback: false,
+  };
+}
