@@ -79,11 +79,11 @@ export default function App({ Component, pageProps }) {
       <Script id="iubenda-cs-configuration" strategy="afterInteractive">
         {`
           var _iub = _iub || [];
-_iub.csConfiguration = {"siteId":3913156,"cookiePolicyId":71604536,"lang":"it","storage":{"useSiteId":true}};
+_iub.csConfiguration = {"siteId":3927841,"cookiePolicyId":75120188,"lang":"it","storage":{"useSiteId":true}};
         `}
       </Script>
       <Script
-        src="https://cs.iubenda.com/autoblocking/3913156.js"
+        src="https://cs.iubenda.com/autoblocking/3927841.js"
         strategy="afterInteractive"
       />
       <Script

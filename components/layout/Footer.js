@@ -79,7 +79,23 @@ const Footer = () => {
           <div className="h-0.5 w-full mx-auto bg-white"></div>
           <small className="pt-6 text-base text-white">
             Michele Soldo - P.iva 02534750449 - Via Bassone 171 Verona (VR)
-            37139 - Privacy Policy - Cookie Policy
+            37139 -{" "}
+            <a
+              href="https://www.iubenda.com/privacy-policy/75120188/legal"
+              target="_blank"
+              title="Privacy Policy "
+            >
+              Privacy Policy
+            </a>{" "}
+            -{" "}
+            <a
+              href="https://www.iubenda.com/privacy-policy/75120188/cookie-policy"
+              class="iubenda-white iubenda-noiframe iubenda-embed iubenda-noiframe "
+              title="Cookie Policy "
+              target="_blank"
+            >
+              Cookie Policy
+            </a>
           </small>
         </div>
       </div>
