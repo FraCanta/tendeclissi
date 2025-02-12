@@ -62,7 +62,21 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/">Instagram - Facebook</Link>
+                  <Link
+                    href="https://www.instagram.com/_tendeclissi/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Instagram{" "}
+                  </Link>
+                  <Link
+                    href="https://www.facebook.com/profile.php?id=61555867858038"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {" "}
+                    - Facebook
+                  </Link>
                 </li>
               </ul>
             </div>
