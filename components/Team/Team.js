@@ -9,16 +9,16 @@ const Team = ({ data }) => {
       <div className="w-[90%] mx-auto flex flex-col gap-y-20 2xl:gap-y-[150px]">
         <div className="grid items-center grid-cols-1 gap-8 xl:grid-cols-2">
           <div className="flex flex-col gap-6">
-            <h2 className="text-[32px] md:text-[45px] lg:text-[50px] xl:text-[45px] font-bold text-white">
+            <h2 className="text-[32px] md:text-[45px] lg:text-[50px] xl:text-[45px] 3xl:text-[50px] font-bold text-white">
               La squadra di Tendeclissi
             </h2>
             <p
-              className="text-xl md:text-[22px] lg:text-xl font-normal text-white"
+              className="text-xl md:text-[22px] lg:text-xl font-normal text-white 3xl:text-[1.8rem]"
               dangerouslySetInnerHTML={{ __html: data.descrizione }}
             ></p>
           </div>
           <div className="relative flex flex-col items-center justify-center w-full h-full gap-2">
-            <div className="relative overflow-hidden rounded-full w-52 h-52">
+            <div className="relative overflow-hidden rounded-full w-52 h-52 3xl:w-72 3xl:h-72">
               <Image
                 src={Avatar}
                 alt="avatar"
@@ -27,8 +27,12 @@ const Team = ({ data }) => {
               />
             </div>
 
-            <h4 className="text-[25px] font-bold text-white">Michele Soldo</h4>
-            <p className="text-xl text-white capitalize">Titolare</p>
+            <h4 className="text-[25px] font-bold text-white 3xl:text-[35px]">
+              Michele Soldo
+            </h4>
+            <p className="text-xl text-white capitalize 3xl:text-2xl">
+              Titolare
+            </p>
           </div>
         </div>
         <MediaTextReverse

@@ -4,6 +4,7 @@ import React from "react";
 import Head from "next/head";
 import HeroPage2 from "@/components/hero/HeroPage2";
 import HeroProject from "@/components/hero/HeroProject";
+import SocialCard from "@/components/InfoCard/SocialCard";
 
 const Contatti = () => {
   return (
@@ -58,6 +59,9 @@ const Contatti = () => {
             backgroundPosition: "center",
           }}
         ></div>
+        <div className="absolute bottom-0 left-0 right-0 ">
+          <SocialCard />
+        </div>
       </div>
     </div>
   );

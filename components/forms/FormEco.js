@@ -51,22 +51,25 @@ const FormEco = ({ inputs, setInputs, formType }) => {
   };
   return (
     <>
-      <div className="w-[90%] mx-auto lg:text-center flex flex-col items-center justify-center gap-4 py-12">
-        <h2 className="text-white text-[2rem] lg:text-6xl xl:text-5xl 2xl:text-6xl">
+      <div className="w-[90%] mx-auto lg:text-center flex flex-col items-center justify-center gap-4 py-12 3xl:py-32 3xl:gap-10">
+        <h2 className="text-white text-[2rem] lg:text-6xl xl:text-5xl 2xl:text-6xl 3xl:text-7xl">
           Ottieni l&apos;ecobonus sulle tende da sole con noi!
         </h2>
         <p
-          className="max-w-6xl mx-auto text-lg text-white lg:text-xl"
+          className="max-w-6xl mx-auto text-lg text-white lg:text-xl 3xl:text-3xl"
           dangerouslySetInnerHTML={{
             __html:
               "Per ottenere la detrazione fiscale sulle tende da sole, <strong>inviaci un’email</strong> indicando gli interventi che vorresti dichiarare: ti aiuteremo a individuare tutte le <strong>spese includibili</strong> nel bonus e ti forniremo tutti i <strong>dettagli tecnici dei prodotti</strong>.",
           }}
         ></p>
-        <form className="w-full max-w-3xl mx-auto " onSubmit={onSubmitForm}>
+        <form
+          className="w-full max-w-3xl mx-auto 3xl:max-w-7xl"
+          onSubmit={onSubmitForm}
+        >
           <div className="flex flex-col gap-4 mb-6 -mx-1 lg:flex-row">
             <div className="w-full p-2 px-3 bg-white border md:w-1/2 border-yellow">
               <input
-                className="appearance-none block w-full bg-white text-gray-700 border border-purple px-[22px] py-[12px]  lg:px-[33px] lg:py-[15px]  leading-tight focus:outline-none focus:bg-white"
+                className="appearance-none block w-full bg-white text-gray-700 3xl:text-xl border border-purple px-[22px] py-[12px]  lg:px-[33px] lg:py-[15px]  leading-tight focus:outline-none focus:bg-white"
                 id="name"
                 name="name"
                 required
@@ -78,7 +81,7 @@ const FormEco = ({ inputs, setInputs, formType }) => {
             </div>
             <div className="w-full p-2 px-3 bg-white border md:w-1/2 border-yellow">
               <input
-                className="appearance-none block w-full bg-white text-gray-700 border border-purple  px-[22px] py-[12px]  lg:px-[33px] lg:py-[15px]  leading-tight focus:outline-none focus:bg-white"
+                className="appearance-none block w-full bg-white text-gray-700 border border-purple  px-[22px] py-[12px]  lg:px-[33px] lg:py-[15px] 3xl:text-xl  leading-tight focus:outline-none focus:bg-white"
                 id="surname"
                 type="text"
                 name="surname"
@@ -92,7 +95,7 @@ const FormEco = ({ inputs, setInputs, formType }) => {
           <div className="flex flex-col gap-4 -mx-1">
             <div className="w-full p-2 px-3 bg-white border border-yellow">
               <input
-                className="appearance-none block w-full bg-white text-gray-700 border border-purple  px-[22px] py-[12px]  lg:px-[33px] lg:py-[15px]  leading-tight focus:outline-none focus:bg-white"
+                className="appearance-none block w-full bg-white text-gray-700 border border-purple  px-[22px] py-[12px]  lg:px-[33px] lg:py-[15px]  leading-tight focus:outline-none focus:bg-white 3xl:text-xl"
                 id="phone"
                 type="text"
                 value={inputs.phone}
@@ -109,7 +112,7 @@ const FormEco = ({ inputs, setInputs, formType }) => {
                 cols="10"
                 rows="5"
                 required
-                className="block p-2.5 w-full text-base text-black bg-white border border-primary focus:ring-primary focus:border-primary"
+                className="block p-2.5 w-full text-base text-black bg-white border border-primary focus:ring-primary focus:border-primary 3xl:text-xl"
                 placeholder="Dicci di cosa hai bisogno..."
               ></textarea>
             </div>
@@ -117,14 +120,14 @@ const FormEco = ({ inputs, setInputs, formType }) => {
 
           <div className="flex items-center w-full my-4">
             <button
-              className="flex w-full items-center justify-center uppercase 3xl:text-[35px] 4xl:text-[55px]  px-[22px] py-[12px]  lg:px-[33px] lg:py-[15px]  md:text-[25px] lg:text-xl fxl:text-[25px]   bg-primary text-white font-regular"
+              className="flex w-full items-center justify-center uppercase 3xl:text-[30px] 4xl:text-[55px]  px-[22px] py-[12px]  lg:px-[33px] lg:py-[15px]  md:text-[25px] lg:text-xl fxl:text-[25px] 3xl:px-[38px] 3xl:py-[25px]  bg-primary text-white font-regular"
               type="submit"
             >
               Ricevi informazioni
             </button>
           </div>
           <div className="w-[90%] mx-auto py-8 lg:py-0">
-            <div className="max-w-3xl mx-auto ">
+            <div className="max-w-3xl mx-auto 3xl:max-w-7xl">
               <input
                 type="checkbox"
                 id="privacy"
@@ -134,7 +137,7 @@ const FormEco = ({ inputs, setInputs, formType }) => {
                 onChange={() => setPrivacyChecked(!privacyChecked)}
                 checked={privacyChecked}
               />{" "}
-              <label htmlFor="privacy" className="text-white ">
+              <label htmlFor="privacy" className="text-white 3xl:text-2xl">
                 <span
                   dangerouslySetInnerHTML={{
                     __html:

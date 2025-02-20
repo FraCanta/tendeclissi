@@ -5,12 +5,12 @@ import Almot2 from "@/public/assets/riparazione.png";
 import { Icon } from "@iconify/react";
 const Partner3 = () => {
   return (
-    <div className="w-[90%] mx-auto min-h-screen flex flex-col justify-center items-center gap-6 my-10">
+    <div className="w-[90%] mx-auto flex flex-col justify-center items-center gap-6 my-10 3xl:my-[150px]">
       <div className="flex flex-col w-full gap-2">
-        <h2 className="text-[30px] md:text-[45px] lg:text-[50px] xl:text-[45px] font-bold text-black ">
+        <h2 className="text-[30px] md:text-[45px] lg:text-[50px] xl:text-[45px] font-bold text-black  3xl:text-[60px]">
           Riparazione, manutenzione e altri servizi
         </h2>
-        <p className="text-lg md:text-[22px] lg:text-xl font-normal text-black">
+        <p className="text-lg md:text-[22px] lg:text-xl font-normal text-black 3xl:text-3xl">
           Rispondiamo alle tue esigenze
         </p>
       </div>
@@ -24,74 +24,9 @@ const Partner3 = () => {
           />
         </div>
 
-        {/* <div className="grid grid-cols-1 gap-10 lg:gap-20">
-          <div className="flex items-center p-4 shadow-xl md:p-6">
-            <div className="flex gap-2 justify-evenly">
-              <div className="relative w-10 h-auto">
-                <Icon
-                  icon="material-symbols:award-star-outline"
-                  width="2rem"
-                  height="2rem"
-                  className="text-black"
-                />
-              </div>
-
-              <div>
-                <h4 className="font-bold text-xl md:text-3xl xl:text-xl 2xl:text-2xl fxl:text-[25px]">
-                  Valutazione del telaio
-                </h4>
-                <p className="text-lightPurple">
-                  Facciamo un sopralluogo per verificare che la tua tenda sia
-                  compatibile.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="flex items-center p-4 shadow-xl md:p-6">
-            <div className="flex gap-2 justify-evenly">
-              <div className="relative w-10 h-auto">
-                <Icon
-                  icon="material-symbols:award-star-outline"
-                  width="2rem"
-                  height="2rem"
-                  className="text-black"
-                />
-              </div>
-              <div>
-                <h4 className="font-bold text-xl md:text-3xl xl:text-xl 2xl:text-2xl fxl:text-[25px]">
-                  Scelta del motore
-                </h4>
-                <p className="text-lightPurple">
-                  Identifichiamo il motore giusto in base alla tenda e alle tue
-                  esigenze.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="flex items-center p-4 shadow-xl md:p-6">
-            <div className="flex gap-2 justify-evenly">
-              <div className="relative w-10 h-auto">
-                <Icon
-                  icon="material-symbols:award-star-outline"
-                  width="2rem"
-                  height="2rem"
-                  className="text-black"
-                />
-              </div>
-              <div>
-                <h4 className="font-bold text-xl md:text-3xl xl:text-xl 2xl:text-2xl fxl:text-[25px]">
-                  Conversione di tende manuali
-                </h4>
-                <p className="text-lightPurple">
-                  Motorizziamo tende che nascono con sistema manuale.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div> */}
         <div className="flex flex-col items-center">
           <div>
-            <ul className="list-disc list-inside text-lg md:text-[22px] lg:text-2xl font-normal text-black flex flex-col gap-3">
+            <ul className="list-disc list-inside text-lg md:text-[22px] lg:text-2xl font-normal text-black flex flex-col gap-3 3xl:text-3xl">
               <li>Inversione della tela</li>
               <li>Pulizia dei telai</li>
               <li>Installazione tettuccio di protezione</li>

@@ -30,7 +30,7 @@ const PreventivoTabs = () => {
 
   return (
     <>
-      <div className="grid grid-cols-1 gap-2 py-3 border-b md:grid-cols-2 border-b-yellow">
+      <div className="grid grid-cols-1 gap-2 py-3 border-b md:grid-cols-2 border-b-yellow 3xl:gap-4 3xl:py-6">
         {tabActive.map((tab, index) => (
           <button
             key={index}
@@ -41,7 +41,9 @@ const PreventivoTabs = () => {
             }
             onClick={() => openProject(tab.link)}
           >
-            <h4 className="text-[22px]">{tab.name}</h4>
+            <h2 className="text-lg xl:text-[22px] lg:text-lg  3xl:text-4xl">
+              {tab.name}
+            </h2>{" "}
           </button>
         ))}
       </div>

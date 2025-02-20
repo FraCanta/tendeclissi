@@ -38,14 +38,14 @@ const SingleCat = ({ category }) => {
         <meta name="twitter:description" content={category.seoDescription} />
       </Head>
       <HeroSingleCat backgroundImage={category.img}>
-        <h1 className="text-[40px] xl:text-[60px] xl:leading-[1.2] fxl:text-[70px] font-bold text-white">
+        <h1 className="text-[40px] xl:text-[60px] xl:leading-[1.2] fxl:text-[70px] font-bold text-white 3xl:text-[90px]">
           {category.heroTitle}
         </h1>
         <p
-          className="max-w-7xl text-xl xl:text-2xl fxl:text-[25px] font-regular text-white"
+          className="max-w-7xl text-xl xl:text-2xl fxl:text-[25px] font-regular text-white 3xl:text-[30px]"
           dangerouslySetInnerHTML={{ __html: category.heroParagraph }}
         ></p>
-        <div className="grid grid-cols-1 xl:grid-cols-3 gap-6 2xl:gap-8">
+        <div className="grid grid-cols-1 gap-6 xl:grid-cols-3 2xl:gap-8">
           {category.cards.map((el, i) => (
             <CardCat key={i} title={el.title} description={el.descrizione} />
           ))}

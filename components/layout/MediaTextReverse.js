@@ -6,10 +6,10 @@ const MediaTextReverse = ({ img, title, list, paragrafo, data }) => {
     <div className="flex items-center justify-center w-full">
       <div className="grid grid-cols-1 gap-6 xl:grid-cols-2 fxl:gap-8">
         <div className="flex flex-col justify-center gap-6">
-          <h2 className="text-[32px] md:text-[45px] lg:text-[50px] xl:text-[45px] font-bold text-white w-[90%]">
+          <h2 className="text-[32px] md:text-[45px] lg:text-[50px] xl:text-[45px] font-bold text-white w-[90%] 3xl:text-[50px]">
             {title}
           </h2>
-          <ul className="text-xl md:text-[22px] lg:text-xl font-normal text-white gap-2 flex flex-col">
+          <ul className="text-xl md:text-[22px] lg:text-xl font-normal text-white gap-2 flex flex-col 3xl:text-3xl">
             {data.list.map((el, i) => {
               return (
                 <li key={i} dangerouslySetInnerHTML={{ __html: el.name }}></li>
@@ -18,7 +18,7 @@ const MediaTextReverse = ({ img, title, list, paragrafo, data }) => {
           </ul>
 
           <p
-            className="text-xl md:text-[22px] lg:text-xl font-normal text-white"
+            className="text-xl md:text-[22px] lg:text-xl font-normal text-white 3xl:text-2xl"
             dangerouslySetInnerHTML={{ __html: data.paragrafo }}
           ></p>
         </div>

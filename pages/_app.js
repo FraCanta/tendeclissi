@@ -42,17 +42,12 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       {" "}
-      <Head>
-        {" "}
-        <meta name="viewport" content="viewport-fit=cover" />
-      </Head>
       {showWhatsApp && (
         <FloatingWhatsApp
           phoneNumber="+393287512239"
           avatar="/assets/logo.svg"
           accountName="Tendeclissi | Pronto Intervento tenda"
           statusMessage="Ti rispondiamo subito"
-          notificationSound={true}
           allowClickAway={true}
           placeholder="Scrivi un messaggio"
           chatMessage="Ciao, come possiamo aiutarti?"

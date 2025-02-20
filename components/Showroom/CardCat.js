@@ -9,25 +9,19 @@ const CardCat = ({ title, description }) => {
       <div className="p-4 md:p-[25px] shadow-xl bg-white h-full ">
         <div className="flex items-start gap-4 justify-evenly">
           <div className="relative h-8 w-14">
-            {/* <Image
-              src={Placeholder}
-              alt="avatar"
-              fill
-              className="object-cover object-top w-auto h-auto"
-            /> */}
             <Icon
               icon="material-symbols:award-star-outline"
               width="2rem"
               height="2rem"
-              className="text-black"
+              className="text-black 3xl:w-10 3xl:h-10"
             />
           </div>
 
-          <div>
-            <h4 className="font-bold text-xl md:text-3xl xl:text-xl 2xl:text-2xl fxl:text-[25px] text-black">
+          <div className="flex-col gap-3 3xl:flex">
+            <h4 className="font-bold text-xl md:text-3xl xl:text-xl 2xl:text-2xl fxl:text-[25px] text-black 3xl:text-[30px]">
               {title}
             </h4>
-            <p className="text-lightPurple">{description}</p>
+            <p className="text-lightPurple 3xl:text-xl">{description}</p>
           </div>
         </div>
       </div>

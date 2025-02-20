@@ -146,14 +146,16 @@ const Form = ({
 
   return (
     <form
-      className="flex flex-col w-full max-w-3xl gap-6 mx-auto"
+      className="flex flex-col w-full max-w-3xl gap-6 mx-auto 3xl:max-w-5xl 3xl:gap-8"
       onSubmit={onSubmitForm}
     >
-      <h4 className="text-2xl font-bold lg:text-4xl">I tuoi dati</h4>
+      <h4 className="text-2xl font-bold lg:text-4xl 3xl:text-5xl">
+        I tuoi dati
+      </h4>
       <div className="flex flex-col gap-4 -mx-3 lg:flex-row">
         <div className="w-full p-2 px-3 bg-white border md:w-1/2 border-yellow">
           <input
-            className="appearance-none block w-full bg-white text-gray-700 border border-purple px-[22px] py-[12px]  lg:px-[33px] lg:py-[15px]  leading-tight focus:outline-none focus:bg-white"
+            className="appearance-none block w-full bg-white text-gray-700 border border-purple px-[22px] py-[12px]  lg:px-[33px] lg:py-[15px]  leading-tight focus:outline-none focus:bg-white 3xl:text-2xl"
             id="name"
             name="name"
             required
@@ -165,7 +167,7 @@ const Form = ({
         </div>
         <div className="w-full p-2 px-3 bg-white border md:w-1/2 border-yellow">
           <input
-            className="appearance-none block w-full bg-white text-gray-700 border border-purple  px-[22px] py-[12px]  lg:px-[33px] lg:py-[15px]  leading-tight focus:outline-none focus:bg-white"
+            className="3xl:text-2xl appearance-none block w-full bg-white text-gray-700 border border-purple  px-[22px] py-[12px]  lg:px-[33px] lg:py-[15px]  leading-tight focus:outline-none focus:bg-white"
             id="surname"
             type="text"
             name="surname"
@@ -180,7 +182,7 @@ const Form = ({
         <div className="flex flex-col -mx-3">
           <div className="w-full p-2 px-3 bg-white border border-yellow">
             <input
-              className="appearance-none block w-full bg-white text-gray-700 border border-purple  px-[22px] py-[12px]  lg:px-[33px] lg:py-[15px]  leading-tight focus:outline-none focus:bg-white"
+              className="3xl:text-2xl appearance-none block w-full bg-white text-gray-700 border border-purple  px-[22px] py-[12px]  lg:px-[33px] lg:py-[15px]  leading-tight focus:outline-none focus:bg-white"
               id="address"
               type="text"
               name="address"
@@ -196,7 +198,7 @@ const Form = ({
       <div className="flex flex-col gap-4 -mx-3">
         <div className="w-full p-2 px-3 bg-white border border-yellow">
           <input
-            className="appearance-none block w-full bg-white text-gray-700 border border-purple  px-[22px] py-[12px]  lg:px-[33px] lg:py-[15px]  leading-tight focus:outline-none focus:bg-white"
+            className="3xl:text-2xl appearance-none block w-full bg-white text-gray-700 border border-purple  px-[22px] py-[12px]  lg:px-[33px] lg:py-[15px]  leading-tight focus:outline-none focus:bg-white"
             id="phone"
             type="text"
             value={inputs.phone}
@@ -208,20 +210,20 @@ const Form = ({
       </div>
       <div className="flex flex-col gap-4 -mx-3">
         <h4 className="text-2xl font-bold lg:text-4xl">Cosa ti serve</h4>
-        <div className="flex w-full gap-6">
+        <div className="flex w-full gap-6 3xl:gap-8">
           <div className="flex items-center">
             <input
               id="bordered-radio-1"
               type="radio"
               name="prodotto"
               value={inputs.product}
-              className="w-8 h-8 border-black text-primary"
+              className="w-8 h-8 border-black text-primary 3xl:w-10 3xl:h-10"
               checked={activeRadio === "bordered-radio-1"}
               onChange={handleRadioChange}
             />
             <label
               htmlFor="bordered-radio-1"
-              className="w-full py-4 text-xl font-medium text-black ms-2"
+              className="w-full py-4 text-xl font-medium text-black ms-2 3xl:text-2xl"
             >
               Prodotto
             </label>
@@ -232,13 +234,13 @@ const Form = ({
               type="radio"
               name="servizio"
               value={inputs.service}
-              className="w-8 h-8 border-black text-primary"
+              className="w-8 h-8 border-black text-primary 3xl:w-10 3xl:h-10"
               checked={activeRadio === "bordered-radio-2"}
               onChange={handleRadioChange}
             />
             <label
               htmlFor="bordered-radio-2"
-              className="w-full py-4 text-xl font-medium text-black ms-2"
+              className="w-full py-4 text-xl font-medium text-black ms-2 3xl:text-2xl"
             >
               Servizio
             </label>
@@ -252,7 +254,7 @@ const Form = ({
         >
           <div className="flex items-center justify-between gap-6">
             <div className="bg-white border border-primary text-purple text-sm focus:ring-primary focus:border-primary block w-full px-[33px] py-[15px]">
-              <button className="flex items-center justify-between w-full text-sm lg:text-xl">
+              <button className="flex items-center justify-between w-full text-sm lg:text-xl 3xl:text-2xl">
                 {selectedCategory === "Seleziona"
                   ? "Seleziona"
                   : selectedCategory}
@@ -276,7 +278,7 @@ const Form = ({
             </div>
             {showList && (
               <ul
-                className="absolute left-0 z-10 flex flex-col w-full gap-2 text-xl transition-colors duration-300 bg-white border top-20 lg:right-0 border-yellow"
+                className="absolute left-0 z-10 flex flex-col w-full gap-2 text-xl transition-colors duration-300 bg-white border top-20 lg:right-0 border-yellow 3xl:text-2xl"
                 style={{ padding: "20px 0 28px" }}
               >
                 <li
@@ -336,7 +338,7 @@ const Form = ({
               </div>
               {showSubList && (
                 <ul
-                  className="absolute left-0 z-10 flex flex-col w-full gap-2 text-xl transition-colors duration-300 bg-white border top-20 lg:right-0 border-yellow"
+                  className="absolute left-0 z-10 flex flex-col w-full gap-2 text-xl transition-colors duration-300 bg-white border 3xl:text-2xl top-20 lg:right-0 border-yellow"
                   style={{ padding: "20px 0 28px" }}
                 >
                   {subcategories.map((subcategory) => (
@@ -367,13 +369,13 @@ const Form = ({
             cols="10"
             rows="5"
             required
-            className="block p-2.5 w-full text-base text-black bg-white border border-primary focus:ring-primary focus:border-primary"
+            className="block p-2.5 w-full text-base text-black 3xl:text-2xl bg-white border border-primary focus:ring-primary focus:border-primary"
             placeholder="Dacci tutte le informazioni che ritieni necessarie per preparare il [preventivo/sopralluogo]..."
           ></textarea>
         </div>
       </div>
       <div className="grid items-center w-full grid-cols-1 gap-y-8">
-        <div className="flex items-center max-w-3xl gap-2 mx-auto">
+        <div className="flex items-center max-w-3xl gap-2 mx-auto 3xl:max-w-5xl">
           <input
             type="checkbox"
             id="privacy"
@@ -385,6 +387,7 @@ const Form = ({
           />{" "}
           <label htmlFor="privacy" className="text-black ">
             <span
+              className="text-xl"
               dangerouslySetInnerHTML={{
                 __html:
                   "Ho letto l'<a href='https://www.iubenda.com/privacy-policy/75120188/legal' target='_blank'><strong>informativa sulla privacy</strong></a> e acconsento alla memorizzazione dei miei dati, secondo quanto stabilito dal regolamento europeo per la protezione dei dati personali n. 679/2016 (GDPR), per avere informazioni sui servizi di www.tendeclissi.it",
@@ -393,7 +396,7 @@ const Form = ({
           </label>
         </div>
         <button
-          className="flex w-full items-center justify-center uppercase 3xl:text-[35px] 4xl:text-[55px] px-[33px] py-[15px] md:text-[25px] lg:text-xl fxl:text-[25px] bg-primary text-white font-regular"
+          className="bg-primary py-[15px] px-[20px] xl:px-[33px] 3xl:px-[38px] 3xl:py-[25px] text-white uppercase text-base md:text-lg xl:text-lg 2xl:text-xl fxl:text-[25px] 3xl:text-[30px] "
           type="submit"
         >
           chiedi il preventivo

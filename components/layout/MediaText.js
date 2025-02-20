@@ -4,8 +4,8 @@ import CtaPrimary from "./CtaPrimary";
 const MediaText = ({ img, title, description, cta }) => {
   return (
     <div className="flex items-center justify-center w-full">
-      <div className="w-[90%] mx-auto grid grid-cols-1 xl:grid-cols-2 gap-6 my-20 fxl:gap-8">
-        <div className="relative w-full h-[200px] md:h-[450px] lg:h-full 2xl:h-[400px]">
+      <div className="w-[90%] mx-auto grid grid-cols-1 xl:grid-cols-2 gap-6 my-20 fxl:gap-8 3xl:gap-10">
+        <div className="relative w-full h-[200px] md:h-[450px] lg:h-full 2xl:h-[400px] 3xl:h-[650px]">
           <Image
             src={img}
             alt="placeholder"
@@ -14,11 +14,11 @@ const MediaText = ({ img, title, description, cta }) => {
           />
         </div>
         <div className="flex flex-col justify-center gap-6">
-          <h2 className="text-[32px] md:text-[45px] lg:text-[50px] xl:text-[45px] font-bold text-black">
+          <h2 className="text-[32px] md:text-[45px] lg:text-[50px] xl:text-[45px] 3xl:text-[50px] font-bold text-black">
             {title}
           </h2>
           <p
-            className="text-xl md:text-[22px] lg:text-xl  font-normal "
+            className="text-xl md:text-[22px] lg:text-xl  font-normal 3xl:text-[1.8rem] "
             dangerouslySetInnerHTML={{ __html: description }}
           ></p>
           <CtaPrimary link="/chi-siamo">{cta}</CtaPrimary>

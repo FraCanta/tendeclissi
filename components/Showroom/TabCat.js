@@ -29,7 +29,7 @@ const TabCat = ({ category }) => {
 
   return (
     <>
-      <div className="flex flex-col gap-2 py-3 border-b lg:flex-row border-b-yellow">
+      <div className="flex flex-col gap-2 py-3 border-b lg:flex-row border-b-yellow 3xl:gap-4 3xl:py-6">
         {tabActive.map((tab, index) => {
           return (
             <button
@@ -41,7 +41,9 @@ const TabCat = ({ category }) => {
               }
               onClick={() => openProject(tab.link)}
             >
-              <h2 className="text-lg xl:text-[22px] lg:text-lg">{tab.name}</h2>
+              <h2 className="text-lg xl:text-[22px] lg:text-lg  3xl:text-4xl">
+                {tab.name}
+              </h2>
             </button>
           );
         })}

@@ -2,9 +2,8 @@ import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
   return (
-    <Html lang="it">
+    <Html>
       <Head>
-        <meta name="viewport" content="width=device-width" />{" "}
         <meta
           name="google-site-verification"
           content="lf_K3RZ7Ht1rE_ACb2qtSNZasy1eG51NJ6Qs2M_eupw"
