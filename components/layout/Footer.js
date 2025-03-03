@@ -98,7 +98,7 @@ const Footer = () => {
             Michele Soldo - P.iva 02534750449 - Via Bassone 171 Verona (VR)
             37139 -{" "}
             <a
-              href="https://www.iubenda.com/privacy-policy/75120188/legal"
+              href="https://www.iubenda.com/privacy-policy/75120188"
               target="_blank"
               title="Privacy Policy "
             >

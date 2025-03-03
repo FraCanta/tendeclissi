@@ -71,12 +71,16 @@ export default function App({ Component, pageProps }) {
         `}
       </Script>
       {/* Configurazione Iubenda */}
-      <Script id="iubenda-cs-configuration" strategy="afterInteractive">
+      {/* <Script id="iubenda-cs-configuration" strategy="afterInteractive">
         {`
           var _iub = _iub || [];
 _iub.csConfiguration = {"siteId":3927841,"cookiePolicyId":75120188,"lang":"it","storage":{"useSiteId":true}};
         `}
-      </Script>
+      </Script> */}
+      <Script
+        type="text/javascript"
+        src="//embeds.iubenda.com/widgets/c1da79fb-afde-4d1c-96d5-84bd3b7f1c59.js"
+      ></Script>
       <Script
         src="https://cs.iubenda.com/autoblocking/3927841.js"
         strategy="afterInteractive"
