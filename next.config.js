@@ -25,7 +25,7 @@ const nextConfig = {
 const ContentSecurityPolicy = `
   default-src 'self' https://idb.iubenda.com/ ;
   script-src 'self' http://cdn.iubenda.com/ https://cs.iubenda.com/ https://www.googletagmanager.com/ 'unsafe-inline' 'unsafe-eval';
-  child-src 'self' ;
+  child-src 'self' https://www.iubenda.com/ ;
   style-src 'self' https://fonts.googleapis.com/  'unsafe-inline'   data:;
   font-src 'self' https://fonts.gstatic.com/ 'unsafe-inline' data:;
   img-src 'self'  data: blob:;
