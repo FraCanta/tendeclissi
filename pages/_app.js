@@ -6,16 +6,16 @@ import Head from "next/head";
 import { FloatingWhatsApp } from "react-floating-whatsapp";
 import { useEffect, useState } from "react";
 import Script from "next/script";
+
 export default function App({ Component, pageProps }) {
   const [showWhatsApp, setShowWhatsApp] = useState(false);
   const [isClient, setIsClient] = useState(false);
 
   // Funzione per monitorare lo scroll
   const handleScroll = () => {
-    const scrollPosition = window.scrollY; // Ottieni la posizione attuale dello scroll
-    const triggerHeight = 400; // Altezza dopo la quale mostrare il bottone (puoi cambiare questo valore)
+    const scrollPosition = window.scrollY;
+    const triggerHeight = 400;
 
-    // Mostra il bottone se la posizione dello scroll è maggiore del triggerHeight
     if (scrollPosition > triggerHeight) {
       setShowWhatsApp(true);
     } else {
@@ -25,23 +25,19 @@ export default function App({ Component, pageProps }) {
 
   // Controllo per eseguire la logica solo nel client
   useEffect(() => {
-    setIsClient(true); // Impostiamo a true quando il componente è montato nel client
+    setIsClient(true);
 
     if (isClient) {
       window.addEventListener("scroll", handleScroll);
-
-      // Esegui il controllo anche subito dopo che la pagina è stata caricata per determinare se deve essere mostrato
       handleScroll();
-
-      // Rimuovi l'evento scroll quando il componente è smontato
       return () => {
         window.removeEventListener("scroll", handleScroll);
       };
     }
   }, [isClient]);
+
   return (
     <>
-      {" "}
       {showWhatsApp && (
         <FloatingWhatsApp
           phoneNumber="+393287512239"
@@ -54,14 +50,44 @@ export default function App({ Component, pageProps }) {
           notificationLoop={true}
         />
       )}
+
       <Layout>
         <Component {...pageProps} />
       </Layout>
+
+      {/* --- IUBENDA: deve stare prima di Google --- */}
+      <Script
+        type="text/javascript"
+        src="//embeds.iubenda.com/widgets/c1da79fb-afde-4d1c-96d5-84bd3b7f1c59.js"
+      />
+      <Script
+        src="https://cs.iubenda.com/autoblocking/3927841.js"
+        strategy="afterInteractive"
+      />
+      <Script
+        src="//cdn.iubenda.com/cs/iubenda_cs.js"
+        charSet="UTF-8"
+        async
+        strategy="afterInteractive"
+      />
+      <Script id="iubenda-cs-configuration" strategy="afterInteractive">
+        {`
+          var _iub = _iub || [];
+          _iub.csConfiguration = {
+            siteId: 3927841,
+            cookiePolicyId: 75120188,
+            lang: "it",
+            storage: { useSiteId: true }
+          };
+        `}
+      </Script>
+
+      {/* --- GOOGLE ANALYTICS: solo dopo Iubenda --- */}
       <Script
         async
         src="https://www.googletagmanager.com/gtag/js?id=G-R9FQJCZ50X"
         strategy="afterInteractive"
-      ></Script>
+      />
       <Script id="google-analytics" strategy="afterInteractive">
         {`
           window.dataLayer = window.dataLayer || [];
@@ -70,27 +96,6 @@ export default function App({ Component, pageProps }) {
           gtag('config', 'G-R9FQJCZ50X', { 'debug_mode': true });
         `}
       </Script>
-      {/* Configurazione Iubenda */}
-      <Script id="iubenda-cs-configuration" strategy="afterInteractive">
-        {`
-          var _iub = _iub || [];
-_iub.csConfiguration = {"siteId":3927841,"cookiePolicyId":75120188,"lang":"it","storage":{"useSiteId":true}};
-        `}
-      </Script>
-      <Script
-        type="text/javascript"
-        src="//embeds.iubenda.com/widgets/c1da79fb-afde-4d1c-96d5-84bd3b7f1c59.js"
-      ></Script>
-      <Script
-        src="https://cs.iubenda.com/autoblocking/3927841.js"
-        strategy="afterInteractive"
-      />
-      <Script
-        src="//cdn.iubenda.com/cs/iubenda_cs.js"
-        charset="UTF-8"
-        async
-        strategy="afterInteractive"
-      />
     </>
   );
 }
